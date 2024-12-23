@@ -1,0 +1,23 @@
+{
+    "scope_frequent_flyer_program_benefits_dump": [
+        "Airlines.ID",
+        "Airlines.Name",
+        "Airlines.Code",
+        "Airports.ID",
+        "Airports.Name",
+        "Airports.City",
+        "Airports.Country",
+        "Benefits.BenefitId",
+        "Benefits.Description",
+        "Flights.FlightID",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Flights.AirlineId",
+        "Flights.FromAirportId",
+        "Flights.ToAirportId",
+        "Frequent_Flyer_Program.ProgramId",
+        "Frequent_Flyer_Program.AirlineId",
+        "Frequent_Flyer_Program.MemberName",
+        "Frequent_Flyer_Program.JoinDate"
+    ]
+}

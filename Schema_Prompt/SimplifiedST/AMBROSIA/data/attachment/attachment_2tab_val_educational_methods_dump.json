@@ -1,0 +1,30 @@
+{
+    "attachment_2tab_val_educational_methods_dump": [
+        "courses.courseID",
+        "courses.courseName",
+        "courses.department",
+        "courses.semester",
+        "courses.year",
+        "group_work.assignmentID",
+        "group_work.courseID",
+        "group_work.dueDate",
+        "group_work.maxScore",
+        "group_work.participants",
+        "instructors.instructorID",
+        "instructors.firstName",
+        "instructors.lastName",
+        "instructors.email",
+        "instructors.department",
+        "peer_tutoring.sessionID",
+        "peer_tutoring.courseID",
+        "peer_tutoring.startDateTime",
+        "peer_tutoring.endDateTime",
+        "peer_tutoring.participants",
+        "students.studentID",
+        "students.firstName",
+        "students.lastName",
+        "students.email",
+        "students.major",
+        "students.enrollmentYear"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "attachment_2tab_val_airport_systems_dump": [
+        "Communication_Systems.SystemID",
+        "Communication_Systems.Airport",
+        "Communication_Systems.TypeOfSystem",
+        "Communication_Systems.FrequencyInUse",
+        "Communication_Systems.LastUpgradeYear",
+        "Navigation_Systems.SystemID",
+        "Navigation_Systems.Airport",
+        "Navigation_Systems.TypeOfSystem",
+        "Navigation_Systems.YearInstalled",
+        "Navigation_Systems.MaintenanceFrequency",
+        "Runways.ID",
+        "Runways.Airport",
+        "Runways.Length",
+        "Runways.Width",
+        "Runways.SurfaceType",
+        "Terminals.ID",
+        "Terminals.Airport",
+        "Terminals.Name",
+        "Terminals.NumberOfGates",
+        "Terminals.ServicesOffered"
+    ]
+}

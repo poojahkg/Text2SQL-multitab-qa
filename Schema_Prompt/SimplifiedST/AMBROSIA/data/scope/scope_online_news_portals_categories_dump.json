@@ -1,0 +1,11 @@
+{
+    "scope_online_news_portals_categories_dump": [
+        "Categories.id",
+        "Categories.category_name",
+        "Online_News_Portals.id",
+        "Online_News_Portals.name",
+        "Online_News_Portals.website",
+        "Online_News_Portals_Categories.online_news_portal_id",
+        "Online_News_Portals_Categories.category_id"
+    ]
+}

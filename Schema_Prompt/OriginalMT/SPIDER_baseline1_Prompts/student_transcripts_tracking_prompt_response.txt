@@ -1,0 +1,130 @@
+Instructions for Writing Queries
+Understand the Schema:
+
+Identify relationships between tables using foreign keys:
+Students links to Addresses for address information.
+Student_Enrolment links Students to Degree_Programs and Semesters.
+Student_Enrolment_Courses connects enrollments to specific Courses.
+Transcripts and Transcript_Contents link courses and transcripts.
+Determine the primary table based on the query and its relationships.
+Analyze the Question:
+
+Identify which tables and fields are required.
+Determine any filtering, grouping, or aggregation needed.
+Use SQL Techniques:
+
+Use JOIN to combine related tables.
+Use DISTINCT to filter unique results.
+Use LIMIT to restrict rows returned.
+Use subqueries for filtering or intermediate calculations.
+Apply grouping and aggregation (GROUP BY, COUNT, AVG, etc.) as necessary.
+Write and Validate the Query:
+
+Structure the query logically and step by step.
+Test for accuracy and completeness.
+Few-Shot Questions and Queries
+Example 1:
+Question: List all students currently enrolled in the 'Spring 2023' semester.
+Query:
+
+sql
+Copy code
+SELECT DISTINCT s.first_name, s.last_name
+FROM Students s
+JOIN Student_Enrolment se ON s.student_id = se.student_id
+JOIN Semesters sm ON se.semester_id = sm.semester_id
+WHERE sm.semester_name = 'Spring 2023' AND s.date_left IS NULL;
+Example 2:
+Question: How many courses are offered by the 'Engineering' department?
+Query:
+
+sql
+Copy code
+SELECT COUNT(DISTINCT c.course_id) AS Total_Courses
+FROM Courses c
+JOIN Degree_Programs dp ON c.course_id = dp.degree_program_id
+JOIN Departments d ON dp.department_id = d.department_id
+WHERE d.department_name = 'Engineering';
+Example 3:
+Question: What is the average number of courses taken by students enrolled in the 'Computer Science' degree program?
+Query:
+
+sql
+Copy code
+SELECT AVG(course_count) AS Average_Courses
+FROM (
+    SELECT se.student_id, COUNT(sec.course_id) AS course_count
+    FROM Student_Enrolment se
+    JOIN Degree_Programs dp ON se.degree_program_id = dp.degree_program_id
+    JOIN Student_Enrolment_Courses sec ON se.student_enrolment_id = sec.student_enrolment_id
+    WHERE dp.degree_summary_name = 'Computer Science'
+    GROUP BY se.student_id
+) AS Subquery;
+Example 4:
+Question: Find the student with the highest number of generated transcripts.
+Query:
+
+sql
+Copy code
+SELECT s.first_name, s.last_name, COUNT(t.transcript_id) AS Transcript_Count
+FROM Students s
+JOIN Student_Enrolment se ON s.student_id = se.student_id
+JOIN Student_Enrolment_Courses sec ON se.student_enrolment_id = sec.student_enrolment_id
+JOIN Transcript_Contents tc ON sec.student_course_id = tc.student_course_id
+JOIN Transcripts t ON tc.transcript_id = t.transcript_id
+GROUP BY s.student_id, s.first_name, s.last_name
+ORDER BY Transcript_Count DESC
+LIMIT 1;
+Example 5:
+Question: List all degree programs that have more than 100 students enrolled.
+Query:
+
+sql
+Copy code
+SELECT dp.degree_summary_name, COUNT(se.student_id) AS Total_Students
+FROM Degree_Programs dp
+JOIN Student_Enrolment se ON dp.degree_program_id = se.degree_program_id
+GROUP BY dp.degree_summary_name
+HAVING COUNT(se.student_id) > 100;
+Example 6:
+Question: Which department offers the most degree programs?
+Query:
+
+sql
+Copy code
+SELECT d.department_name, COUNT(dp.degree_program_id) AS Total_Programs
+FROM Departments d
+JOIN Degree_Programs dp ON d.department_id = dp.department_id
+GROUP BY d.department_name
+ORDER BY Total_Programs DESC
+LIMIT 1;
+Example 7:
+Question: Find all students who have taken courses in both the 'Fall 2022' and 'Spring 2023' semesters.
+Query:
+
+sql
+Copy code
+SELECT DISTINCT s.first_name, s.last_name
+FROM Students s
+JOIN Student_Enrolment se1 ON s.student_id = se1.student_id
+JOIN Semesters sm1 ON se1.semester_id = sm1.semester_id
+JOIN Student_Enrolment se2 ON s.student_id = se2.student_id
+JOIN Semesters sm2 ON se2.semester_id = sm2.semester_id
+WHERE sm1.semester_name = 'Fall 2022' AND sm2.semester_name = 'Spring 2023';
+Example 8:
+Question: What is the total number of transcripts generated for courses offered by the 'Mathematics' department?
+Query:
+
+sql
+Copy code
+SELECT COUNT(t.transcript_id) AS Total_Transcripts
+FROM Transcript_Contents tc
+JOIN Student_Enrolment_Courses sec ON tc.student_course_id = sec.student_course_id
+JOIN Courses c ON sec.course_id = c.course_id
+JOIN Degree_Programs dp ON c.course_id = dp.degree_program_id
+JOIN Departments d ON dp.department_id = d.department_id
+JOIN Transcripts t ON tc.transcript_id = t.transcript_id
+WHERE d.department_name = 'Mathematics';
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

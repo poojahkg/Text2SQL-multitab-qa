@@ -1,0 +1,19 @@
+{
+    "attachment_2tab_ref_soundtrack_dump": [
+        "Creators.id",
+        "Creators.name",
+        "Films.id",
+        "Films.title",
+        "Films.releaseDate",
+        "Films.soundDesign",
+        "Films.musicScore",
+        "MusicScores.id",
+        "MusicScores.description",
+        "MusicScores.creatorId",
+        "MusicScores.filmId",
+        "SoundDesigns.id",
+        "SoundDesigns.description",
+        "SoundDesigns.creatorId",
+        "SoundDesigns.filmId"
+    ]
+}

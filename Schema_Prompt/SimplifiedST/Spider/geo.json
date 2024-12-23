@@ -1,0 +1,33 @@
+{
+    "geo": [
+        "state.state_name",
+        "state.population",
+        "state.area",
+        "state.country_name",
+        "state.capital",
+        "state.density",
+        "city.city_name",
+        "city.population",
+        "city.country_name",
+        "city.state_name",
+        "border_info.state_name",
+        "border_info.border",
+        "highlow.state_name",
+        "highlow.highest_elevation",
+        "highlow.lowest_point",
+        "highlow.highest_point",
+        "highlow.lowest_elevation",
+        "lake.lake_name",
+        "lake.area",
+        "lake.country_name",
+        "lake.state_name",
+        "mountain.mountain_name",
+        "mountain.mountain_altitude",
+        "mountain.country_name",
+        "mountain.state_name",
+        "river.river_name",
+        "river.length",
+        "river.country_name",
+        "river.traverse"
+    ]
+}

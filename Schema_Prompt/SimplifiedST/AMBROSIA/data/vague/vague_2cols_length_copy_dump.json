@@ -1,0 +1,22 @@
+{
+    "vague_2cols_length_copy_dump": [
+        "Actor.actor_id",
+        "Actor.first_name",
+        "Actor.last_name",
+        "Actor.birthdate",
+        "Actress.actress_id",
+        "Actress.first_name",
+        "Actress.last_name",
+        "Actress.birthdate",
+        "Director.director_id",
+        "Director.first_name",
+        "Director.last_name",
+        "Director.birthdate",
+        "Genre.genre_id",
+        "Genre.genre_name",
+        "Producer.producer_id",
+        "Producer.first_name",
+        "Producer.last_name",
+        "Producer.birthdate"
+    ]
+}

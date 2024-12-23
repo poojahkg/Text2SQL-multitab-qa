@@ -1,0 +1,23 @@
+{
+    "attachment_2tab_ref_street_performer_dump": [
+        "Locations.id",
+        "Locations.LocationName",
+        "Reviews.id",
+        "Reviews.ReviewerName",
+        "Reviews.Rating",
+        "Reviews.Comment",
+        "Reviews.ShowID",
+        "Shows.id",
+        "Shows.ShowTitle",
+        "Shows.StartTime",
+        "Shows.EndTime",
+        "Shows.LocationID",
+        "Shows.MagicianID",
+        "Shows.MimeID",
+        "Tickets.id",
+        "Tickets.PurchaserName",
+        "Tickets.ShowID",
+        "Tickets.SeatNumber",
+        "Tickets.Price"
+    ]
+}

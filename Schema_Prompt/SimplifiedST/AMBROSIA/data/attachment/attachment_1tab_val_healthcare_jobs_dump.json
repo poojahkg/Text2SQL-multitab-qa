@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_val_healthcare_jobs_dump": [
+        "Employers.id",
+        "Employers.name",
+        "Employers.address",
+        "JobPostings.id",
+        "JobPostings.title",
+        "JobPostings.description",
+        "JobPostings.healthcare",
+        "JobPostings.shift",
+        "JobPostings.employerId",
+        "JobPostings.locationId",
+        "JobPostings.skillsIds",
+        "JobPostings.requirementsIds",
+        "Locations.id",
+        "Locations.city",
+        "Locations.state",
+        "Requirements.id",
+        "Requirements.requirement",
+        "Skills.id",
+        "Skills.skillName"
+    ]
+}

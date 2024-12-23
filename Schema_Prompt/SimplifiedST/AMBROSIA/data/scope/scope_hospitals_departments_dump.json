@@ -1,0 +1,26 @@
+{
+    "scope_hospitals_departments_dump": [
+        "Appointments.id",
+        "Appointments.patientId",
+        "Appointments.doctorId",
+        "Appointments.date",
+        "Appointments.time",
+        "Appointments.reasonForVisit",
+        "Departments.id",
+        "Departments.departmentName",
+        "Doctors.id",
+        "Doctors.name",
+        "Doctors.specialtyId",
+        "Doctors.hospitalId",
+        "Hospitals.id",
+        "Hospitals.name",
+        "Hospitals.location",
+        "Hospitals_Departments.hospitalId",
+        "Hospitals_Departments.departmentId",
+        "Patients.id",
+        "Patients.firstName",
+        "Patients.lastName",
+        "Patients.age",
+        "Patients.illnessText"
+    ]
+}

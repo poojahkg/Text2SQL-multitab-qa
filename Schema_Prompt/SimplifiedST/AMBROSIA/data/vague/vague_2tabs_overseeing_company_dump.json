@@ -1,0 +1,30 @@
+{
+    "vague_2tabs_overseeing_company_dump": [
+        "Contractor.id",
+        "Contractor.name",
+        "Contractor.specialty",
+        "Contractor.license_number",
+        "Development_Project.id",
+        "Development_Project.project_name",
+        "Development_Project.developer_id",
+        "Development_Project.contractor_id",
+        "Employee.id",
+        "Employee.first_name",
+        "Employee.last_name",
+        "Employee.position",
+        "Employee.contractor_id",
+        "Materials.id",
+        "Materials.material_type",
+        "Materials.quantity",
+        "Materials.unit_price",
+        "Materials.contractor_id",
+        "Project_Milestone.id",
+        "Project_Milestone.milestone_description",
+        "Project_Milestone.start_date",
+        "Project_Milestone.end_date",
+        "Project_Milestone.development_project_id",
+        "Real_Estate_Developer.id",
+        "Real_Estate_Developer.name",
+        "Real_Estate_Developer.contact_info"
+    ]
+}

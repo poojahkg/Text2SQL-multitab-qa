@@ -1,0 +1,31 @@
+{
+    "attachment_2tab_val_cleaning_professional_dump": [
+        "GuestRooms.room_id",
+        "GuestRooms.hotel_name",
+        "GuestRooms.room_number",
+        "GuestRooms.capacity",
+        "GuestRooms.amenities",
+        "Housekeeping.id",
+        "Housekeeping.housekeeper",
+        "Housekeeping.hotel",
+        "Housekeeping.shift_start",
+        "Housekeeping.shift_end",
+        "LaundryService.id",
+        "LaundryService.laundry_attendant",
+        "LaundryService.hotel",
+        "LaundryService.shift_start",
+        "LaundryService.shift_end",
+        "MaintenanceRequests.request_id",
+        "MaintenanceRequests.description",
+        "MaintenanceRequests.requested_at",
+        "MaintenanceRequests.resolved_at",
+        "MaintenanceRequests.status",
+        "Reservations.reservation_id",
+        "Reservations.guest_name",
+        "Reservations.email",
+        "Reservations.phone_number",
+        "Reservations.checkin_date",
+        "Reservations.checkout_date",
+        "Reservations.room_id"
+    ]
+}

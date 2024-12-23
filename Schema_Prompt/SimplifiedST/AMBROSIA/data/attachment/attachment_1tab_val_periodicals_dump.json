@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_val_periodicals_dump": [
+        "Articles.id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.pub_date",
+        "Articles.periodical_id",
+        "Articles.author_id",
+        "Authors.id",
+        "Authors.name",
+        "Periodicals.id",
+        "Periodicals.name",
+        "Periodicals.type",
+        "Periodicals.circulation_numbers",
+        "Periodicals.pub_date",
+        "Periodicals.publisher_id",
+        "Publishers.id",
+        "Publishers.name"
+    ]
+}

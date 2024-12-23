@@ -1,0 +1,26 @@
+{
+    "attachment_1tab_ref_special_care_passengers_dump": [
+        "Airlines.AirlineID",
+        "Airlines.Name",
+        "Airlines.HeadquartersCity",
+        "Airlines.HomeAirportId",
+        "Airports.AirportID",
+        "Airports.Name",
+        "Airports.City",
+        "Airports.Country",
+        "Assistants.AssistantID",
+        "Assistants.Name",
+        "Flights.FlightID",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Flights.Origin",
+        "Flights.Destination",
+        "PassengerAssistanceRequests.RequestID",
+        "PassengerAssistanceRequests.PassengerID",
+        "PassengerAssistanceRequests.AssistantID",
+        "PassengerAssistanceRequests.Type",
+        "Passengers.PassengerID",
+        "Passengers.DateOfBirth",
+        "Passengers.FullName"
+    ]
+}

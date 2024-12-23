@@ -1,0 +1,27 @@
+{
+    "attachment_1tab_val_education_programs_dump": [
+        "Classes.ClassID",
+        "Classes.ClassName",
+        "Classes.StartTime",
+        "Classes.EndTime",
+        "Classes.RoomNumber",
+        "Course_Offerings.OfferingID",
+        "Course_Offerings.ClassID",
+        "Course_Offerings.ProgramID",
+        "Course_Offerings.InstructorID",
+        "Educators.EducatorID",
+        "Educators.FirstName",
+        "Educators.LastName",
+        "Educators.Subject",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.ClassID",
+        "Enrollments.Semester",
+        "Enrollments.Grade",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.BirthDate",
+        "Students.Email"
+    ]
+}

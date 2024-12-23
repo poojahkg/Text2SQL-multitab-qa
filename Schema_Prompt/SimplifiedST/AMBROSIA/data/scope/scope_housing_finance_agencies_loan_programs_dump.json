@@ -1,0 +1,18 @@
+{
+    "scope_housing_finance_agencies_loan_programs_dump": [
+        "Housing_Finance_Agencies.agency_id",
+        "Housing_Finance_Agencies.name",
+        "Housing_Finance_Agencies.rating",
+        "Housing_Finance_Agencies_Loan_Programs.housing_finance_agency_id",
+        "Housing_Finance_Agencies_Loan_Programs.loan_program_id",
+        "Housing_Market.id",
+        "Housing_Market.city",
+        "Housing_Market.median_home_price",
+        "Loan_Programs.program_id",
+        "Loan_Programs.description",
+        "Loan_Programs.interest_rate",
+        "RealEstateAgents.agent_id",
+        "RealEstateAgents.name",
+        "RealEstateAgents.years_experience"
+    ]
+}

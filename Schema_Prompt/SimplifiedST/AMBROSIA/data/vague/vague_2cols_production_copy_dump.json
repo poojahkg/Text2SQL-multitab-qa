@@ -1,0 +1,29 @@
+{
+    "vague_2cols_production_copy_dump": [
+        "Actor.id",
+        "Actor.first_name",
+        "Actor.last_name",
+        "Actor.date_of_birth",
+        "Actor.gender",
+        "Character.id",
+        "Character.movie_id",
+        "Character.actor_id",
+        "Character.character_name",
+        "Producer.id",
+        "Producer.first_name",
+        "Producer.last_name",
+        "Producer.email",
+        "Producer.birthdate",
+        "Review.id",
+        "Review.movie_id",
+        "Review.reviewer_id",
+        "Review.rating",
+        "Review.comments",
+        "Review.review_date",
+        "Studio.id",
+        "Studio.name",
+        "Studio.address_line1",
+        "Studio.address_line2",
+        "Studio.phone_number"
+    ]
+}

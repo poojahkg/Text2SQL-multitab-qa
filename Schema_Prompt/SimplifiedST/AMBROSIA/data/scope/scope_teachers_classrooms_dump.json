@@ -1,0 +1,27 @@
+{
+    "scope_teachers_classrooms_dump": [
+        "Classrooms.classroom_id",
+        "Classrooms.room_number",
+        "Classrooms.capacity",
+        "Enrollments.enrollment_id",
+        "Enrollments.student_id",
+        "Enrollments.subject_id",
+        "Enrollments.classroom_id",
+        "Enrollments.grade",
+        "Students.student_id",
+        "Students.first_name",
+        "Students.last_name",
+        "Students.date_of_birth",
+        "Students.enrollment_date",
+        "Subjects.subject_id",
+        "Subjects.name",
+        "Subjects.description",
+        "Teachers.teacher_id",
+        "Teachers.full_name",
+        "Teachers_Classrooms.teachers_classrooms_id",
+        "Teachers_Classrooms.teacher_id",
+        "Teachers_Classrooms.classroom_id",
+        "Teachers_Classrooms.start_date",
+        "Teachers_Classrooms.end_date"
+    ]
+}

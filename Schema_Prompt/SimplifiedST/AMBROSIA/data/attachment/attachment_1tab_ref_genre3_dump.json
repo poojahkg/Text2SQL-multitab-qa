@@ -1,0 +1,19 @@
+{
+    "attachment_1tab_ref_genre3_dump": [
+        "Directors.id",
+        "Directors.name",
+        "Directors.birth_year",
+        "Directors.nationality",
+        "Film_Director.film_id",
+        "Film_Director.director_id",
+        "Film_Genre.film_id",
+        "Film_Genre.genre_id",
+        "Films.id",
+        "Films.title",
+        "Films.release_date",
+        "Films.director",
+        "Films.budget",
+        "Genres.id",
+        "Genres.genre"
+    ]
+}

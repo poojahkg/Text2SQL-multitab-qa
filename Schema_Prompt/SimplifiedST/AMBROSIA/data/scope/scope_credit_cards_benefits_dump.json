@@ -1,0 +1,21 @@
+{
+    "scope_credit_cards_benefits_dump": [
+        "Accounts.id",
+        "Accounts.customerId",
+        "Accounts.balance",
+        "Benefits.id",
+        "Benefits.benefitName",
+        "Credit_Card_Benefits.id",
+        "Credit_Card_Benefits.creditCardId",
+        "Credit_Card_Benefits.benefitId",
+        "Credit_Cards.id",
+        "Credit_Cards.accountId",
+        "Credit_Cards.cardNumber",
+        "Credit_Cards.expiryDate",
+        "Credit_Cards.securityCode",
+        "Credit_Cards.creditLimit",
+        "Customers.id",
+        "Customers.name",
+        "Customers.email"
+    ]
+}

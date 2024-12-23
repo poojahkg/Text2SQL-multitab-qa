@@ -1,0 +1,12 @@
+{
+    "scope_hospitals_procedures_dump": [
+        "Hospitals.HospitalID",
+        "Hospitals.Name",
+        "Hospitals.Address",
+        "Hospitals_Procedures.HospitalID",
+        "Hospitals_Procedures.ProcedureID",
+        "Procedures.ProcedureID",
+        "Procedures.ProcedureName",
+        "Procedures.Description"
+    ]
+}

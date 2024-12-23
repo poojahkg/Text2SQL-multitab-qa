@@ -1,0 +1,21 @@
+{
+    "cinema": [
+        "film.Film_ID",
+        "film.Rank_in_series",
+        "film.Number_in_season",
+        "film.Title",
+        "film.Directed_by",
+        "film.Original_air_date",
+        "film.Production_code",
+        "cinema.Cinema_ID",
+        "cinema.Name",
+        "cinema.Openning_year",
+        "cinema.Capacity",
+        "cinema.Location",
+        "schedule.Cinema_ID",
+        "schedule.Film_ID",
+        "schedule.Date",
+        "schedule.Show_times_per_day",
+        "schedule.Price"
+    ]
+}

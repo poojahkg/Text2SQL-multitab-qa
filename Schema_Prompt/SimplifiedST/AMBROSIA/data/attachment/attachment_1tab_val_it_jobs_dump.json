@@ -1,0 +1,26 @@
+{
+    "attachment_1tab_val_it_jobs_dump": [
+        "CompanyInfo.id",
+        "CompanyInfo.name",
+        "CompanyInfo.location",
+        "CompanyInfo.industry",
+        "EducationRequirements.id",
+        "EducationRequirements.degreeLevel",
+        "EducationRequirements.yearsOfExperience",
+        "JobLocations.id",
+        "JobLocations.city",
+        "JobLocations.state",
+        "JobLocations.country",
+        "JobPostings.id",
+        "JobPostings.title",
+        "JobPostings.description",
+        "JobPostings.itJobs",
+        "JobPostings.salary",
+        "JobPostings.companyId",
+        "JobPostings.locationId",
+        "JobPostings.skillsId",
+        "JobPostings.educationId",
+        "SkillsRequired.id",
+        "SkillsRequired.skillName"
+    ]
+}

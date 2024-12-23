@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_val_retail_outlets_dump": [
+        "Airports.id",
+        "Airports.name",
+        "Airports.city",
+        "Flights.flightID",
+        "Flights.departureGateId",
+        "Flights.arrivalGateId",
+        "Flights.departureTime",
+        "Flights.arrivalTime",
+        "Flights.departureAirportId",
+        "Flights.arrivalAirportId",
+        "Gates.id",
+        "Gates.terminalId",
+        "Gates.gateNumber",
+        "Terminals.id",
+        "Terminals.airportId",
+        "Terminals.terminalName"
+    ]
+}

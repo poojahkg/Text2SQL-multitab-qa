@@ -1,0 +1,15 @@
+{
+    "poker_player": [
+        "poker_player.Poker_Player_ID",
+        "poker_player.People_ID",
+        "poker_player.Final_Table_Made",
+        "poker_player.Best_Finish",
+        "poker_player.Money_Rank",
+        "poker_player.Earnings",
+        "people.People_ID",
+        "people.Nationality",
+        "people.Name",
+        "people.Birth_Date",
+        "people.Height"
+    ]
+}

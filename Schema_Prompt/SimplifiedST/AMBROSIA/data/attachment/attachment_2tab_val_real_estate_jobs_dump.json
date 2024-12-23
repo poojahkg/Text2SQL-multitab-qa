@@ -1,0 +1,30 @@
+{
+    "attachment_2tab_val_real_estate_jobs_dump": [
+        "Agent_Listings.agent_listing_id",
+        "Agent_Listings.real_estate_agent_id",
+        "Agent_Listings.property_id",
+        "Clients.client_id",
+        "Clients.first_name",
+        "Clients.last_name",
+        "Clients.phone_number",
+        "Clients.email",
+        "Listed_Properties.property_id",
+        "Listed_Properties.address",
+        "Listed_Properties.price",
+        "Listed_Properties.listing_date",
+        "Listed_Properties.status",
+        "Manager_Listings.manager_listing_id",
+        "Manager_Listings.property_manager_id",
+        "Manager_Listings.property_id",
+        "Property_Managers.manager_id",
+        "Property_Managers.name",
+        "Property_Managers.phone_number",
+        "Property_Managers.email",
+        "Property_Managers.commission",
+        "Real_Estate_Agents.agent_id",
+        "Real_Estate_Agents.name",
+        "Real_Estate_Agents.phone_number",
+        "Real_Estate_Agents.email",
+        "Real_Estate_Agents.commission"
+    ]
+}

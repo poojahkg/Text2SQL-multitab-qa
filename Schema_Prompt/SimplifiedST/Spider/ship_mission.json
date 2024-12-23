@@ -1,0 +1,16 @@
+{
+    "ship_mission": [
+        "mission.Mission_ID",
+        "mission.Ship_ID",
+        "mission.Code",
+        "mission.Launched_Year",
+        "mission.Location",
+        "mission.Speed_knots",
+        "mission.Fate",
+        "ship.Ship_ID",
+        "ship.Name",
+        "ship.Type",
+        "ship.Nationality",
+        "ship.Tonnage"
+    ]
+}

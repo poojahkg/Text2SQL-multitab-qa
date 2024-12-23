@@ -1,0 +1,33 @@
+{
+    "vague_2cols_context2_copy_dump": [
+        "Actor.actor_id",
+        "Actor.first_name",
+        "Actor.last_name",
+        "Actor.birth_date",
+        "Actor.nationality",
+        "Director.director_id",
+        "Director.first_name",
+        "Director.last_name",
+        "Director.birth_date",
+        "Director.nationality",
+        "Movie.movie_id",
+        "Movie.title",
+        "Movie.release_year",
+        "Movie.genre",
+        "Movie.box_office",
+        "Performance.performance_id",
+        "Performance.play_id",
+        "Performance.theatre_id",
+        "Performance.date",
+        "Performance.time",
+        "Performance.ticket_price",
+        "Role.role_id",
+        "Role.actor_id",
+        "Role.movie_id",
+        "Role.character_name",
+        "Theatre.theatre_id",
+        "Theatre.name",
+        "Theatre.location",
+        "Theatre.capacity"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "scope_labs_equipment_dump": [
+        "Equipment.id",
+        "Equipment.type",
+        "Labs.id",
+        "Labs.name",
+        "Labs.location",
+        "Labs_Equipment.labs_id",
+        "Labs_Equipment.equipment_id"
+    ]
+}

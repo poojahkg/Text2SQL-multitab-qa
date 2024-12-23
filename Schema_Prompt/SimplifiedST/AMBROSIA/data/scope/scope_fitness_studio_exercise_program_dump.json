@@ -1,0 +1,12 @@
+{
+    "scope_fitness_studio_exercise_program_dump": [
+        "Exercise_Program.ProgramID",
+        "Exercise_Program.Type",
+        "Fitness_Studio.StudioID",
+        "Fitness_Studio.Name",
+        "Fitness_Studio.Location",
+        "Fitness_Studio_Exercise_Program.ID",
+        "Fitness_Studio_Exercise_Program.FitnessStudioID",
+        "Fitness_Studio_Exercise_Program.ExerciseProgramID"
+    ]
+}

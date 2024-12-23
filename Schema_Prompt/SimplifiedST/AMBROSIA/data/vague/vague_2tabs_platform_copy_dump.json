@@ -1,0 +1,14 @@
+{
+    "vague_2tabs_platform_copy_dump": [
+        "Article.id",
+        "Article.title",
+        "Article.content",
+        "Article.publishedDate",
+        "Article.newsAgencyId",
+        "Author.id",
+        "Author.firstName",
+        "Author.lastName",
+        "AuthorArticle.authorId",
+        "AuthorArticle.articleId"
+    ]
+}

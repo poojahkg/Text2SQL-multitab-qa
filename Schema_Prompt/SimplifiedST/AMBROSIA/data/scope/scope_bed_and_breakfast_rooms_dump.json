@@ -1,0 +1,23 @@
+{
+    "scope_bed_and_breakfast_rooms_dump": [
+        "Bed_and_breakfast.id",
+        "Bed_and_breakfast.name",
+        "Bed_and_breakfast.address",
+        "Bed_and_breakfast.rating",
+        "Bed_and_breakfast_rooms.bed_id",
+        "Bed_and_breakfast_rooms.room_id",
+        "Bookings.booking_id",
+        "Bookings.bed_id",
+        "Bookings.customer_id",
+        "Bookings.checkin",
+        "Bookings.checkout",
+        "Bookings.total_price",
+        "Customers.customer_id",
+        "Customers.first_name",
+        "Customers.last_name",
+        "Customers.email",
+        "Customers.phone_number",
+        "Rooms.room_type",
+        "Rooms.price"
+    ]
+}

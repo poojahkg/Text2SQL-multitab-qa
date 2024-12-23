@@ -1,0 +1,26 @@
+{
+    "cre_Docs_and_Epenses": [
+        "Ref_Document_Types.Document_Type_Code",
+        "Ref_Document_Types.Document_Type_Name",
+        "Ref_Document_Types.Document_Type_Description",
+        "Ref_Budget_Codes.Budget_Type_Code",
+        "Ref_Budget_Codes.Budget_Type_Description",
+        "Projects.Project_ID",
+        "Projects.Project_Details",
+        "Documents.Document_ID",
+        "Documents.Document_Type_Code",
+        "Documents.Project_ID",
+        "Documents.Document_Date",
+        "Documents.Document_Name",
+        "Documents.Document_Description",
+        "Documents.Other_Details",
+        "Statements.Statement_ID",
+        "Statements.Statement_Details",
+        "Documents_with_Expenses.Document_ID",
+        "Documents_with_Expenses.Budget_Type_Code",
+        "Documents_with_Expenses.Document_Details",
+        "Accounts.Account_ID",
+        "Accounts.Statement_ID",
+        "Accounts.Account_Details"
+    ]
+}

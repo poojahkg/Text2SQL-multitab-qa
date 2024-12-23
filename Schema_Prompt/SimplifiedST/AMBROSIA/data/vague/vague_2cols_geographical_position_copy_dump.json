@@ -1,0 +1,24 @@
+{
+    "vague_2cols_geographical_position_copy_dump": [
+        "Airlines.Airlines_Id",
+        "Airlines.Name",
+        "Airlines.Callsign",
+        "Airlines.Headquarters",
+        "Employees.Employee_Id",
+        "Employees.FirstName",
+        "Employees.LastName",
+        "Employees.DateOfBirth",
+        "Employees.Email",
+        "Employees.PhoneNumber",
+        "Employees.HireDate",
+        "Flights.Flight_ID",
+        "Flights.Departure_Time",
+        "Flights.Arrival_Time",
+        "Flights.Duration",
+        "Flights.Seats",
+        "Flights.IATA_Departure",
+        "Flights.ICAO_Arrival",
+        "Flights.Price",
+        "Flights.ForeignKey_Airline"
+    ]
+}

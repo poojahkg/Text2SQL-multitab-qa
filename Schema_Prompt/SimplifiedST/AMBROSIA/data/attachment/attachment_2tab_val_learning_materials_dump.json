@@ -1,0 +1,31 @@
+{
+    "attachment_2tab_val_learning_materials_dump": [
+        "Online_Courses.id",
+        "Online_Courses.Course_Name",
+        "Online_Courses.Instructor",
+        "Online_Courses.Topic",
+        "Online_Courses.Difficulty_Level",
+        "Online_Courses.URL",
+        "Schools.id",
+        "Schools.Name",
+        "Schools.Address",
+        "Schools.City",
+        "Schools.State",
+        "Students.id",
+        "Students.First_Name",
+        "Students.Last_Name",
+        "Students.Age",
+        "Students.Grade_Level",
+        "Teachers.id",
+        "Teachers.Name",
+        "Teachers.School_ID",
+        "Teachers.Degree",
+        "Teachers.Years_Experience",
+        "Textbooks.id",
+        "Textbooks.Title",
+        "Textbooks.Author",
+        "Textbooks.Subject",
+        "Textbooks.Difficulty_Level",
+        "Textbooks.ISBN"
+    ]
+}

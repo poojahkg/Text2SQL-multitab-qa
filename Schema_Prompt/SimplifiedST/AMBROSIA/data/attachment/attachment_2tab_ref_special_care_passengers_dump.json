@@ -1,0 +1,24 @@
+{
+    "attachment_2tab_ref_special_care_passengers_dump": [
+        "Assistant.AssistantID",
+        "Assistant.Name",
+        "Assistant.ContactInfo",
+        "Booking.BookingID",
+        "Booking.FlightID",
+        "Booking.PassengerID",
+        "Booking.UMID",
+        "Booking.SNPID",
+        "Booking.FOREIGN",
+        "Flight.FlightID",
+        "Flight.Origin",
+        "Flight.Destination",
+        "Flight.DepartureTime",
+        "Passenger.PassengerID",
+        "Passenger.Email",
+        "Passenger.PhoneNumber",
+        "Passenger.FullName",
+        "UnaccompaniedMinor.UMID",
+        "UnaccompaniedMinor.PassengerID",
+        "UnaccompaniedMinor.AssistantID"
+    ]
+}

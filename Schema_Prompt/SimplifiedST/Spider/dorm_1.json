@@ -1,0 +1,23 @@
+{
+    "dorm_1": [
+        "Student.StuID",
+        "Student.LName",
+        "Student.Fname",
+        "Student.Age",
+        "Student.Sex",
+        "Student.Major",
+        "Student.Advisor",
+        "Student.city_code",
+        "Dorm.dormid",
+        "Dorm.dorm_name",
+        "Dorm.student_capacity",
+        "Dorm.gender",
+        "Dorm_amenity.amenid",
+        "Dorm_amenity.amenity_name",
+        "Has_amenity.dormid",
+        "Has_amenity.amenid",
+        "Lives_in.stuid",
+        "Lives_in.dormid",
+        "Lives_in.room_number"
+    ]
+}

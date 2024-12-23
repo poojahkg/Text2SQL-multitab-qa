@@ -1,0 +1,17 @@
+{
+    "party_host": [
+        "party.Party_ID",
+        "party.Party_Theme",
+        "party.Location",
+        "party.First_year",
+        "party.Last_year",
+        "party.Number_of_hosts",
+        "host.Host_ID",
+        "host.Name",
+        "host.Nationality",
+        "host.Age",
+        "party_host.Party_ID",
+        "party_host.Host_ID",
+        "party_host.Is_Main_in_Charge"
+    ]
+}

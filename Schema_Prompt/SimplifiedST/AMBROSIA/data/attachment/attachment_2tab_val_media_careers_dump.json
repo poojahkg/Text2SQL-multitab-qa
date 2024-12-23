@@ -1,0 +1,27 @@
+{
+    "attachment_2tab_val_media_careers_dump": [
+        "ArticleAuthors.articleId",
+        "ArticleAuthors.journalistId",
+        "Articles.id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.publishDate",
+        "Articles.editorId",
+        "Editors.id",
+        "Editors.name",
+        "Editors.email",
+        "Editors.phoneNumber",
+        "Editors.languages",
+        "Journalists.id",
+        "Journalists.name",
+        "Journalists.email",
+        "Journalists.phoneNumber",
+        "Journalists.languages",
+        "Publications.id",
+        "Publications.title",
+        "Publications.publicationDate",
+        "Subscriptions.id",
+        "Subscriptions.subscriberEmail",
+        "Subscriptions.subscriptionType"
+    ]
+}

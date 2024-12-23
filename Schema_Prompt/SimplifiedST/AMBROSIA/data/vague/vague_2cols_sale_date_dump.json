@@ -1,0 +1,30 @@
+{
+    "vague_2cols_sale_date_dump": [
+        "Albums.AlbumID",
+        "Albums.AlbumTitle",
+        "Albums.ReleaseDate",
+        "Albums.ARTISTID",
+        "Artists.ArtistID",
+        "Artists.ArtistName",
+        "Events.EventID",
+        "Events.EventName",
+        "Events.StartDateTime",
+        "Events.EndDateTime",
+        "Events.VenueID",
+        "Events.TICKETID",
+        "Performances.PerformanceID",
+        "Performances.EventID",
+        "Performances.ArtistID",
+        "Performances.PerformanceStartTime",
+        "Performances.PerformanceEndTime",
+        "Tickets.TicketID",
+        "Tickets.EventID",
+        "Tickets.Quantity",
+        "Tickets.On_Sale_Date",
+        "Tickets.Pre_sale_Date",
+        "Tickets.Price",
+        "Venues.VenueID",
+        "Venues.Name",
+        "Venues.Address"
+    ]
+}

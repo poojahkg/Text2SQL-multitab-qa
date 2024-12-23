@@ -1,0 +1,29 @@
+{
+    "vague_2cols_premiere_date_copy_dump": [
+        "Creators.id",
+        "Creators.name",
+        "Creators.birthYear",
+        "Movies.id",
+        "Movies.title",
+        "Movies.genre",
+        "Movies.director",
+        "Movies.runtime",
+        "Movies.release_date",
+        "Reviews.id",
+        "Reviews.userId",
+        "Reviews.contentId",
+        "Reviews.rating",
+        "Reviews.reviewText",
+        "Series.id",
+        "Series.title",
+        "Series.genre",
+        "Series.creator",
+        "Series.episodeCount",
+        "Series.premiereDate",
+        "Users.id",
+        "Users.username",
+        "Users.password",
+        "Users.email",
+        "Users.subscriptionType"
+    ]
+}

@@ -1,0 +1,97 @@
+Instructions for Writing Queries
+Understand the Relationships:
+
+Review the schema and identify relationships between tables using foreign keys.
+Use relevant tables to extract data based on the question.
+Analyze the Question:
+
+Determine the tables, fields, and filtering conditions needed to answer the question.
+Use SQL Techniques:
+
+Use JOIN to combine data from multiple tables.
+Use DISTINCT to retrieve unique results.
+Use LIMIT to restrict the number of rows in the output.
+Use subqueries for filtering or aggregating intermediate data.
+Apply grouping and aggregation (GROUP BY, COUNT, SUM, AVG) where necessary.
+Write and Validate the Query:
+
+Ensure the query is logically structured and solves the given problem step by step.
+Test for accuracy and completeness.
+Few-Shot Questions and Queries
+Example 1:
+Question: List the names and breeds of all dogs treated in 2023.
+Query:
+
+sql
+Copy code
+SELECT DISTINCT d.name AS Dog_Name, b.breed_name AS Breed
+FROM Dogs d
+JOIN Treatments t ON d.dog_id = t.dog_id
+JOIN Breeds b ON d.breed_code = b.breed_code
+WHERE YEAR(t.date_of_treatment) = 2023;
+Example 2:
+Question: Find the top 5 most expensive treatments provided in the facility.
+Query:
+
+sql
+Copy code
+SELECT t.treatment_id, t.cost_of_treatment
+FROM Treatments t
+ORDER BY t.cost_of_treatment DESC
+LIMIT 5;
+Example 3:
+Question: How many male dogs have been treated by veterinarians?
+Query:
+
+sql
+Copy code
+SELECT COUNT(DISTINCT t.dog_id) AS Male_Dogs_Treated
+FROM Treatments t
+JOIN Dogs d ON t.dog_id = d.dog_id
+JOIN Professionals p ON t.professional_id = p.professional_id
+WHERE d.gender = '0' AND p.role_code = 'Veterenarian';
+Example 4:
+Question: What is the total cost of treatments for dogs of size 'MED'?
+Query:
+
+sql
+Copy code
+SELECT SUM(t.cost_of_treatment) AS Total_Cost
+FROM Treatments t
+JOIN Dogs d ON t.dog_id = d.dog_id
+WHERE d.size_code = 'MED';
+Example 5:
+Question: List all dog names and their owner's names for abandoned dogs.
+Query:
+
+sql
+Copy code
+SELECT d.name AS Dog_Name, o.first_name AS Owner_First_Name, o.last_name AS Owner_Last_Name
+FROM Dogs d
+JOIN Owners o ON d.owner_id = o.owner_id
+WHERE d.abandoned_yn = '1';
+Example 6:
+Question: Find the average cost of treatments provided by each veterinarian.
+Query:
+
+sql
+Copy code
+SELECT p.first_name AS Veterinarian_First_Name, p.last_name AS Veterinarian_Last_Name, AVG(t.cost_of_treatment) AS Average_Treatment_Cost
+FROM Treatments t
+JOIN Professionals p ON t.professional_id = p.professional_id
+WHERE p.role_code = 'Veterenarian'
+GROUP BY p.professional_id;
+Example 7:
+Question: Which breeds of dogs have been treated with a "Vaccination" treatment?
+Query:
+
+sql
+Copy code
+SELECT DISTINCT b.breed_name
+FROM Treatments t
+JOIN Dogs d ON t.dog_id = d.dog_id
+JOIN Breeds b ON d.breed_code = b.breed_code
+WHERE t.treatment_type_code = 'VAC';
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

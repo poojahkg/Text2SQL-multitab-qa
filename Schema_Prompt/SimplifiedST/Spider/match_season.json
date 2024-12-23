@@ -1,0 +1,25 @@
+{
+    "match_season": [
+        "country.Country_id",
+        "country.Country_name",
+        "country.Capital",
+        "country.Official_native_language",
+        "team.Team_id",
+        "team.Name",
+        "match_season.Season",
+        "match_season.Player",
+        "match_season.Position",
+        "match_season.Country",
+        "match_season.Team",
+        "match_season.Draft_Pick_Number",
+        "match_season.Draft_Class",
+        "match_season.College",
+        "player.Player_ID",
+        "player.Player",
+        "player.Years_Played",
+        "player.Total_WL",
+        "player.Singles_WL",
+        "player.Doubles_WL",
+        "player.Team"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "attachment_1tab_val_hospitality_staff_dump": [
+        "Bookings.Id",
+        "Bookings.CheckInDate",
+        "Bookings.CheckOutDate",
+        "Bookings.RoomId",
+        "Bookings.GuestId",
+        "Guests.Id",
+        "Guests.FirstName",
+        "Guests.LastName",
+        "Guests.EmailAddress",
+        "Guests.PhoneNumber",
+        "RoomTypes.Id",
+        "RoomTypes.TypeName",
+        "Rooms.Id",
+        "Rooms.RoomTypeId",
+        "Rooms.FloorNumber",
+        "Staff.Id",
+        "Staff.Name",
+        "Staff.Role",
+        "Staff.Language",
+        "Staff.AdditionalColumn1",
+        "Staff.AdditionalColumn2",
+        "Staff.AdditionalColumn3"
+    ]
+}

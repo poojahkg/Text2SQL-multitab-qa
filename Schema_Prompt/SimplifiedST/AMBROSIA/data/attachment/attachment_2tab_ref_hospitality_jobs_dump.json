@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_ref_hospitality_jobs_dump": [
+        "Agencies.AgencyID",
+        "Agencies.Name",
+        "BookedTrips.TripID",
+        "BookedTrips.StartDate",
+        "BookedTrips.EndDate",
+        "BookedTrips.NumOfPeople",
+        "BookedTrips.TotalCost",
+        "BookedTrips.AgentID",
+        "BookedTrips.GuideID",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.Email",
+        "Customers.PhoneNumber",
+        "Customers.TourGUIDEID",
+        "TourGuides.GuideID",
+        "TourGuides.Name",
+        "TourGuides.Age",
+        "TourGuides.Experience",
+        "TourGuides.AgencyID",
+        "TravelAgents.AgentID",
+        "TravelAgents.Name",
+        "TravelAgents.Salary",
+        "TravelAgents.CommissionRate",
+        "TravelAgents.AgencyID"
+    ]
+}

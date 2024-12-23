@@ -1,0 +1,17 @@
+{
+    "attachment_1tab_val_relaxation_getaway_dump": [
+        "Guests.id",
+        "Guests.firstName",
+        "Guests.lastName",
+        "Guests.phoneNumber",
+        "Reservations.id",
+        "Reservations.guestId",
+        "Reservations.roomId",
+        "Reservations.checkInDate",
+        "Reservations.checkOutDate",
+        "Rooms.id",
+        "Rooms.roomNumber",
+        "Rooms.capacity",
+        "Rooms.pricePerNight"
+    ]
+}

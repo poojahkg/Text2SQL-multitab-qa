@@ -1,0 +1,11 @@
+{
+    "scope_online_banking_platforms_features_dump": [
+        "Features.feature_id",
+        "Features.feature_value",
+        "Online_Banking_Platforms.id",
+        "Online_Banking_Platforms.name",
+        "Online_Banking_Platforms.website",
+        "Online_Banking_Platforms_Features.platform_id",
+        "Online_Banking_Platforms_Features.feature_id"
+    ]
+}

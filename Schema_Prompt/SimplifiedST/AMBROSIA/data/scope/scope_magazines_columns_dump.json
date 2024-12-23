@@ -1,0 +1,25 @@
+{
+    "scope_magazines_columns_dump": [
+        "Articles.id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.publish_date",
+        "Articles.magazine_id",
+        "Articles.author_id",
+        "Authors.id",
+        "Authors.first_name",
+        "Authors.last_name",
+        "Authors.email",
+        "Columns.id",
+        "Columns.column_name",
+        "Magazine_Authors.magazine_id",
+        "Magazine_Authors.author_id",
+        "Magazines.id",
+        "Magazines.name",
+        "Magazines.publication_date",
+        "Magazines.editor_name",
+        "Magazines_Columns.magazine_id",
+        "Magazines_Columns.column_id",
+        "Magazines_Columns.issue_date"
+    ]
+}

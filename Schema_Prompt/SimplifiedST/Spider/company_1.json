@@ -1,0 +1,32 @@
+{
+    "company_1": [
+        "works_on.Essn",
+        "works_on.Pno",
+        "works_on.Hours",
+        "employee.Fname",
+        "employee.Minit",
+        "employee.Lname",
+        "employee.Ssn",
+        "employee.Bdate",
+        "employee.Address",
+        "employee.Sex",
+        "employee.Salary",
+        "employee.Super_ssn",
+        "employee.Dno",
+        "department.Dname",
+        "department.Dnumber",
+        "department.Mgr_ssn",
+        "department.Mgr_start_date",
+        "project.Pname",
+        "project.Pnumber",
+        "project.Plocation",
+        "project.Dnum",
+        "dependent.Essn",
+        "dependent.Dependent_name",
+        "dependent.Sex",
+        "dependent.Bdate",
+        "dependent.Relationship",
+        "dept_locations.Dnumber",
+        "dept_locations.Dlocation"
+    ]
+}

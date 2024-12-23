@@ -1,0 +1,11 @@
+{
+    "scientist_1": [
+        "Scientists.SSN",
+        "Scientists.Name",
+        "Projects.Code",
+        "Projects.Name",
+        "Projects.Hours",
+        "AssignedTo.Scientist",
+        "AssignedTo.Project"
+    ]
+}

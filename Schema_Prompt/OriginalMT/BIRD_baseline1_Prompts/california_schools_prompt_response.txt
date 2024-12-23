@@ -1,0 +1,36 @@
+Prompt
+You are tasked with writing a query to solve a specific problem based on the schema and instructions below. Follow the step-by-step process to construct the query.
+
+
+Few-Shot Examples:
+Question 1: What is the average math SAT score for schools in San Diego County?
+sql
+Copy code
+SELECT AVG(satscores.avgScoreMath) AS AvgMathScore
+FROM satscores
+JOIN schools ON satscores.cds = schools.CDSCode
+WHERE schools.County = 'San Diego';
+Description: This query calculates the average SAT math score for all schools in San Diego County. The JOIN operation connects the satscores and schools tables, and the AVG function computes the average score.
+Question 2: List the top 5 schools with the highest percentage of students eligible for free or reduced-price meals.
+sql
+Copy code
+SELECT SchoolName, CountyName, PercentEligibleFRPMK12
+FROM frpm
+ORDER BY PercentEligibleFRPMK12 DESC
+LIMIT 5;
+Description: This query retrieves the top 5 schools with the highest percentage of students eligible for free or reduced-price meals. The ORDER BY clause sorts the results in descending order, and the LIMIT keyword restricts the output to 5 rows.
+Question 3: How many schools in Los Angeles County are magnet schools offering grades K-12?
+sql
+Copy code
+SELECT COUNT(*) AS MagnetSchoolsCount
+FROM schools
+WHERE County = 'Los Angeles' AND Magnet = 1 AND GSoffered = 12;
+Description: This query counts the number of magnet schools in Los Angeles County that offer grades K-12. The WHERE clause applies the necessary filters to identify these schools.
+
+Instructions for Writing Queries
+Use JOINs to combine data from multiple tables.
+Apply GROUP BY and ORDER BY clauses for aggregation and sorting.
+Include LIMIT clauses to restrict results when needed.
+Use DISTINCT to avoid duplicate results if necessary.
+Always ensure WHERE clauses accurately filter data based on conditions provided in the question.
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:

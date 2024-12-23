@@ -1,0 +1,18 @@
+{
+    "attachment_2tab_val_airport_facilities_dump": [
+        "Bookings.BookingID",
+        "Bookings.PassengerID",
+        "Bookings.FlightID",
+        "Bookings.Class",
+        "Bookings.Price",
+        "Flights.FlightID",
+        "Flights.Airline",
+        "Flights.Destination",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Passengers.PassengerID",
+        "Passengers.Name",
+        "Passengers.Age",
+        "Passengers.Nationality"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "scope_scholarships_criteria_dump": [
+        "Applications.application_id",
+        "Applications.student_id",
+        "Applications.scholarship_id",
+        "Applications.submission_date",
+        "Applications.status",
+        "Criteria.id",
+        "Criteria.value",
+        "Scholarship_Criteria.scholarship_id",
+        "Scholarship_Criteria.criterion_id",
+        "Scholarships.id",
+        "Scholarships.name",
+        "Scholarships.amount",
+        "Students.student_id",
+        "Students.first_name",
+        "Students.last_name",
+        "Students.email",
+        "Students.phone_number",
+        "Students.admission_date"
+    ]
+}

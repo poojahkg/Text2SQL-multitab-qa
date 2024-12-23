@@ -1,0 +1,25 @@
+{
+    "attachment_2tab_ref_technology_careers_dump": [
+        "Data_Analyst.id",
+        "Data_Analyst.employeeId",
+        "Data_Analyst.experience",
+        "Data_Analyst.analyticalTools",
+        "Data_Analyst.dataSources",
+        "Department.id",
+        "Department.departmentName",
+        "Employee.id",
+        "Employee.gradeId",
+        "Employee.departmentId",
+        "Employee.positionId",
+        "Employee.FullName",
+        "Grade.id",
+        "Grade.name",
+        "Position.id",
+        "Position.positionName",
+        "Software_Developer.id",
+        "Software_Developer.employeeId",
+        "Software_Developer.experience",
+        "Software_Developer.programmingLanguages",
+        "Software_Developer.toolsUsed"
+    ]
+}

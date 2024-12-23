@@ -1,0 +1,12 @@
+{
+    "scope_libraries_collections_dump": [
+        "Collections.collection_id",
+        "Collections.collection_name",
+        "Libraries.id",
+        "Libraries.name",
+        "Libraries.address",
+        "Libraries.phone_number",
+        "Libraries_Collections.library_id",
+        "Libraries_Collections.collection_id"
+    ]
+}

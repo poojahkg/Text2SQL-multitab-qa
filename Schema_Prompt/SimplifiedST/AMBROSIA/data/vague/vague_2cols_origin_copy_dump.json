@@ -1,0 +1,19 @@
+{
+    "vague_2cols_origin_copy_dump": [
+        "Events.id",
+        "Events.Title",
+        "Events.Location",
+        "Events.Date",
+        "Photojournalists.id",
+        "Photojournalists.Name",
+        "Photojournalists.Birthdate",
+        "Photos.id",
+        "Photos.FilePath",
+        "Photos.Caption",
+        "Photos.TakenOn",
+        "PublishedPhotos.id",
+        "PublishedPhotos.AssignmentId",
+        "PublishedPhotos.PhotoId",
+        "PublishedPhotos.PublicationDate"
+    ]
+}

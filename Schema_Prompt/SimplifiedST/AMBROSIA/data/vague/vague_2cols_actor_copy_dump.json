@@ -1,0 +1,20 @@
+{
+    "vague_2cols_actor_copy_dump": [
+        "Actor.id",
+        "Actor.firstName",
+        "Actor.lastName",
+        "Actor.birthDate",
+        "Director.id",
+        "Director.name",
+        "Director.birthDate",
+        "Genre.id",
+        "Genre.name",
+        "Movie.id",
+        "Movie.title",
+        "Movie.releaseYear",
+        "Movie.directorId",
+        "Rating.id",
+        "Rating.roleId",
+        "Rating.score"
+    ]
+}

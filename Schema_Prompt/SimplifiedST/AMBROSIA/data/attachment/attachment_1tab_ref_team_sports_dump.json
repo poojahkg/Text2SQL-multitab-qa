@@ -1,0 +1,19 @@
+{
+    "attachment_1tab_ref_team_sports_dump": [
+        "FitnessLevels.id",
+        "FitnessLevels.LevelName",
+        "PlayerStats.id",
+        "PlayerStats.PlayerId",
+        "PlayerStats.FitnessLevelId",
+        "PlayerStats.StatsText",
+        "Players.id",
+        "Players.Name",
+        "Players.Age",
+        "Players.TeamTypeId",
+        "Players.SportId",
+        "Sports.id",
+        "Sports.SportName",
+        "Team_Type.id",
+        "Team_Type.TypeName"
+    ]
+}

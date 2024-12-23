@@ -1,0 +1,29 @@
+{
+    "vague_2cols_languages_dump": [
+        "Cities.CityID",
+        "Cities.Name",
+        "Cities.Province",
+        "Cities.Population",
+        "Cities.RegionID",
+        "Countries.CountryID",
+        "Countries.Name",
+        "Countries.Capital",
+        "Countries.Population",
+        "Countries.Official_Language",
+        "Countries.Spoken_Language",
+        "Countries.Community",
+        "EducationLevel.LevelID",
+        "EducationLevel.Description",
+        "EducationLevel.Percentage",
+        "EthnicGroups.GroupID",
+        "EthnicGroups.Name",
+        "EthnicGroups.Population",
+        "Regions.RegionID",
+        "Regions.Name",
+        "Regions.Area",
+        "Regions.PopulationCount",
+        "Religion.ID",
+        "Religion.Denomination",
+        "Religion.Adherents"
+    ]
+}

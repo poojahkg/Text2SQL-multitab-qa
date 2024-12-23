@@ -1,0 +1,12 @@
+{
+    "scope_agriculture_reporters_crops_dump": [
+        "Agriculture_Reporters.id",
+        "Agriculture_Reporters.name",
+        "Agriculture_Reporters.email",
+        "Agriculture_Reporters_Crops.agriculture_reporter_id",
+        "Agriculture_Reporters_Crops.crop_id",
+        "Crops.id",
+        "Crops.crop_name",
+        "Crops.description"
+    ]
+}

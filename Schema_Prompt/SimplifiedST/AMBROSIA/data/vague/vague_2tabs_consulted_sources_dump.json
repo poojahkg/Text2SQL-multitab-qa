@@ -1,0 +1,27 @@
+{
+    "vague_2tabs_consulted_sources_dump": [
+        "Archival_Footage.id",
+        "Archival_Footage.description",
+        "Archival_Footage.source",
+        "Archival_Footage.EXPERT_ID",
+        "Archival_Footage.ON",
+        "Documentary.id",
+        "Documentary.title",
+        "Documentary.release_date",
+        "Documentary.ARCHIVE_FOOTAGE_ID",
+        "Documentary.EXPERT_ID",
+        "Experts.id",
+        "Experts.name",
+        "Experts.specialty",
+        "Interviews.id",
+        "Interviews.date",
+        "Interviews.details",
+        "Interviews.EXPERT_ID",
+        "News_Articles.id",
+        "News_Articles.headline",
+        "News_Articles.content",
+        "News_Articles.publication_date",
+        "News_Articles.DOCUMENTARY_ID",
+        "News_Articles.EXPERT_ID"
+    ]
+}

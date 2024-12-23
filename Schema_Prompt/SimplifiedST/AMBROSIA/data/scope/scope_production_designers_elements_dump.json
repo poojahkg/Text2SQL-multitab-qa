@@ -1,0 +1,12 @@
+{
+    "scope_production_designers_elements_dump": [
+        "Elements.id",
+        "Elements.element_type",
+        "Elements.description",
+        "Production_Designers.id",
+        "Production_Designers.name",
+        "Production_Designers.email",
+        "Production_Designers_Elements.production_designer_id",
+        "Production_Designers_Elements.element_id"
+    ]
+}

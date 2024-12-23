@@ -1,0 +1,29 @@
+{
+    "scope_streaming_service_monetization_model_dump": [
+        "Channel.id",
+        "Channel.streaming_service_id",
+        "Channel.content_category_id",
+        "Channel.channel_name",
+        "Channel.channel_description",
+        "Content_Category.id",
+        "Content_Category.category_name",
+        "Monetization_Model.id",
+        "Monetization_Model.model_name",
+        "Streaming_Service.id",
+        "Streaming_Service.name",
+        "Streaming_Service.description",
+        "Streaming_Service.launch_date",
+        "Streaming_Service_Monetization_Model.streaming_service_id",
+        "Streaming_Service_Monetization_Model.monetization_model_id",
+        "Subscription_Plan.id",
+        "Subscription_Plan.streaming_service_id",
+        "Subscription_Plan.price",
+        "Subscription_Plan.duration",
+        "Subscription_Plan.plan_details",
+        "Viewer_Stats.id",
+        "Viewer_Stats.streaming_service_id",
+        "Viewer_Stats.channel_id",
+        "Viewer_Stats.views",
+        "Viewer_Stats.unique_viewers"
+    ]
+}

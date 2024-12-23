@@ -1,0 +1,23 @@
+{
+    "election": [
+        "county.County_Id",
+        "county.County_name",
+        "county.Population",
+        "county.Zip_code",
+        "party.Party_ID",
+        "party.Year",
+        "party.Party",
+        "party.Governor",
+        "party.Lieutenant_Governor",
+        "party.Comptroller",
+        "party.Attorney_General",
+        "party.US_Senate",
+        "election.Election_ID",
+        "election.Counties_Represented",
+        "election.District",
+        "election.Delegate",
+        "election.Party",
+        "election.First_Elected",
+        "election.Committee"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "scope_streaming_service_customer_support_dump": [
+        "customer_support.id",
+        "customer_support.support_type",
+        "customer_support.description",
+        "streaming_service.id",
+        "streaming_service.name",
+        "streaming_service.price",
+        "streaming_service_customer_support.id",
+        "streaming_service_customer_support.streaming_service_id",
+        "streaming_service_customer_support.customer_support_id"
+    ]
+}

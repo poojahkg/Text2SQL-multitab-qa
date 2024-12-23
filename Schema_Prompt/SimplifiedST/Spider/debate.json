@@ -1,0 +1,17 @@
+{
+    "debate": [
+        "people.People_ID",
+        "people.District",
+        "people.Name",
+        "people.Party",
+        "people.Age",
+        "debate.Debate_ID",
+        "debate.Date",
+        "debate.Venue",
+        "debate.Num_of_Audience",
+        "debate_people.Debate_ID",
+        "debate_people.Affirmative",
+        "debate_people.Negative",
+        "debate_people.If_Affirmative_Win"
+    ]
+}

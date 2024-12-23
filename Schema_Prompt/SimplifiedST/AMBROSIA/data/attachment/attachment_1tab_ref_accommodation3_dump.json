@@ -1,0 +1,24 @@
+{
+    "attachment_1tab_ref_accommodation3_dump": [
+        "Bookings.id",
+        "Bookings.GuestId",
+        "Bookings.StartDate",
+        "Bookings.EndDate",
+        "Bookings.AccommodationType",
+        "Cabins.id",
+        "Cabins.Name",
+        "Cabins.Accommodation",
+        "Cabins.Price_Per_Night",
+        "Cabins.Capacity",
+        "Chalets.id",
+        "Chalets.Name",
+        "Chalets.Accommodation",
+        "Chalets.Price_Per_Night",
+        "Chalets.Capacity",
+        "Guests.id",
+        "Guests.FirstName",
+        "Guests.LastName",
+        "Guests.ContactNumber",
+        "Guests.EmailAddress"
+    ]
+}

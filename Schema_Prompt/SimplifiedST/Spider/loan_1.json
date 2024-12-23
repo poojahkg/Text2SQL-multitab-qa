@@ -1,0 +1,22 @@
+{
+    "loan_1": [
+        "bank.branch_ID",
+        "bank.bname",
+        "bank.no_of_customers",
+        "bank.city",
+        "bank.state",
+        "customer.cust_ID",
+        "customer.cust_name",
+        "customer.acc_type",
+        "customer.acc_bal",
+        "customer.no_of_loans",
+        "customer.credit_score",
+        "customer.branch_ID",
+        "customer.state",
+        "loan.loan_ID",
+        "loan.loan_type",
+        "loan.cust_ID",
+        "loan.branch_ID",
+        "loan.amount"
+    ]
+}

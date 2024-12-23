@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_val_educational_venues_dump": [
+        "Course.courseId",
+        "Course.title",
+        "Course.description",
+        "Course.duration",
+        "Course.educatorId",
+        "Educator.id",
+        "Educator.name",
+        "Educator.specialization",
+        "Educator.yearsOfExperience",
+        "Student.studentId",
+        "Student.firstName",
+        "Student.lastName",
+        "Student.dateOfBirth",
+        "Student.enrolledCourses",
+        "Venue.venueId",
+        "Venue.name",
+        "Venue.location",
+        "Venue.educationalVenue",
+        "Venue.ticketPrice"
+    ]
+}

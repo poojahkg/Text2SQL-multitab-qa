@@ -1,0 +1,21 @@
+{
+    "scope_health_apps_functions_dump": [
+        "Functions.functionID",
+        "Functions.value",
+        "Health_Apps.appID",
+        "Health_Apps.name",
+        "Health_Apps.description",
+        "Health_Apps.price",
+        "Health_Apps_Functions.healthAppID",
+        "Health_Apps_Functions.functionID",
+        "Reviews.reviewID",
+        "Reviews.rating",
+        "Reviews.comment",
+        "Reviews.appID",
+        "Reviews.userID",
+        "Users.userID",
+        "Users.username",
+        "Users.email",
+        "Users.password"
+    ]
+}

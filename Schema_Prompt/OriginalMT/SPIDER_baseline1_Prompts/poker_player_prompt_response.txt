@@ -1,0 +1,107 @@
+Instructions for Writing Queries
+Understand the Schema:
+
+The people table contains general information like names, nationality, birth date, and height.
+The poker_player table contains poker-specific data and links to people via the People_ID foreign key.
+Analyze the Question:
+
+Identify which tables and fields are needed to answer the query.
+Determine filtering criteria, grouping, or aggregation requirements.
+SQL Techniques:
+
+Use JOIN to combine data from the people and poker_player tables.
+Use DISTINCT to filter unique results.
+Use LIMIT to restrict the number of rows in the output.
+Use subqueries to compute intermediate results.
+Apply grouping and aggregation (GROUP BY, COUNT, AVG, etc.) when necessary.
+Write and Validate the Query:
+
+Structure the query logically and step by step.
+Test to ensure accuracy and completeness.
+Few-Shot Questions and Queries
+Example 1:
+Question: List the names of all players who have made the final table in more than 20% of tournaments.
+Query:
+
+sql
+Copy code
+SELECT p.Name
+FROM people p
+JOIN poker_player pp ON p.People_ID = pp.People_ID
+WHERE pp.Final_Table_Made > 20;
+Example 2:
+Question: Find the player with the highest earnings.
+Query:
+
+sql
+Copy code
+SELECT p.Name, pp.Earnings
+FROM people p
+JOIN poker_player pp ON p.People_ID = pp.People_ID
+ORDER BY pp.Earnings DESC
+LIMIT 1;
+Example 3:
+Question: What is the average earnings of poker players from the United States?
+Query:
+
+sql
+Copy code
+SELECT AVG(pp.Earnings) AS Average_Earnings
+FROM poker_player pp
+JOIN people p ON pp.People_ID = p.People_ID
+WHERE p.Nationality = 'United States';
+Example 4:
+Question: List the names of players whose best finish was ranked in the top 3.
+Query:
+
+sql
+Copy code
+SELECT p.Name
+FROM people p
+JOIN poker_player pp ON p.People_ID = pp.People_ID
+WHERE pp.Best_Finish <= 3;
+Example 5:
+Question: How many players have total earnings greater than the average earnings of all players?
+Query:
+
+sql
+Copy code
+SELECT COUNT(*) AS High_Earning_Players
+FROM poker_player pp
+WHERE pp.Earnings > (SELECT AVG(Earnings) FROM poker_player);
+Example 6:
+Question: Find the nationality with the highest total earnings.
+Query:
+
+sql
+Copy code
+SELECT p.Nationality, SUM(pp.Earnings) AS Total_Earnings
+FROM poker_player pp
+JOIN people p ON pp.People_ID = p.People_ID
+GROUP BY p.Nationality
+ORDER BY Total_Earnings DESC
+LIMIT 1;
+Example 7:
+Question: List all players who are under 6 feet tall and have earnings over $1,000,000.
+Query:
+
+sql
+Copy code
+SELECT p.Name, p.Height, pp.Earnings
+FROM people p
+JOIN poker_player pp ON p.People_ID = pp.People_ID
+WHERE p.Height < 6 AND pp.Earnings > 1000000;
+Example 8:
+Question: Which player has the best "money rank"?
+Query:
+
+sql
+Copy code
+SELECT p.Name, pp.Money_Rank
+FROM people p
+JOIN poker_player pp ON p.People_ID = pp.People_ID
+ORDER BY pp.Money_Rank ASC
+LIMIT 1;
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

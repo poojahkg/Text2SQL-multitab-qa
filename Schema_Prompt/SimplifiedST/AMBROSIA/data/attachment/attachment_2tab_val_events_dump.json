@@ -1,0 +1,19 @@
+{
+    "attachment_2tab_val_events_dump": [
+        "Awards.id",
+        "Awards.award_name",
+        "Awards.winner",
+        "Interviews.id",
+        "Interviews.date",
+        "Interviews.time",
+        "Interviews.interviewee",
+        "News_Articles.id",
+        "News_Articles.title",
+        "News_Articles.content",
+        "News_Articles.author",
+        "Publications.id",
+        "Publications.publication_name",
+        "Publications.publication_date",
+        "Publications.editor"
+    ]
+}

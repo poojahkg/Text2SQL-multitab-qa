@@ -1,0 +1,21 @@
+{
+    "employee_hire_evaluation": [
+        "employee.Employee_ID",
+        "employee.Name",
+        "employee.Age",
+        "employee.City",
+        "shop.Shop_ID",
+        "shop.Name",
+        "shop.Location",
+        "shop.District",
+        "shop.Number_products",
+        "shop.Manager_name",
+        "hiring.Shop_ID",
+        "hiring.Employee_ID",
+        "hiring.Start_from",
+        "hiring.Is_full_time",
+        "evaluation.Employee_ID",
+        "evaluation.Year_awarded",
+        "evaluation.Bonus"
+    ]
+}

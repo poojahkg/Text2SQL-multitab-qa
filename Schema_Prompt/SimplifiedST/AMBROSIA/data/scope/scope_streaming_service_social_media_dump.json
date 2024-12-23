@@ -1,0 +1,16 @@
+{
+    "scope_streaming_service_social_media_dump": [
+        "Social_Media.social_media_id",
+        "Social_Media.type",
+        "Streaming_Service.id",
+        "Streaming_Service.service_name",
+        "Streaming_Service.service_url",
+        "Streaming_Service_Social_Media.streaming_service_id",
+        "Streaming_Service_Social_Media.social_media_id",
+        "Streaming_Service_Subscription_Plan.streaming_service_id",
+        "Streaming_Service_Subscription_Plan.plan_id",
+        "Subscription_Plan.plan_id",
+        "Subscription_Plan.name",
+        "Subscription_Plan.price"
+    ]
+}

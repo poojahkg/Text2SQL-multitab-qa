@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_val_television_format_dump": [
+        "Actors.ActorID",
+        "Actors.FirstName",
+        "Actors.LastName",
+        "Actors.DateOfBirth",
+        "Actors.Nationality",
+        "Directors.DirectorID",
+        "Directors.FirstName",
+        "Directors.LastName",
+        "Directors.BirthDate",
+        "Directors.Nationality",
+        "ShowDirectors.ShowID",
+        "ShowDirectors.DirectorID",
+        "ShowsActors.ShowID",
+        "ShowsActors.ActorID",
+        "ShowsActors.Role",
+        "TelevisionShows.ID",
+        "TelevisionShows.Name",
+        "TelevisionShows.Genre",
+        "TelevisionShows.Country",
+        "TelevisionShows.Television_Format",
+        "TelevisionShows.Audience_Score"
+    ]
+}

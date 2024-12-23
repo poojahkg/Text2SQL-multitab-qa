@@ -1,0 +1,26 @@
+{
+    "vague_2cols_resources1_copy_dump": [
+        "Assignments.ID",
+        "Assignments.Title",
+        "Assignments.Description",
+        "Assignments.DueDate",
+        "Assignments.MaxPoints",
+        "Classrooms.ID",
+        "Classrooms.RoomNumber",
+        "Classrooms.Building",
+        "Classrooms.Capacity",
+        "Grades.ID",
+        "Grades.StudentID",
+        "Grades.AssignmentID",
+        "Grades.Score",
+        "Grades.Feedback",
+        "Students.ID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.GradeLevel",
+        "Teachers.ID",
+        "Teachers.FirstName",
+        "Teachers.LastName",
+        "Teachers.SubjectTaught"
+    ]
+}

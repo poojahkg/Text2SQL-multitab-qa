@@ -1,0 +1,25 @@
+{
+    "attachment_2tab_val_media_formats_dump": [
+        "Articles.id",
+        "Articles.Title",
+        "Articles.AuthorName",
+        "Articles.PublicationDate",
+        "AudioDocuments.id",
+        "AudioDocuments.Title",
+        "AudioDocuments.Description",
+        "AudioDocuments.Length",
+        "AudioDocuments.ReleaseDate",
+        "Authors.id",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.BirthDate",
+        "Newspapers.id",
+        "Newspapers.Name",
+        "Newspapers.Location",
+        "Podcasts.id",
+        "Podcasts.Title",
+        "Podcasts.Description",
+        "Podcasts.Length",
+        "Podcasts.ReleaseDate"
+    ]
+}

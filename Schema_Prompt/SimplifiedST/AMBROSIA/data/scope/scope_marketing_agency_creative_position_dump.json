@@ -1,0 +1,11 @@
+{
+    "scope_marketing_agency_creative_position_dump": [
+        "Creative_Position.id",
+        "Creative_Position.position",
+        "Marketing_Agency.id",
+        "Marketing_Agency.name",
+        "Marketing_Agency.location",
+        "Marketing_Agency_Creative_Positions.agency_id",
+        "Marketing_Agency_Creative_Positions.position_id"
+    ]
+}

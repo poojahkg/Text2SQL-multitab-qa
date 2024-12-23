@@ -1,0 +1,26 @@
+{
+    "attachment_2tab_val_book_genre_dump": [
+        "Movie.ID",
+        "Movie.Title",
+        "Movie.Director",
+        "Movie.Release_year",
+        "Music_Album.ID",
+        "Music_Album.Artist",
+        "Music_Album.Album_name",
+        "Music_Album.Release_year",
+        "Romance_Book.ID",
+        "Romance_Book.Title",
+        "Romance_Book.Author",
+        "Romance_Book.Year_of_publication",
+        "Romance_Book.Genre",
+        "Science_Fiction_Book.ID",
+        "Science_Fiction_Book.Title",
+        "Science_Fiction_Book.Author",
+        "Science_Fiction_Book.Year_of_publication",
+        "Science_Fiction_Book.Genre",
+        "VideoGame.ID",
+        "VideoGame.Game_Name",
+        "VideoGame.Developer",
+        "VideoGame.Release_year"
+    ]
+}

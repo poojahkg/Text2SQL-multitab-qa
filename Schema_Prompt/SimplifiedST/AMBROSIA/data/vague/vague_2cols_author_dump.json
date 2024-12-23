@@ -1,0 +1,32 @@
+{
+    "vague_2cols_author_dump": [
+        "Actors.id",
+        "Actors.Name",
+        "Actors.Birthdate",
+        "Actors.Nationality",
+        "Directors.id",
+        "Directors.Name",
+        "Directors.Birthdate",
+        "Directors.Nationality",
+        "Genres.id",
+        "Genres.Type",
+        "MovieGenre.id",
+        "MovieGenre.MovieId",
+        "MovieGenre.GenreId",
+        "Movies.id",
+        "Movies.Title",
+        "Movies.ReleaseDate",
+        "Movies.Runtime",
+        "Movies.Filmmaker",
+        "Movies.Screenwriter",
+        "Productions.id",
+        "Productions.MovieId",
+        "Productions.DirectorId",
+        "Productions.Budget",
+        "Productions.ProductionCompany",
+        "Roles.id",
+        "Roles.MovieId",
+        "Roles.ActorId",
+        "Roles.CharacterName"
+    ]
+}

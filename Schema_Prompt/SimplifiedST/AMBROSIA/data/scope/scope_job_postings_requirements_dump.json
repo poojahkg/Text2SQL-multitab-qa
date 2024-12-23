@@ -1,0 +1,13 @@
+{
+    "scope_job_postings_requirements_dump": [
+        "Job_Postings.id",
+        "Job_Postings.title",
+        "Job_Postings.description",
+        "Job_Postings.salary",
+        "Job_Postings_Requirements.job_posting_id",
+        "Job_Postings_Requirements.requirement_id",
+        "Requirements.id",
+        "Requirements.requirement_type",
+        "Requirements.value"
+    ]
+}

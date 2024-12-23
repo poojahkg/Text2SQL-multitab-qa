@@ -1,0 +1,12 @@
+{
+    "vague_2tabs_key_elements_dump": [
+        "Color_Palette.color_id",
+        "Color_Palette.color_name",
+        "Fabric_Choice.fabric_id",
+        "Fabric_Choice.fabric_type",
+        "Fashion_Design.design_id",
+        "Fashion_Design.design_name",
+        "Fashion_Design.color_id",
+        "Fashion_Design.fabric_id"
+    ]
+}

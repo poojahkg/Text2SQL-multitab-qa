@@ -1,0 +1,21 @@
+{
+    "local_govt_mdm": [
+        "Customer_Master_Index.master_customer_id",
+        "Customer_Master_Index.cmi_details",
+        "CMI_Cross_References.cmi_cross_ref_id",
+        "CMI_Cross_References.master_customer_id",
+        "CMI_Cross_References.source_system_code",
+        "Council_Tax.council_tax_id",
+        "Council_Tax.cmi_cross_ref_id",
+        "Business_Rates.business_rates_id",
+        "Business_Rates.cmi_cross_ref_id",
+        "Benefits_Overpayments.council_tax_id",
+        "Benefits_Overpayments.cmi_cross_ref_id",
+        "Parking_Fines.council_tax_id",
+        "Parking_Fines.cmi_cross_ref_id",
+        "Rent_Arrears.council_tax_id",
+        "Rent_Arrears.cmi_cross_ref_id",
+        "Electoral_Register.electoral_register_id",
+        "Electoral_Register.cmi_cross_ref_id"
+    ]
+}

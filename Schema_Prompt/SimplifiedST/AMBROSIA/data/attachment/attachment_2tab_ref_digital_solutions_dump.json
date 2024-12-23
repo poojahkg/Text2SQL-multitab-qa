@@ -1,0 +1,28 @@
+{
+    "attachment_2tab_ref_digital_solutions_dump": [
+        "Accounts.AccountId",
+        "Accounts.CustomerId",
+        "Accounts.Type",
+        "Accounts.Balance",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.Email",
+        "Customers.PhoneNumber",
+        "Customers.JoinDate",
+        "InternetBankingPlatforms.PlatformID",
+        "InternetBankingPlatforms.Name",
+        "InternetBankingPlatforms.Description",
+        "InternetBankingPlatforms.AdditionalFeatures",
+        "MobileBankingApps.AppID",
+        "MobileBankingApps.Name",
+        "MobileBankingApps.Description",
+        "MobileBankingApps.PlatformType",
+        "SignInOptions.ID",
+        "SignInOptions.OptionName",
+        "Transactions.TransactionId",
+        "Transactions.AccountId",
+        "Transactions.Amount",
+        "Transactions.DateAndTime"
+    ]
+}

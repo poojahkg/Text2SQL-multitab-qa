@@ -1,0 +1,12 @@
+{
+    "scope_wine_regions_winery_tours_dump": [
+        "Wine_Regions.RegionID",
+        "Wine_Regions.Name",
+        "Wine_Regions.Description",
+        "Wine_Regions_Winery_Tours.WineRegionID",
+        "Wine_Regions_Winery_Tours.TourType",
+        "Winery_Tours.TourID",
+        "Winery_Tours.Type",
+        "Winery_Tours.Duration"
+    ]
+}

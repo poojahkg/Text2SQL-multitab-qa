@@ -1,0 +1,79 @@
+Instructions for Writing Queries
+Understand the Schema: Identify the relationships between tables:
+course is linked to course_arrange via Course_ID.
+teacher is linked to course_arrange via Teacher_ID.
+Analyze the Question: Break the query into smaller parts to determine the necessary tables and filtering conditions.
+SQL Techniques:
+Use JOIN to connect tables based on their relationships.
+Use DISTINCT to retrieve unique results.
+Use filtering conditions (WHERE) to narrow down data.
+Use nested subqueries when specific filtering conditions require data from another query.
+Apply grouping (GROUP BY) and aggregation (e.g., COUNT, AVG) where applicable.
+Write and Validate the Query: Ensure it solves the problem step by step and is syntactically correct.
+Few-Shot Questions and Queries
+Example 1:
+Question: List the names of teachers who teach Science to grade 5.
+Query:
+
+sql
+Copy code
+SELECT t.Name
+FROM teacher t
+JOIN course_arrange ca ON t.Teacher_ID = ca.Teacher_ID
+JOIN course c ON ca.Course_ID = c.Course_ID
+WHERE c.Course = 'Science' AND ca.Grade = 5;
+Example 2:
+Question: How many courses does each teacher teach?
+Query:
+
+sql
+Copy code
+SELECT t.Name, COUNT(ca.Course_ID) AS Course_Count
+FROM teacher t
+JOIN course_arrange ca ON t.Teacher_ID = ca.Teacher_ID
+GROUP BY t.Name;
+Example 3:
+Question: Which courses start on or after June 1st?
+Query:
+
+sql
+Copy code
+SELECT DISTINCT c.Course
+FROM course c
+WHERE CAST(c.Staring_Date AS DATE) >= '2023-06-01';
+Example 4:
+Question: What is the average grade level of all courses taught by teachers from "Springfield"?
+Query:
+
+sql
+Copy code
+SELECT AVG(ca.Grade) AS Average_Grade
+FROM teacher t
+JOIN course_arrange ca ON t.Teacher_ID = ca.Teacher_ID
+WHERE t.Hometown = 'Springfield';
+Example 5:
+Question: Find the youngest teacher who teaches a course named "History."
+Query:
+
+sql
+Copy code
+SELECT t.Name, MIN(CAST(t.Age AS INT)) AS Youngest_Age
+FROM teacher t
+JOIN course_arrange ca ON t.Teacher_ID = ca.Teacher_ID
+JOIN course c ON ca.Course_ID = c.Course_ID
+WHERE c.Course = 'History';
+Example 6:
+Question: List the courses and grade levels taught by teacher "John Doe."
+Query:
+
+sql
+Copy code
+SELECT c.Course, ca.Grade
+FROM teacher t
+JOIN course_arrange ca ON t.Teacher_ID = ca.Teacher_ID
+JOIN course c ON ca.Course_ID = c.Course_ID
+WHERE t.Name = 'John Doe';
+
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

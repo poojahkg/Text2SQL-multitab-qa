@@ -1,0 +1,30 @@
+{
+    "attachment_2tab_val_journalist_classifications_dump": [
+        "Advertisements.ID",
+        "Advertisements.ArticleID",
+        "Advertisements.AdTitle",
+        "Advertisements.AdDescription",
+        "Advertisements.AdImage",
+        "Advertisements.DisplayOrder",
+        "Articles.ID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.EditorID",
+        "Articles.PublishDate",
+        "Editors.ID",
+        "Editors.Name",
+        "Editors.Email",
+        "Editors.Phone_Number",
+        "Editors.Payment",
+        "Readerships.ID",
+        "Readerships.ArticleID",
+        "Readerships.SubscriptionType",
+        "Readerships.StartDate",
+        "Readerships.EndDate",
+        "Stringers.ID",
+        "Stringers.Name",
+        "Stringers.Email",
+        "Stringers.Phone_Number",
+        "Stringers.Payment"
+    ]
+}

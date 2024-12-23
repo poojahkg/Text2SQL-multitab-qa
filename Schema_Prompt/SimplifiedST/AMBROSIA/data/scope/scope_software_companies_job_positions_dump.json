@@ -1,0 +1,21 @@
+{
+    "scope_software_companies_job_positions_dump": [
+        "Employee_Projects.employee_id",
+        "Employee_Projects.project_id",
+        "Employee_Projects.start_date",
+        "Employee_Projects.end_date",
+        "Employee_Skills.employee_id",
+        "Employee_Skills.skill_id",
+        "Employee_Skills.experience_level",
+        "Job_Positions.id",
+        "Job_Positions.position_title",
+        "Job_Positions.description",
+        "Skills.id",
+        "Skills.name",
+        "Software_Companies.id",
+        "Software_Companies.company_name",
+        "Software_Companies.location",
+        "Software_Companies_Job_Positions.software_company_id",
+        "Software_Companies_Job_Positions.job_position_id"
+    ]
+}

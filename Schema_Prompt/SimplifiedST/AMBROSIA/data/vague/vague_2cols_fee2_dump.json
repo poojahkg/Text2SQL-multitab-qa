@@ -1,0 +1,26 @@
+{
+    "vague_2cols_fee2_dump": [
+        "Accounts.AccountNumber",
+        "Accounts.CustomerID",
+        "Accounts.AccountType",
+        "Accounts.OpenDate",
+        "CheckingAccounts.AccountNumber",
+        "CheckingAccounts.Monthly_Maintenance_Fee",
+        "CheckingAccounts.Overdraft_Charges",
+        "Customers.CustomerID",
+        "Customers.DateOfBirth",
+        "Customers.fullname",
+        "Loans.LoanID",
+        "Loans.AccountNumber",
+        "Loans.PrincipalAmount",
+        "Loans.AnnualInterestRate",
+        "Loans.RepaymentTermYears",
+        "SavingsAccounts.AccountNumber",
+        "SavingsAccounts.InterestRate",
+        "SavingsAccounts.MinimumBalance",
+        "Transactions.TransactionID",
+        "Transactions.AccountNumber",
+        "Transactions.Amount",
+        "Transactions.TransactionDate"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "attachment_1tab_ref_educational_materials_dump": [
+        "Courses.CourseID",
+        "Courses.CourseTitle",
+        "Courses.Department",
+        "Courses.TeacherID",
+        "EducationalMaterials.MaterialID",
+        "EducationalMaterials.Title",
+        "EducationalMaterials.Type",
+        "EducationalMaterials.ISBN",
+        "EducationalMaterials.PublisherID",
+        "Enrollments.EnrollmentID",
+        "Enrollments.CourseID",
+        "Enrollments.StudentID",
+        "Enrollments.Semester",
+        "Enrollments.Year",
+        "Enrollments.Grade",
+        "Publishers.PublisherID",
+        "Publishers.Name",
+        "Publishers.Address",
+        "Publishers.Email",
+        "Publishers.PhoneNumber",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.DateOfBirth",
+        "Students.Email",
+        "Teachers.TeacherID",
+        "Teachers.FirstName",
+        "Teachers.LastName",
+        "Teachers.Email"
+    ]
+}

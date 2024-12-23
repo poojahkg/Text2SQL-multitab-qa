@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_ref_film_type_dump": [
+        "budget.id",
+        "budget.amount",
+        "casts.id",
+        "casts.filmmakingId",
+        "casts.characterName",
+        "casts.actorName",
+        "crew_members.id",
+        "crew_members.role",
+        "crew_members.memberName",
+        "film_details.id",
+        "film_details.filmmakingId",
+        "film_details.film_typeId",
+        "film_details.budgetId",
+        "film_type.id",
+        "film_type.type",
+        "filmmaking.id",
+        "filmmaking.name",
+        "filmmaking.directorName",
+        "filmmaking.releaseDate"
+    ]
+}

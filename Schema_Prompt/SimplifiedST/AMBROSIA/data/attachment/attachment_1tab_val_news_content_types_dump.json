@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_val_news_content_types_dump": [
+        "Article.id",
+        "Article.title",
+        "Article.content",
+        "Article.news_content_type",
+        "Article.volume",
+        "Article.date",
+        "Article.author_id",
+        "Article.category_id",
+        "Article.publication_id",
+        "Author.id",
+        "Author.name",
+        "Author.email",
+        "Category.id",
+        "Category.title",
+        "Category.description",
+        "Publication.id",
+        "Publication.name",
+        "Publication.address"
+    ]
+}

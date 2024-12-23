@@ -1,0 +1,7 @@
+{
+    "vague_2tabs_resources_dump": [
+        "OnlineResources.resourceId",
+        "OnlineResources.url",
+        "OnlineResources.title"
+    ]
+}

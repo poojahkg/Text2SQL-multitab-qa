@@ -1,0 +1,20 @@
+{
+    "attachment_2tab_val_events_industry_dump": [
+        "Benefits.id",
+        "Benefits.employeeId",
+        "Benefits.healthInsurance",
+        "Benefits.retirementPlan",
+        "Benefits.vacationDays",
+        "Company.id",
+        "Company.name",
+        "Employee.id",
+        "Employee.firstName",
+        "Employee.lastName",
+        "Employee.email",
+        "Salary.id",
+        "Salary.employeeId",
+        "Salary.salary",
+        "Salary.startDate",
+        "Salary.endDate"
+    ]
+}

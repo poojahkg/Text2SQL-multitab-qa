@@ -1,0 +1,27 @@
+{
+    "vague_2tabs_leadership_dump": [
+        "Accounts.accountID",
+        "Accounts.accountType",
+        "Accounts.balance",
+        "Accounts.customerID",
+        "Banks.bankID",
+        "Banks.bankName",
+        "Banks.branchNumber",
+        "Banks.ceoID",
+        "Banks.boardID",
+        "Board_of_directors.boardID",
+        "Board_of_directors.ceoID",
+        "Board_of_directors.directorfullname",
+        "Ceo.ceoID",
+        "Ceo.fullname",
+        "Customers.customerID",
+        "Customers.customerName",
+        "Customers.accountNumber",
+        "Customers.bankID",
+        "Transactions.transactionID",
+        "Transactions.amount",
+        "Transactions.type",
+        "Transactions.date",
+        "Transactions.accountID"
+    ]
+}

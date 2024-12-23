@@ -1,0 +1,33 @@
+{
+    "attachment_1tab_val_music_band_dump": [
+        "Albums.id",
+        "Albums.Title",
+        "Albums.Release_Date",
+        "Albums.Label",
+        "Albums.Genre",
+        "Concerts.id",
+        "Concerts.Date",
+        "Concerts.Venue",
+        "Concerts.Ticket_Price",
+        "Concerts.Band_id",
+        "Fans.id",
+        "Fans.First_name",
+        "Fans.Last_name",
+        "Fans.Age",
+        "Fans.Email",
+        "Fans.Favorite_band_id",
+        "Music_Bands.id",
+        "Music_Bands.Name",
+        "Music_Bands.Genre",
+        "Music_Bands.Founding_Year",
+        "Music_Bands.Country",
+        "Reviews.id",
+        "Reviews.Rating",
+        "Reviews.Review_text",
+        "Reviews.Song_id",
+        "Songs.id",
+        "Songs.Title",
+        "Songs.Length",
+        "Songs.Album_id"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_val_digital_solutions_dump": [
+        "AccountTypes.AccountTypeID",
+        "AccountTypes.AccountTypeName",
+        "Accounts.AccountID",
+        "Accounts.CustomerID",
+        "Accounts.AccountTypeID",
+        "Accounts.OpenDate",
+        "Accounts.Balance",
+        "Customers.CustomerID",
+        "Customers.DateOfBirth",
+        "Customers.Digital_Solutions",
+        "Customers.Sign_in_Options",
+        "Customers.FullName",
+        "Transactions.TransactionID",
+        "Transactions.AccountID",
+        "Transactions.Amount",
+        "Transactions.Type",
+        "Transactions.Date"
+    ]
+}

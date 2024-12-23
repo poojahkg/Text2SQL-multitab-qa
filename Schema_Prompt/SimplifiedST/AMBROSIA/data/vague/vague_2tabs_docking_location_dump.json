@@ -1,0 +1,26 @@
+{
+    "vague_2tabs_docking_location_dump": [
+        "Cities.name",
+        "Cities.country",
+        "CruiseShips.port",
+        "CruiseShips.city",
+        "CruiseShips.shipName",
+        "CruiseShips.maxCapacity",
+        "Payments.id",
+        "Payments.reservationId",
+        "Payments.amountPaid",
+        "Payments.paymentMethod",
+        "Payments.transactionTime",
+        "Ports.name",
+        "Ports.country",
+        "Reservations.id",
+        "Reservations.customerId",
+        "Reservations.roomTypeId",
+        "Reservations.checkInDate",
+        "Reservations.checkOutDate",
+        "RoomTypes.id",
+        "RoomTypes.typeName",
+        "RoomTypes.capacity",
+        "RoomTypes.pricePerNight"
+    ]
+}

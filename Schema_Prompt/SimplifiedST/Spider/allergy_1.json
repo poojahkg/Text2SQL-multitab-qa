@@ -1,0 +1,16 @@
+{
+    "allergy_1": [
+        "Allergy_Type.Allergy",
+        "Allergy_Type.AllergyType",
+        "Has_Allergy.StuID",
+        "Has_Allergy.Allergy",
+        "Student.StuID",
+        "Student.LName",
+        "Student.Fname",
+        "Student.Age",
+        "Student.Sex",
+        "Student.Major",
+        "Student.Advisor",
+        "Student.city_code"
+    ]
+}

@@ -1,0 +1,162 @@
+-- codebase_community database
+CREATE TABLE badges (
+    Id INTEGER PRIMARY KEY,
+    UserId INTEGER,
+    Name TEXT,
+    Date DATETIME
+);
+
+CREATE TABLE comments (
+    Id INTEGER PRIMARY KEY,
+    PostId INTEGER,
+    Score INTEGER,
+    Text TEXT,
+    CreationDate DATETIME,
+    UserId INTEGER,
+    UserDisplayName TEXT,
+    FOREIGN KEY (PostId) REFERENCES posts(Id),
+    FOREIGN KEY (UserId) REFERENCES users(Id)
+);
+
+CREATE TABLE postHistory (
+    Id INTEGER PRIMARY KEY,
+    PostHistoryTypeId INTEGER,
+    PostId INTEGER,
+    RevisionGUID TEXT,
+    CreationDate DATETIME,
+    UserId INTEGER,
+    Text TEXT,
+    Comment TEXT,
+    UserDisplayName TEXT,
+    FOREIGN KEY (PostId) REFERENCES posts(Id),
+    FOREIGN KEY (UserId) REFERENCES users(Id)
+);
+
+CREATE TABLE postLinks (
+    Id INTEGER PRIMARY KEY,
+    CreationDate DATETIME,
+    PostId INTEGER,
+    RelatedPostId INTEGER,
+    LinkTypeId INTEGER,
+    FOREIGN KEY (PostId) REFERENCES posts(Id),
+    FOREIGN KEY (RelatedPostId) REFERENCES posts(Id)
+);
+
+CREATE TABLE posts (
+    Id INTEGER PRIMARY KEY,
+    PostTypeId INTEGER,
+    AcceptedAnswerId INTEGER,
+    CreationDate DATETIME,
+    Score INTEGER,
+    ViewCount INTEGER,
+    Body TEXT,
+    OwnerUserId INTEGER,
+    LastActivityDate DATETIME,
+    Title TEXT,
+    Tags TEXT,
+    AnswerCount INTEGER,
+    CommentCount INTEGER,
+    FavoriteCount INTEGER,
+    LastEditorUserId INTEGER,
+    LastEditDate DATETIME,
+    CommunityOwnedDate DATETIME,
+    ParentId INTEGER,
+    ClosedDate DATETIME,
+    OwnerDisplayName TEXT,
+    LastEditorDisplayName TEXT,
+    FOREIGN KEY (OwnerUserId) REFERENCES users(Id),
+    FOREIGN KEY (ParentId) REFERENCES posts(Id)
+);
+
+CREATE TABLE tags (
+    Id INTEGER PRIMARY KEY,
+    TagName TEXT,
+    Count INTEGER,
+    ExcerptPostId INTEGER,
+    WikiPostId INTEGER
+);
+
+CREATE TABLE users (
+    Id INTEGER PRIMARY KEY,
+    Reputation INTEGER,
+    CreationDate DATETIME,
+    DisplayName TEXT,
+    LastAccessDate DATETIME,
+    WebsiteUrl TEXT,
+    Location TEXT,
+    AboutMe TEXT,
+    Views INTEGER,
+    UpVotes INTEGER,
+    DownVotes INTEGER,
+    AccountId INTEGER,
+    Age INTEGER,
+    ProfileImageUrl TEXT
+);
+
+CREATE TABLE votes (
+    Id INTEGER PRIMARY KEY,
+    PostId INTEGER,
+    VoteTypeId INTEGER,
+    CreationDate DATETIME,
+    UserId INTEGER,
+    BountyAmount INTEGER,
+    FOREIGN KEY (PostId) REFERENCES posts(Id),
+    FOREIGN KEY (UserId) REFERENCES users(Id)
+);
+
+Schema Overview
+This database schema represents a community Q&A platform similar to Stack Overflow. It tracks users, posts (questions and answers), comments, votes, badges, tags, and post history. The schema consists of eight tables: badges, comments, postHistory, postLinks, posts, tags, users, and votes.
+
+Table Descriptions
+badges
+Description: Stores information about badges awarded to users for their contributions.
+Key Columns:
+Id: Unique badge ID (INTEGER).
+UserId: ID of the user who received the badge (INTEGER).
+Name: Name of the badge (TEXT).
+Date: Date the badge was awarded (DATETIME).
+comments
+Description: Contains comments made on posts.
+Key Columns:
+Id: Unique comment ID (INTEGER).
+PostId: ID of the post the comment is on (INTEGER).
+Text: Content of the comment (TEXT).
+UserId: ID of the user who made the comment (INTEGER).
+CreationDate: Date and time the comment was created (DATETIME).
+postHistory
+Description: Records the history of edits made to posts.
+Key Columns:
+Id: Unique post history ID (INTEGER).
+PostId: ID of the post being edited (INTEGER).
+CreationDate: Date and time of the edit (DATETIME).
+UserId: ID of the user who made the edit (INTEGER).
+Text: Description of the edit (TEXT).
+posts
+Description: The central table containing questions and answers.
+Key Columns:
+Id: Unique post ID (INTEGER).
+PostTypeId: Type of post (1 = Question, 2 = Answer) (INTEGER).
+CreationDate: Date and time the post was created (DATETIME).
+Score: The score of the post (INTEGER).
+ViewCount: Number of views the post has received (INTEGER).
+OwnerUserId: ID of the user who created the post (INTEGER).
+tags
+Description: Stores tags associated with posts for categorization.
+Key Columns:
+Id: Unique tag ID (INTEGER).
+TagName: Name of the tag (TEXT).
+Count: Number of posts using the tag (INTEGER).
+users
+Description: Holds information about users on the platform.
+Key Columns:
+Id: Unique user ID (INTEGER).
+Reputation: User's reputation score (INTEGER).
+CreationDate: Date the user registered (DATETIME).
+DisplayName: User's display name (TEXT).
+votes
+Description: Tracks votes cast on posts.
+Key Columns:
+Id: Unique vote ID (INTEGER).
+PostId: ID of the post the vote is on (INTEGER).
+VoteTypeId: Type of vote (1 = Upvote, 2 = Downvote) (INTEGER).
+CreationDate: Date and time of the vote (DATETIME).

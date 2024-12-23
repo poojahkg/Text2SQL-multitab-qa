@@ -1,0 +1,26 @@
+{
+    "attachment_2tab_val_research_methods_dump": [
+        "Case_Studies.ID",
+        "Case_Studies.Topic",
+        "Case_Studies.Description",
+        "Case_Studies.Date",
+        "Case_Studies.Author",
+        "Classes.ID",
+        "Classes.ClassroomNumber",
+        "Classes.MaxCapacity",
+        "Classes.SchoolYear",
+        "Interviews.ID",
+        "Interviews.Topic",
+        "Interviews.Description",
+        "Interviews.IntervieweeName",
+        "Interviews.InterviewDate",
+        "Students.ID",
+        "Students.Name",
+        "Students.Age",
+        "Students.GradeLevel",
+        "Teachers.ID",
+        "Teachers.Name",
+        "Teachers.Subject",
+        "Teachers.YearsOfExperience"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "entrepreneur": [
+        "entrepreneur.Entrepreneur_ID",
+        "entrepreneur.People_ID",
+        "entrepreneur.Company",
+        "entrepreneur.Money_Requested",
+        "entrepreneur.Investor",
+        "people.People_ID",
+        "people.Name",
+        "people.Height",
+        "people.Weight",
+        "people.Date_of_Birth"
+    ]
+}

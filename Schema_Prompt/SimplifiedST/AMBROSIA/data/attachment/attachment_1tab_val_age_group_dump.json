@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_val_age_group_dump": [
+        "Author.id",
+        "Author.name",
+        "Book.id",
+        "Book.title",
+        "Book.age_group",
+        "Book.illustrator",
+        "Book.author_id",
+        "Book.publisher_id",
+        "Book.genre_id",
+        "Book.main_character_id",
+        "Character.id",
+        "Character.character_name",
+        "Genre.id",
+        "Genre.genre_name",
+        "Publisher.id",
+        "Publisher.name"
+    ]
+}

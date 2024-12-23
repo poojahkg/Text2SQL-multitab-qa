@@ -1,0 +1,27 @@
+{
+    "attachment_2tab_ref_learning_materials_dump": [
+        "Difficulty_Level.ID",
+        "Difficulty_Level.Level",
+        "EnrolledStudents.StudentID",
+        "EnrolledStudents.FirstName",
+        "EnrolledStudents.LastName",
+        "EnrolledStudents.Age",
+        "EnrolledStudents.Email",
+        "EnrolledStudents.PhoneNumber",
+        "Online_Courses.ID",
+        "Online_Courses.CourseName",
+        "Online_Courses.Instructor",
+        "Online_Courses.Platform",
+        "Online_Courses.URL",
+        "Online_Courses.SubjectID",
+        "Subjects.ID",
+        "Subjects.Name",
+        "Subjects.Description",
+        "Subjects.DifficultyID",
+        "Textbooks.ID",
+        "Textbooks.Title",
+        "Textbooks.Author",
+        "Textbooks.ISBN",
+        "Textbooks.SubjectID"
+    ]
+}

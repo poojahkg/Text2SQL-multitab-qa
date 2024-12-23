@@ -1,0 +1,12 @@
+{
+    "scope_lab_technicians_instruments_dump": [
+        "Instruments.id",
+        "Instruments.instrumentName",
+        "Instruments.description",
+        "Lab_Technicians.id",
+        "Lab_Technicians.name",
+        "Lab_Technicians.email",
+        "Lab_Technicians_Instruments.technicianId",
+        "Lab_Technicians_Instruments.instrumentId"
+    ]
+}

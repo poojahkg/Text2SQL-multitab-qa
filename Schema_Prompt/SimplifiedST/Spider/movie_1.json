@@ -1,0 +1,14 @@
+{
+    "movie_1": [
+        "Movie.mID",
+        "Movie.title",
+        "Movie.year",
+        "Movie.director",
+        "Reviewer.rID",
+        "Reviewer.name",
+        "Rating.rID",
+        "Rating.mID",
+        "Rating.stars",
+        "Rating.ratingDate"
+    ]
+}

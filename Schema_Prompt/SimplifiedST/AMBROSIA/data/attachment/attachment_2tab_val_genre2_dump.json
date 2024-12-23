@@ -1,0 +1,33 @@
+{
+    "attachment_2tab_val_genre2_dump": [
+        "Actors.id",
+        "Actors.name",
+        "Actors.birthDate",
+        "Actors.nationality",
+        "Directors.id",
+        "Directors.name",
+        "Directors.birthDate",
+        "Directors.nationality",
+        "FantasyMovies.id",
+        "FantasyMovies.title",
+        "FantasyMovies.director",
+        "FantasyMovies.releaseYear",
+        "FantasyMovies.fantasy",
+        "FantasyMovies.filmingLocation",
+        "Productions.id",
+        "Productions.movieTitle",
+        "Productions.productionCompany",
+        "Productions.budget",
+        "Productions.startDate",
+        "Productions.endDate",
+        "Roles.movieId",
+        "Roles.actorId",
+        "Roles.roleName",
+        "SciFiMovies.id",
+        "SciFiMovies.title",
+        "SciFiMovies.director",
+        "SciFiMovies.releaseYear",
+        "SciFiMovies.sciFi",
+        "SciFiMovies.filmingLocation"
+    ]
+}

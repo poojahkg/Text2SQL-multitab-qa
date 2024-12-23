@@ -1,0 +1,16 @@
+{
+    "entertainment_awards": [
+        "festival_detail.Festival_ID",
+        "festival_detail.Festival_Name",
+        "festival_detail.Chair_Name",
+        "festival_detail.Location",
+        "festival_detail.Year",
+        "festival_detail.Num_of_Audience",
+        "artwork.Artwork_ID",
+        "artwork.Type",
+        "artwork.Name",
+        "nomination.Artwork_ID",
+        "nomination.Festival_ID",
+        "nomination.Result"
+    ]
+}

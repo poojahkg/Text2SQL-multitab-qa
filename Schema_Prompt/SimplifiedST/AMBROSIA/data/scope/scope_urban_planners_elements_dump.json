@@ -1,0 +1,11 @@
+{
+    "scope_urban_planners_elements_dump": [
+        "Elements.id",
+        "Elements.element_name",
+        "Urban_Planners.id",
+        "Urban_Planners.name",
+        "Urban_Planners.experience",
+        "Urban_Planners_Elements.urban_planner_id",
+        "Urban_Planners_Elements.element_id"
+    ]
+}

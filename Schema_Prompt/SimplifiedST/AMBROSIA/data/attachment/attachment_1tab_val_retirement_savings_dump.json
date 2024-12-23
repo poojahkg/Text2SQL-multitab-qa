@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_val_retirement_savings_dump": [
+        "Accounts.AccountID",
+        "Accounts.ClientID",
+        "Accounts.AccountType",
+        "Accounts.Balance",
+        "Clients.ClientID",
+        "Clients.Email",
+        "Clients.FullName",
+        "Investments.InvestmentID",
+        "Investments.AccountID",
+        "Investments.Ticker",
+        "Investments.Shares",
+        "Investments.PricePerShare",
+        "Investments.TotalInvestment",
+        "Pensions.PensionID",
+        "Pensions.ClientID",
+        "Pensions.Retirement_Savings",
+        "Pensions.Rate_of_return",
+        "Pensions.ContributionAmount"
+    ]
+}

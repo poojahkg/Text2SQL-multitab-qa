@@ -1,0 +1,33 @@
+{
+    "attachment_1tab_ref_board_member_dump": [
+        "Accounts.AccountID",
+        "Accounts.CustomerID",
+        "Accounts.Balance",
+        "Accounts.Type",
+        "Board_Members.ID",
+        "Board_Members.MemberName",
+        "Board_Members.Role",
+        "Board_Members.OrganizationID",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.DateOfBirth",
+        "Customers.EmailAddress",
+        "Customers.PhoneNumber",
+        "Customers.AddressLine1",
+        "Customers.AddressLine2",
+        "Customers.City",
+        "Customers.State",
+        "Customers.ZipCode",
+        "Customers.Country",
+        "Loans.LoanID",
+        "Loans.CustomerID",
+        "Loans.Amount",
+        "Loans.InterestRate",
+        "Loans.StartDate",
+        "Loans.EndDate",
+        "Loans.Status",
+        "Organizations.ID",
+        "Organizations.Name"
+    ]
+}

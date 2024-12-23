@@ -1,0 +1,31 @@
+{
+    "vague_2tabs_aircraft_family_dump": [
+        "Airport.id",
+        "Airport.airport_code",
+        "Airport.name",
+        "Airport.city",
+        "Airport.country",
+        "Flight.id",
+        "Flight.flight_date",
+        "Flight.departure_airport_id",
+        "Flight.arrival_airport_id",
+        "Flight.plane_id",
+        "Manufacturer_Name.id",
+        "Manufacturer_Name.manufacturer_name",
+        "Manufacturer_Name.country",
+        "Model_Name.id",
+        "Model_Name.model_name",
+        "Model_Name.year_introduced",
+        "Model_Name.MAX_PASSENGERS",
+        "Plane.id",
+        "Plane.plane_model_id",
+        "Plane.manufacturer_id",
+        "Plane.registration_number",
+        "Plane.aircraft_type",
+        "Plane.current_location",
+        "Runway.id",
+        "Runway.runway_length",
+        "Runway.runway_width",
+        "Runway.airport_id"
+    ]
+}

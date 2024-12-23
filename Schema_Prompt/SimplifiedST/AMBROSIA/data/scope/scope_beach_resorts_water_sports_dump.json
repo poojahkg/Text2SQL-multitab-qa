@@ -1,0 +1,12 @@
+{
+    "scope_beach_resorts_water_sports_dump": [
+        "Beach_Resorts.ResortID",
+        "Beach_Resorts.Name",
+        "Beach_Resorts.Location",
+        "Beach_Resorts_Water_Sports.ResortID",
+        "Beach_Resorts_Water_Sports.SportID",
+        "Water_Sports.SportID",
+        "Water_Sports.Name",
+        "Water_Sports.Description"
+    ]
+}

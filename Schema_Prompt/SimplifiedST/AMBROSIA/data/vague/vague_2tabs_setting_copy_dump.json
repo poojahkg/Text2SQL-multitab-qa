@@ -1,0 +1,18 @@
+{
+    "vague_2tabs_setting_copy_dump": [
+        "Character.id",
+        "Character.name",
+        "Character.role",
+        "Character.story_id",
+        "Episode.id",
+        "Episode.episode_number",
+        "Episode.title",
+        "Episode.release_date",
+        "Episode.story_id",
+        "Review.id",
+        "Review.reviewer_name",
+        "Review.rating",
+        "Review.comment",
+        "Review.episode_id"
+    ]
+}

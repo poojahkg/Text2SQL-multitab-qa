@@ -1,0 +1,17 @@
+{
+    "scope_architects_building_types_dump": [
+        "Architects.id",
+        "Architects.name",
+        "Architects.experience",
+        "Architects_Building_Types.architect_id",
+        "Architects_Building_Types.building_type_id",
+        "Building_Types.id",
+        "Building_Types.type",
+        "Job_Postings.id",
+        "Job_Postings.title",
+        "Job_Postings.description",
+        "Job_Postings.required_skills",
+        "Job_Postings.salary",
+        "Job_Postings.post_date"
+    ]
+}

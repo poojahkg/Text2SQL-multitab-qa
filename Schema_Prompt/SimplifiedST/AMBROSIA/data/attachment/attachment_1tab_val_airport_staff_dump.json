@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_val_airport_staff_dump": [
+        "Airports.AirportID",
+        "Airports.Name",
+        "Airports.City",
+        "Airports.Country",
+        "Flights.FlightID",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Flights.OriginAirportID",
+        "Flights.DestinationAirportID",
+        "Flights.AssignedStaffID",
+        "Languages.LanguageID",
+        "Languages.Name",
+        "Staff.StaffID",
+        "Staff.Position",
+        "Staff.AirportID",
+        "Staff.LanguageID",
+        "Staff.FullName"
+    ]
+}

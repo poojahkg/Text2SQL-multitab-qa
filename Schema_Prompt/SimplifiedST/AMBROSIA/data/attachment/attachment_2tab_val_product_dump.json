@@ -1,0 +1,20 @@
+{
+    "attachment_2tab_val_product_dump": [
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.DateOfBirth",
+        "Customers.Email",
+        "Loans.LoanID",
+        "Loans.CustomerID",
+        "Loans.Amount",
+        "Loans.StartDate",
+        "Loans.EndDate",
+        "Loans.Rate",
+        "Transactions.TransactionID",
+        "Transactions.AccountID",
+        "Transactions.Type",
+        "Transactions.Amount",
+        "Transactions.DateAndTime"
+    ]
+}

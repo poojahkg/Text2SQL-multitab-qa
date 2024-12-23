@@ -1,0 +1,104 @@
+Instructions for Writing Queries
+Understand the Schema:
+
+The singer table contains information about singers such as their name, birth year, net worth, and citizenship.
+The song table contains details about songs, including the singer's ID as a foreign key, sales, and chart performance.
+Analyze the Question:
+
+Determine which tables and fields are required to extract the data.
+Identify any filtering, grouping, or aggregations needed.
+Use SQL Techniques:
+
+Use JOIN to combine related tables.
+Use DISTINCT to filter unique results.
+Use LIMIT to restrict the number of rows returned.
+Use subqueries for intermediate calculations or filtering.
+Apply grouping and aggregation (GROUP BY, COUNT, AVG, etc.) when needed.
+Write and Validate the Query:
+
+Structure the query logically step by step.
+Test to ensure accuracy and completeness.
+Few-Shot Questions and Queries
+Example 1:
+Question: List the titles of all songs by singers born before 1990.
+Query:
+
+sql
+Copy code
+SELECT s.Title
+FROM song s
+JOIN singer sg ON s.Singer_ID = sg.Singer_ID
+WHERE sg.Birth_Year < 1990;
+Example 2:
+Question: Find the song with the highest sales.
+Query:
+
+sql
+Copy code
+SELECT s.Title, s.Sales
+FROM song s
+ORDER BY s.Sales DESC
+LIMIT 1;
+Example 3:
+Question: What is the average net worth of singers who have had a song reach the number 1 position on the charts?
+Query:
+
+sql
+Copy code
+SELECT AVG(sg.Net_Worth_Millions) AS Average_Net_Worth
+FROM singer sg
+WHERE sg.Singer_ID IN (SELECT s.Singer_ID FROM song s WHERE s.Highest_Position = 1);
+Example 4:
+Question: List all singers with more than 5 songs.
+Query:
+
+sql
+Copy code
+SELECT sg.Name, COUNT(s.Song_ID) AS Song_Count
+FROM singer sg
+JOIN song s ON sg.Singer_ID = s.Singer_ID
+GROUP BY sg.Singer_ID, sg.Name
+HAVING COUNT(s.Song_ID) > 5;
+Example 5:
+Question: Find the citizenship with the highest total song sales.
+Query:
+
+sql
+Copy code
+SELECT sg.Citizenship, SUM(s.Sales) AS Total_Sales
+FROM singer sg
+JOIN song s ON sg.Singer_ID = s.Singer_ID
+GROUP BY sg.Citizenship
+ORDER BY Total_Sales DESC
+LIMIT 1;
+Example 6:
+Question: List the titles of songs by the singer with the highest net worth.
+Query:
+
+sql
+Copy code
+SELECT s.Title
+FROM song s
+WHERE s.Singer_ID = (SELECT sg.Singer_ID FROM singer sg ORDER BY sg.Net_Worth_Millions DESC LIMIT 1);
+Example 7:
+Question: What is the total number of songs that have achieved a chart position of 10 or better?
+Query:
+
+sql
+Copy code
+SELECT COUNT(*) AS Top_10_Songs
+FROM song
+WHERE Highest_Position <= 10;
+Example 8:
+Question: List all singers who have released a song with sales greater than 1 million.
+Query:
+
+sql
+Copy code
+SELECT DISTINCT sg.Name
+FROM singer sg
+JOIN song s ON sg.Singer_ID = s.Singer_ID
+WHERE s.Sales > 1000000;
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

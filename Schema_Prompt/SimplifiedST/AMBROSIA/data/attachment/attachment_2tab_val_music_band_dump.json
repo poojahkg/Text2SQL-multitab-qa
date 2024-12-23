@@ -1,0 +1,28 @@
+{
+    "attachment_2tab_val_music_band_dump": [
+        "Concerts.Date",
+        "Concerts.Location",
+        "Concerts.Headliner",
+        "Concerts.Openers",
+        "Concerts.Ticket_Price",
+        "Fans.Name",
+        "Fans.Age",
+        "Fans.Preferred_Genre",
+        "Jazz_Bands.Band",
+        "Jazz_Bands.Founding_Year",
+        "Jazz_Bands.Genre",
+        "Jazz_Bands.Lead_Singer",
+        "Jazz_Bands.Instruments",
+        "Music_Labels.Label_Name",
+        "Music_Labels.Artists",
+        "Music_Labels.Year_Established",
+        "Rock_Bands.Band",
+        "Rock_Bands.Founding_Year",
+        "Rock_Bands.Genre",
+        "Rock_Bands.Lead_Guitarist",
+        "Rock_Bands.Drummer",
+        "Venues.Name",
+        "Venues.Address",
+        "Venues.Capacity"
+    ]
+}

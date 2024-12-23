@@ -1,0 +1,32 @@
+{
+    "attachment_1tab_val_beverage_professional_dump": [
+        "Beverages.id",
+        "Beverages.Name",
+        "Beverages.Type",
+        "Beverages.Price",
+        "Employees.id",
+        "Employees.Professional_id",
+        "Employees.Date_of_birth",
+        "Employees.Email",
+        "Employees.Phone_number",
+        "Orders.id",
+        "Orders.Ordered_by",
+        "Orders.Item_name",
+        "Orders.Quantity",
+        "Orders.Date_ordered",
+        "Orders.Total_amount",
+        "Professionals.id",
+        "Professionals.Position",
+        "Professionals.FullName",
+        "Reservations.id",
+        "Reservations.Customer_id",
+        "Reservations.Table_Number",
+        "Reservations.Reservation_date",
+        "Reservations.Party_size",
+        "Reservations.Total_cost",
+        "Restaurants.id",
+        "Restaurants.Name",
+        "Restaurants.Location",
+        "Restaurants.Opening_hours"
+    ]
+}

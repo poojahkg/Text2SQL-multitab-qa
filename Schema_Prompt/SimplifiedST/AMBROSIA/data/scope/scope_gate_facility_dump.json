@@ -1,0 +1,20 @@
+{
+    "scope_gate_facility_dump": [
+        "Aircraft.aircraft_id",
+        "Aircraft.model",
+        "Aircraft.capacity",
+        "Facility.facility_id",
+        "Facility.name",
+        "Facility.description",
+        "Flight.flight_id",
+        "Flight.airline_name",
+        "Flight.departure_time",
+        "Flight.arrival_time",
+        "Gate.gate_id",
+        "Gate.airport_code",
+        "Gate.terminal_number",
+        "Gate_Facility.gate_facility_id",
+        "Gate_Facility.gate_id",
+        "Gate_Facility.facility_id"
+    ]
+}

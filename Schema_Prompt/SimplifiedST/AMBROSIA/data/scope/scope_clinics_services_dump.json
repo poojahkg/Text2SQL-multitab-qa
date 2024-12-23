@@ -1,0 +1,22 @@
+{
+    "scope_clinics_services_dump": [
+        "Appointments.appointment_id",
+        "Appointments.patient_id",
+        "Appointments.clinic_id",
+        "Appointments.service_id",
+        "Appointments.appointment_date",
+        "Clinics.clinic_id",
+        "Clinics.name",
+        "Clinics.address",
+        "Clinics_Services.clinics_services_id",
+        "Clinics_Services.clinic_id",
+        "Clinics_Services.service_id",
+        "Patients.patient_id",
+        "Patients.first_name",
+        "Patients.last_name",
+        "Patients.date_of_birth",
+        "Patients.phone_number",
+        "Services.service_id",
+        "Services.service_name"
+    ]
+}

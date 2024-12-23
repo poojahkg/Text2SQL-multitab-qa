@@ -1,0 +1,22 @@
+{
+    "attachment_2tab_ref_musical_instrument_dump": [
+        "Guitarists.id",
+        "Guitarists.musician_id",
+        "Guitarists.guitar_model_id",
+        "Guitars.id",
+        "Guitars.model_name",
+        "Guitars.price",
+        "Guitars.manufacturer_id",
+        "Manufacturers.id",
+        "Manufacturers.name",
+        "Musicians.id",
+        "Musicians.name",
+        "Pianists.id",
+        "Pianists.musician_id",
+        "Pianists.piano_model_id",
+        "Pianos.id",
+        "Pianos.model_name",
+        "Pianos.price",
+        "Pianos.manufacturer_id"
+    ]
+}

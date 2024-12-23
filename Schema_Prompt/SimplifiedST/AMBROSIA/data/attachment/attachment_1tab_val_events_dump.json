@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_val_events_dump": [
+        "ArticleCategories.article_id",
+        "ArticleCategories.category_id",
+        "ArticleReporters.reporter_id",
+        "ArticleReporters.article_id",
+        "ArticleSources.source_id",
+        "ArticleSources.article_id",
+        "Articles.id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.date",
+        "Categories.id",
+        "Categories.name",
+        "Reporters.id",
+        "Reporters.name",
+        "Reporters.email",
+        "Sources.id",
+        "Sources.name",
+        "Sources.event",
+        "Sources.person"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "scope_bank_statements_information_dump": [
+        "Accounts.id",
+        "Accounts.name",
+        "Accounts.balance",
+        "Bank_Statement_Information.bank_statement_info_id",
+        "Bank_Statement_Information.bank_statements_id",
+        "Bank_Statement_Information.information_id",
+        "Bank_Statements.statement_id",
+        "Bank_Statements.account_id",
+        "Bank_Statements.transaction_id",
+        "Information.info_id",
+        "Information.description",
+        "Information.value",
+        "Transactions.id",
+        "Transactions.date",
+        "Transactions.amount",
+        "Transactions.type"
+    ]
+}

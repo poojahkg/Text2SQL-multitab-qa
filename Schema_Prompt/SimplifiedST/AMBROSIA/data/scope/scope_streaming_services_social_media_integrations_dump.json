@@ -1,0 +1,18 @@
+{
+    "scope_streaming_services_social_media_integrations_dump": [
+        "Arbitrary_Table1.id",
+        "Arbitrary_Table1.column1",
+        "Arbitrary_Table1.column2",
+        "Arbitrary_Table2.id",
+        "Arbitrary_Table2.column1",
+        "Arbitrary_Table2.column2",
+        "Social_Media_Integrations.id",
+        "Social_Media_Integrations.integration_type",
+        "Social_Media_Integrations.description",
+        "Streaming_Services.id",
+        "Streaming_Services.service_name",
+        "Streaming_Services.subscription_fee",
+        "Streaming_Services_Social_Media_Integrations.streaming_service_id",
+        "Streaming_Services_Social_Media_Integrations.social_media_integration_id"
+    ]
+}

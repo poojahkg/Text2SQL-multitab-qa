@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_val_higher_education_institutions_dump": [
+        "Courses.CourseID",
+        "Courses.Title",
+        "Courses.Description",
+        "Courses.Department",
+        "Courses.Credit",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.CourseID",
+        "Enrollments.Grade",
+        "Professors.ProfessorID",
+        "Professors.FirstName",
+        "Professors.LastName",
+        "Professors.Department",
+        "Professors.OfficeNumber",
+        "Students.StudentID",
+        "Students.DateOfBirth",
+        "Students.HigherEducationInstitution",
+        "Students.AcademicProgram",
+        "Students.FullName"
+    ]
+}

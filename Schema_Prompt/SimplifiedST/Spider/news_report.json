@@ -1,0 +1,17 @@
+{
+    "news_report": [
+        "event.Event_ID",
+        "event.Date",
+        "event.Venue",
+        "event.Name",
+        "event.Event_Attendance",
+        "journalist.journalist_ID",
+        "journalist.Name",
+        "journalist.Nationality",
+        "journalist.Age",
+        "journalist.Years_working",
+        "news_report.journalist_ID",
+        "news_report.Event_ID",
+        "news_report.Work_Type"
+    ]
+}

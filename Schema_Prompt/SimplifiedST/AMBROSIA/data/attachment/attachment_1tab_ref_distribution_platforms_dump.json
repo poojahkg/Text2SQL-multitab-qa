@@ -1,0 +1,19 @@
+{
+    "attachment_1tab_ref_distribution_platforms_dump": [
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.PublishDate",
+        "Articles.AuthorID",
+        "Authors.AuthorID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.BirthDate",
+        "DistributionPlatforms.PlatformID",
+        "DistributionPlatforms.Name",
+        "DistributionPlatforms.Type",
+        "Publications.PublicationID",
+        "Publications.Name",
+        "Publications.Description"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "scope_community_development_corporations_initiatives_dump": [
+        "Community_Development_Corporations.id",
+        "Community_Development_Corporations.name",
+        "Community_Development_Corporations.location",
+        "Community_Development_Corporations_Initiatives.community_development_corporation_id",
+        "Community_Development_Corporations_Initiatives.initiative_id",
+        "Initiatives.id",
+        "Initiatives.initiative_name",
+        "Initiatives.description"
+    ]
+}

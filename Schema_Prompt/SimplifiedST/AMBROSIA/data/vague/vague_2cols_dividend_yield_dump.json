@@ -1,0 +1,30 @@
+{
+    "vague_2cols_dividend_yield_dump": [
+        "Accounts.AccountNumber",
+        "Accounts.CustomerID",
+        "Accounts.Balance",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Dividends.DividendID",
+        "Dividends.ShareID",
+        "Dividends.DividendAmount",
+        "Dividends.ExpectedPaymentDate",
+        "Dividends.Dividend_Percentage",
+        "Dividends.Dividend_Value",
+        "ShareTransactions.ShareTransactionID",
+        "ShareTransactions.BuyOrSell",
+        "ShareTransactions.CustomerID",
+        "ShareTransactions.ShareID",
+        "ShareTransactions.Quantity",
+        "ShareTransactions.Price",
+        "ShareTransactions.Commission",
+        "Shares.ShareID",
+        "Shares.Stock",
+        "Shares.NumberOfShares",
+        "Transactions.TransactionID",
+        "Transactions.AccountNumber",
+        "Transactions.Amount",
+        "Transactions.TransactionDate"
+    ]
+}

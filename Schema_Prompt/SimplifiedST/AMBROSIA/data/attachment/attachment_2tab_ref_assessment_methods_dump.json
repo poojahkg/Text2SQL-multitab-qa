@@ -1,0 +1,20 @@
+{
+    "attachment_2tab_ref_assessment_methods_dump": [
+        "Assessors.id",
+        "Assessors.name",
+        "Exams.id",
+        "Exams.student_id",
+        "Exams.marks",
+        "Quizzes.id",
+        "Quizzes.student_id",
+        "Quizzes.points",
+        "StudentSubjects.student_id",
+        "StudentSubjects.subject_id",
+        "Students.id",
+        "Students.name",
+        "Students.age",
+        "Subjects.id",
+        "Subjects.subject_name",
+        "Subjects.assessor_id"
+    ]
+}

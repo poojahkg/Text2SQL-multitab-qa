@@ -1,0 +1,13 @@
+{
+    "scope_political_reporters_elections_dump": [
+        "Elections.id",
+        "Elections.election_type",
+        "Elections.start_date",
+        "Elections.end_date",
+        "Political_Reporters.id",
+        "Political_Reporters.name",
+        "Political_Reporters.email",
+        "Political_Reporters_Elections.reporter_id",
+        "Political_Reporters_Elections.election_id"
+    ]
+}

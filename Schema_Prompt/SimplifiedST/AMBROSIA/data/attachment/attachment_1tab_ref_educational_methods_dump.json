@@ -1,0 +1,32 @@
+{
+    "attachment_1tab_ref_educational_methods_dump": [
+        "Classes.classID",
+        "Classes.title",
+        "Classes.startDate",
+        "Classes.endDate",
+        "Classes.EducatorID",
+        "CourseMaterials.materialID",
+        "CourseMaterials.title",
+        "CourseMaterials.url",
+        "Curriculums.curriculumID",
+        "Curriculums.name",
+        "Curriculums.EducatorID",
+        "Educators.educatorID",
+        "Educators.firstName",
+        "Educators.lastName",
+        "Educators.subject",
+        "Enrollments.enrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.classID",
+        "Enrollments.courseMaterialID",
+        "Lessons.lessonID",
+        "Lessons.content",
+        "Lessons.educationalMethod",
+        "Lessons.curriculumID",
+        "Lessons.classID",
+        "Students.studentID",
+        "Students.firstName",
+        "Students.lastName",
+        "Students.dateOfBirth"
+    ]
+}

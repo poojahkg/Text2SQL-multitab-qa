@@ -1,0 +1,20 @@
+{
+    "scope_newspapers_sections_dump": [
+        "Article_Authors.article_id",
+        "Article_Authors.author_id",
+        "Articles.id",
+        "Articles.article_title",
+        "Articles.article_content",
+        "Articles.publication_date",
+        "Authors.id",
+        "Authors.author_name",
+        "Newspaper_Authors.newspaper_id",
+        "Newspaper_Authors.author_id",
+        "Newspapers.id",
+        "Newspapers.newspaper_name",
+        "Newspapers_Sections.newspaper_id",
+        "Newspapers_Sections.section_id",
+        "Sections.id",
+        "Sections.section_name"
+    ]
+}

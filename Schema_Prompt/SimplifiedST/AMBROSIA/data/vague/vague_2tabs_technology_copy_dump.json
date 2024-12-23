@@ -1,0 +1,14 @@
+{
+    "vague_2tabs_technology_copy_dump": [
+        "Article.id",
+        "Article.title",
+        "Article.content",
+        "Article.author_id",
+        "Article.category_id",
+        "Author.id",
+        "Author.name",
+        "Author.email",
+        "Category.id",
+        "Category.name"
+    ]
+}

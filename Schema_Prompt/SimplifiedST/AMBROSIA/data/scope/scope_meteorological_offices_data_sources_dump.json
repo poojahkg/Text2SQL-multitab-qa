@@ -1,0 +1,23 @@
+{
+    "scope_meteorological_offices_data_sources_dump": [
+        "Data_Sources.id",
+        "Data_Sources.source_type",
+        "Data_Sources.description",
+        "Flights.flight_number",
+        "Flights.departure_time",
+        "Flights.arrival_time",
+        "Flights.destination_airport",
+        "Flights.airline_company",
+        "Meteorological_Offices.id",
+        "Meteorological_Offices.name",
+        "Meteorological_Offices.location",
+        "Meteorological_Offices_Data_Sources.meteo_office_id",
+        "Meteorological_Offices_Data_Sources.data_source_id",
+        "Runways.id",
+        "Runways.length",
+        "Runways.width",
+        "Terminals.id",
+        "Terminals.terminal_name",
+        "Terminals.capacity"
+    ]
+}

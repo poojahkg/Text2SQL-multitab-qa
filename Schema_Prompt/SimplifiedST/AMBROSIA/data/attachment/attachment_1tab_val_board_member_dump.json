@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_val_board_member_dump": [
+        "Accounts.account_id",
+        "Accounts.cust_id",
+        "Accounts.balance",
+        "Customers.cust_id",
+        "Customers.first_name",
+        "Customers.last_name",
+        "Customers.email",
+        "Customers.phone_number",
+        "Customers.emp_id",
+        "Employees.emp_id",
+        "Employees.position",
+        "Employees.Board_Member",
+        "Employees.Organization",
+        "Employees.FullName",
+        "Transactions.transaction_id",
+        "Transactions.account_id",
+        "Transactions.amount",
+        "Transactions.date"
+    ]
+}

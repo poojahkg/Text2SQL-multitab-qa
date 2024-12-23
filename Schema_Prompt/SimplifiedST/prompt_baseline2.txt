@@ -1,0 +1,42 @@
+You are an expert at semantic parsing. You will be given a single table schema of the format table_name.column_name and a question. Please return the sql query with the correct format and syntax. Remember to focus on getting the correct table retrieval, column extraction, join union queries and the where clauses. 
+
+Example Schema:
+{
+    "information": [
+        "users.user_id",
+        "users.name",
+        "users.email",
+        "orders.order_id",
+        "orders.user_id",
+        "orders.order_date",
+        "orders.total_amount",
+        "products.product_id",
+        "products.product_name",
+        "products.price",
+        "order_items.order_item_id",
+        "order_items.order_id",
+        "order_items.product_id",
+        "order_items.quantity"
+    ]
+}
+
+Few-Shot Examples:
+Example 1
+Question: What are the names and email addresses of all users?
+SQL Query:
+
+sql
+Copy code
+SELECT users.name, users.email
+FROM information;
+
+Example 2
+Question: Retrieve all orders along with the total amount for each order.
+SQL Query:
+
+sql
+Copy code
+SELECT orders.order_id, orders.total_amount
+FROM information;
+
+Question:   

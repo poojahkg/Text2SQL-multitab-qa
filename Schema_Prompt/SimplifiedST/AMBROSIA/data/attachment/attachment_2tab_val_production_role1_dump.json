@@ -1,0 +1,31 @@
+{
+    "attachment_2tab_val_production_role1_dump": [
+        "Actors.ID",
+        "Actors.Name",
+        "Actors.Age",
+        "Actors.Role",
+        "Directors.ID",
+        "Directors.Name",
+        "Directors.Movies_Directed",
+        "Directors.Director",
+        "Editors.ID",
+        "Editors.Name",
+        "Editors.Specialization",
+        "Editors.Experience",
+        "Editors.Editor",
+        "Editors.Deadline",
+        "MovieCrew.ID",
+        "MovieCrew.Position",
+        "MovieCrew.PersonID",
+        "MovieCrew.HouseID",
+        "ProductionHouses.ID",
+        "ProductionHouses.Name",
+        "ProductionHouses.Location",
+        "Scripts.ID",
+        "Scripts.Title",
+        "Scripts.Genre",
+        "Scripts.Duration",
+        "Scripts.Scriptwriter",
+        "Scripts.Deadline"
+    ]
+}

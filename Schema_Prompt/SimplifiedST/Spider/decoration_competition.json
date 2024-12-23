@@ -1,0 +1,16 @@
+{
+    "decoration_competition": [
+        "college.College_ID",
+        "college.Name",
+        "college.Leader_Name",
+        "college.College_Location",
+        "member.Member_ID",
+        "member.Name",
+        "member.Country",
+        "member.College_ID",
+        "round.Round_ID",
+        "round.Member_ID",
+        "round.Decoration_Theme",
+        "round.Rank_in_Round"
+    ]
+}

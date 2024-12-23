@@ -1,0 +1,17 @@
+{
+    "musical": [
+        "musical.Musical_ID",
+        "musical.Name",
+        "musical.Year",
+        "musical.Award",
+        "musical.Category",
+        "musical.Nominee",
+        "musical.Result",
+        "actor.Actor_ID",
+        "actor.Name",
+        "actor.Musical_ID",
+        "actor.Character",
+        "actor.Duration",
+        "actor.age"
+    ]
+}

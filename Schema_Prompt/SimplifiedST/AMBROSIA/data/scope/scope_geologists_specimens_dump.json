@@ -1,0 +1,12 @@
+{
+    "scope_geologists_specimens_dump": [
+        "Geologists.id",
+        "Geologists.name",
+        "Geologists.email",
+        "Geologists_Specimens.geologistId",
+        "Geologists_Specimens.specimenType",
+        "Specimens.id",
+        "Specimens.type",
+        "Specimens.description"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "scope_investigative_reports_elements_dump": [
+        "Articles.id",
+        "Articles.journalist_id",
+        "Articles.publication_id",
+        "Articles.article_title",
+        "Articles.publish_date",
+        "Investigative_Reports.id",
+        "Investigative_Reports.report_name",
+        "Investigative_Reports.start_date",
+        "Investigative_Reports.end_date",
+        "Investigative_Reports.article_id",
+        "Journalists.id",
+        "Journalists.name",
+        "Journalists.email",
+        "Publications.id",
+        "Publications.title",
+        "Publications.publication_date"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_val_portable_computer_dump": [
+        "Devices.DeviceID",
+        "Devices.Portable_Computer",
+        "Devices.Operating_System",
+        "Devices.ReleaseDate",
+        "Devices.Price",
+        "Games.GameID",
+        "Games.Title",
+        "Games.Developer",
+        "Games.Genre",
+        "Games.PlatformId",
+        "Movies.MovieID",
+        "Movies.Title",
+        "Movies.Director",
+        "Movies.ReleaseYear",
+        "Movies.Runtime",
+        "Movies.Rating",
+        "MusicAlbums.AlbumID",
+        "MusicAlbums.ArtistName",
+        "MusicAlbums.AlbumTitle",
+        "MusicAlbums.YearReleased",
+        "MusicAlbums.NumTracks"
+    ]
+}

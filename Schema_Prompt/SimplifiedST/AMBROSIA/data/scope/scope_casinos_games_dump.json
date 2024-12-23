@@ -1,0 +1,12 @@
+{
+    "scope_casinos_games_dump": [
+        "Casinos.id",
+        "Casinos.name",
+        "Casinos.location",
+        "Casinos_Games.casino_id",
+        "Casinos_Games.game_id",
+        "Games.id",
+        "Games.game_name",
+        "Games.description"
+    ]
+}

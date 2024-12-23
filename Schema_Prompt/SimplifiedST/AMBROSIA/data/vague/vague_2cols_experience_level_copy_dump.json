@@ -1,0 +1,20 @@
+{
+    "vague_2cols_experience_level_copy_dump": [
+        "Applicants.id",
+        "Applicants.name",
+        "Applicants.email",
+        "Applicants.phone",
+        "Applicants.resume",
+        "Companies.id",
+        "Companies.name",
+        "Companies.industry",
+        "Companies.size",
+        "CompanyJobs.company_id",
+        "CompanyJobs.job_id",
+        "Jobs.id",
+        "Jobs.title",
+        "Jobs.description",
+        "Jobs.location",
+        "Jobs.salary"
+    ]
+}

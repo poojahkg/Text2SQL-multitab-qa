@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_val_consumer_lending_dump": [
+        "Account.AccountNumber",
+        "Account.Balance",
+        "Account.InterestRate",
+        "Account.ConsumerLending",
+        "Account.ForeignKeyCustomerID",
+        "AccountType.TypeID",
+        "AccountType.AccountTypeName",
+        "Customer.CustomerID",
+        "Customer.FirstName",
+        "Customer.LastName",
+        "Customer.DateOfBirth",
+        "Transactions.TransactionID",
+        "Transactions.Amount",
+        "Transactions.TypeID",
+        "Transactions.AccountNumber",
+        "Transactions.ForeignKeyAccountNumber"
+    ]
+}

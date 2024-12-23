@@ -1,0 +1,18 @@
+{
+    "train_station": [
+        "station.Station_ID",
+        "station.Name",
+        "station.Annual_entry_exit",
+        "station.Annual_interchanges",
+        "station.Total_Passengers",
+        "station.Location",
+        "station.Main_Services",
+        "station.Number_of_Platforms",
+        "train.Train_ID",
+        "train.Name",
+        "train.Time",
+        "train.Service",
+        "train_station.Train_ID",
+        "train_station.Station_ID"
+    ]
+}

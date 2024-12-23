@@ -1,0 +1,24 @@
+{
+    "attachment_2tab_val_news_sources_dump": [
+        "Articles.articleID",
+        "Articles.title",
+        "Articles.authorName",
+        "Articles.publishDate",
+        "Articles.content",
+        "Interviews.interviewID",
+        "Interviews.intervieweeName",
+        "Interviews.interviewerName",
+        "Interviews.interviewDate",
+        "Interviews.content",
+        "Interviews.FK_articleID",
+        "PressReleases.pressReleaseID",
+        "PressReleases.title",
+        "PressReleases.releaseDate",
+        "PressReleases.content",
+        "PressReleases.FK_articleID",
+        "Sources.sourceID",
+        "Sources.name",
+        "Sources.description",
+        "Sources.contactInfo"
+    ]
+}

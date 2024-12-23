@@ -1,0 +1,22 @@
+{
+    "vague_2cols_origins_dump": [
+        "Countries.id",
+        "Countries.country_name",
+        "Education_Levels.education_level_id",
+        "Education_Levels.level_description",
+        "Employment.employment_id",
+        "Employment.immigrant_id",
+        "Employment.occupation_id",
+        "Employment.education_level_id",
+        "Employment.salary",
+        "Immigrants.immigrant_id",
+        "Immigrants.country_of_origin",
+        "Immigrants.region_of_origin",
+        "Immigrants.age",
+        "Immigrants.gender",
+        "Occupations.occupation_id",
+        "Occupations.occupation_title",
+        "Regions.region_id",
+        "Regions.region_name"
+    ]
+}

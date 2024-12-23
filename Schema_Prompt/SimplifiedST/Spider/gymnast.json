@@ -1,0 +1,17 @@
+{
+    "gymnast": [
+        "gymnast.Gymnast_ID",
+        "gymnast.Floor_Exercise_Points",
+        "gymnast.Pommel_Horse_Points",
+        "gymnast.Rings_Points",
+        "gymnast.Vault_Points",
+        "gymnast.Parallel_Bars_Points",
+        "gymnast.Horizontal_Bar_Points",
+        "gymnast.Total_Points",
+        "people.People_ID",
+        "people.Name",
+        "people.Age",
+        "people.Height",
+        "people.Hometown"
+    ]
+}

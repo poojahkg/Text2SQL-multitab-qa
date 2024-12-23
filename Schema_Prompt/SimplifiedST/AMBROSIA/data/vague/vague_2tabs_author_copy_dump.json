@@ -1,0 +1,12 @@
+{
+    "vague_2tabs_author_copy_dump": [
+        "Actor.id",
+        "Actor.name",
+        "Actor.birth_year",
+        "Cast.movie_id",
+        "Cast.actor_id",
+        "Cast.role",
+        "Genre.id",
+        "Genre.genre_name"
+    ]
+}

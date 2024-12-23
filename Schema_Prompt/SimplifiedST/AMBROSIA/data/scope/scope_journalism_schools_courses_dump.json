@@ -1,0 +1,12 @@
+{
+    "scope_journalism_schools_courses_dump": [
+        "Courses.id",
+        "Courses.course_name",
+        "Courses.description",
+        "Journalism_Schools.id",
+        "Journalism_Schools.name",
+        "Journalism_Schools.location",
+        "Journalism_Schools_Courses.journalism_schools_id",
+        "Journalism_Schools_Courses.course_id"
+    ]
+}

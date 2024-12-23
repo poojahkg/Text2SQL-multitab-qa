@@ -1,0 +1,13 @@
+{
+    "scope_authorities_programs_dump": [
+        "Authorities.authority_id",
+        "Authorities.name",
+        "Authorities.contact_info",
+        "Authorities_Programs.id",
+        "Authorities_Programs.authority_id",
+        "Authorities_Programs.program_id",
+        "Programs.program_id",
+        "Programs.program_name",
+        "Programs.description"
+    ]
+}

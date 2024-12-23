@@ -1,0 +1,11 @@
+{
+    "scope_advertisements_formats_dump": [
+        "Advertisements.id",
+        "Advertisements.title",
+        "Advertisements.description",
+        "Advertisements_Formats.advertisement_id",
+        "Advertisements_Formats.format_id",
+        "Formats.id",
+        "Formats.format_name"
+    ]
+}

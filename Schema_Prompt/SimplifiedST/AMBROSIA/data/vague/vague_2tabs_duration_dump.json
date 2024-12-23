@@ -1,0 +1,21 @@
+{
+    "vague_2tabs_duration_dump": [
+        "Actors.id",
+        "Actors.name",
+        "Actors.birthdate",
+        "Directors.id",
+        "Directors.name",
+        "Directors.birthdate",
+        "Genres.id",
+        "Genres.genre_name",
+        "Movies.id",
+        "Movies.title",
+        "Movies.release_year",
+        "Ratings.movie_id",
+        "Ratings.rating",
+        "Theater_Plays.theater_play_id",
+        "Theater_Plays.play_title",
+        "Theater_Plays.total_length_id",
+        "Theater_Plays.number_of_acts_id"
+    ]
+}

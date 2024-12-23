@@ -1,0 +1,20 @@
+{
+    "inn_1": [
+        "Rooms.RoomId",
+        "Rooms.roomName",
+        "Rooms.beds",
+        "Rooms.bedType",
+        "Rooms.maxOccupancy",
+        "Rooms.basePrice",
+        "Rooms.decor",
+        "Reservations.Code",
+        "Reservations.Room",
+        "Reservations.CheckIn",
+        "Reservations.CheckOut",
+        "Reservations.Rate",
+        "Reservations.LastName",
+        "Reservations.FirstName",
+        "Reservations.Adults",
+        "Reservations.Kids"
+    ]
+}

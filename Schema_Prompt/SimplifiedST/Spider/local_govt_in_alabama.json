@@ -1,0 +1,14 @@
+{
+    "local_govt_in_alabama": [
+        "Services.Service_ID",
+        "Services.Service_Type_Code",
+        "Participants.Participant_ID",
+        "Participants.Participant_Type_Code",
+        "Participants.Participant_Details",
+        "Events.Event_ID",
+        "Events.Service_ID",
+        "Events.Event_Details",
+        "Participants_in_Events.Event_ID",
+        "Participants_in_Events.Participant_ID"
+    ]
+}

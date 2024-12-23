@@ -1,0 +1,18 @@
+{
+    "scope_exam_type_of_question_dump": [
+        "Exam.id",
+        "Exam.examName",
+        "Exam.date",
+        "Exam_Type_Of_Question.examID",
+        "Exam_Type_Of_Question.questionTypeID",
+        "Student_Grades.studentId",
+        "Student_Grades.examId",
+        "Student_Grades.grade",
+        "Students.studentId",
+        "Students.firstName",
+        "Students.lastName",
+        "Students.enrollmentDate",
+        "Type_Of_Question.id",
+        "Type_Of_Question.questionType"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "vague_2tabs_creator_dump": [
+        "Category.id",
+        "Category.category_name",
+        "Director.id",
+        "Director.name",
+        "Director.birth_date",
+        "Documentary.id",
+        "Documentary.title",
+        "Documentary.release_year",
+        "Documentary.producer_id",
+        "Documentary.director_id",
+        "Documentary.category_id",
+        "Journalist.id",
+        "Journalist.journalist_name",
+        "Journalist.email",
+        "Journalist.documentary_id",
+        "Journalist.role",
+        "Producer.id",
+        "Producer.name",
+        "Producer.email"
+    ]
+}

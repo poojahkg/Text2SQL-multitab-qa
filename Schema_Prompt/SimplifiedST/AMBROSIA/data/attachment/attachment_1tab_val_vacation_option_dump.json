@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_val_vacation_option_dump": [
+        "Bookings.id",
+        "Bookings.checkInDate",
+        "Bookings.checkOutDate",
+        "Bookings.totalPrice",
+        "Bookings.roomId",
+        "Customer_Bookings.id",
+        "Customer_Bookings.customerId",
+        "Customer_Bookings.bookingId",
+        "Customers.id",
+        "Customers.name",
+        "Customers.email",
+        "Customers.phoneNumber",
+        "Customers.Vacation_Option",
+        "Customers.Activities",
+        "Rooms.id",
+        "Rooms.type",
+        "Rooms.capacity",
+        "Rooms.price"
+    ]
+}

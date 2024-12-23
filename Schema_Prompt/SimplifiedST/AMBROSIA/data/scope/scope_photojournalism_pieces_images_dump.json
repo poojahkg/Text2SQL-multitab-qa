@@ -1,0 +1,17 @@
+{
+    "scope_photojournalism_pieces_images_dump": [
+        "Images.id",
+        "Images.image_name",
+        "Images.description",
+        "Photographers.id",
+        "Photographers.name",
+        "Photographers.birth_date",
+        "Photojournalism_Pieces.id",
+        "Photojournalism_Pieces.title",
+        "Photojournalism_Pieces.date",
+        "Photojournalism_Pieces_Images.photojournalism_piece_id",
+        "Photojournalism_Pieces_Images.image_id",
+        "Photojournalism_Pieces_Photographer.photojournalism_piece_id",
+        "Photojournalism_Pieces_Photographer.photographer_id"
+    ]
+}

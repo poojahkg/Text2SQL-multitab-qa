@@ -1,0 +1,28 @@
+{
+    "attachment_2tab_val_hospitality_staff_dump": [
+        "Chefs.chef_id",
+        "Chefs.name",
+        "Chefs.language",
+        "Chefs.experience_years",
+        "Customers.customer_id",
+        "Customers.name",
+        "Customers.phone_number",
+        "Customers.preferred_server_id",
+        "Menus.menu_id",
+        "Menus.restaurant_id",
+        "Menus.dish",
+        "Menus.price",
+        "Orders.order_id",
+        "Orders.customer_id",
+        "Orders.restaurant_id",
+        "Orders.total_price",
+        "Restaurants.restaurant_id",
+        "Restaurants.name",
+        "Restaurants.address",
+        "Restaurants.cuisine",
+        "Servers.server_id",
+        "Servers.name",
+        "Servers.language",
+        "Servers.years_of_service"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_val_assessment_methods_dump": [
+        "Courses.CourseID",
+        "Courses.Title",
+        "Courses.Department",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.CourseID",
+        "Enrollments.Semester",
+        "Grades.GradeID",
+        "Grades.EnrollmentID",
+        "Grades.FinalGrade",
+        "Scores.ScoreID",
+        "Scores.EnrollmentID",
+        "Scores.AssessmentID",
+        "Scores.Score",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.Age"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "attachment_2tab_val_learning_spaces_dump": [
+        "Art_Studio.ID",
+        "Art_Studio.Name",
+        "Art_Studio.Capacity",
+        "Art_Studio.Available_Resources",
+        "Assigns.TeacherID",
+        "Assigns.StudentID",
+        "Assigns.ClassID",
+        "Class.ID",
+        "Class.Classroom",
+        "Class.Time",
+        "Class.Day",
+        "Science_Lab.ID",
+        "Science_Lab.Name",
+        "Science_Lab.Capacity",
+        "Science_Lab.Available_Resources",
+        "Student.ID",
+        "Student.FirstName",
+        "Student.LastName",
+        "Student.Age",
+        "Teacher.ID",
+        "Teacher.FirstName",
+        "Teacher.LastName",
+        "Teacher.Subject"
+    ]
+}

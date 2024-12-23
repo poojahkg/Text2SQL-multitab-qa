@@ -1,0 +1,22 @@
+{
+    "vague_2tabs_qualifications_copy_dump": [
+        "Applicant.id",
+        "Applicant.first_name",
+        "Applicant.last_name",
+        "Applicant.email",
+        "Applicant.phone_number",
+        "Applicant.application_date",
+        "Application.id",
+        "Application.applicant_id",
+        "Application.job_post_id",
+        "Application.resume_url",
+        "Application.cover_letter",
+        "Application.status",
+        "Company.id",
+        "Company.company_name",
+        "Company.location",
+        "Job_Type.id",
+        "Job_Type.type_name",
+        "Job_Type.description"
+    ]
+}

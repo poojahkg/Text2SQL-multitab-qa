@@ -1,0 +1,24 @@
+{
+    "flight_company": [
+        "airport.id",
+        "airport.City",
+        "airport.Country",
+        "airport.IATA",
+        "airport.ICAO",
+        "airport.name",
+        "operate_company.id",
+        "operate_company.name",
+        "operate_company.Type",
+        "operate_company.Principal_activities",
+        "operate_company.Incorporated_in",
+        "operate_company.Group_Equity_Shareholding",
+        "flight.id",
+        "flight.Vehicle_Flight_number",
+        "flight.Date",
+        "flight.Pilot",
+        "flight.Velocity",
+        "flight.Altitude",
+        "flight.airport_id",
+        "flight.company_id"
+    ]
+}

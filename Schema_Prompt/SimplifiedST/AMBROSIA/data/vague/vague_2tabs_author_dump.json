@@ -1,0 +1,23 @@
+{
+    "vague_2tabs_author_dump": [
+        "Actor.id",
+        "Actor.name",
+        "Actor.birth_year",
+        "Cast.movie_id",
+        "Cast.actor_id",
+        "Cast.role",
+        "Filmmaker.id",
+        "Filmmaker.name",
+        "Filmmaker.birth_year",
+        "Genre.id",
+        "Genre.genre_name",
+        "Movie.id",
+        "Movie.title",
+        "Movie.release_date",
+        "Movie.filmmaker_id",
+        "Movie.screenwriter_id",
+        "Screenwriter.id",
+        "Screenwriter.name",
+        "Screenwriter.birth_year"
+    ]
+}

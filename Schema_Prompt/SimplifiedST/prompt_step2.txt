@@ -1,0 +1,135 @@
+You will be provided:
+
+A question: A natural language description of the desired query result.
+A simplified schema: A virtual table with columns in the format table_name.column_name, combining data from multiple original tables.
+A simplified query: A SQL query written against the simplified schema.
+An original schema: A set of multiple related tables where the actual data resides.
+Your task:
+
+Translate the simplified query into a query compatible with the original schema.
+Ensure the translated query aligns with the intent described in the question.
+Follow these steps for translation:
+Steps for Translation:
+Understand the Core Objective from the Question:
+
+Identify the goal of the query (e.g., aggregate data, filter specific rows, join information across tables).
+Map Simplified Schema Columns to the Original Schema:
+
+Identify how the columns in the simplified schema correspond to tables and columns in the original schema.
+Construct Necessary Joins:
+
+If the original schema splits data across multiple tables, determine the joins needed to recreate the relationships.
+Translate Filters and Conditions:
+
+Map WHERE clauses, conditions, and filters in the simplified query to the original schema.
+Adapt Query Logic (Aggregation, Sorting, etc.):
+
+Match aggregations, grouping, or ordering logic from the simplified query to the original schema.
+Validate the Final Query Against the Question:
+
+Review the final query to ensure it satisfies the question and produces the intended result.
+
+Example 1: Aggregation Query
+Question: "Find the total spending of each customer since January 1, 2023."
+
+Simplified Schema:
+Column Name
+orders.customer_id
+orders.order_id
+orders.order_date
+transactions.amount
+
+Simplified Query:
+SELECT customer_id, SUM(amount) AS total_spent
+FROM orders
+WHERE order_date >= '2023-01-01'
+GROUP BY customer_id;
+
+Original Schema:
+Table Name	Columns
+customers	customer_id, name, email
+orders	order_id, customer_id, order_date
+transactions	transaction_id, order_id, amount
+
+Translated Query:
+SELECT o.customer_id, SUM(t.amount) AS total_spent
+FROM orders o
+JOIN transactions t ON o.order_id = t.order_id
+WHERE o.order_date >= '2023-01-01'
+GROUP BY o.customer_id;
+
+Example 2: Multi-Table Query with Filtering
+Question: "Find the average performance rating for each department during 2023."
+
+Simplified Schema:
+Column Name
+employees.employee_id
+employees.department
+performance.rating
+performance.review_date
+
+Simplified Query:
+SELECT department, AVG(rating) AS avg_rating
+FROM employees
+WHERE review_date BETWEEN '2023-01-01' AND '2023-12-31'
+GROUP BY department;
+
+Original Schema:
+Table Name	Columns
+staff	emp_id, full_name, dept_id
+departments	dept_id, dept_name
+reviews	review_id, emp_id, score, date_of_review
+
+Translated Query:
+SELECT d.dept_name AS department, AVG(r.score) AS avg_rating
+FROM staff s
+JOIN reviews r ON s.emp_id = r.emp_id
+JOIN departments d ON s.dept_id = d.dept_id
+WHERE r.date_of_review BETWEEN '2023-01-01' AND '2023-12-31'
+GROUP BY d.dept_name;
+
+Example 3: Filtering and Sorting
+
+Question: "Find the top 5 most sold products since January 1, 2023, based on quantity sold."
+
+Simplified Schema:
+Column Name
+products.product_id
+products.name
+sales.quantity
+sales.sale_date
+
+Simplified Query:
+SELECT name, SUM(quantity) AS total_quantity
+FROM products
+WHERE sale_date >= '2023-01-01'
+GROUP BY name
+ORDER BY total_quantity DESC
+LIMIT 5;
+
+Original Schema:
+Table Name	Columns
+items	item_id, item_name, price
+sales_details	sale_id, item_id, qty, sale_date
+
+Translated Query:
+SELECT i.item_name AS name, SUM(sd.qty) AS total_quantity
+FROM items i
+JOIN sales_details sd ON i.item_id = sd.item_id
+WHERE sd.sale_date >= '2023-01-01'
+GROUP BY i.item_name
+ORDER BY total_quantity DESC
+LIMIT 5;
+
+Key Considerations
+Use the Question as a Guide:
+
+Align the query logic with the intent expressed in the question.
+The question may highlight details (e.g., time ranges, specific groups) that must be included in the query.
+Simplified Schema as a Mapping Tool:
+
+Treat the simplified schema as a bridge between the question and the original schema.
+Focus on accurately mapping the simplified columns to the original schema.
+Validation:
+
+Ensure the translated query runs against the original schema and produces the intended result.

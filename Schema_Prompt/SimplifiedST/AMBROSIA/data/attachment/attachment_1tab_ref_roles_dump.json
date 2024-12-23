@@ -1,0 +1,27 @@
+{
+    "attachment_1tab_ref_roles_dump": [
+        "Applicants.ApplicantID",
+        "Applicants.FirstName",
+        "Applicants.LastName",
+        "Applicants.Email",
+        "ApplicationJobs.ApplicationID",
+        "ApplicationJobs.ApplicantID",
+        "ApplicationJobs.JobID",
+        "ApplicationJobs.SubmissionDate",
+        "ApplicationJobs.Status",
+        "Companies.CompanyID",
+        "Companies.Name",
+        "Companies.Location",
+        "DataTypes.DataTypeID",
+        "DataTypes.DataTypeName",
+        "Jobs.JobID",
+        "Jobs.Title",
+        "Jobs.Description",
+        "Jobs.PostedDate",
+        "Jobs.CompanyID",
+        "Jobs.ROLEID",
+        "Jobs.DATAID",
+        "Roles.RoleID",
+        "Roles.RoleName"
+    ]
+}

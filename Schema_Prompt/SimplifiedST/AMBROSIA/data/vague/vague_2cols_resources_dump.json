@@ -1,0 +1,29 @@
+{
+    "vague_2cols_resources_dump": [
+        "Construction_Projects.ProjectID",
+        "Construction_Projects.Budget",
+        "Construction_Projects.Staff",
+        "Construction_Projects.Location",
+        "Construction_Projects.StartDate",
+        "Construction_Projects.EndDate",
+        "Contractors.ContractorID",
+        "Contractors.CompanyName",
+        "Contractors.ServicesOffered",
+        "Contractors.LicenseNumber",
+        "Employees.EmployeeID",
+        "Employees.Name",
+        "Employees.Position",
+        "Employees.HireDate",
+        "Equipment.EquipmentID",
+        "Equipment.ModelName",
+        "Equipment.RentalRate",
+        "Equipment.PurchasePrice",
+        "Materials.MaterialID",
+        "Materials.Type",
+        "Materials.Quantity",
+        "Materials.UnitCost",
+        "Suppliers.SupplierID",
+        "Suppliers.CompanyName",
+        "Suppliers.ContactInfo"
+    ]
+}

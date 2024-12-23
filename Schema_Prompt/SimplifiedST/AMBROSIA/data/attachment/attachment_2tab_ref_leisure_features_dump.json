@@ -1,0 +1,23 @@
+{
+    "attachment_2tab_ref_leisure_features_dump": [
+        "Amenities.ID",
+        "Amenities.Description",
+        "City.ID",
+        "City.Name",
+        "HotTub.ID",
+        "HotTub.Capacity",
+        "HotTub.HeatingMethod",
+        "Hotel.ID",
+        "Hotel.Name",
+        "Hotel.Address",
+        "Hotel.PhoneNumber",
+        "Hotel.PriceRange",
+        "HotelAmenities.HotelID",
+        "HotelAmenities.AmenityID",
+        "HotelAmenities.Available",
+        "SwimmingPool.ID",
+        "SwimmingPool.PoolType",
+        "SwimmingPool.Size",
+        "SwimmingPool.MaintenanceFrequency"
+    ]
+}

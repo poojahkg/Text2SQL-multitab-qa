@@ -1,0 +1,12 @@
+{
+    "scope_war_correspondents_locations_dump": [
+        "Locations.id",
+        "Locations.locationName",
+        "War_Correspondents.id",
+        "War_Correspondents.name",
+        "War_Correspondents.organization",
+        "War_Correspondents_Locations.warCorrespondentId",
+        "War_Correspondents_Locations.locationId",
+        "War_Correspondents_Locations.assignmentDate"
+    ]
+}

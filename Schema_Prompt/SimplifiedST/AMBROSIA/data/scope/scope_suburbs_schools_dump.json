@@ -1,0 +1,23 @@
+{
+    "scope_suburbs_schools_dump": [
+        "houses.id",
+        "houses.address",
+        "houses.price",
+        "houses.size",
+        "houses.bedrooms",
+        "houses.bathrooms",
+        "houses.suburb_id",
+        "neighborhoods.id",
+        "neighborhoods.name",
+        "neighborhoods.crime_rate",
+        "schools.id",
+        "schools.school_type",
+        "suburbs.id",
+        "suburbs.name",
+        "suburbs.population",
+        "suburbs_neighborhoods.suburb_id",
+        "suburbs_neighborhoods.neighborhood_id",
+        "suburbs_schools.suburb_id",
+        "suburbs_schools.school_id"
+    ]
+}

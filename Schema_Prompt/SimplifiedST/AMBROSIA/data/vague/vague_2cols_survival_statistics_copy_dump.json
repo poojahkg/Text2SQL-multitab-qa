@@ -1,0 +1,33 @@
+{
+    "vague_2cols_survival_statistics_copy_dump": [
+        "Appointments.appointmentId",
+        "Appointments.patientId",
+        "Appointments.doctorId",
+        "Appointments.appointmentDate",
+        "Appointments.reasonForAppointment",
+        "Appointments.outcome",
+        "Diagnoses.diagnosisID",
+        "Diagnoses.patientId",
+        "Diagnoses.illnessId",
+        "Diagnoses.diagnosedDate",
+        "Doctors.doctorID",
+        "Doctors.firstName",
+        "Doctors.lastName",
+        "Doctors.specialty",
+        "Doctors.yearsExperience",
+        "Patients.id",
+        "Patients.firstName",
+        "Patients.lastName",
+        "Patients.dateOfBirth",
+        "Patients.gender",
+        "Patients.contactNumber",
+        "Patients.address",
+        "Prescriptions.prescriptionId",
+        "Prescriptions.diagnosisId",
+        "Prescriptions.medication",
+        "Prescriptions.dosage",
+        "Prescriptions.frequency",
+        "Prescriptions.startDate",
+        "Prescriptions.endDate"
+    ]
+}

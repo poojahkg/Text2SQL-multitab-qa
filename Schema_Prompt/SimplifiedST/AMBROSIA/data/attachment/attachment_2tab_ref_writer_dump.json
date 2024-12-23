@@ -1,0 +1,21 @@
+{
+    "attachment_2tab_ref_writer_dump": [
+        "Education.id",
+        "Education.institution",
+        "Film_Director.id",
+        "Film_Director.name",
+        "Film_Director.birthdate",
+        "Film_Director.nationality",
+        "Film_Director.educationId",
+        "Playwright.id",
+        "Playwright.name",
+        "Playwright.birthdate",
+        "Playwright.nationality",
+        "Playwright.educationId",
+        "Screenwriter.id",
+        "Screenwriter.name",
+        "Screenwriter.birthdate",
+        "Screenwriter.nationality",
+        "Screenwriter.educationId"
+    ]
+}

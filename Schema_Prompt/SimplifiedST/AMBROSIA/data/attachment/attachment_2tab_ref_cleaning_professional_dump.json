@@ -1,0 +1,25 @@
+{
+    "attachment_2tab_ref_cleaning_professional_dump": [
+        "Hotels.id",
+        "Hotels.name",
+        "Hotels.address",
+        "Hotels.phoneNumber",
+        "HouseKeepers.id",
+        "HouseKeepers.email",
+        "HouseKeepers.hireDate",
+        "HouseKeepers.salary",
+        "HouseKeepers.hotelId",
+        "HouseKeepers.FullName",
+        "LaundryAttendants.id",
+        "LaundryAttendants.email",
+        "LaundryAttendants.hireDate",
+        "LaundryAttendants.salary",
+        "LaundryAttendants.hotelId",
+        "LaundryAttendants.FullName",
+        "Rooms.id",
+        "Rooms.number",
+        "Rooms.hotelId",
+        "Rooms.houseKeeperId",
+        "Rooms.laundryAttendantId"
+    ]
+}

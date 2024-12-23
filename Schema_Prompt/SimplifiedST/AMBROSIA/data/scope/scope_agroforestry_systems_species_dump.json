@@ -1,0 +1,22 @@
+{
+    "scope_agroforestry_systems_species_dump": [
+        "Agroforestry_Systems.id",
+        "Agroforestry_Systems.system_name",
+        "Agroforestry_Systems.description",
+        "Farmers.id",
+        "Farmers.first_name",
+        "Farmers.last_name",
+        "Farmers.email",
+        "Farms.id",
+        "Farms.farm_name",
+        "Farms.location",
+        "Species.id",
+        "Species.name",
+        "System_Farms.agroforestry_system_id",
+        "System_Farms.farm_id",
+        "System_Species.agroforestry_system_id",
+        "System_Species.species_id",
+        "Works_On.farmer_id",
+        "Works_On.farm_id"
+    ]
+}

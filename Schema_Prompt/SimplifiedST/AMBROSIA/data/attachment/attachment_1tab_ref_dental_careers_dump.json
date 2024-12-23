@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_ref_dental_careers_dump": [
+        "Education.ID",
+        "Education.Degree",
+        "Employees.ID",
+        "Employees.Name",
+        "Employees.Email",
+        "Employees.PhoneNumber",
+        "Employees.HireDate",
+        "Employees.JobID",
+        "Employees.ON",
+        "Jobs.ID",
+        "Jobs.Title",
+        "Jobs.Description",
+        "Jobs.Location",
+        "Jobs.CompanyName",
+        "Jobs.PostedDate",
+        "Jobs.FullTimePartTime"
+    ]
+}

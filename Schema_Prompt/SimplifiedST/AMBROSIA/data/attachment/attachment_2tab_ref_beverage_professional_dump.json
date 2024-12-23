@@ -1,0 +1,18 @@
+{
+    "attachment_2tab_ref_beverage_professional_dump": [
+        "Bartenders.id",
+        "Bartenders.restaurantId",
+        "Bartenders.FullName",
+        "Customers.id",
+        "Customers.firstName",
+        "Customers.lastName",
+        "Customers.phoneNumber",
+        "Restaurants.id",
+        "Restaurants.name",
+        "Restaurants.address",
+        "Restaurants.phoneNumber",
+        "Sommeliers.id",
+        "Sommeliers.restaurantId",
+        "Sommeliers.FullName"
+    ]
+}

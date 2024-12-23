@@ -1,0 +1,17 @@
+{
+    "vague_2tabs_place_of_origin_copy_dump": [
+        "Doctor.id",
+        "Doctor.doctor_name",
+        "Doctor.speciality",
+        "Patient.id",
+        "Patient.first_name",
+        "Patient.last_name",
+        "Patient.age",
+        "Prescription.prescription_id",
+        "Prescription.patient_id",
+        "Prescription.doctor_id",
+        "Prescription.medical_device_id",
+        "Prescription.quantity",
+        "Prescription.date"
+    ]
+}

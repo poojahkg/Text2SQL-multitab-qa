@@ -1,0 +1,55 @@
+Prompt
+You are tasked with writing a query to solve a specific problem based on the schema and instructions below. Follow the step-by-step process to construct the query.
+
+
+Few-Shot Examples
+Question 1: What is the total consumption for each customer in the year 2024?
+sql
+Copy code
+SELECT CustomerID, SUM(Consumption) AS TotalConsumption
+FROM year_and_month
+WHERE Date LIKE '2024-%'
+GROUP BY CustomerID;
+Description:
+
+This query calculates the total consumption for each customer in 2024.
+The WHERE clause filters rows to include only dates in 2024 using the LIKE operator.
+The SUM function aggregates consumption, and GROUP BY organizes results by customer ID.
+Question 2: Which gas station generated the highest revenue in May 2024?
+sql
+Copy code
+SELECT T2.GasStationID, SUM(T1.Amount) AS TotalRevenue
+FROM transactions AS T1
+JOIN gas_stations AS T2 ON T1.GasStationID = T2.GasStationID
+WHERE T1.Date BETWEEN '2024-05-01' AND '2024-05-31'
+GROUP BY T2.GasStationID
+ORDER BY TotalRevenue DESC
+LIMIT 1;
+Description:
+
+This query identifies the gas station with the highest revenue in May 2024.
+A JOIN connects the transactions and gas stations tables.
+The WHERE clause filters transactions within May 2024, and SUM calculates total revenue.
+The ORDER BY clause sorts results by revenue in descending order, with LIMIT 1 returning the top gas station.
+Question 3: What is the average amount spent per transaction by customers in the "Urban" gas station segment?
+sql
+Copy code
+SELECT AVG(T1.Amount) AS AvgAmountSpent
+FROM transactions AS T1
+JOIN gas_stations AS T2 ON T1.GasStationID = T2.GasStationID
+WHERE T2.Segment = 'Urban';
+Description:
+
+This query calculates the average amount spent per transaction in "Urban" gas stations.
+A JOIN connects the transactions and gas stations tables.
+The WHERE clause filters for gas stations with the "Urban" segment.
+The AVG function computes the average transaction amount.
+
+Instructions for Writing Queries
+Use JOINs to combine data from multiple tables.
+Apply GROUP BY and ORDER BY clauses for aggregation and sorting.
+Include LIMIT clauses to restrict results when needed.
+Use DISTINCT to avoid duplicate results if necessary.
+Always ensure WHERE clauses accurately filter data based on conditions provided in the question.
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

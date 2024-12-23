@@ -1,0 +1,22 @@
+{
+    "vague_2tabs_owner_population_dump": [
+        "Address.ID",
+        "Address.Street",
+        "Address.City",
+        "Address.PersonId",
+        "EmploymentStatus.ID",
+        "EmploymentStatus.Status",
+        "EmploymentStatus.PersonId",
+        "IncomeLevel.ID",
+        "IncomeLevel.Level",
+        "IncomeLevel.PersonId",
+        "NumbersOfOwners.Year",
+        "NumbersOfOwners.NumberOfHouseholds",
+        "OwnerPercentage.Year",
+        "OwnerPercentage.Percentage",
+        "OwnerPercentage.TotalPopulation",
+        "Person.ID",
+        "Person.Name",
+        "Person.Age"
+    ]
+}

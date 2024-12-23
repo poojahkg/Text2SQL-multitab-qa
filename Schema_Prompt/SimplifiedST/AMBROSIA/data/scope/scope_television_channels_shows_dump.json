@@ -1,0 +1,12 @@
+{
+    "scope_television_channels_shows_dump": [
+        "Shows.id",
+        "Shows.show_title",
+        "Shows.genre",
+        "Television_Channels.id",
+        "Television_Channels.channel_name",
+        "Television_Channels.country",
+        "Television_Channels_Shows.television_channels_id",
+        "Television_Channels_Shows.shows_id"
+    ]
+}

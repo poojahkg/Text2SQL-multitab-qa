@@ -1,0 +1,17 @@
+{
+    "scope_textbooks_chapters2_dump": [
+        "Authors.authorId",
+        "Authors.name",
+        "BookAuthors.bookId",
+        "BookAuthors.authorId",
+        "BookPublishers.bookId",
+        "BookPublishers.publisherId",
+        "Chapters.chapterName",
+        "Chapters.subject",
+        "Publishers.publisherId",
+        "Publishers.companyName",
+        "Textbooks.id",
+        "Textbooks.title",
+        "Textbooks.author"
+    ]
+}

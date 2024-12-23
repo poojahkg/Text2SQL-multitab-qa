@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_ref_media_jobs_dump": [
+        "Jobs.ID",
+        "Jobs.Title",
+        "Jobs.Description",
+        "Jobs.Salary",
+        "Jobs.PostedDate",
+        "Jobs.ClosingDate",
+        "Jobs.Status",
+        "Jobs.MediaTypeID",
+        "Jobs.LanguageProficiencyID",
+        "Jobs_Values.ID",
+        "Jobs_Values.JobID",
+        "Jobs_Values.ValueID",
+        "Languages.ID",
+        "Languages.Name",
+        "Media_Types.ID",
+        "Media_Types.TypeName",
+        "Media_Types_Values.ID",
+        "Media_Types_Values.Value"
+    ]
+}

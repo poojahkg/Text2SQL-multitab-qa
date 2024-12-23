@@ -1,0 +1,11 @@
+{
+    "scope_music_festivals_genres_dump": [
+        "Genres.genre_id",
+        "Genres.genre_name",
+        "Music_Festivals.festival_id",
+        "Music_Festivals.festival_name",
+        "Music_Festivals.location",
+        "Music_Festivals_Genres.music_festival_id",
+        "Music_Festivals_Genres.genre_id"
+    ]
+}

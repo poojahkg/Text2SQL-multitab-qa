@@ -1,0 +1,11 @@
+{
+    "scope_music_critics_genres_dump": [
+        "Genres.genre_id",
+        "Genres.name",
+        "Music_Critics.critic_id",
+        "Music_Critics.name",
+        "Music_Critics.email",
+        "Music_Critics_Genres.music_critic_id",
+        "Music_Critics_Genres.genre_id"
+    ]
+}

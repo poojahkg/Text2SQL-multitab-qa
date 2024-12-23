@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_val_business_professions_dump": [
+        "Applicants.ApplicantID",
+        "Applicants.FirstName",
+        "Applicants.LastName",
+        "Applicants.Email",
+        "Applicants.PhoneNumber",
+        "Companies.CompanyID",
+        "Companies.Name",
+        "Companies.Industry",
+        "JobPostings.JobID",
+        "JobPostings.Title",
+        "JobPostings.Description",
+        "JobPostings.CompanyID",
+        "JobPostings.Business_Profession",
+        "JobPostings.Working_Arrangement",
+        "JobPostings.LocationID",
+        "JobPostings.PostedDate",
+        "JobPostings.CloseDate",
+        "Locations.LocationID",
+        "Locations.City",
+        "Locations.State",
+        "Locations.Country"
+    ]
+}

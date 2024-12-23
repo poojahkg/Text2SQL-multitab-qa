@@ -1,0 +1,20 @@
+{
+    "scope_guesthouses_suites_dump": [
+        "GuestHouseSuites.guesthouseID",
+        "GuestHouseSuites.suiteType",
+        "GuestHouses.houseID",
+        "GuestHouses.houseName",
+        "GuestHouses.location",
+        "GuestHouses.capacity",
+        "GuestHouses.pricePerNight",
+        "Guests.guestID",
+        "Guests.firstName",
+        "Guests.lastName",
+        "Guests.email",
+        "Guests.phoneNumber",
+        "RoomAmenities.amenID",
+        "RoomAmenities.amenName",
+        "RoomAmenities.amenCost",
+        "Suites.suiteType"
+    ]
+}

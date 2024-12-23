@@ -1,0 +1,11 @@
+{
+    "scope_green_buildings_features_dump": [
+        "Features.feature_id",
+        "Features.name",
+        "Green_Buildings.id",
+        "Green_Buildings.address",
+        "Green_Buildings.price",
+        "Green_Buildings_Features.green_building_id",
+        "Green_Buildings_Features.feature_id"
+    ]
+}

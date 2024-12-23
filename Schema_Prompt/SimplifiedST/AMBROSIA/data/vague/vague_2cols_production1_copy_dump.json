@@ -1,0 +1,9 @@
+{
+    "vague_2cols_production1_copy_dump": [
+        "Actor.id",
+        "Actor.name",
+        "Actor.dateOfBirth",
+        "Actor.gender",
+        "Actor.role"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "climbing": [
+        "mountain.Mountain_ID",
+        "mountain.Name",
+        "mountain.Height",
+        "mountain.Prominence",
+        "mountain.Range",
+        "mountain.Country",
+        "climber.Climber_ID",
+        "climber.Name",
+        "climber.Country",
+        "climber.Time",
+        "climber.Points",
+        "climber.Mountain_ID"
+    ]
+}

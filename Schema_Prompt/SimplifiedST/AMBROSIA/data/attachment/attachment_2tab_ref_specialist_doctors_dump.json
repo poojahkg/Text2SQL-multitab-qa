@@ -1,0 +1,25 @@
+{
+    "attachment_2tab_ref_specialist_doctors_dump": [
+        "Hospital.id",
+        "Hospital.name",
+        "JobPosting.id",
+        "JobPosting.title",
+        "JobPosting.description",
+        "JobPosting.salary",
+        "JobPosting.post_date",
+        "Radiologist.id",
+        "Radiologist.hospital_id",
+        "Radiologist.FullName",
+        "RadiologistJob.radiologist_id",
+        "RadiologistJob.job_posting_id",
+        "RadiologistJob.start_date",
+        "RadiologistJob.end_date",
+        "TechJob.tech_id",
+        "TechJob.job_posting_id",
+        "TechJob.start_date",
+        "TechJob.end_date",
+        "Ultrasound_Tech.id",
+        "Ultrasound_Tech.hospital_id",
+        "Ultrasound_Tech.FullName"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "scope_loan_applications_requirements_dump": [
+        "Applicant_Details.ApplicantID",
+        "Applicant_Details.Fullname",
+        "Applicant_Details.Age",
+        "Applicant_Details.Occupation",
+        "Employee_Details.EmployeeID",
+        "Employee_Details.Fullname",
+        "Employee_Details.Position",
+        "Loan_Applications.ApplicationID",
+        "Loan_Applications.CustomerName",
+        "Loan_Applications.AmountMoney",
+        "Loan_Applications_Requirements.AppID",
+        "Loan_Applications_Requirements.ReqID",
+        "Requirements.RequirementID",
+        "Requirements.RequirementDescription"
+    ]
+}

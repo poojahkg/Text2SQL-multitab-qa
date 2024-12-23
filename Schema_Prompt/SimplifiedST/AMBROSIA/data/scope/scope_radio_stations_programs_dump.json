@@ -1,0 +1,11 @@
+{
+    "scope_radio_stations_programs_dump": [
+        "Programs.id",
+        "Programs.programType",
+        "Radio_Stations.id",
+        "Radio_Stations.stationName",
+        "Radio_Stations.location",
+        "Radio_Stations_Programs.radioStationId",
+        "Radio_Stations_Programs.programId"
+    ]
+}

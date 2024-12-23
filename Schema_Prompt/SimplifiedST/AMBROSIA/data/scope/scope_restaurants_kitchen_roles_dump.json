@@ -1,0 +1,12 @@
+{
+    "scope_restaurants_kitchen_roles_dump": [
+        "Kitchen_Roles.role_id",
+        "Kitchen_Roles.role_name",
+        "Restaurants.id",
+        "Restaurants.name",
+        "Restaurants.address",
+        "Restaurants.phone_number",
+        "Restaurants_Kitchen_Roles.restaurant_id",
+        "Restaurants_Kitchen_Roles.kitchen_role_id"
+    ]
+}

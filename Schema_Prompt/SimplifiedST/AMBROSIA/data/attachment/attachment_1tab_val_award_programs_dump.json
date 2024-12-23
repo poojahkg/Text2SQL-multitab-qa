@@ -1,0 +1,27 @@
+{
+    "attachment_1tab_val_award_programs_dump": [
+        "Awards.AwardType",
+        "Awards.Description",
+        "Courses.CourseID",
+        "Courses.Title",
+        "Courses.CreditHours",
+        "Courses.CompletionRequirements",
+        "Courses.AwardProgram",
+        "Courses.UniqueConstraint",
+        "Enrollments.EnrollmentID",
+        "Enrollments.CourseID",
+        "Enrollments.StudentID",
+        "Enrollments.TeacherID",
+        "Enrollments.DateEnrolled",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.BirthDate",
+        "Students.Email",
+        "Teachers.TeacherID",
+        "Teachers.FirstName",
+        "Teachers.LastName",
+        "Teachers.HireDate",
+        "Teachers.Email"
+    ]
+}

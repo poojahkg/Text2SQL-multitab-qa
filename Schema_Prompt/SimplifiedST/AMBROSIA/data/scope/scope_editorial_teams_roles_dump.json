@@ -1,0 +1,11 @@
+{
+    "scope_editorial_teams_roles_dump": [
+        "Editorial_Teams.TeamID",
+        "Editorial_Teams.TeamName",
+        "Editorial_Teams.TeamDescription",
+        "Editorial_Teams_Roles.TeamID",
+        "Editorial_Teams_Roles.RoleID",
+        "Roles.RoleID",
+        "Roles.RoleName"
+    ]
+}

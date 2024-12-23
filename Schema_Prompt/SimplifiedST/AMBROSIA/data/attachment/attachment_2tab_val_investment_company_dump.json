@@ -1,0 +1,27 @@
+{
+    "attachment_2tab_val_investment_company_dump": [
+        "customers.customer_id",
+        "customers.company_name",
+        "customers.address",
+        "customers.contact_person_name",
+        "customers.phone_number",
+        "customers.email",
+        "customers.equity_firm_id",
+        "customers.venture_capital_id",
+        "employees.employee_id",
+        "employees.name",
+        "employees.hire_date",
+        "employees.position",
+        "employees.assigned_customer_id",
+        "growth_equity.id",
+        "growth_equity.firm_name",
+        "growth_equity.funding_amount",
+        "growth_equity.deal_date",
+        "growth_equity.notes",
+        "venture_capital.id",
+        "venture_capital.trust_name",
+        "venture_capital.funding_amount",
+        "venture_capital.investment_period",
+        "venture_capital.exit_strategy"
+    ]
+}

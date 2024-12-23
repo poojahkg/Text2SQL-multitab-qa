@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_ref_music_genre_dump": [
+        "Albums.id",
+        "Albums.release_date",
+        "Albums.artist_id",
+        "Artists.id",
+        "Artists.name",
+        "Concerts.id",
+        "Concerts.venue",
+        "Concerts.date",
+        "Music_Genres.id",
+        "Music_Genres.name",
+        "Songs.id",
+        "Songs.title",
+        "Songs.artist_id",
+        "Songs.album_id",
+        "Songs.concert_id",
+        "Songs.music_genre_id"
+    ]
+}

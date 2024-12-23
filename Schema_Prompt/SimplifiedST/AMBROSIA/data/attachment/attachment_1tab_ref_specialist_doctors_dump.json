@@ -1,0 +1,12 @@
+{
+    "attachment_1tab_ref_specialist_doctors_dump": [
+        "Hospitals.id",
+        "Hospitals.name",
+        "Jobs.id",
+        "Jobs.title",
+        "Jobs.description",
+        "Jobs.location",
+        "Jobs.salary",
+        "Jobs.hospital_id"
+    ]
+}

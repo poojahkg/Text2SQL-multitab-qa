@@ -1,0 +1,11 @@
+{
+    "vague_2tabs_creator_copy_dump": [
+        "Category.id",
+        "Category.category_name",
+        "Journalist.id",
+        "Journalist.journalist_name",
+        "Journalist.email",
+        "Journalist.documentary_id",
+        "Journalist.role"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_val_accommodation1_dump": [
+        "Accommodations.ID",
+        "Accommodations.Name",
+        "Accommodations.Type_of_Accommodation",
+        "Accommodations.Price",
+        "Booking.BookingID",
+        "Booking.CustomerID",
+        "Booking.AccommodationID",
+        "Booking.CheckInDate",
+        "Booking.CheckOutDate",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.Email",
+        "Reviews.ReviewID",
+        "Reviews.AccommodationID",
+        "Reviews.Rating",
+        "Reviews.Comment"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "activity_1": [
+        "Activity.actid",
+        "Activity.activity_name",
+        "Participates_in.stuid",
+        "Participates_in.actid",
+        "Faculty_Participates_in.FacID",
+        "Faculty_Participates_in.actid",
+        "Student.StuID",
+        "Student.LName",
+        "Student.Fname",
+        "Student.Age",
+        "Student.Sex",
+        "Student.Major",
+        "Student.Advisor",
+        "Student.city_code",
+        "Faculty.FacID",
+        "Faculty.Lname",
+        "Faculty.Fname",
+        "Faculty.Rank",
+        "Faculty.Sex",
+        "Faculty.Phone",
+        "Faculty.Room",
+        "Faculty.Building"
+    ]
+}

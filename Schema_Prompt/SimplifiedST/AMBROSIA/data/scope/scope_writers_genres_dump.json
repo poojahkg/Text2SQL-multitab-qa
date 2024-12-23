@@ -1,0 +1,10 @@
+{
+    "scope_writers_genres_dump": [
+        "Genres.genreID",
+        "Genres.name",
+        "Writers.writerID",
+        "Writers.fullName",
+        "Writers_Genres.writerID",
+        "Writers_Genres.genreID"
+    ]
+}

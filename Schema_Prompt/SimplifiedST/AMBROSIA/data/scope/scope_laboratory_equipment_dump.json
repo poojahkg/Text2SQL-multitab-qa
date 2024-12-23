@@ -1,0 +1,24 @@
+{
+    "scope_laboratory_equipment_dump": [
+        "Appointments.appointment_id",
+        "Appointments.doctor_id",
+        "Appointments.patient_id",
+        "Appointments.date",
+        "Appointments.time",
+        "Doctors.id",
+        "Doctors.name",
+        "Doctors.specialization",
+        "Equipment.id",
+        "Equipment.type",
+        "Equipment.description",
+        "Laboratory.id",
+        "Laboratory.name",
+        "Laboratory.address",
+        "Laboratory_Equipment.laboratory_id",
+        "Laboratory_Equipment.equipment_type_id",
+        "Patients.id",
+        "Patients.name",
+        "Patients.age",
+        "Patients.gender"
+    ]
+}

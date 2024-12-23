@@ -1,0 +1,11 @@
+{
+    "scope_home_inspections_issues_dump": [
+        "Home_Inspection_Issues.home_inspection_id",
+        "Home_Inspection_Issues.issue_id",
+        "Home_Inspections.id",
+        "Home_Inspections.address",
+        "Home_Inspections.inspection_date",
+        "Issues.id",
+        "Issues.issue_type"
+    ]
+}

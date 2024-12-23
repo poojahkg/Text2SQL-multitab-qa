@@ -1,0 +1,25 @@
+{
+    "scope_hair_stylists_styles_dump": [
+        "Actors.actor_id",
+        "Actors.first_name",
+        "Actors.last_name",
+        "Actors.birth_date",
+        "Casting.casting_id",
+        "Casting.actor_id",
+        "Casting.role_id",
+        "Film_Projects.project_id",
+        "Film_Projects.title",
+        "Film_Projects.release_date",
+        "Hair_Stylists.id",
+        "Hair_Stylists.name",
+        "Hair_Stylists.experience",
+        "Hair_Stylists_Styles.hairdresser_id",
+        "Hair_Stylists_Styles.style_id",
+        "Roles.role_id",
+        "Roles.character_name",
+        "Roles.film_project_id",
+        "Styles.style_id",
+        "Styles.style_name",
+        "Styles.description"
+    ]
+}

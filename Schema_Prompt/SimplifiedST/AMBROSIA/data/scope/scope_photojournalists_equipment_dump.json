@@ -1,0 +1,11 @@
+{
+    "scope_photojournalists_equipment_dump": [
+        "Equipment.equipment_id",
+        "Equipment.type",
+        "Photojournalist_Equipment.photojournalist_id",
+        "Photojournalist_Equipment.equipment_id",
+        "Photojournalists.id",
+        "Photojournalists.name",
+        "Photojournalists.email"
+    ]
+}

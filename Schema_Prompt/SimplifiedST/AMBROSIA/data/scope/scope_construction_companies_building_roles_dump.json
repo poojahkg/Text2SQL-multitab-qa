@@ -1,0 +1,11 @@
+{
+    "scope_construction_companies_building_roles_dump": [
+        "Building_Roles.role_id",
+        "Building_Roles.role_value",
+        "Construction_Companies.id",
+        "Construction_Companies.company_name",
+        "Construction_Companies.address",
+        "Construction_Companies_Building_Roles.construction_company_id",
+        "Construction_Companies_Building_Roles.building_role_id"
+    ]
+}

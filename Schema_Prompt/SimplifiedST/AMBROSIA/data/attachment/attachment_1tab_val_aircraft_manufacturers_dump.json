@@ -1,0 +1,19 @@
+{
+    "attachment_1tab_val_aircraft_manufacturers_dump": [
+        "Airlines.id",
+        "Airlines.airlineName",
+        "Airlines.headquarteredIn",
+        "Airlines.homeAirportId",
+        "Airports.id",
+        "Airports.name",
+        "Airports.city",
+        "Airports.country",
+        "Flights.id",
+        "Flights.flightNo",
+        "Flights.departureTime",
+        "Flights.arrivalTime",
+        "Flights.originAirportId",
+        "Flights.destinationAirportId",
+        "Flights.aircraftId"
+    ]
+}

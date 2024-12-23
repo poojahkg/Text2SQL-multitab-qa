@@ -1,0 +1,24 @@
+{
+    "game_injury": [
+        "stadium.id",
+        "stadium.name",
+        "stadium.Home_Games",
+        "stadium.Average_Attendance",
+        "stadium.Total_Attendance",
+        "stadium.Capacity_Percentage",
+        "game.stadium_id",
+        "game.id",
+        "game.Season",
+        "game.Date",
+        "game.Home_team",
+        "game.Away_team",
+        "game.Score",
+        "game.Competition",
+        "injury_accident.game_id",
+        "injury_accident.id",
+        "injury_accident.Player",
+        "injury_accident.Injury",
+        "injury_accident.Number_of_matches",
+        "injury_accident.Source"
+    ]
+}

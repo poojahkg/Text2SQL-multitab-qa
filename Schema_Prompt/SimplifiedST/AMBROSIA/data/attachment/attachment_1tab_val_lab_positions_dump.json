@@ -1,0 +1,28 @@
+{
+    "attachment_1tab_val_lab_positions_dump": [
+        "Company.id",
+        "Company.name",
+        "Department.id",
+        "Department.companyId",
+        "Department.departmentName",
+        "Employee.id",
+        "Employee.firstName",
+        "Employee.lastName",
+        "Employee.dateOfBirth",
+        "Employee.email",
+        "Employee.phoneNumber",
+        "Employee.hireDate",
+        "Employee.jobTitle",
+        "Employee.departmentId",
+        "Employee.gender",
+        "LabPosition.id",
+        "LabPosition.positionTypeId",
+        "LabPosition.labPosition",
+        "LabPosition.gender",
+        "LabPosition.minimumEducation",
+        "LabPosition.experienceInYears",
+        "LabPosition.salaryRange",
+        "PositionType.id",
+        "PositionType.typeName"
+    ]
+}

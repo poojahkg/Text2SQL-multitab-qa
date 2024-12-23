@@ -1,0 +1,24 @@
+{
+    "attachment_1tab_val_crime_fiction_dump": [
+        "Actor.id",
+        "Actor.firstName",
+        "Actor.lastName",
+        "Actor.dateOfBirth",
+        "Cast.movieId",
+        "Cast.actorId",
+        "Cast.role",
+        "Director.id",
+        "Director.name",
+        "Director.birthYear",
+        "Genre.id",
+        "Genre.genreText",
+        "Movie.id",
+        "Movie.title",
+        "Movie.releaseDate",
+        "Movie.Crime_Fiction",
+        "Movie.Studio",
+        "Movie.directorId",
+        "MovieGenre.movieId",
+        "MovieGenre.genreId"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "vague_2tabs_aircraft_family_copy_dump": [
+        "Airport.id",
+        "Airport.airport_code",
+        "Airport.name",
+        "Airport.city",
+        "Airport.country",
+        "Flight.id",
+        "Flight.flight_date",
+        "Flight.departure_airport_id",
+        "Flight.arrival_airport_id",
+        "Flight.plane_id",
+        "Runway.id",
+        "Runway.runway_length",
+        "Runway.runway_width",
+        "Runway.airport_id"
+    ]
+}

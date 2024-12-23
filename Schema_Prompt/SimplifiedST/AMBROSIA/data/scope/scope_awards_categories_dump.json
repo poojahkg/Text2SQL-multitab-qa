@@ -1,0 +1,11 @@
+{
+    "scope_awards_categories_dump": [
+        "Awards.id",
+        "Awards.awardName",
+        "Awards.year",
+        "Awards_Categories.awardsID",
+        "Awards_Categories.categoriesID",
+        "Categories.categoryId",
+        "Categories.categoryName"
+    ]
+}

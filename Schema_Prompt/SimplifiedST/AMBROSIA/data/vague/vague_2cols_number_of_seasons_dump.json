@@ -1,0 +1,27 @@
+{
+    "vague_2cols_number_of_seasons_dump": [
+        "Genre.id",
+        "Genre.Name",
+        "Platforms.id",
+        "Platforms.Name",
+        "Ratings.id",
+        "Ratings.RateValue",
+        "TV_Shows.id",
+        "TV_Shows.Title",
+        "TV_Shows.Released_Seasons",
+        "TV_Shows.Planned_Seasons",
+        "TV_Shows.Series",
+        "TV_Shows.GenreID",
+        "TV_Shows.PlatformID",
+        "TV_Shows.RatingID",
+        "User_Reviews.id",
+        "User_Reviews.UserID",
+        "User_Reviews.ShowID",
+        "User_Reviews.ReviewText",
+        "User_Reviews.RatingID",
+        "Users.id",
+        "Users.Username",
+        "Users.Email",
+        "Users.Password"
+    ]
+}

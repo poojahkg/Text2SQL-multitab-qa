@@ -1,0 +1,16 @@
+{
+    "vague_2tabs_origin_copy_dump": [
+        "Actor.id",
+        "Actor.actor_name",
+        "Actor.birthdate",
+        "Actor.nationality",
+        "Director.id",
+        "Director.director_name",
+        "Director.birthplace",
+        "Director.known_for",
+        "Movie.id",
+        "Movie.movie_title",
+        "Movie.release_year",
+        "Movie.director_id"
+    ]
+}

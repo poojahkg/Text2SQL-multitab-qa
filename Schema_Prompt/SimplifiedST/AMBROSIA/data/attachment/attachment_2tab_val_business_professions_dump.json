@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_val_business_professions_dump": [
+        "Data_Analyst.id",
+        "Data_Analyst.name",
+        "Data_Analyst.age",
+        "Data_Analyst.experience",
+        "Data_Analyst.software_used",
+        "HR_Recruiter.id",
+        "HR_Recruiter.name",
+        "HR_Recruiter.age",
+        "HR_Recruiter.experience",
+        "HR_Recruiter.recruitment_strategy",
+        "Marketing_Specialist.id",
+        "Marketing_Specialist.name",
+        "Marketing_Specialist.age",
+        "Marketing_Specialist.experience",
+        "Marketing_Specialist.working_arrangement",
+        "Sales_Manager.id",
+        "Sales_Manager.name",
+        "Sales_Manager.age",
+        "Sales_Manager.experience",
+        "Sales_Manager.working_arrangement",
+        "Software_Developer.id",
+        "Software_Developer.name",
+        "Software_Developer.age",
+        "Software_Developer.experience",
+        "Software_Developer.programming_language"
+    ]
+}

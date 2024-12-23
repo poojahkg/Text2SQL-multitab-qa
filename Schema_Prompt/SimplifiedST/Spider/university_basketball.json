@@ -1,0 +1,24 @@
+{
+    "university_basketball": [
+        "basketball_match.Team_ID",
+        "basketball_match.School_ID",
+        "basketball_match.Team_Name",
+        "basketball_match.ACC_Regular_Season",
+        "basketball_match.ACC_Percent",
+        "basketball_match.ACC_Home",
+        "basketball_match.ACC_Road",
+        "basketball_match.All_Games",
+        "basketball_match.All_Games_Percent",
+        "basketball_match.All_Home",
+        "basketball_match.All_Road",
+        "basketball_match.All_Neutral",
+        "university.School_ID",
+        "university.School",
+        "university.Location",
+        "university.Founded",
+        "university.Affiliation",
+        "university.Enrollment",
+        "university.Nickname",
+        "university.Primary_conference"
+    ]
+}

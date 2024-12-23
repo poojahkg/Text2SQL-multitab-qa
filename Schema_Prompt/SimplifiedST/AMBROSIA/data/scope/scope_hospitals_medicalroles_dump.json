@@ -1,0 +1,12 @@
+{
+    "scope_hospitals_medicalroles_dump": [
+        "Hospitals.HospitalID",
+        "Hospitals.Name",
+        "Hospitals.Location",
+        "Hospitals_Medical_Roles.HospitalID",
+        "Hospitals_Medical_Roles.RoleID",
+        "MedicalRoles.RoleID",
+        "MedicalRoles.RoleName",
+        "MedicalRoles.Salary"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "scope_news_agencies_departments_dump": [
+        "Departments.department_id",
+        "Departments.department_name",
+        "News_Agencies.id",
+        "News_Agencies.name",
+        "News_Agencies.location",
+        "News_Agencies.established_year",
+        "News_Agencies_Departments.agency_id",
+        "News_Agencies_Departments.department_id"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "vague_2cols_rating1_dump": [
+        "Customers.CustomerID",
+        "Customers.EmailAddress",
+        "Customers.PhoneNumber",
+        "Customers.fullname",
+        "Hotels.HotelID",
+        "Hotels.Name",
+        "Hotels.Address",
+        "Hotels.City",
+        "Hotels.State",
+        "Hotels.PostalCode",
+        "Hotels.Country",
+        "Reservations.ReservationID",
+        "Reservations.CheckInDate",
+        "Reservations.CheckOutDate",
+        "Reservations.GuestID",
+        "Reservations.TotalCost",
+        "Reservations.PaymentMethod",
+        "Reviews.ReviewID",
+        "Reviews.CustomerID",
+        "Reviews.HotelID",
+        "Reviews.Customer_Reviews",
+        "Reviews.Number_Of_Stars",
+        "Reviews.Date_Of_Review",
+        "Rooms.RoomID",
+        "Rooms.HotelID",
+        "Rooms.Number",
+        "Rooms.Type",
+        "Rooms.Amenities"
+    ]
+}

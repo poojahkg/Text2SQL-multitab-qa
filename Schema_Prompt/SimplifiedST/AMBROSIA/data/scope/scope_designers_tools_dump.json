@@ -1,0 +1,26 @@
+{
+    "scope_designers_tools_dump": [
+        "Applications.application_id",
+        "Applications.applicant_name",
+        "Applications.email",
+        "Applications.resume_path",
+        "Applications.status",
+        "Applications.job_posting_id",
+        "Companies.company_id",
+        "Companies.company_name",
+        "Companies.location",
+        "Designer_Tools.designer_id",
+        "Designer_Tools.tool_name",
+        "Designers.id",
+        "Designers.name",
+        "Designers.experience",
+        "JobPostings.posting_id",
+        "JobPostings.title",
+        "JobPostings.description",
+        "JobPostings.salary",
+        "JobPostings.posted_date",
+        "JobPostings.company_id",
+        "Tools.tool_name",
+        "Tools.description"
+    ]
+}

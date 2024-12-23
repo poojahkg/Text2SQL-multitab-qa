@@ -1,0 +1,20 @@
+{
+    "attachment_2tab_ref_luggage_assistance_dump": [
+        "Airlines.id",
+        "Airlines.airlineName",
+        "Available_locations.id",
+        "Available_locations.location",
+        "Bookings.bookingID",
+        "Bookings.customerName",
+        "Bookings.flightId",
+        "Bookings.luggageTrolleyId",
+        "Bookings.porterId",
+        "Flights.flightID",
+        "Flights.originLocation",
+        "Flights.destinationLocation",
+        "Flights.airlineId",
+        "Porters.porterID",
+        "Porters.serviceType",
+        "Porters.availableLocation"
+    ]
+}

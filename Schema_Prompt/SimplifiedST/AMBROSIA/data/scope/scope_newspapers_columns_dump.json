@@ -1,0 +1,21 @@
+{
+    "scope_newspapers_columns_dump": [
+        "Articles.id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.publish_date",
+        "Articles.newspaper_id",
+        "Articles.writer_id",
+        "Columns.id",
+        "Columns.column_name",
+        "Newspapers.id",
+        "Newspapers.name",
+        "Newspapers.publication_date",
+        "Newspapers_Columns.newspaper_id",
+        "Newspapers_Columns.column_id",
+        "Writers.id",
+        "Writers.first_name",
+        "Writers.last_name",
+        "Writers.email"
+    ]
+}

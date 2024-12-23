@@ -1,0 +1,16 @@
+{
+    "restaurants": [
+        "GEOGRAPHIC.CITY_NAME",
+        "GEOGRAPHIC.COUNTY",
+        "GEOGRAPHIC.REGION",
+        "RESTAURANT.ID",
+        "RESTAURANT.NAME",
+        "RESTAURANT.FOOD_TYPE",
+        "RESTAURANT.CITY_NAME",
+        "RESTAURANT.RATING",
+        "LOCATION.RESTAURANT_ID",
+        "LOCATION.HOUSE_NUMBER",
+        "LOCATION.STREET_NAME",
+        "LOCATION.CITY_NAME"
+    ]
+}

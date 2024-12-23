@@ -1,0 +1,23 @@
+{
+    "scope_epidemiological_study_methods_dump": [
+        "Diagnoses.diagnosis_id",
+        "Diagnoses.participant_id",
+        "Diagnoses.disease_id",
+        "Diagnoses.date_of_diagnosis",
+        "Diseases.disease_id",
+        "Diseases.disease_name",
+        "Epidemiological_Study.study_id",
+        "Epidemiological_Study.name",
+        "Epidemiological_Study.start_date",
+        "Epidemiological_Study.end_date",
+        "Epidemiological_Study_Methods.epidemiological_study_id",
+        "Epidemiological_Study_Methods.method_id",
+        "Methods.method_id",
+        "Methods.method_name",
+        "Study_Participants.participant_id",
+        "Study_Participants.epidemiological_study_id",
+        "Study_Participants.first_name",
+        "Study_Participants.last_name",
+        "Study_Participants.age"
+    ]
+}

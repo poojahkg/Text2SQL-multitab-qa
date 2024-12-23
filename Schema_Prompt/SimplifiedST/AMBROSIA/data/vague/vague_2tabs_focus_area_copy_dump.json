@@ -1,0 +1,10 @@
+{
+    "vague_2tabs_focus_area_copy_dump": [
+        "Enrollment.id",
+        "Enrollment.studentId",
+        "Enrollment.projectId",
+        "Enrollment.grade",
+        "Enrollment.enrolledDate",
+        "Enrollment.completionDate"
+    ]
+}

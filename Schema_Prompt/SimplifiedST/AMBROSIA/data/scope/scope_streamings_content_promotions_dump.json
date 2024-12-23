@@ -1,0 +1,12 @@
+{
+    "scope_streamings_content_promotions_dump": [
+        "Content_Promotions.id",
+        "Content_Promotions.type",
+        "Content_Promotions.description",
+        "Streamings.id",
+        "Streamings.title",
+        "Streamings.release_date",
+        "Streamings_Content_Promotions.streaming_id",
+        "Streamings_Content_Promotions.content_promotion_type_id"
+    ]
+}

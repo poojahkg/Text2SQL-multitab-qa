@@ -1,0 +1,28 @@
+{
+    "attachment_2tab_val_accommodation1_dump": [
+        "Bookings.BookingID",
+        "Bookings.CheckInDate",
+        "Bookings.CheckOutDate",
+        "Bookings.TotalCost",
+        "Bookings.GuestID",
+        "FamilySuites.SuiteID",
+        "FamilySuites.\"Room\"",
+        "FamilySuites.OccupancyLimit",
+        "FamilySuites.Amenities",
+        "FamilySuites.Price_per_night",
+        "Guests.GuestID",
+        "Guests.FullName",
+        "Guests.PhoneNumber",
+        "Guests.EmailAddress",
+        "Payments.PaymentID",
+        "Payments.Amount",
+        "Payments.DatePaid",
+        "Payments.CardType",
+        "Payments.BookingID",
+        "Reviews.ReviewID",
+        "Reviews.Rating",
+        "Reviews.Comment",
+        "Reviews.SubmissionDate",
+        "Reviews.GuestID"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "vague_2tabs_resources1_copy_dump": [
+        "Students.id",
+        "Students.student_name",
+        "Students.age",
+        "Students.class_id",
+        "Teachers.id",
+        "Teachers.teacher_name",
+        "Teachers.subject",
+        "Teachers.class_id"
+    ]
+}

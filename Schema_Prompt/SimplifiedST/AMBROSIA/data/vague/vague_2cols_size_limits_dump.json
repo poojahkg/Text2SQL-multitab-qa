@@ -1,0 +1,31 @@
+{
+    "vague_2cols_size_limits_dump": [
+        "Airlines.id",
+        "Airlines.name",
+        "Airlines.headquarter_city",
+        "Airlines.headquarter_country",
+        "Airports.id",
+        "Airports.name",
+        "Airports.city",
+        "Airports.country",
+        "Flights.id",
+        "Flights.departure_time",
+        "Flights.arrival_time",
+        "Flights.runway_id",
+        "Flights.plane_model",
+        "Passengers.id",
+        "Passengers.fullname",
+        "Passengers.passport",
+        "Passengers.flight_id",
+        "Planes.id",
+        "Planes.model",
+        "Planes.linear_dimensions",
+        "Planes.weight_restriction",
+        "Planes.airline_id",
+        "Runways.id",
+        "Runways.length",
+        "Runways.width",
+        "Runways.capacity",
+        "Runways.airport_id"
+    ]
+}

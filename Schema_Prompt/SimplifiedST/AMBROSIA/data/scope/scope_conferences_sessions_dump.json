@@ -1,0 +1,17 @@
+{
+    "scope_conferences_sessions_dump": [
+        "Conference_Sessions.conference_session_id",
+        "Conference_Sessions.conference_id",
+        "Conference_Sessions.session_type_id",
+        "Conference_Speakers.conference_speaker_id",
+        "Conference_Speakers.conference_id",
+        "Conference_Speakers.speaker_id",
+        "Conferences.conference_id",
+        "Conferences.name",
+        "Conferences.date",
+        "Speakers.speaker_id",
+        "Speakers.first_name",
+        "Speakers.last_name",
+        "Speakers.title"
+    ]
+}

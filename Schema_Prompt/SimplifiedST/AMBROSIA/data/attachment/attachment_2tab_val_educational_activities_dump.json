@@ -1,0 +1,26 @@
+{
+    "attachment_2tab_val_educational_activities_dump": [
+        "Classes.id",
+        "Classes.teacher_id",
+        "Classes.class_name",
+        "Classes.grade_level",
+        "Students.id",
+        "Students.firstName",
+        "Students.lastName",
+        "Students.studentId",
+        "Students.birthDate",
+        "Students.fieldtrip_participant",
+        "Students.studyhall_user",
+        "Students.class_id",
+        "StudyHalls.id",
+        "StudyHalls.building",
+        "StudyHalls.capacity",
+        "StudyHalls.available_hours",
+        "StudyHalls.number_of_students",
+        "Teachers.id",
+        "Teachers.name",
+        "Teachers.subject",
+        "Teachers.years_experience",
+        "Teachers.office_number"
+    ]
+}

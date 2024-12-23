@@ -1,0 +1,25 @@
+{
+    "attachment_2tab_val_retail_outlets_dump": [
+        "DutyFreeShops.ShopID",
+        "DutyFreeShops.Name",
+        "DutyFreeShops.Location",
+        "DutyFreeShops.Size",
+        "DutyFreeShops.AnnualRevenue",
+        "Flights.FlightID",
+        "Flights.AirlineName",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Flights.OriginAirportCode",
+        "Flights.DestinationAirportCode",
+        "PassengerCheckIns.CheckInID",
+        "PassengerCheckIns.FlightID",
+        "PassengerCheckIns.PassengerName",
+        "PassengerCheckIns.BoardingPassNumber",
+        "PassengerCheckIns.CheckInTime",
+        "SouvenirStores.StoreID",
+        "SouvenirStores.Name",
+        "SouvenirStores.Location",
+        "SouvenirStores.InventoryCount",
+        "SouvenirStores.AveragePurchaseAmount"
+    ]
+}

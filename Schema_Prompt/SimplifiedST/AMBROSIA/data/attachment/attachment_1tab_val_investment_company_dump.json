@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_val_investment_company_dump": [
+        "Accounts.AccountNumber",
+        "Accounts.Balance",
+        "Accounts.CustomerID",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.Email",
+        "InvestmentCompanies.CompanyID",
+        "InvestmentCompanies.Name",
+        "InvestmentCompanies.Type",
+        "InvestmentCompanies.FundingAmount",
+        "Transactions.TransactionID",
+        "Transactions.Date",
+        "Transactions.Amount",
+        "Transactions.AccountNumber",
+        "Transactions.CompanyID"
+    ]
+}

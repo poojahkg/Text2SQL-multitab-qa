@@ -1,0 +1,12 @@
+{
+    "scope_streaming_services_revenue_streams_dump": [
+        "Revenue_Streams.id",
+        "Revenue_Streams.name",
+        "Revenue_Streams.description",
+        "Streaming_Service_Revenue.service_id",
+        "Streaming_Service_Revenue.stream_id",
+        "Streaming_Services.id",
+        "Streaming_Services.name",
+        "Streaming_Services.launch_date"
+    ]
+}

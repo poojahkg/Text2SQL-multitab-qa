@@ -1,0 +1,14 @@
+{
+    "vague_2tabs_developmental_milestones_dump": [
+        "Child_Age.child_id",
+        "Child_Age.physical_milestone_id",
+        "Child_Age.cognitive_milestone_id",
+        "Child_Age.FOREIGN",
+        "Cognitive_Milestones.id",
+        "Cognitive_Milestones.milestone_name",
+        "Cognitive_Milestones.description",
+        "Physical_Milestones.id",
+        "Physical_Milestones.milestone_name",
+        "Physical_Milestones.description"
+    ]
+}

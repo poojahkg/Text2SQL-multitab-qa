@@ -1,0 +1,12 @@
+{
+    "scope_bank_branch_facilities_dump": [
+        "Bank_Branch.BranchID",
+        "Bank_Branch.BranchName",
+        "Bank_Branch.BranchAddress",
+        "Bank_Branch_Facilities.ID",
+        "Bank_Branch_Facilities.BranchID",
+        "Bank_Branch_Facilities.FacilityID",
+        "Facilities.FacilityID",
+        "Facilities.FacilityType"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "attachment_2tab_ref_racquet_sports_dump": [
+        "Golf_Players.id",
+        "Golf_Players.playerName",
+        "Golf_Players.golfTournaments",
+        "Golf_Tournaments.id",
+        "Golf_Tournaments.tournamentName",
+        "Golf_Tournaments.sponsorID",
+        "Matches.matchId",
+        "Matches.tennisPlayerID",
+        "Matches.golferID",
+        "Matches.score",
+        "Matches.date",
+        "Sponsors.id",
+        "Sponsors.name",
+        "Tennis_Players.id",
+        "Tennis_Players.playerName",
+        "Tennis_Players.tennisTournaments",
+        "Tennis_Tournaments.id",
+        "Tennis_Tournaments.tournamentName",
+        "Tennis_Tournaments.sponsorID"
+    ]
+}

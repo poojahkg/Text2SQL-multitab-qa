@@ -1,0 +1,29 @@
+{
+    "insurance_policies": [
+        "Customers.Customer_ID",
+        "Customers.Customer_Details",
+        "Customer_Policies.Policy_ID",
+        "Customer_Policies.Customer_ID",
+        "Customer_Policies.Policy_Type_Code",
+        "Customer_Policies.Start_Date",
+        "Customer_Policies.End_Date",
+        "Claims.Claim_ID",
+        "Claims.Policy_ID",
+        "Claims.Date_Claim_Made",
+        "Claims.Date_Claim_Settled",
+        "Claims.Amount_Claimed",
+        "Claims.Amount_Settled",
+        "Settlements.Settlement_ID",
+        "Settlements.Claim_ID",
+        "Settlements.Date_Claim_Made",
+        "Settlements.Date_Claim_Settled",
+        "Settlements.Amount_Claimed",
+        "Settlements.Amount_Settled",
+        "Settlements.Customer_Policy_ID",
+        "Payments.Payment_ID",
+        "Payments.Settlement_ID",
+        "Payments.Payment_Method_Code",
+        "Payments.Date_Payment_Made",
+        "Payments.Amount_Payment"
+    ]
+}

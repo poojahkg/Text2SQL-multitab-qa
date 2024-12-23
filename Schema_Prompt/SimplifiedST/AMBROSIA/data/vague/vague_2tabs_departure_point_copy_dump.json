@@ -1,0 +1,9 @@
+{
+    "vague_2tabs_departure_point_copy_dump": [
+        "Plane.id",
+        "Plane.plane_type",
+        "Plane.capacity",
+        "Plane.registered_to_airline_id",
+        "Plane.current_pilot_id"
+    ]
+}

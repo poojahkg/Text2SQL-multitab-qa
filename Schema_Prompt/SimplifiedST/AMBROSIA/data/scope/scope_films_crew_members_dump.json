@@ -1,0 +1,20 @@
+{
+    "scope_films_crew_members_dump": [
+        "Actors.actor_id",
+        "Actors.first_name",
+        "Actors.last_name",
+        "Crew_Members.member_id",
+        "Crew_Members.role",
+        "Crew_Members.name",
+        "Film_Genres.film_genre_id",
+        "Film_Genres.genre",
+        "Films.film_id",
+        "Films.title",
+        "Films.release_year",
+        "Films_Actors.film_id",
+        "Films_Actors.actor_id",
+        "Films_Actors.character",
+        "Films_Crew_Members.film_id",
+        "Films_Crew_Members.member_id"
+    ]
+}

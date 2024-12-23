@@ -1,0 +1,24 @@
+{
+    "attachment_2tab_val_inflight_amenities_dump": [
+        "Aircrafts.id",
+        "Aircrafts.model",
+        "Aircrafts.max_passengers",
+        "Aircrafts.max_range",
+        "Aircrafts.airline_id",
+        "Airlines.id",
+        "Airlines.name",
+        "Airlines.headquartered_at",
+        "Airports.id",
+        "Airports.name",
+        "Airports.country",
+        "Airports.city",
+        "InflightEntertainments.id",
+        "InflightEntertainments.entertainment_name",
+        "InflightEntertainments.description",
+        "InflightEntertainments.aircraft_id",
+        "OnboardServices.id",
+        "OnboardServices.service_name",
+        "OnboardServices.description",
+        "OnboardServices.aircraft_id"
+    ]
+}

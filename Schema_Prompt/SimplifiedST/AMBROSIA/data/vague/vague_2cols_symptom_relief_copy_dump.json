@@ -1,0 +1,24 @@
+{
+    "vague_2cols_symptom_relief_copy_dump": [
+        "Appointments.AppointmentID",
+        "Appointments.PatientID",
+        "Appointments.DoctorID",
+        "Appointments.DateAndTime",
+        "Diagnoses.DiagnosisID",
+        "Diagnoses.PatientID",
+        "Diagnoses.ConditionID",
+        "Diagnoses.DateOfDiagnosis",
+        "Doctors.DoctorID",
+        "Doctors.DoctorName",
+        "Doctors.Specialty",
+        "Patients.PatientID",
+        "Patients.FirstName",
+        "Patients.LastName",
+        "Patients.DateOfBirth",
+        "Prescriptions.PrescriptionID",
+        "Prescriptions.AppointmentID",
+        "Prescriptions.Medication",
+        "Prescriptions.Quantity",
+        "Prescriptions.Instructions"
+    ]
+}

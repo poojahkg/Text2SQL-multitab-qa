@@ -1,0 +1,20 @@
+{
+    "scope_marketing_campaigns_approaches_dump": [
+        "Approaches.id",
+        "Approaches.approach_value",
+        "Customers.customer_id",
+        "Customers.first_name",
+        "Customers.last_name",
+        "Customers.email",
+        "Marketing_Campaigns.id",
+        "Marketing_Campaigns.campaign_name",
+        "Marketing_Campaigns.start_date",
+        "Marketing_Campaigns.end_date",
+        "Marketing_Campaigns_Approaches.marketing_campaign_id",
+        "Marketing_Campaigns_Approaches.approach_id",
+        "Transactions.transaction_id",
+        "Transactions.amount",
+        "Transactions.date",
+        "Transactions.customer_id"
+    ]
+}

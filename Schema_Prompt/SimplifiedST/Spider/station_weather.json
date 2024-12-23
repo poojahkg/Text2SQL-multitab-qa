@@ -1,0 +1,23 @@
+{
+    "station_weather": [
+        "train.id",
+        "train.train_number",
+        "train.name",
+        "train.origin",
+        "train.destination",
+        "train.time",
+        "train.interval",
+        "station.id",
+        "station.network_name",
+        "station.services",
+        "station.local_authority",
+        "route.train_id",
+        "route.station_id",
+        "weekly_weather.station_id",
+        "weekly_weather.day_of_week",
+        "weekly_weather.high_temperature",
+        "weekly_weather.low_temperature",
+        "weekly_weather.precipitation",
+        "weekly_weather.wind_speed_mph"
+    ]
+}

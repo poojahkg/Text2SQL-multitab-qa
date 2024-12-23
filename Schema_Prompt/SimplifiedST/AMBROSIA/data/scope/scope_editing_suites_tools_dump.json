@@ -1,0 +1,11 @@
+{
+    "scope_editing_suites_tools_dump": [
+        "Editing_Suites.SuiteID",
+        "Editing_Suites.Name",
+        "Editing_Suites.Location",
+        "Editing_Suites_Tools.SuiteID",
+        "Editing_Suites_Tools.ToolID",
+        "Tools.ToolID",
+        "Tools.Type"
+    ]
+}

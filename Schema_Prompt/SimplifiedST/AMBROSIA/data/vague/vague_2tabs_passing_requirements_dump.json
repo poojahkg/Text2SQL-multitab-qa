@@ -1,0 +1,17 @@
+{
+    "vague_2tabs_passing_requirements_dump": [
+        "Exams.id",
+        "Exams.studentId",
+        "Exams.examDate",
+        "Exams.minScoreId",
+        "Exams.percentReqId",
+        "Minimum_Scores.id",
+        "Minimum_Scores.score",
+        "Percentage_Requirements.id",
+        "Percentage_Requirements.percentage",
+        "Students.id",
+        "Students.firstName",
+        "Students.lastName",
+        "Students.birthDate"
+    ]
+}

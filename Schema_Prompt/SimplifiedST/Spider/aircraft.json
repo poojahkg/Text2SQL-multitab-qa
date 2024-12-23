@@ -1,0 +1,32 @@
+{
+    "aircraft": [
+        "pilot.Pilot_Id",
+        "pilot.Name",
+        "pilot.Age",
+        "aircraft.Aircraft_ID",
+        "aircraft.Aircraft",
+        "aircraft.Description",
+        "aircraft.Max_Gross_Weight",
+        "aircraft.Total_disk_area",
+        "aircraft.Max_disk_Loading",
+        "match.Round",
+        "match.Location",
+        "match.Country",
+        "match.Date",
+        "match.Fastest_Qualifying",
+        "match.Winning_Pilot",
+        "match.Winning_Aircraft",
+        "airport.Airport_ID",
+        "airport.Airport_Name",
+        "airport.Total_Passengers",
+        "airport.%_Change_2007",
+        "airport.International_Passengers",
+        "airport.Domestic_Passengers",
+        "airport.Transit_Passengers",
+        "airport.Aircraft_Movements",
+        "airport.Freight_Metric_Tonnes",
+        "airport_aircraft.ID",
+        "airport_aircraft.Airport_ID",
+        "airport_aircraft.Aircraft_ID"
+    ]
+}

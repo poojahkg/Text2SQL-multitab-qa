@@ -1,0 +1,27 @@
+{
+    "attachment_1tab_ref_seating_area_dump": [
+        "Customers.CustomerID",
+        "Customers.PhoneNumber",
+        "Customers.EmailAddress",
+        "Customers.FullName",
+        "FloorPlan.FloorplanID",
+        "FloorPlan.NumberOfSeats",
+        "FloorPlan.TableId",
+        "FoodOrders.OrderID",
+        "FoodOrders.ReservationID",
+        "FoodOrders.MenuItem",
+        "FoodOrders.Quantity",
+        "FoodOrders.SpecialInstructions",
+        "FoodOrders.TotalPrice",
+        "FoodOrders.PaymentStatus",
+        "Reservations.ReservationID",
+        "Reservations.CustomerID",
+        "Reservations.ReservedDate",
+        "Reservations.ReservedTime",
+        "Reservations.NumGuests",
+        "Reservations.TableId",
+        "Tables.TableID",
+        "Tables.SeatingArea",
+        "Tables.Capacity"
+    ]
+}

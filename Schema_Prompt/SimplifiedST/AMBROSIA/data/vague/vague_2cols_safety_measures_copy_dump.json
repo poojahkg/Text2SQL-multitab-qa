@@ -1,0 +1,21 @@
+{
+    "vague_2cols_safety_measures_copy_dump": [
+        "Employee.employeeID",
+        "Employee.firstName",
+        "Employee.lastName",
+        "Employee.hireDate",
+        "Employee.position",
+        "Inventory.inventoryID",
+        "Inventory.materialID",
+        "Inventory.quantity",
+        "Material.materialID",
+        "Material.name",
+        "Material.quantity",
+        "Material.cost",
+        "Project.projectID",
+        "Project.projectName",
+        "Project.startDate",
+        "Project.endDate",
+        "Project.budget"
+    ]
+}

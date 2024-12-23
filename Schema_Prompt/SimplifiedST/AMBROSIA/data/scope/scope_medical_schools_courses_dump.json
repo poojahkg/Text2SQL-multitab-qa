@@ -1,0 +1,13 @@
+{
+    "scope_medical_schools_courses_dump": [
+        "Courses.id",
+        "Courses.courseName",
+        "Courses.duration",
+        "Medical_School_Courses.id",
+        "Medical_School_Courses.schoolId",
+        "Medical_School_Courses.courseId",
+        "Medical_Schools.id",
+        "Medical_Schools.name",
+        "Medical_Schools.location"
+    ]
+}

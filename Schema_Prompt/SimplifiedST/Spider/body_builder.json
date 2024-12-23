@@ -1,0 +1,15 @@
+{
+    "body_builder": [
+        "body_builder.Body_Builder_ID",
+        "body_builder.People_ID",
+        "body_builder.Snatch",
+        "body_builder.Clean_Jerk",
+        "body_builder.Total",
+        "people.People_ID",
+        "people.Name",
+        "people.Height",
+        "people.Weight",
+        "people.Birth_Date",
+        "people.Birth_Place"
+    ]
+}

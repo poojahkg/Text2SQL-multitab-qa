@@ -1,0 +1,12 @@
+{
+    "scope_patient_advocates_issues_dump": [
+        "Issues.id",
+        "Issues.issue_name",
+        "Issues.description",
+        "Patient_Advocates.id",
+        "Patient_Advocates.name",
+        "Patient_Advocates.email",
+        "Patient_Advocates_Issues.patient_advocate_id",
+        "Patient_Advocates_Issues.issue_id"
+    ]
+}

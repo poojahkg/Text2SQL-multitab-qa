@@ -1,0 +1,24 @@
+{
+    "attachment_1tab_ref_luggage_assistance_dump": [
+        "Bookings.BookingID",
+        "Bookings.LuggageRequestID",
+        "Bookings.LocationID",
+        "Bookings.SlotStart",
+        "Bookings.SlotEnd",
+        "Bookings.BookingStatus",
+        "Flights.FlightID",
+        "Flights.DepartureTime",
+        "Flights.Destination",
+        "Flights.AvailableSeats",
+        "Locations.LocationID",
+        "Locations.LocationName",
+        "LuggageRequests.RequestID",
+        "LuggageRequests.PassengerID",
+        "LuggageRequests.AssistanceType",
+        "LuggageRequests.Location",
+        "LuggageRequests.RequestDate",
+        "Passengers.PassengerID",
+        "Passengers.Name",
+        "Passengers.FlightID"
+    ]
+}

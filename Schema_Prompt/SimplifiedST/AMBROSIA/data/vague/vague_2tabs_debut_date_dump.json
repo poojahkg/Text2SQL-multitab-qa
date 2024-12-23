@@ -1,0 +1,18 @@
+{
+    "vague_2tabs_debut_date_dump": [
+        "Debut_Day.id",
+        "Debut_Day.day",
+        "Debut_Day.month",
+        "Debut_Year.id",
+        "Debut_Year.year",
+        "Genre.id",
+        "Genre.genre_name",
+        "Podcast.id",
+        "Podcast.podcast_name",
+        "Podcast.debut_day_id",
+        "Podcast.debut_year_id",
+        "Podcast_Genre.pod_genre_id",
+        "Podcast_Genre.podcast_id",
+        "Podcast_Genre.genre_id"
+    ]
+}

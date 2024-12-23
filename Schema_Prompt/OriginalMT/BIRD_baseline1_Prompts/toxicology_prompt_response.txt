@@ -1,0 +1,28 @@
+Prompt
+You are tasked with writing a query to solve a specific problem based on the schema and instructions below. Follow the step-by-step process to construct the query.
+
+Query:
+
+sql
+Copy code
+SELECT COUNT(a.atom_id) AS atom_count
+FROM atom a
+JOIN molecule m ON a.molecule_id = m.molecule_id
+WHERE m.label = 'Water';
+Question: What types of bonds are present in the molecule with ID "mol123"?
+Solution: Join the bond and molecule tables, filter by molecule_id = 'mol123', and select distinct bond_type.
+
+Query:
+
+sql
+Copy code
+SELECT DISTINCT b.bond_type
+FROM bond b
+JOIN molecule m ON b.molecule_id = m.molecule_id
+WHERE m.molecule_id = 'mol123';
+Task
+Using the schema and the example queries as a reference, construct a query for the following question:
+
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

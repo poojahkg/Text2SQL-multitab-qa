@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_val_research_methods_dump": [
+        "Courses.id",
+        "Courses.courseName",
+        "Courses.instructorId",
+        "Instructors.id",
+        "Instructors.name",
+        "Instructors.department",
+        "Projects.id",
+        "Projects.title",
+        "Projects.researchMethod",
+        "Projects.topic",
+        "Projects.studentId",
+        "Projects.courseId",
+        "Students.id",
+        "Students.name",
+        "Students.age",
+        "Students.major"
+    ]
+}

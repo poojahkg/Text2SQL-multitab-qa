@@ -1,0 +1,11 @@
+{
+    "scope_career_pathways_opportunities_dump": [
+        "Career_Pathways.PathwayID",
+        "Career_Pathways.Name",
+        "Career_Pathways.Description",
+        "Career_Pathways_Opportunities.CareerPathwayID",
+        "Career_Pathways_Opportunities.OpportunityID",
+        "Opportunities.OpportunityID",
+        "Opportunities.Value"
+    ]
+}

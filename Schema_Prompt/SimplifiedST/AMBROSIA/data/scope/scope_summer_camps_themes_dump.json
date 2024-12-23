@@ -1,0 +1,13 @@
+{
+    "scope_summer_camps_themes_dump": [
+        "Summer_Camp_Themes.summerCampId",
+        "Summer_Camp_Themes.themeId",
+        "Summer_Camps.id",
+        "Summer_Camps.campName",
+        "Summer_Camps.location",
+        "Summer_Camps.startDate",
+        "Summer_Camps.endDate",
+        "Themes.id",
+        "Themes.themeName"
+    ]
+}

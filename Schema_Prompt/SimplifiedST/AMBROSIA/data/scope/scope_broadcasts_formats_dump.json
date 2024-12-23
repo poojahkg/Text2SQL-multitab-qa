@@ -1,0 +1,22 @@
+{
+    "scope_broadcasts_formats_dump": [
+        "Articles.id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.publish_date",
+        "Articles.author_id",
+        "Authors.id",
+        "Authors.name",
+        "Authors.email",
+        "Broadcasts.id",
+        "Broadcasts.title",
+        "Broadcasts.date",
+        "Broadcasts_Formats.broadcast_id",
+        "Broadcasts_Formats.format_id",
+        "Comments.id",
+        "Comments.comment",
+        "Comments.article_id",
+        "Formats.id",
+        "Formats.format_name"
+    ]
+}

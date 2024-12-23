@@ -1,0 +1,11 @@
+{
+    "network_1": [
+        "Highschooler.ID",
+        "Highschooler.name",
+        "Highschooler.grade",
+        "Friend.student_id",
+        "Friend.friend_id",
+        "Likes.student_id",
+        "Likes.liked_id"
+    ]
+}

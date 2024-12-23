@@ -1,0 +1,18 @@
+{
+    "vague_2tabs_historical_context_copy_dump": [
+        "Employees.id",
+        "Employees.employee_name",
+        "Employees.position",
+        "Employees.healthcare_facility_id",
+        "Patients.id",
+        "Patients.patient_name",
+        "Patients.age",
+        "Patients.healthcare_facility_id",
+        "Treatments.id",
+        "Treatments.treatment_name",
+        "Treatments.start_date",
+        "Treatments.end_date",
+        "Treatments.patient_id",
+        "Treatments.healthcare_facility_id"
+    ]
+}

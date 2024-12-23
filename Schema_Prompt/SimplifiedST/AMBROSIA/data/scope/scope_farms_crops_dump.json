@@ -1,0 +1,23 @@
+{
+    "scope_farms_crops_dump": [
+        "Crops.CropID",
+        "Crops.CropName",
+        "Crops.YieldPerAcre",
+        "CropsWeather.CropID",
+        "CropsWeather.ConditionID",
+        "Farms.FarmID",
+        "Farms.Name",
+        "Farms.Location",
+        "FarmsCrops.FarmID",
+        "FarmsCrops.CropID",
+        "FarmsCrops.Quantity",
+        "FarmsCrops.PlantingDate",
+        "FarmsCrops.HarvestDate",
+        "FarmsSoil.FarmID",
+        "FarmsSoil.SoilTypeID",
+        "SoilTypes.TypeID",
+        "SoilTypes.TypeName",
+        "WeatherConditions.ConditionID",
+        "WeatherConditions.Description"
+    ]
+}

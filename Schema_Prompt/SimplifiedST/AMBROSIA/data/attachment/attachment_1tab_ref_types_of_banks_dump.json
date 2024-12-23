@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_ref_types_of_banks_dump": [
+        "Accounts.id",
+        "Accounts.balance",
+        "Accounts.customer_id",
+        "Banks.id",
+        "Banks.name",
+        "Banks.type_id",
+        "Banks.country_id",
+        "Countries.id",
+        "Countries.country_name",
+        "Customers.id",
+        "Customers.first_name",
+        "Customers.last_name",
+        "Customers.birthdate",
+        "Customers.account_number",
+        "Customers.bank_id",
+        "Types_of_banks.id",
+        "Types_of_banks.bank_type"
+    ]
+}

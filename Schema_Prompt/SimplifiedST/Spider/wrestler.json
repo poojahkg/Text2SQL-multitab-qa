@@ -1,0 +1,16 @@
+{
+    "wrestler": [
+        "wrestler.Wrestler_ID",
+        "wrestler.Name",
+        "wrestler.Reign",
+        "wrestler.Days_held",
+        "wrestler.Location",
+        "wrestler.Event",
+        "Elimination.Elimination_ID",
+        "Elimination.Wrestler_ID",
+        "Elimination.Team",
+        "Elimination.Eliminated_By",
+        "Elimination.Elimination_Move",
+        "Elimination.Time"
+    ]
+}

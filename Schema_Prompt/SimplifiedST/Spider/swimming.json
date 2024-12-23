@@ -1,0 +1,29 @@
+{
+    "swimming": [
+        "swimmer.ID",
+        "swimmer.name",
+        "swimmer.Nationality",
+        "swimmer.meter_100",
+        "swimmer.meter_200",
+        "swimmer.meter_300",
+        "swimmer.meter_400",
+        "swimmer.meter_500",
+        "swimmer.meter_600",
+        "swimmer.meter_700",
+        "swimmer.Time",
+        "stadium.ID",
+        "stadium.name",
+        "stadium.Capacity",
+        "stadium.City",
+        "stadium.Country",
+        "stadium.Opening_year",
+        "event.ID",
+        "event.Name",
+        "event.Stadium_ID",
+        "event.Year",
+        "record.ID",
+        "record.Result",
+        "record.Swimmer_ID",
+        "record.Event_ID"
+    ]
+}

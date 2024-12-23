@@ -1,0 +1,30 @@
+{
+    "scope_editors_software_programs_dump": [
+        "Actors.actor_id",
+        "Actors.first_name",
+        "Actors.last_name",
+        "DirectorFilmProjects.director_film_project_id",
+        "DirectorFilmProjects.director_id",
+        "DirectorFilmProjects.film_project_id",
+        "Directors.director_id",
+        "Directors.first_name",
+        "Directors.last_name",
+        "EditorDirectorRelationship.relationship_id",
+        "EditorDirectorRelationship.director_id",
+        "EditorDirectorRelationship.editor_id",
+        "EditorSoftwarePrograms.editor_software_program_id",
+        "EditorSoftwarePrograms.editor_id",
+        "EditorSoftwarePrograms.software_program_id",
+        "Editors.editor_id",
+        "Editors.full_name",
+        "FilmProjects.project_id",
+        "FilmProjects.title",
+        "FilmProjects.release_date",
+        "ProjectActors.project_actor_id",
+        "ProjectActors.film_project_id",
+        "ProjectActors.actor_id",
+        "Software_Programs.program_id",
+        "Software_Programs.name",
+        "Software_Programs.version"
+    ]
+}

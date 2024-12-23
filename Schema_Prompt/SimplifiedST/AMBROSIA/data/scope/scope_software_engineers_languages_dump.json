@@ -1,0 +1,23 @@
+{
+    "scope_software_engineers_languages_dump": [
+        "Companies.CompanyID",
+        "Companies.CompanyName",
+        "Jobs.JobID",
+        "Jobs.JobTitle",
+        "Jobs.Description",
+        "Jobs.Salary",
+        "Jobs.CompanyID",
+        "Languages.LanguageID",
+        "Languages.LanguageName",
+        "Locations.LocationID",
+        "Locations.LocationName",
+        "Skills.SkillID",
+        "Skills.SkillDescription",
+        "Software_Engineers.EngineerID",
+        "Software_Engineers.Name",
+        "Software_Engineers.Email",
+        "Software_Engineers.LocationID",
+        "Software_Engineers_Languages.SE_LanguageID",
+        "Software_Engineers_Languages.SE_Id"
+    ]
+}

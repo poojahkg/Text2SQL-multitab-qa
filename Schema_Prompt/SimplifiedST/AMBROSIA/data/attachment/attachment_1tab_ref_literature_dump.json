@@ -1,0 +1,12 @@
+{
+    "attachment_1tab_ref_literature_dump": [
+        "Reviews.id",
+        "Reviews.rating",
+        "Reviews.book_id",
+        "Reviews.student_id",
+        "Students.id",
+        "Students.name",
+        "Students.age",
+        "Students.gender"
+    ]
+}

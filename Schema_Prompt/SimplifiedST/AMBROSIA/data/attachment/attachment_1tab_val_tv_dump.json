@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_val_tv_dump": [
+        "CastMember.id",
+        "CastMember.first_name",
+        "CastMember.last_name",
+        "CastMember.birth_date",
+        "Genre.id",
+        "Genre.name",
+        "ShowCast.show_id",
+        "ShowCast.member_id",
+        "ShowCast.role",
+        "ShowCast.appearance_start_year",
+        "ShowCast.appearance_end_year",
+        "TvShow.id",
+        "TvShow.title",
+        "TvShow.tv",
+        "TvShow.number_of_episodes",
+        "TvShow.release_date",
+        "TvShow.genre_id"
+    ]
+}

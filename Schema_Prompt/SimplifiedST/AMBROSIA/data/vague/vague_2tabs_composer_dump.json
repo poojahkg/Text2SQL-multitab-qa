@@ -1,0 +1,26 @@
+{
+    "vague_2tabs_composer_dump": [
+        "Band.id",
+        "Band.name",
+        "Band.genre",
+        "Fan.id",
+        "Fan.name",
+        "Fan.email",
+        "Musician.id",
+        "Musician.name",
+        "Musician.birth_date",
+        "Performance.id",
+        "Performance.date",
+        "Performance.location",
+        "Performance.song_id",
+        "Song.id",
+        "Song.title",
+        "Song.duration",
+        "Song.soundtrack_id",
+        "Soundtrack.id",
+        "Soundtrack.title",
+        "Soundtrack.release_date",
+        "Soundtrack.band_id",
+        "Soundtrack.musician_id"
+    ]
+}

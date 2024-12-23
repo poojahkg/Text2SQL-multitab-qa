@@ -1,0 +1,28 @@
+{
+    "vague_2cols_withdrawal_limit_copy_dump": [
+        "Accounts.AccountNumber",
+        "Accounts.AccountType",
+        "Accounts.Balance",
+        "Accounts.OpenDate",
+        "Accounts.CustomerID",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.EmailAddress",
+        "Overdrafts.OverdraftID",
+        "Overdrafts.ApprovalStatus",
+        "Overdrafts.LimitAmount",
+        "Overdrafts.StartDate",
+        "Overdrafts.EndDate",
+        "Overdrafts.AccountNumber",
+        "Rewards.RewardID",
+        "Rewards.Points",
+        "Rewards.ExpiryDate",
+        "Rewards.AccountNumber",
+        "Transactions.TransactionID",
+        "Transactions.Amount",
+        "Transactions.DateAndTime",
+        "Transactions.Description",
+        "Transactions.AccountNumber"
+    ]
+}

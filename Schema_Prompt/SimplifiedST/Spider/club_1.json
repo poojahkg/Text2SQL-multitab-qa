@@ -1,0 +1,19 @@
+{
+    "club_1": [
+        "Student.StuID",
+        "Student.LName",
+        "Student.Fname",
+        "Student.Age",
+        "Student.Sex",
+        "Student.Major",
+        "Student.Advisor",
+        "Student.city_code",
+        "Club.ClubID",
+        "Club.ClubName",
+        "Club.ClubDesc",
+        "Club.ClubLocation",
+        "Member_of_club.StuID",
+        "Member_of_club.ClubID",
+        "Member_of_club.Position"
+    ]
+}

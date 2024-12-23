@@ -1,0 +1,13 @@
+{
+    "vague_2tabs_deadline_copy_dump": [
+        "Classes.class_id",
+        "Classes.course_title",
+        "Classes.instructor",
+        "Enrollment.enrollment_id",
+        "Enrollment.student_id",
+        "Enrollment.class_id",
+        "Students.id",
+        "Students.first_name",
+        "Students.last_name"
+    ]
+}

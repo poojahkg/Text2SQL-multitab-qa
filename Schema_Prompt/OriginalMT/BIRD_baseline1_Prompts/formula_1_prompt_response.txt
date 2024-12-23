@@ -1,0 +1,62 @@
+Prompt
+You are tasked with writing a query to solve a specific problem based on the schema and instructions below. Follow the step-by-step process to construct the query.
+
+
+Example Queries
+Question 1: Which constructor had the highest number of wins in the 2021 season?
+
+sql
+Copy code
+SELECT C.name AS Constructor, COUNT(R.position) AS Wins
+FROM results AS R
+JOIN races AS Ra ON R.raceId = Ra.raceId
+JOIN constructors AS C ON R.constructorId = C.constructorId
+WHERE R.position = 1 AND Ra.year = 2021
+GROUP BY C.name
+ORDER BY Wins DESC
+LIMIT 1;
+Description:
+
+Joins: Connects results, races, and constructors to link race results with constructors.
+Filter: Considers only 2021 races where a constructor finished first.
+Aggregation: Counts the number of wins per constructor.
+Order and Limit: Retrieves the constructor with the most wins.
+Question 2: What was the fastest lap speed in the Monaco Grand Prix in 2023?
+
+sql
+Copy code
+SELECT MAX(CAST(R.fastestLapSpeed AS REAL)) AS FastestSpeed
+FROM results AS R
+JOIN races AS Ra ON R.raceId = Ra.raceId
+WHERE Ra.name = 'Monaco Grand Prix' AND Ra.year = 2023;
+Description:
+
+Joins: Connects results and races to identify the Monaco Grand Prix in 2023.
+Filter: Limits the query to the specific race.
+Aggregation: Calculates the maximum fastest lap speed.
+Question 3: Which driver completed the most laps across all races in 2022?
+
+sql
+Copy code
+SELECT D.forename || ' ' || D.surname AS Driver, SUM(R.laps) AS TotalLaps
+FROM results AS R
+JOIN drivers AS D ON R.driverId = D.driverId
+JOIN races AS Ra ON R.raceId = Ra.raceId
+WHERE Ra.year = 2022
+GROUP BY D.driverId, D.forename, D.surname
+ORDER BY TotalLaps DESC
+LIMIT 1;
+Description:
+
+Joins: Links results, drivers, and races to track laps completed by each driver in 2022.
+Aggregation: Sums the total laps for each driver.
+Order and Limit: Retrieves the driver with the highest total laps.
+Query Writing Best Practices
+Use Aliases: Simplify table and column references (e.g., results AS R).
+Filter Precisely: Use WHERE clauses to narrow down results based on conditions.
+Aggregate Effectively: Apply functions like SUM, COUNT, MAX, and AVG to extract insights.
+Sort and Limit: Use ORDER BY and LIMIT to control the output.
+Join Tables: Utilize joins to combine relevant data across tables.
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

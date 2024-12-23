@@ -1,0 +1,22 @@
+{
+    "vague_2tabs_platform_dump": [
+        "Article.id",
+        "Article.title",
+        "Article.content",
+        "Article.publishedDate",
+        "Article.newsAgencyId",
+        "Author.id",
+        "Author.fullname",
+        "AuthorArticle.authorId",
+        "AuthorArticle.articleId",
+        "Mobile_App.id",
+        "Mobile_App.name",
+        "News_Agency.id",
+        "News_Agency.name",
+        "News_Agency.websiteId",
+        "News_Agency.mobileAppId",
+        "Website.id",
+        "Website.name",
+        "Website.url"
+    ]
+}

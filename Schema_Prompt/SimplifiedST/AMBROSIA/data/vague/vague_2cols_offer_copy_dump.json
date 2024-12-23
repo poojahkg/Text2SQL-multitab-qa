@@ -1,0 +1,19 @@
+{
+    "vague_2cols_offer_copy_dump": [
+        "Applicants.id",
+        "Applicants.fullName",
+        "Applicants.emailAddress",
+        "Applicants.phoneNumber",
+        "ApplicationStatuses.applicationId",
+        "ApplicationStatuses.applicantId",
+        "ApplicationStatuses.status",
+        "ApplicationStatuses.dateApplied",
+        "Employers.id",
+        "Employers.companyName",
+        "Employers.contactNumber",
+        "JobTypes.id",
+        "JobTypes.typeName",
+        "Locations.id",
+        "Locations.locationName"
+    ]
+}

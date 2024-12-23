@@ -1,0 +1,12 @@
+{
+    "scope_art_galleries_exhibitions_dump": [
+        "Art_Galleries.GalleryID",
+        "Art_Galleries.Name",
+        "Art_Galleries.Location",
+        "Art_Galleries_Exhibitions.GalleryID",
+        "Art_Galleries_Exhibitions.ExhibitionID",
+        "Exhibitions.ExhibitionID",
+        "Exhibitions.Type",
+        "Exhibitions.Description"
+    ]
+}

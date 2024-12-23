@@ -1,0 +1,18 @@
+{
+    "medicine_enzyme_interaction": [
+        "medicine.id",
+        "medicine.name",
+        "medicine.Trade_Name",
+        "medicine.FDA_approved",
+        "enzyme.id",
+        "enzyme.name",
+        "enzyme.Location",
+        "enzyme.Product",
+        "enzyme.Chromosome",
+        "enzyme.OMIM",
+        "enzyme.Porphyria",
+        "medicine_enzyme_interaction.enzyme_id",
+        "medicine_enzyme_interaction.medicine_id",
+        "medicine_enzyme_interaction.interaction_type"
+    ]
+}

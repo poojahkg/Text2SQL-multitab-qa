@@ -1,0 +1,113 @@
+
+Instructions for Writing Queries
+Understand the Schema:
+
+Identify relationships:
+TV_series and Cartoon link to TV_Channel via the Channel foreign key.
+Understand key fields like episode details, air date, ratings, and language.
+Analyze the Question:
+
+Identify which tables and fields are necessary.
+Determine any filtering, grouping, or aggregation needed.
+Use SQL Techniques:
+
+Use JOIN to combine data across tables.
+Use DISTINCT to filter unique results.
+Use LIMIT to restrict rows.
+Use subqueries for filtering or intermediate calculations.
+Apply grouping and aggregation (GROUP BY, COUNT, AVG, etc.) where necessary.
+Write and Validate the Query:
+
+Structure the query logically step by step.
+Test for accuracy and completeness.
+Few-Shot Questions and Queries
+Example 1:
+Question: List all cartoon episodes directed by "Hayao Miyazaki" that aired on channels broadcasting in Japanese.
+Query:
+
+sql
+Copy code
+SELECT c.Title
+FROM Cartoon c
+JOIN TV_Channel tc ON c.Channel = tc.id
+WHERE c.Directed_by = 'Hayao Miyazaki' AND tc.Language = 'Japanese';
+Example 2:
+Question: What is the average weekly rank of TV series episodes on pay-per-view channels?
+Query:
+
+sql
+Copy code
+SELECT AVG(ts.Weekly_Rank) AS Average_Rank
+FROM TV_series ts
+JOIN TV_Channel tc ON ts.Channel = tc.id
+WHERE tc.Pay_per_view_PPV = 'yes';
+Example 3:
+Question: Find the total number of cartoon episodes that aired on high-definition channels.
+Query:
+
+sql
+Copy code
+SELECT COUNT(*) AS Total_Cartoons
+FROM Cartoon c
+JOIN TV_Channel tc ON c.Channel = tc.id
+WHERE tc.Hight_definition_TV = 'yes';
+Example 4:
+Question: Which channel aired the most TV series episodes?
+Query:
+
+sql
+Copy code
+SELECT tc.series_name, COUNT(ts.id) AS Episode_Count
+FROM TV_series ts
+JOIN TV_Channel tc ON ts.Channel = tc.id
+GROUP BY tc.series_name
+ORDER BY Episode_Count DESC
+LIMIT 1;
+Example 5:
+Question: Find the average market share of cartoon episodes that aired in 2023.
+Query:
+
+sql
+Copy code
+SELECT AVG(ts.Share) AS Average_Share
+FROM TV_series ts
+WHERE ts.Air_Date LIKE '2023%';
+Example 6:
+Question: List all episodes from TV series and cartoons aired on "Sky Family" package channels.
+Query:
+
+sql
+Copy code
+SELECT ts.Episode AS Title
+FROM TV_series ts
+JOIN TV_Channel tc ON ts.Channel = tc.id
+WHERE tc.Package_Option = 'Sky Family'
+UNION
+SELECT c.Title AS Title
+FROM Cartoon c
+JOIN TV_Channel tc ON c.Channel = tc.id
+WHERE tc.Package_Option = 'Sky Family';
+Example 7:
+Question: Find the TV series episode with the highest viewer count among the 18-49 demographic.
+Query:
+
+sql
+Copy code
+SELECT ts.Episode, ts.Viewers_m
+FROM TV_series ts
+ORDER BY CAST(ts.Viewers_m AS REAL) DESC
+LIMIT 1;
+Example 8:
+Question: How many cartoon episodes were written by "John Doe" on channels broadcasting in English?
+Query:
+
+sql
+Copy code
+SELECT COUNT(*) AS Total_Episodes
+FROM Cartoon c
+JOIN TV_Channel tc ON c.Channel = tc.id
+WHERE c.Written_by = 'John Doe' AND tc.Language = 'English';
+
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

@@ -1,0 +1,21 @@
+{
+    "cre_Doc_Template_Mgt": [
+        "Ref_Template_Types.Template_Type_Code",
+        "Ref_Template_Types.Template_Type_Description",
+        "Templates.Template_ID",
+        "Templates.Version_Number",
+        "Templates.Template_Type_Code",
+        "Templates.Date_Effective_From",
+        "Templates.Date_Effective_To",
+        "Templates.Template_Details",
+        "Documents.Document_ID",
+        "Documents.Template_ID",
+        "Documents.Document_Name",
+        "Documents.Document_Description",
+        "Documents.Other_Details",
+        "Paragraphs.Paragraph_ID",
+        "Paragraphs.Document_ID",
+        "Paragraphs.Paragraph_Text",
+        "Paragraphs.Other_Details"
+    ]
+}

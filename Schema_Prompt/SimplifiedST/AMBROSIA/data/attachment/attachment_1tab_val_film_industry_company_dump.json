@@ -1,0 +1,32 @@
+{
+    "attachment_1tab_val_film_industry_company_dump": [
+        "Actors.id",
+        "Actors.First_Name",
+        "Actors.Last_Name",
+        "Actors.Date_of_Birth",
+        "Actors.Nationality",
+        "Companies.id",
+        "Companies.Name",
+        "Companies.Film_Industry_Type",
+        "Companies.Number_Of_Employees",
+        "Companies.Annual_Revenue",
+        "Companies.Founded",
+        "Directors.id",
+        "Directors.Name",
+        "Directors.Birth_Place",
+        "Directors.Years_Experience",
+        "Films.id",
+        "Films.Title",
+        "Films.Director_Name",
+        "Films.Production_Companies",
+        "Films.Distribution_Companies",
+        "Films.Release_Date",
+        "Films.Running_Time",
+        "Films.Genre",
+        "Films.Box_Office_Earnings",
+        "Producers.id",
+        "Producers.Name",
+        "Producers.Birth_Place",
+        "Producers.Total_Movies_Produced"
+    ]
+}

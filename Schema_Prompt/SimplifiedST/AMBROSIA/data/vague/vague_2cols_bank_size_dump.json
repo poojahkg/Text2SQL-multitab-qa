@@ -1,0 +1,22 @@
+{
+    "vague_2cols_bank_size_dump": [
+        "Accounts.AccountID",
+        "Accounts.CustomerID",
+        "Accounts.Balance",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.Email",
+        "Loans.LoanID",
+        "Loans.CustomerID",
+        "Loans.Amount",
+        "Loans.InterestRate",
+        "Loans.StartDate",
+        "Loans.EndDate",
+        "Transactions.TransactionID",
+        "Transactions.AccountID",
+        "Transactions.Date",
+        "Transactions.Type",
+        "Transactions.Amount"
+    ]
+}

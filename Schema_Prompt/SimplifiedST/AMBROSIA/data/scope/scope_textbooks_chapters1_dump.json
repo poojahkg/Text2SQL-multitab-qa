@@ -1,0 +1,16 @@
+{
+    "scope_textbooks_chapters1_dump": [
+        "Textbook_Chapters.textbook_chapter_id",
+        "Textbook_Chapters.textbook_id",
+        "Textbook_Chapters.chapter_id",
+        "Textbook_Chapters.content",
+        "Textbook_Chapters.created_at",
+        "Textbook_Chapters.updated_at",
+        "Textbook_Chapters.ON",
+        "Textbook_Chapters.ON",
+        "Textbooks.id",
+        "Textbooks.title",
+        "Textbooks.author",
+        "Textbooks.publication_year"
+    ]
+}

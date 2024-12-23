@@ -1,0 +1,11 @@
+{
+    "scope_financial_statements_sections_dump": [
+        "Financial_Statements.id",
+        "Financial_Statements.Name",
+        "Financial_Statements.Date",
+        "Financial_Statements_Sections.Financial_Statement_id",
+        "Financial_Statements_Sections.Section_id",
+        "Sections.id",
+        "Sections.SectionName"
+    ]
+}

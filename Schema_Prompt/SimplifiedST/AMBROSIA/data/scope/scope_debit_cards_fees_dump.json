@@ -1,0 +1,12 @@
+{
+    "scope_debit_cards_fees_dump": [
+        "Debit_Card_Fees.CardID",
+        "Debit_Card_Fees.FeeType",
+        "Debit_Card_Fees.AmountPaid",
+        "Debit_Cards.CardID",
+        "Debit_Cards.CustomerName",
+        "Debit_Cards.AccountBalance",
+        "Fees.FeeType",
+        "Fees.FeeValue"
+    ]
+}

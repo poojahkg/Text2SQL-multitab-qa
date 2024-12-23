@@ -1,0 +1,26 @@
+{
+    "vague_2tabs_designer_dump": [
+        "Architect.id",
+        "Architect.name",
+        "Architect.email",
+        "Building.id",
+        "Building.building_name",
+        "Building.firm_id",
+        "Building.architect_id",
+        "Employee.id",
+        "Employee.employee_name",
+        "Employee.position",
+        "Employee.firm_id",
+        "Firm.id",
+        "Firm.name",
+        "Firm.address",
+        "Material.id",
+        "Material.material_type",
+        "Material.cost",
+        "Project.id",
+        "Project.project_name",
+        "Project.building_id",
+        "Project.start_date",
+        "Project.end_date"
+    ]
+}

@@ -1,0 +1,111 @@
+Instructions for Writing Queries
+Understand the Schema:
+
+The Properties table is the main table containing property details.
+Use Ref_Property_Types to understand the property type codes.
+Use Other_Available_Features and Other_Property_Features to link properties to their features.
+Use Ref_Feature_Types for categorizing feature types.
+Analyze the Question:
+
+Determine which tables and fields are required.
+Identify any filtering, grouping, or aggregation needed to answer the question.
+Use SQL Techniques:
+
+Use JOIN to combine related tables.
+Use DISTINCT to filter unique results.
+Use LIMIT to restrict the number of rows in the output.
+Use subqueries for intermediate calculations or filtering.
+Apply grouping and aggregation (GROUP BY, COUNT, AVG, etc.) when needed.
+Write and Validate the Query:
+
+Structure the query logically, step by step.
+Test for completeness and accuracy.
+Few-Shot Questions and Queries
+Example 1:
+Question: List the names of all properties that have the feature "AirCon."
+Query:
+
+sql
+Copy code
+SELECT p.property_name
+FROM Properties p
+JOIN Other_Property_Features opf ON p.property_id = opf.property_id
+JOIN Other_Available_Features oaf ON opf.feature_id = oaf.feature_id
+WHERE oaf.feature_name = 'AirCon';
+Example 2:
+Question: Find the average agreed selling price of all apartments.
+Query:
+
+sql
+Copy code
+SELECT AVG(agreed_selling_price) AS Average_Selling_Price
+FROM Properties
+WHERE property_type_code = 'Apartment' AND agreed_selling_price IS NOT NULL;
+Example 3:
+Question: Which feature type has the most features available?
+Query:
+
+sql
+Copy code
+SELECT rft.feature_type_name, COUNT(oaf.feature_id) AS Feature_Count
+FROM Ref_Feature_Types rft
+JOIN Other_Available_Features oaf ON rft.feature_type_code = oaf.feature_type_code
+GROUP BY rft.feature_type_name
+ORDER BY Feature_Count DESC
+LIMIT 1;
+Example 4:
+Question: List all unsold houses that were put on the market before 2023.
+Query:
+
+sql
+Copy code
+SELECT property_name
+FROM Properties
+WHERE property_type_code = 'House' AND date_sold IS NULL AND date_on_market < '2023-01-01';
+Example 5:
+Question: Find the property with the highest vendor requested price.
+Query:
+
+sql
+Copy code
+SELECT property_name, vendor_requested_price
+FROM Properties
+ORDER BY vendor_requested_price DESC
+LIMIT 1;
+Example 6:
+Question: How many properties have "Security" as a feature type?
+Query:
+
+sql
+Copy code
+SELECT COUNT(DISTINCT opf.property_id) AS Property_Count
+FROM Other_Property_Features opf
+JOIN Other_Available_Features oaf ON opf.feature_id = oaf.feature_id
+WHERE oaf.feature_type_code = 'Security';
+Example 7:
+Question: Which property type has the highest average agreed selling price?
+Query:
+
+sql
+Copy code
+SELECT rpt.property_type_description, AVG(p.agreed_selling_price) AS Average_Selling_Price
+FROM Properties p
+JOIN Ref_Property_Types rpt ON p.property_type_code = rpt.property_type_code
+WHERE p.agreed_selling_price IS NOT NULL
+GROUP BY rpt.property_type_description
+ORDER BY Average_Selling_Price DESC
+LIMIT 1;
+Example 8:
+Question: List all properties that have more than 3 features.
+Query:
+
+sql
+Copy code
+SELECT p.property_name, COUNT(opf.feature_id) AS Feature_Count
+FROM Properties p
+JOIN Other_Property_Features opf ON p.property_id = opf.property_id
+GROUP BY p.property_id, p.property_name
+HAVING COUNT(opf.feature_id) > 3;
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

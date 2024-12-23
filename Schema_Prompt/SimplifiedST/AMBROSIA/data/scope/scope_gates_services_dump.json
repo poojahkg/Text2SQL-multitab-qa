@@ -1,0 +1,26 @@
+{
+    "scope_gates_services_dump": [
+        "Airlines.id",
+        "Airlines.name",
+        "Airlines.country",
+        "Airports.id",
+        "Airports.airportName",
+        "Airports.city",
+        "Airports.country",
+        "Flights.id",
+        "Flights.flightNumber",
+        "Flights.departureTime",
+        "Flights.arrivalTime",
+        "Flights.airlineId",
+        "Flights.originAirportId",
+        "Flights.destinationAirportId",
+        "Gates.id",
+        "Gates.gateNumber",
+        "Gates.terminal",
+        "Gates.airportId",
+        "Gates_Services.gateId",
+        "Gates_Services.serviceId",
+        "Services.id",
+        "Services.serviceName"
+    ]
+}

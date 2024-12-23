@@ -1,0 +1,30 @@
+{
+    "attachment_2tab_val_news_elements_dump": [
+        "Articles.id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.editor",
+        "Articles.publishing_status",
+        "Headlines.id",
+        "Headlines.headline",
+        "Headlines.Author",
+        "Headlines.publication_date",
+        "Headlines.category",
+        "Ledes.id",
+        "Ledes.lede",
+        "Ledes.Author",
+        "Ledes.publication_date",
+        "Ledes.source_of_info",
+        "Readers.id",
+        "Readers.name",
+        "Readers.email",
+        "Readers.preferred_source",
+        "Reporters.id",
+        "Reporters.name",
+        "Reporters.email",
+        "Reporters.phone_number",
+        "Sources.id",
+        "Sources.name",
+        "Sources.url"
+    ]
+}

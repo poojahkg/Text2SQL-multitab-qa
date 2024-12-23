@@ -1,0 +1,27 @@
+{
+    "attachment_1tab_ref_learning_activities_dump": [
+        "Course.ID",
+        "Course.Title",
+        "Course.Subject",
+        "Course.TeacherID",
+        "Enrollment.StudentID",
+        "Enrollment.CourseID",
+        "Enrollment.DateEnrolled",
+        "Enrollment.Grades",
+        "LearningActivity.ID",
+        "LearningActivity.Description",
+        "LearningActivity.ActivityType",
+        "LearningActivity.PurposeID",
+        "Purpose.ID",
+        "Purpose.Name",
+        "Student.ID",
+        "Student.FirstName",
+        "Student.LastName",
+        "Student.Age",
+        "Student.GradeLevel",
+        "Teacher.ID",
+        "Teacher.FirstName",
+        "Teacher.LastName",
+        "Teacher.Department"
+    ]
+}

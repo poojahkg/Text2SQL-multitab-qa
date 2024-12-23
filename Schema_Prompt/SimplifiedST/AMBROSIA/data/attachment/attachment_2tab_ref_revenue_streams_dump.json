@@ -1,0 +1,28 @@
+{
+    "attachment_2tab_ref_revenue_streams_dump": [
+        "Accounts.AccountID",
+        "Accounts.CustomerID",
+        "Accounts.Product",
+        "Accounts.Balance",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.DateOfBirth",
+        "Fees.FeeID",
+        "Fees.AccountID",
+        "Fees.CardFee",
+        "InterestRates.RateID",
+        "InterestRates.AccountID",
+        "InterestRates.MonthlyInterestRate",
+        "Products.ProductID",
+        "Products.Name",
+        "Products.Description",
+        "Products.MonthlyInterestRate",
+        "Products.CardFee",
+        "Transactions.TransactionID",
+        "Transactions.AccountID",
+        "Transactions.Amount",
+        "Transactions.Type",
+        "Transactions.TransactionDate"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "attachment_2tab_ref_musician_dump": [
+        "AlbumTracks.id",
+        "AlbumTracks.trackNumber",
+        "AlbumTracks.title",
+        "AlbumTracks.duration",
+        "Albums.id",
+        "Albums.albumTitle",
+        "Albums.releaseYear",
+        "BluegrassSingers.id",
+        "BluegrassSingers.singerName",
+        "BluegrassSingers.bluegrassStyle",
+        "BluegrassSingers.foreignKey",
+        "CountrySingers.id",
+        "CountrySingers.singerName",
+        "CountrySingers.country",
+        "CountrySingers.foreignKey",
+        "Instruments.id",
+        "Instruments.instrumentName",
+        "SingsOnAlbum.id",
+        "SingsOnAlbum.singerId",
+        "SingsOnAlbum.albumId"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "attachment_2tab_val_hospitality_jobs_dump": [
+        "Agency.id",
+        "Agency.name",
+        "Applications.tourGuideId",
+        "Applications.travelAgentId",
+        "Applications.jobId",
+        "Applications.applicationDate",
+        "Jobs.id",
+        "Jobs.title",
+        "Jobs.description",
+        "Skills.skillId",
+        "Skills.skillName",
+        "Tour_Guide.id",
+        "Tour_Guide.guideName",
+        "Tour_Guide.agencyId",
+        "Travel_Agent.id",
+        "Travel_Agent.agentName",
+        "Travel_Agent.agencyId"
+    ]
+}

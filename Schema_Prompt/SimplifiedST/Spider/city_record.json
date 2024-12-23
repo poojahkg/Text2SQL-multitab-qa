@@ -1,0 +1,31 @@
+{
+    "city_record": [
+        "city.City_ID",
+        "city.City",
+        "city.Hanzi",
+        "city.Hanyu_Pinyin",
+        "city.Regional_Population",
+        "city.GDP",
+        "match.Match_ID",
+        "match.Date",
+        "match.Venue",
+        "match.Score",
+        "match.Result",
+        "match.Competition",
+        "temperature.City_ID",
+        "temperature.Jan",
+        "temperature.Feb",
+        "temperature.Mar",
+        "temperature.Apr",
+        "temperature.Jun",
+        "temperature.Jul",
+        "temperature.Aug",
+        "temperature.Sep",
+        "temperature.Oct",
+        "temperature.Nov",
+        "temperature.Dec",
+        "hosting_city.Year",
+        "hosting_city.Match_ID",
+        "hosting_city.Host_City"
+    ]
+}

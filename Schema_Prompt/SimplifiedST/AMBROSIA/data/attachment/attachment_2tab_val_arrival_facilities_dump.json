@@ -1,0 +1,19 @@
+{
+    "attachment_2tab_val_arrival_facilities_dump": [
+        "arrival_hall.id",
+        "arrival_hall.terminal_id",
+        "arrival_hall.Arrival_Hall",
+        "arrival_hall.Maximum_Capacity",
+        "arrival_hall.number_of_gates",
+        "baggage_reclaim.id",
+        "baggage_reclaim.terminal_id",
+        "baggage_reclaim.Baggage_Reclaim",
+        "baggage_reclaim.Maximum_Capacity",
+        "baggage_reclaim.number_of_carousels",
+        "flight.id",
+        "flight.terminal_id",
+        "terminal.id",
+        "terminal.name",
+        "terminal.location"
+    ]
+}

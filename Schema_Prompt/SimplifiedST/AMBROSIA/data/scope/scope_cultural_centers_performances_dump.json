@@ -1,0 +1,16 @@
+{
+    "scope_cultural_centers_performances_dump": [
+        "Cultural_Centers.centerID",
+        "Cultural_Centers.name",
+        "Cultural_Centers.location",
+        "Cultural_Centers_Performances.culturalCenterID",
+        "Cultural_Centers_Performances.performanceID",
+        "Employees.employeeID",
+        "Employees.firstName",
+        "Employees.lastName",
+        "Managers.managerID",
+        "Managers.employeeID",
+        "Performances.performanceID",
+        "Performances.type"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "vague_2cols_reporter_copy_dump": [
+        "assigned_stories.id",
+        "assigned_stories.story_id",
+        "assigned_stories.journalist_id",
+        "assigned_stories.start_date",
+        "assigned_stories.end_date",
+        "journalists.id",
+        "journalists.name",
+        "journalists.email",
+        "journalists.phone",
+        "news_agencies.id",
+        "news_agencies.name",
+        "news_agencies.location",
+        "news_agencies.contact_email",
+        "story_categories.id",
+        "story_categories.category_name",
+        "story_categories.description"
+    ]
+}

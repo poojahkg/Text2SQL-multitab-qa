@@ -1,0 +1,26 @@
+{
+    "attachment_2tab_val_literary_works_dump": [
+        "Authors.id",
+        "Authors.Name",
+        "Authors.BirthDate",
+        "Authors.Nationality",
+        "Authors.Biography",
+        "Novels.id",
+        "Novels.Title",
+        "Novels.Author",
+        "Novels.Year",
+        "Novels.Genre",
+        "Novels.Character",
+        "Publishers.id",
+        "Publishers.Name",
+        "Publishers.EstablishedYear",
+        "Publishers.Location",
+        "Publishers.NumberOfEmployees",
+        "ShortStories.id",
+        "ShortStories.Title",
+        "ShortStories.Author",
+        "ShortStories.Year",
+        "ShortStories.Theme",
+        "ShortStories.Character"
+    ]
+}

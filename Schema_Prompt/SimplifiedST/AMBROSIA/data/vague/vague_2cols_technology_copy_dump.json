@@ -1,0 +1,22 @@
+{
+    "vague_2cols_technology_copy_dump": [
+        "ArticleSources.articleSourceID",
+        "ArticleSources.articleID",
+        "ArticleSources.sourceID",
+        "ArticleSources.referenceDate",
+        "Articles.articleID",
+        "Articles.title",
+        "Articles.content",
+        "Articles.publicationDate",
+        "Articles.authorID",
+        "Authors.authorID",
+        "Authors.name",
+        "Authors.email",
+        "EditorialTeamMembers.memberID",
+        "EditorialTeamMembers.role",
+        "EditorialTeamMembers.editorName",
+        "Sources.sourceID",
+        "Sources.name",
+        "Sources.url"
+    ]
+}

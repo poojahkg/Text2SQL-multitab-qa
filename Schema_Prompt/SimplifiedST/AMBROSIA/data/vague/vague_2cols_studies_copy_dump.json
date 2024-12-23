@@ -1,0 +1,16 @@
+{
+    "vague_2cols_studies_copy_dump": [
+        "Courses.ID",
+        "Courses.Title",
+        "Courses.Description",
+        "Courses.Credit",
+        "Enrolments.ID",
+        "Enrolments.StudentID",
+        "Enrolments.CourseID",
+        "Enrolments.Semester",
+        "Marks.ID",
+        "Marks.EnrollmentID",
+        "Marks.Grade",
+        "Marks.DateAssigned"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "attachment_1tab_val_insurance_type_dump": [
+        "Accounts.AccountNumber",
+        "Accounts.CustomerID",
+        "Accounts.Balance",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.DateOfBirth",
+        "Customers.Email",
+        "Insurance.InsuranceID",
+        "Insurance.CustomerID",
+        "Insurance.InsuranceType",
+        "Insurance.PaymentFrequency",
+        "Insurance.PremiumAmount",
+        "Insurance.StartDate",
+        "Insurance.EndDate",
+        "Loans.LoanID",
+        "Loans.CustomerID",
+        "Loans.Amount",
+        "Loans.InterestRate",
+        "Loans.TermYears",
+        "Payments.PaymentID",
+        "Payments.AccountNumber",
+        "Payments.PaymentDate",
+        "Payments.PaymentAmount",
+        "Payments.CheckNumber"
+    ]
+}

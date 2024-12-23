@@ -1,0 +1,32 @@
+{
+    "attachment_1tab_val_insurance_product_dump": [
+        "Accounts.AccountID",
+        "Accounts.Balance",
+        "Accounts.InterestRate",
+        "Accounts.DateOpened",
+        "Accounts.CustomerID",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.Email",
+        "Customers.PhoneNumber",
+        "Insurance_Products.ProductID",
+        "Insurance_Products.PolicyHolderID",
+        "Insurance_Products.ProductType",
+        "Insurance_Products.Payout",
+        "Insurance_Products.StartDate",
+        "Insurance_Products.EndDate",
+        "Loans.LoanID",
+        "Loans.Principal",
+        "Loans.InterestRate",
+        "Loans.TermYears",
+        "Loans.MonthlyPayment",
+        "Loans.ApprovalDate",
+        "Loans.AccountID",
+        "Transactions.TransactionID",
+        "Transactions.Amount",
+        "Transactions.Type",
+        "Transactions.Date",
+        "Transactions.AccountID"
+    ]
+}

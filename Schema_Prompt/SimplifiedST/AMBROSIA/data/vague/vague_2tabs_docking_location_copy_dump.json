@@ -1,0 +1,18 @@
+{
+    "vague_2tabs_docking_location_copy_dump": [
+        "Payments.id",
+        "Payments.reservationId",
+        "Payments.amountPaid",
+        "Payments.paymentMethod",
+        "Payments.transactionTime",
+        "Reservations.id",
+        "Reservations.customerId",
+        "Reservations.roomTypeId",
+        "Reservations.checkInDate",
+        "Reservations.checkOutDate",
+        "RoomTypes.id",
+        "RoomTypes.typeName",
+        "RoomTypes.capacity",
+        "RoomTypes.pricePerNight"
+    ]
+}

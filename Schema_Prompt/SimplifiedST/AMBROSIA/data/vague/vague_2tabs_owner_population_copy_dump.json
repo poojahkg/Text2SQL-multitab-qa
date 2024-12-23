@@ -1,0 +1,17 @@
+{
+    "vague_2tabs_owner_population_copy_dump": [
+        "Address.ID",
+        "Address.Street",
+        "Address.City",
+        "Address.PersonId",
+        "EmploymentStatus.ID",
+        "EmploymentStatus.Status",
+        "EmploymentStatus.PersonId",
+        "IncomeLevel.ID",
+        "IncomeLevel.Level",
+        "IncomeLevel.PersonId",
+        "Person.ID",
+        "Person.Name",
+        "Person.Age"
+    ]
+}

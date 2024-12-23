@@ -1,0 +1,10 @@
+{
+    "small_bank_1": [
+        "ACCOUNTS.custid",
+        "ACCOUNTS.name",
+        "SAVINGS.custid",
+        "SAVINGS.balance",
+        "CHECKING.custid",
+        "CHECKING.balance"
+    ]
+}

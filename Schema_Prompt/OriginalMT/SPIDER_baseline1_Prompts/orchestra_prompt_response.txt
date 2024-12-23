@@ -1,0 +1,106 @@
+Instructions for Writing Queries
+Understand the Schema:
+
+Review the relationships:
+orchestra links to conductor via Conductor_ID.
+performance links to orchestra via Orchestra_ID.
+show links to performance via Performance_ID.
+Analyze the Question:
+
+Identify the relevant tables and relationships required to extract the data.
+Determine filtering conditions, grouping, or aggregation needed.
+Use SQL Techniques:
+
+Use JOIN to combine related tables.
+Use DISTINCT to filter unique results.
+Use LIMIT to restrict the number of rows in the output.
+Use subqueries for intermediate calculations or filtering.
+Apply grouping and aggregation (GROUP BY, COUNT, AVG) where applicable.
+Write and Validate the Query:
+
+Structure the query logically, step by step.
+Test for accuracy and completeness.
+Few-Shot Questions and Queries
+Example 1:
+Question: Find the names of all conductors who have worked for more than 20 years.
+Query:
+
+sql
+Copy code
+SELECT Name
+FROM conductor
+WHERE Year_of_Work > 20;
+Example 2:
+Question: List the names of orchestras associated with the record company "Deutsche Grammophon."
+Query:
+
+sql
+Copy code
+SELECT Orchestra
+FROM orchestra
+WHERE Record_Company = 'Deutsche Grammophon';
+Example 3:
+Question: What is the average attendance for shows in performances of type "Live final"?
+Query:
+
+sql
+Copy code
+SELECT AVG(s.Attendance) AS Average_Attendance
+FROM show s
+JOIN performance p ON s.Performance_ID = p.Performance_ID
+WHERE p.Type = 'Live final';
+Example 4:
+Question: Find the conductor with the most orchestras under their direction.
+Query:
+
+sql
+Copy code
+SELECT c.Name, COUNT(o.Orchestra_ID) AS Orchestra_Count
+FROM conductor c
+JOIN orchestra o ON c.Conductor_ID = o.Conductor_ID
+GROUP BY c.Conductor_ID, c.Name
+ORDER BY Orchestra_Count DESC
+LIMIT 1;
+Example 5:
+Question: How many performances in 2022 had an official rating above 5 million?
+Query:
+
+sql
+Copy code
+SELECT COUNT(*) AS High_Rated_Performances
+FROM performance
+WHERE CAST(Date AS DATE) >= '2022-01-01' AND CAST(Date AS DATE) <= '2022-12-31'
+AND Official_ratings_(millions) > 5;
+Example 6:
+Question: List all performances with their type and official ratings, sorted by market share.
+Query:
+
+sql
+Copy code
+SELECT p.Type, p.Official_ratings_(millions), p.Share
+FROM performance p
+ORDER BY CAST(p.Share AS REAL) DESC;
+Example 7:
+Question: Find the total attendance for all first shows across all performances.
+Query:
+
+sql
+Copy code
+SELECT SUM(s.Attendance) AS Total_First_Show_Attendance
+FROM show s
+WHERE s.If_first_show = TRUE;
+Example 8:
+Question: Which performance type had the highest average weekly rank?
+Query:
+
+sql
+Copy code
+SELECT p.Type, AVG(CAST(p.Weekly_rank AS REAL)) AS Average_Rank
+FROM performance p
+GROUP BY p.Type
+ORDER BY Average_Rank ASC
+LIMIT 1;
+
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

@@ -1,0 +1,28 @@
+{
+    "attachment_2tab_ref_visual_arts_dump": [
+        "Classes.ClassID",
+        "Classes.TeacherID",
+        "Classes.StudentID",
+        "Classes.StartTime",
+        "Classes.EndTime",
+        "Classes.Classroom",
+        "Illustrations.IllustID",
+        "Illustrations.Description",
+        "Illustrations.PathToIllust",
+        "Illustrations.SubjectID",
+        "Photos.PhotoID",
+        "Photos.Description",
+        "Photos.PathToPhoto",
+        "Photos.SubjectID",
+        "Students.ID",
+        "Students.Name",
+        "Students.Age",
+        "Students.EnrollmentDate",
+        "Subjects.ID",
+        "Subjects.Name",
+        "Teachers.ID",
+        "Teachers.Name",
+        "Teachers.Age",
+        "Teachers.HiredDate"
+    ]
+}

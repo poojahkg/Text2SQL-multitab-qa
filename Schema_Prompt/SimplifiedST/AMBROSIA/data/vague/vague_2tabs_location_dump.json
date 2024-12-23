@@ -1,0 +1,28 @@
+{
+    "vague_2tabs_location_dump": [
+        "Accounts.account_number",
+        "Accounts.balance",
+        "Accounts.owner_id",
+        "Banks.id",
+        "Banks.bank_name",
+        "Banks.city_id",
+        "Banks.country_id",
+        "City.id",
+        "City.name",
+        "City.country_id",
+        "Country.id",
+        "Country.name",
+        "Customers.customer_id",
+        "Customers.first_name",
+        "Customers.last_name",
+        "Customers.birth_date",
+        "Customers.address",
+        "Customers.phone",
+        "Customers.email",
+        "Transactions.transaction_id",
+        "Transactions.date",
+        "Transactions.amount",
+        "Transactions.debit_account_id",
+        "Transactions.credit_account_id"
+    ]
+}

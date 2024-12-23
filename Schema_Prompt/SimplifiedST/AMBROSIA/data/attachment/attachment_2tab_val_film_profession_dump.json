@@ -1,0 +1,30 @@
+{
+    "attachment_2tab_val_film_profession_dump": [
+        "Actor.id",
+        "Actor.Name",
+        "Actor.BirthDate",
+        "Actor.Country",
+        "Casting.movie_id",
+        "Casting.actor_id",
+        "Casting.role",
+        "Director.id",
+        "Director.Name",
+        "Director.BirthDate",
+        "Director.Country",
+        "Director.Award",
+        "Movie.id",
+        "Movie.Title",
+        "Movie.ReleaseYear",
+        "Movie.Genre",
+        "Movie.Rating",
+        "Producer.id",
+        "Producer.Name",
+        "Producer.BirthDate",
+        "Producer.Country",
+        "Producer.Award",
+        "Review.review_id",
+        "Review.movie_id",
+        "Review.rating",
+        "Review.comment"
+    ]
+}

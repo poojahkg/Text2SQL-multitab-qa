@@ -1,0 +1,12 @@
+{
+    "scope_craft_services_menus_dump": [
+        "Craft_Services.ServiceID",
+        "Craft_Services.Description",
+        "Craft_Services.Price",
+        "Craft_Services_Menus.ID",
+        "Craft_Services_Menus.ServiceID",
+        "Craft_Services_Menus.MenuID",
+        "Menus.MenuID",
+        "Menus.Name"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "attachment_1tab_val_arrival_facilities_dump": [
+        "Airlines.id",
+        "Airlines.Name",
+        "Airlines.Headquarters",
+        "Airlines.IATA_Code",
+        "Airports.id",
+        "Airports.Name",
+        "Airports.Location",
+        "Airports.NumberOfTerminals",
+        "Flights.id",
+        "Flights.FlightNo",
+        "Flights.DepartureAirportId",
+        "Flights.DestinationAirportId",
+        "Flights.AirlineId",
+        "Flights.Departs",
+        "Flights.Arrives",
+        "Passengers.id",
+        "Passengers.FirstName",
+        "Passengers.LastName",
+        "Passengers.DateOfBirth",
+        "Passengers.FlightId",
+        "TerminalFacility.id",
+        "TerminalFacility.Arrival_Facilities",
+        "TerminalFacility.Maximum_Capacity",
+        "TerminalFacility.OpeningHours"
+    ]
+}

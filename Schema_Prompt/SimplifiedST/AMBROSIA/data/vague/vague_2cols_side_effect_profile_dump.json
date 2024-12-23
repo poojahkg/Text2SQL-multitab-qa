@@ -1,0 +1,29 @@
+{
+    "vague_2cols_side_effect_profile_dump": [
+        "Diagnosis.diagnosis_id",
+        "Diagnosis.patient_id",
+        "Diagnosis.diagnosis_text",
+        "Diagnosis.diagnosis_code",
+        "DoctorPatient.doctor_patient_id",
+        "DoctorPatient.doctor_id",
+        "DoctorPatient.patient_id",
+        "DoctorPatient.relationship",
+        "Doctors.doctor_id",
+        "Doctors.name",
+        "Doctors.specialty",
+        "Medications.medication_id",
+        "Medications.antibiotic",
+        "Medications.common_side_effects",
+        "Medications.serious_side_effects",
+        "Medications.dosage",
+        "Patients.patient_id",
+        "Patients.name",
+        "Patients.age",
+        "Prescriptions.prescription_id",
+        "Prescriptions.patient_id",
+        "Prescriptions.doctor_id",
+        "Prescriptions.medication_id",
+        "Prescriptions.start_date",
+        "Prescriptions.end_date"
+    ]
+}

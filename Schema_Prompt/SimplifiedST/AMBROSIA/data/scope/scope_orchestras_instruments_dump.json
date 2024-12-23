@@ -1,0 +1,15 @@
+{
+    "scope_orchestras_instruments_dump": [
+        "Conductors.id",
+        "Conductors.name",
+        "Conductors.birthdate",
+        "Instruments.id",
+        "Instruments.instrument_type",
+        "Orchestras.id",
+        "Orchestras.orchestra_name",
+        "Orchestras.conductor_id",
+        "Orchestras_Instruments.id",
+        "Orchestras_Instruments.orchestra_id",
+        "Orchestras_Instruments.instrument_id"
+    ]
+}

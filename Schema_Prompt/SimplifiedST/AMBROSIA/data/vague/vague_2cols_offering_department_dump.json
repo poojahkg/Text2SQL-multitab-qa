@@ -1,0 +1,33 @@
+{
+    "vague_2cols_offering_department_dump": [
+        "Colleges.id",
+        "Colleges.name",
+        "Colleges.location",
+        "CourseEnrollments.student_id",
+        "CourseEnrollments.course_id",
+        "CourseEnrollments.semester",
+        "CourseEnrollments.year",
+        "CourseEnrollments.grade",
+        "Courses.id",
+        "Courses.title",
+        "Courses.description",
+        "Courses.credits",
+        "Professors.id",
+        "Professors.first_name",
+        "Professors.last_name",
+        "Professors.department",
+        "Professors.office_location",
+        "Students.id",
+        "Students.first_name",
+        "Students.last_name",
+        "Students.email",
+        "Students.phone_number",
+        "Students.college",
+        "Students.university",
+        "Universities.id",
+        "Universities.name",
+        "Universities.city",
+        "Universities.state",
+        "Universities.country"
+    ]
+}

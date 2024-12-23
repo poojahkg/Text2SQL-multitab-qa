@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_val_mobility_aids_dump": [
+        "Flight.flightID",
+        "Flight.departureTime",
+        "Flight.destination",
+        "Flight.duration",
+        "Gate.gateID",
+        "Gate.gateNumber",
+        "Gate.terminal",
+        "Gate.capacity",
+        "Passenger.passengerID",
+        "Passenger.mobilityAids",
+        "Passenger.pickUpDropOffLocation",
+        "Passenger.FullName",
+        "ServiceRequest.requestID",
+        "ServiceRequest.flightID",
+        "ServiceRequest.passengerID",
+        "ServiceRequest.serviceType"
+    ]
+}

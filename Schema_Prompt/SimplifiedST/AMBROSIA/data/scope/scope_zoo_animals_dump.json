@@ -1,0 +1,11 @@
+{
+    "scope_zoo_animals_dump": [
+        "Animals.animalID",
+        "Animals.animalName",
+        "Zoo.zooID",
+        "Zoo.zooName",
+        "Zoo.location",
+        "Zoo_Animals.zooID",
+        "Zoo_Animals.animalID"
+    ]
+}

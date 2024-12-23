@@ -1,0 +1,22 @@
+{
+    "vague_2tabs_requirements_dump": [
+        "Business_Loan_Applications.id",
+        "Business_Loan_Applications.loan_name",
+        "Business_Loan_Applications.application_date",
+        "Business_Loan_Applications.annual_revenue",
+        "Business_Loan_Applications.num_employees",
+        "Business_Loan_Applications.loan_id",
+        "Documentation_Requirements.id",
+        "Documentation_Requirements.doc_type",
+        "Documentation_Requirements.requirement",
+        "Eligibility_Criteria.id",
+        "Eligibility_Criteria.criteria",
+        "Eligibility_Criteria.score",
+        "Loans.id",
+        "Loans.name",
+        "Loans.amount",
+        "Loans.term",
+        "Loans.eligibility_criteria_id",
+        "Loans.documentation_requirement_id"
+    ]
+}

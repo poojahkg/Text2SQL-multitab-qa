@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_val_visual_storytelling_dump": [
+        "Articles.id",
+        "Articles.title",
+        "Articles.authorId",
+        "Articles.pubId",
+        "Articles.publicationDate",
+        "Articles.visualStorytelling",
+        "Articles.articleType",
+        "Authors.id",
+        "Authors.firstName",
+        "Authors.lastName",
+        "Authors.email",
+        "Authors.phoneNumber",
+        "Categories.id",
+        "Categories.catName",
+        "Publishers.id",
+        "Publishers.pubName",
+        "Publishers.address",
+        "Publishers.city",
+        "Publishers.country"
+    ]
+}

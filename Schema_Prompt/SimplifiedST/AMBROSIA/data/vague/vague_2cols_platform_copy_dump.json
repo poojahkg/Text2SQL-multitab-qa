@@ -1,0 +1,15 @@
+{
+    "vague_2cols_platform_copy_dump": [
+        "ArticleCategoryRelationship.articleId",
+        "ArticleCategoryRelationship.categoryId",
+        "Author.id",
+        "Author.Name",
+        "Author.Email",
+        "Category.id",
+        "Category.Name",
+        "Comments.id",
+        "Comments.content",
+        "Comments.authorEmail",
+        "Comments.articleId"
+    ]
+}

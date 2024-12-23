@@ -1,0 +1,22 @@
+{
+    "scope_insurance_plan_coverage_dump": [
+        "Appointment.AppointmentID",
+        "Appointment.Date",
+        "Appointment.Reason",
+        "Appointment.PatientID",
+        "Appointment.DoctorID",
+        "Coverage.CoverageID",
+        "Coverage.Description",
+        "Doctor.DoctorID",
+        "Doctor.Name",
+        "Doctor.Specialty",
+        "Insurance_Plan.PlanID",
+        "Insurance_Plan.PlanName",
+        "Insurance_Plan.MonthlyPremium",
+        "Insurance_Plan_Coverage.PlanID",
+        "Insurance_Plan_Coverage.CoverageID",
+        "Patient.PatientID",
+        "Patient.Name",
+        "Patient.DOB"
+    ]
+}

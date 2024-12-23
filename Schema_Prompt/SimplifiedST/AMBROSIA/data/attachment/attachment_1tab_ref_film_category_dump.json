@@ -1,0 +1,19 @@
+{
+    "attachment_1tab_ref_film_category_dump": [
+        "Actors.id",
+        "Actors.firstName",
+        "Actors.lastName",
+        "Categories.id",
+        "Categories.categoryName",
+        "Directors.id",
+        "Directors.directorName",
+        "Films.id",
+        "Films.title",
+        "Films.budget",
+        "Films.categoryId",
+        "Roles.filmId",
+        "Roles.actorId",
+        "Roles.roleType",
+        "Roles.directorId"
+    ]
+}

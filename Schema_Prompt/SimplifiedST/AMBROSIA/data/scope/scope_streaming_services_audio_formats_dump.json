@@ -1,0 +1,13 @@
+{
+    "scope_streaming_services_audio_formats_dump": [
+        "Audio_Formats.id",
+        "Audio_Formats.format_name",
+        "Audio_Formats.description",
+        "Streaming_Services.id",
+        "Streaming_Services.service_name",
+        "Streaming_Services.subscription_price",
+        "Streaming_Services.number_of_users",
+        "Streaming_Services_Audio_Formats.streaming_service_id",
+        "Streaming_Services_Audio_Formats.audio_format_id"
+    ]
+}

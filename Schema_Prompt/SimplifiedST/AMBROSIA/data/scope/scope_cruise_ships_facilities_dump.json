@@ -1,0 +1,12 @@
+{
+    "scope_cruise_ships_facilities_dump": [
+        "Cruise_Ships.id",
+        "Cruise_Ships.name",
+        "Cruise_Ships.capacity",
+        "Cruise_Ships_Facilities.cruiseShipId",
+        "Cruise_Ships_Facilities.facilityId",
+        "Facilities.id",
+        "Facilities.facilityName",
+        "Facilities.isAvailable"
+    ]
+}

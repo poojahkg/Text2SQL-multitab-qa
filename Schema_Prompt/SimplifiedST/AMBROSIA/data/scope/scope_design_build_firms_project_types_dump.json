@@ -1,0 +1,11 @@
+{
+    "scope_design_build_firms_project_types_dump": [
+        "Design_Build_Firms.FirmID",
+        "Design_Build_Firms.Name",
+        "Design_Build_Firms.Address",
+        "Design_Build_Firms_Project_Types.FirmID",
+        "Design_Build_Firms_Project_Types.TypeID",
+        "Project_Types.TypeID",
+        "Project_Types.Description"
+    ]
+}

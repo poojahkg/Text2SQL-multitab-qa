@@ -1,0 +1,23 @@
+{
+    "attachment_2tab_ref_crew_dump": [
+        "Directors.ID",
+        "Directors.Name",
+        "Directors.BirthDate",
+        "Directors.Country",
+        "Editors.ID",
+        "Editors.Name",
+        "Editors.BirthDate",
+        "Editors.Country",
+        "Episodes.ID",
+        "Episodes.Title",
+        "Episodes.DirectorID",
+        "Episodes.EditorID",
+        "Episodes.ReleaseDate",
+        "Movies.ID",
+        "Movies.Title",
+        "Movies.Year",
+        "Movies.Genre",
+        "Movies.DirectorID",
+        "Movies.EditorID"
+    ]
+}

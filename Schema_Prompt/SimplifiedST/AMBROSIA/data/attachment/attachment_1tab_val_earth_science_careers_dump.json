@@ -1,0 +1,24 @@
+{
+    "attachment_1tab_val_earth_science_careers_dump": [
+        "Companies.id",
+        "Companies.name",
+        "Companies.address",
+        "Departments.id",
+        "Departments.name",
+        "EarthSciencesJobs.id",
+        "EarthSciencesJobs.jobTitle",
+        "EarthSciencesJobs.departmentId",
+        "EarthSciencesJobs.companyId",
+        "Education.employeeId",
+        "Education.degree",
+        "Education.major",
+        "Education.institution",
+        "Education.yearGraduated",
+        "Employees.id",
+        "Employees.title",
+        "Employees.startDate",
+        "Employees.endDate",
+        "Employees.university",
+        "Employees.FullName"
+    ]
+}

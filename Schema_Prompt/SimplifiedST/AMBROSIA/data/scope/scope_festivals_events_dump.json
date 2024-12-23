@@ -1,0 +1,12 @@
+{
+    "scope_festivals_events_dump": [
+        "Events.EventTypeID",
+        "Events.EventName",
+        "Events.Description",
+        "Festivals.FestivalID",
+        "Festivals.Name",
+        "Festivals.Location",
+        "Festivals_Events.FestivalID",
+        "Festivals_Events.EventTypeID"
+    ]
+}

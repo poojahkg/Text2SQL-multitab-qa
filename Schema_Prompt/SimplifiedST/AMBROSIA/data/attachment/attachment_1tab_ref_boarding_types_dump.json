@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_ref_boarding_types_dump": [
+        "Airlines.AirlineID",
+        "Airlines.Name",
+        "Flights.FlightID",
+        "Flights.Origin",
+        "Flights.Destination",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Flights.AirlineID",
+        "Flights.PlaneID",
+        "Passengers.PassengerID",
+        "Passengers.Name",
+        "Passengers.Age",
+        "Passengers.BoardingType",
+        "Passengers.FlightID",
+        "Planes.PlaneID",
+        "Planes.Model",
+        "Planes.Capacity"
+    ]
+}

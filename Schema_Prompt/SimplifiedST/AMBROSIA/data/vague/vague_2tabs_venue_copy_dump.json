@@ -1,0 +1,15 @@
+{
+    "vague_2tabs_venue_copy_dump": [
+        "Course.id",
+        "Course.courseCode",
+        "Course.courseTitle",
+        "Course.lecturesInCourse",
+        "Enrollment.studentId",
+        "Enrollment.lectureId",
+        "Enrollment.grade",
+        "Student.id",
+        "Student.firstName",
+        "Student.lastName",
+        "Student.email"
+    ]
+}

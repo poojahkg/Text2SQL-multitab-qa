@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_val_products_dump": [
+        "AccountTypes.TypeID",
+        "AccountTypes.TypeName",
+        "Accounts.AccountNumber",
+        "Accounts.CustomerID",
+        "Accounts.AccountTypeID",
+        "Accounts.Balance",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.EmailAddress",
+        "ExchangeRates.RateId",
+        "ExchangeRates.Currency",
+        "Transactions.TransactionID",
+        "Transactions.AccountNumber",
+        "Transactions.ProductID",
+        "Transactions.Quantity"
+    ]
+}

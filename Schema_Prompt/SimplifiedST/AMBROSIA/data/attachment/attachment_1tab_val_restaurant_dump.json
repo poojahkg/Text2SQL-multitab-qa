@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_val_restaurant_dump": [
+        "MenuItems.id",
+        "MenuItems.ItemName",
+        "MenuItems.Description",
+        "MenuItems.Price",
+        "MenuItems.RestaurantId",
+        "Reservations.id",
+        "Reservations.CustomerName",
+        "Reservations.ContactNumber",
+        "Reservations.NumInParty",
+        "Reservations.Date",
+        "Reservations.Time",
+        "Reservations.RestaurantId",
+        "Restaurants.id",
+        "Restaurants.Name",
+        "Restaurants.Type",
+        "Restaurants.Year_of_Establishment",
+        "Staff.id",
+        "Staff.FirstName",
+        "Staff.LastName",
+        "Staff.Position",
+        "Staff.RestaurantId"
+    ]
+}

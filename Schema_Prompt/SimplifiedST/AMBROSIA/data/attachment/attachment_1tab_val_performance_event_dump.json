@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_val_performance_event_dump": [
+        "Artists.ArtistID",
+        "Artists.Name",
+        "Artists.Age",
+        "Artists.Genre",
+        "Events.EventID",
+        "Events.Name",
+        "Events.Date",
+        "Events.Location",
+        "Participants.ParticipantID",
+        "Participants.ArtistID",
+        "Participants.PerformanceID",
+        "Participants.Role",
+        "Performances.PerformanceID",
+        "Performances.EventID",
+        "Performances.Type",
+        "Performances.AudienceSize",
+        "Performances.PerformanceEvent",
+        "Performances.AuditionRoom"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "attachment_1tab_val_genre4_dump": [
+        "Actors.ActorID",
+        "Actors.Name",
+        "Actors.DateOfBirth",
+        "Actors.Nationality",
+        "Directors.DirectorID",
+        "Directors.Name",
+        "Directors.BirthDate",
+        "Directors.Country",
+        "Movies.MovieID",
+        "Movies.Title",
+        "Movies.ReleaseYear",
+        "Movies.Genre",
+        "Movies.Rating",
+        "Movies.FilmFestival",
+        "Movies.Budget",
+        "Movies.BoxOffice",
+        "Movies.DirectorID",
+        "Movies.ProducerID",
+        "Producers.ProducerID",
+        "Producers.Name",
+        "Producers.CompanyName",
+        "Producers.ContactInfo",
+        "Roles.RoleID",
+        "Roles.MovieTitle",
+        "Roles.CharacterName",
+        "Roles.DirectorID",
+        "Roles.ProducerID"
+    ]
+}

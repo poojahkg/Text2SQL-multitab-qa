@@ -1,0 +1,28 @@
+{
+    "attachment_1tab_ref_age_group_dump": [
+        "AgeGroup.ID",
+        "AgeGroup.GroupName",
+        "Author.ID",
+        "Author.FirstName",
+        "Author.LastName",
+        "Author.Biography",
+        "Books.ID",
+        "Books.Title",
+        "Books.Summary",
+        "Books.ReleaseDate",
+        "Books.Price",
+        "Books.GenreID",
+        "Books.AgeGroupID",
+        "Books.AuthorID",
+        "Books.IllustratorID",
+        "Books.PublisherID",
+        "Genre.ID",
+        "Genre.Name",
+        "Illustrator.ID",
+        "Illustrator.Fullname",
+        "Publisher.ID",
+        "Publisher.CompanyName",
+        "Publisher.Address",
+        "Publisher.PhoneNumber"
+    ]
+}

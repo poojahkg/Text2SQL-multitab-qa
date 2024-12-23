@@ -1,0 +1,28 @@
+{
+    "farm": [
+        "city.City_ID",
+        "city.Official_Name",
+        "city.Status",
+        "city.Area_km_2",
+        "city.Population",
+        "city.Census_Ranking",
+        "farm.Farm_ID",
+        "farm.Year",
+        "farm.Total_Horses",
+        "farm.Working_Horses",
+        "farm.Total_Cattle",
+        "farm.Oxen",
+        "farm.Bulls",
+        "farm.Cows",
+        "farm.Pigs",
+        "farm.Sheep_and_Goats",
+        "farm_competition.Competition_ID",
+        "farm_competition.Year",
+        "farm_competition.Theme",
+        "farm_competition.Host_city_ID",
+        "farm_competition.Hosts",
+        "competition_record.Competition_ID",
+        "competition_record.Farm_ID",
+        "competition_record.Rank"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "scope_farms_animals_dump": [
+        "Animals.AnimalID",
+        "Animals.Type",
+        "Animals.Quantity",
+        "Crops.CropID",
+        "Crops.Name",
+        "Crops.HarvestDate",
+        "Equipment.EquipID",
+        "Equipment.Model",
+        "Equipment.PurchaseDate",
+        "Farms.FarmID",
+        "Farms.Name",
+        "Farms.Location",
+        "Farms_Animals.FarmID",
+        "Farms_Animals.AnimalID",
+        "Farms_Crops.FarmID",
+        "Farms_Crops.CropID",
+        "Farms_Crops.PlantingDate",
+        "Farms_Crops.HarvestEstimate",
+        "Farms_Equipment.FarmID",
+        "Farms_Equipment.EquipID",
+        "Farms_Equipment.AcquisitionDate",
+        "Farms_Equipment.MaintenanceSchedule"
+    ]
+}

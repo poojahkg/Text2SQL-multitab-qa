@@ -1,0 +1,23 @@
+{
+    "vague_2cols_collection_size_copy_dump": [
+        "Courses.CourseID",
+        "Courses.CourseTitle",
+        "Courses.Instructor",
+        "Courses.StartDate",
+        "Courses.EndDate",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.CourseID",
+        "Enrollments.Semester",
+        "Enrollments.Year",
+        "Grades.GradeID",
+        "Grades.EnrollmentID",
+        "Grades.FinalGrade",
+        "Students.ID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.DateOfBirth",
+        "Students.Email",
+        "Students.PhoneNumber"
+    ]
+}

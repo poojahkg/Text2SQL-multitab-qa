@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_val_fund_structures_dump": [
+        "AccountTypes.AccountTypeID",
+        "AccountTypes.TypeName",
+        "Accounts.AccountNumber",
+        "Accounts.InterestRate",
+        "Accounts.Balance",
+        "Accounts.OpenDate",
+        "Accounts.ForeignExchange",
+        "Accounts.Currency",
+        "Accounts.AccountTypeId",
+        "Clients.ClientID",
+        "Clients.ClientName",
+        "Clients.ContactEmail",
+        "Investments.InvestmentID",
+        "Investments.PurchaseAmount",
+        "Investments.DateOfPurchase",
+        "Investments.ClientId",
+        "Investments.AccountNumber",
+        "Investments.FundStructure",
+        "Investments.MarketShare"
+    ]
+}

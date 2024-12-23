@@ -1,0 +1,12 @@
+{
+    "scope_finance_apps_tools_dump": [
+        "Finance_Apps.id",
+        "Finance_Apps.name",
+        "Finance_Apps.description",
+        "Finance_Apps_Tools.finance_app_id",
+        "Finance_Apps_Tools.tool_id",
+        "Tools.id",
+        "Tools.tool_name",
+        "Tools.category"
+    ]
+}

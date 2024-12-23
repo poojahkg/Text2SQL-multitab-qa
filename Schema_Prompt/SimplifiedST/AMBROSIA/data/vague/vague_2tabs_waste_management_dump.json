@@ -1,0 +1,26 @@
+{
+    "vague_2tabs_waste_management_dump": [
+        "Construction_Material.id",
+        "Construction_Material.material_type",
+        "Construction_Material.quantity",
+        "Construction_Site.site_id",
+        "Construction_Site.site_name",
+        "Construction_Site.location",
+        "Construction_Site.waste_disposal_method_id",
+        "Construction_Site.recycling_program_id",
+        "Disposed_Waste.disposed_waste_id",
+        "Disposed_Waste.site_material_id",
+        "Disposed_Waste.waste_disposal_method_id",
+        "Disposed_Waste.disposal_date",
+        "Recycling_Program.id",
+        "Recycling_Program.program_name",
+        "Recycling_Program.description",
+        "Site_Material.site_material_id",
+        "Site_Material.construction_site_id",
+        "Site_Material.construction_material_id",
+        "Site_Material.amount",
+        "Waste_Disposal_Method.id",
+        "Waste_Disposal_Method.method_name",
+        "Waste_Disposal_Method.description"
+    ]
+}

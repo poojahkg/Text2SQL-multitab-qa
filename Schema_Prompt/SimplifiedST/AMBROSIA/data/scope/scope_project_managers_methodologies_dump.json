@@ -1,0 +1,17 @@
+{
+    "scope_project_managers_methodologies_dump": [
+        "Methodologies.methodology_id",
+        "Methodologies.name",
+        "Other_Tables1.id",
+        "Other_Tables1.column2",
+        "Other_Tables1.column3",
+        "Other_Tables2.id",
+        "Other_Tables2.columnA",
+        "Other_Tables2.columnB",
+        "Project_Managers.id",
+        "Project_Managers.name",
+        "Project_Managers.years_of_experience",
+        "Project_Managers_Methodologies.project_manager_id",
+        "Project_Managers_Methodologies.methodology_id"
+    ]
+}

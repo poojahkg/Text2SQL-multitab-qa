@@ -1,0 +1,27 @@
+{
+    "attachment_1tab_val_newsroom_roles_dump": [
+        "newsrooms.id",
+        "newsrooms.name",
+        "newsrooms.location",
+        "publications.id",
+        "publications.title",
+        "publications.content",
+        "publications.publishDate",
+        "publications.associatedStoryId",
+        "readershipStats.id",
+        "readershipStats.publicationId",
+        "readershipStats.numPageViews",
+        "readershipStats.avgTimeSpentReading",
+        "reporters.id",
+        "reporters.name",
+        "reporters.role",
+        "reporters.deadline",
+        "reporters.assigned_newsroom",
+        "storyIdeas.id",
+        "storyIdeas.title",
+        "storyIdeas.description",
+        "storyIdeas.pitchDate",
+        "storyIdeas.assignedTo",
+        "storyIdeas.status"
+    ]
+}

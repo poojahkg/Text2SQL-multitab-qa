@@ -1,0 +1,21 @@
+{
+    "vague_2tabs_curriculum_topics_dump": [
+        "Advanced_Topics.topic_id",
+        "Advanced_Topics.topic_name",
+        "Advanced_Topics.difficulty",
+        "Core_Concepts.concept_id",
+        "Core_Concepts.concept_name",
+        "Core_Concepts.description",
+        "EnrolledStudents.enrollment_id",
+        "EnrolledStudents.student_id",
+        "EnrolledStudents.subject_id",
+        "EnrolledStudents.grade",
+        "School_Subjects.subject_id",
+        "School_Subjects.subject_name",
+        "School_Subjects.core_concept_id",
+        "School_Subjects.advanced_topic_id",
+        "Students.id",
+        "Students.name",
+        "Students.age"
+    ]
+}

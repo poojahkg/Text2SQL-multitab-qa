@@ -1,0 +1,12 @@
+{
+    "scope_courts_reporters_trials_dump": [
+        "Courts_Reporters.id",
+        "Courts_Reporters.name",
+        "Courts_Reporters.email",
+        "Courts_Reporters_Trials.reporterId",
+        "Courts_Reporters_Trials.trialId",
+        "Trials.id",
+        "Trials.caseName",
+        "Trials.trialType"
+    ]
+}

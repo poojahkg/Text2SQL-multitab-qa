@@ -1,0 +1,15 @@
+{
+    "vague_2tabs_composer_copy_dump": [
+        "Fan.id",
+        "Fan.name",
+        "Fan.email",
+        "Performance.id",
+        "Performance.date",
+        "Performance.location",
+        "Performance.song_id",
+        "Song.id",
+        "Song.title",
+        "Song.duration",
+        "Song.soundtrack_id"
+    ]
+}

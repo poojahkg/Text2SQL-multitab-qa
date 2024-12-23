@@ -1,0 +1,29 @@
+{
+    "scope_city_transportation_mode_dump": [
+        "Accidents.id",
+        "Accidents.accident_type",
+        "Accidents.severity",
+        "Accidents.road_id",
+        "Accidents.timestamp",
+        "Accidents.ON",
+        "City.id",
+        "City.name",
+        "City.population",
+        "City_Transportation_Mode.city_id",
+        "City_Transportation_Mode.transportation_mode_id",
+        "City_Transportation_Mode.ON",
+        "City_Transportation_Mode.ON",
+        "Roads.id",
+        "Roads.road_id",
+        "Roads.city_id",
+        "Roads.length",
+        "Roads.ON",
+        "Traffic_Volume.id",
+        "Traffic_Volume.volume",
+        "Traffic_Volume.road_id",
+        "Traffic_Volume.timestamp",
+        "Traffic_Volume.ON",
+        "Transportation_Mode.id",
+        "Transportation_Mode.mode"
+    ]
+}

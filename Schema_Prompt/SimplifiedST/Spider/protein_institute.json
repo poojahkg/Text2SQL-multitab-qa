@@ -1,0 +1,26 @@
+{
+    "protein_institute": [
+        "building.building_id",
+        "building.Name",
+        "building.Street_address",
+        "building.Years_as_tallest",
+        "building.Height_feet",
+        "building.Floors",
+        "Institution.Institution_id",
+        "Institution.Institution",
+        "Institution.Location",
+        "Institution.Founded",
+        "Institution.Type",
+        "Institution.Enrollment",
+        "Institution.Team",
+        "Institution.Primary_Conference",
+        "Institution.building_id",
+        "protein.common_name",
+        "protein.protein_name",
+        "protein.divergence_from_human_lineage",
+        "protein.accession_number",
+        "protein.sequence_length",
+        "protein.sequence_identity_to_human_protein",
+        "protein.Institution_id"
+    ]
+}

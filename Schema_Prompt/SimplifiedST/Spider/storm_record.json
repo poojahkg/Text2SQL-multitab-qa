@@ -1,0 +1,16 @@
+{
+    "storm_record": [
+        "storm.Storm_ID",
+        "storm.Name",
+        "storm.Dates_active",
+        "storm.Max_speed",
+        "storm.Damage_millions_USD",
+        "storm.Number_Deaths",
+        "region.Region_id",
+        "region.Region_code",
+        "region.Region_name",
+        "affected_region.Region_id",
+        "affected_region.Storm_ID",
+        "affected_region.Number_city_affected"
+    ]
+}

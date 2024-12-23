@@ -1,0 +1,12 @@
+{
+    "scope_environment_and_energy_reporters_sources_dump": [
+        "Environment_And_Energy_Reporters.id",
+        "Environment_And_Energy_Reporters.name",
+        "Environment_And_Energy_Reporters.email",
+        "Environment_And_Energy_Reporters_Sources.reporter_id",
+        "Environment_And_Energy_Reporters_Sources.source_id",
+        "Sources.source_id",
+        "Sources.source_name",
+        "Sources.description"
+    ]
+}

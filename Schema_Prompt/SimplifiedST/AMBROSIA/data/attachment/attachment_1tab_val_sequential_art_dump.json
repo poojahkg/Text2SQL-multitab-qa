@@ -1,0 +1,18 @@
+{
+    "attachment_1tab_val_sequential_art_dump": [
+        "Authors.AuthorID",
+        "Authors.Name",
+        "Comics.ComicID",
+        "Comics.Title",
+        "Comics.SequentialArt",
+        "Comics.ReleaseDate",
+        "Comics.PublisherId",
+        "Comics.AuthorId",
+        "Movie.MovieID",
+        "Movie.Title",
+        "Movie.DirectorName",
+        "Movie.ReleaseDate",
+        "Publisher.PublisherID",
+        "Publisher.Name"
+    ]
+}

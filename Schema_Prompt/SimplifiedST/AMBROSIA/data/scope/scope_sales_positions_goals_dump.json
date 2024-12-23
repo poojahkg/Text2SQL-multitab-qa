@@ -1,0 +1,11 @@
+{
+    "scope_sales_positions_goals_dump": [
+        "Goals.id",
+        "Goals.goal_type",
+        "Sales_Positions.id",
+        "Sales_Positions.position_name",
+        "Sales_Positions.salary_range",
+        "Sales_Positions_Goals.sales_position_id",
+        "Sales_Positions_Goals.goal_id"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "vague_2tabs_requirements_copy_dump": [
+        "Business_Loan_Applications.id",
+        "Business_Loan_Applications.loan_name",
+        "Business_Loan_Applications.application_date",
+        "Business_Loan_Applications.annual_revenue",
+        "Business_Loan_Applications.num_employees",
+        "Business_Loan_Applications.loan_id"
+    ]
+}

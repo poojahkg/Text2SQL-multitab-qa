@@ -1,0 +1,21 @@
+{
+    "vague_2cols_amenities_dump": [
+        "CondoBuildings.id",
+        "CondoBuildings.address",
+        "CondoBuildings.city",
+        "CondoBuildings.state",
+        "CondoBuildings.zipcode",
+        "FacilitiesAndServices.id",
+        "FacilitiesAndServices.facilities",
+        "FacilitiesAndServices.services",
+        "FacilitiesAndServices.condos_id",
+        "Residents.id",
+        "Residents.name",
+        "Residents.age",
+        "Residents.building_id",
+        "Transactions.id",
+        "Transactions.resident_id",
+        "Transactions.purchase_price",
+        "Transactions.transaction_date"
+    ]
+}

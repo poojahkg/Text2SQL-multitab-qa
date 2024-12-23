@@ -1,0 +1,33 @@
+{
+    "vague_2cols_exam_date_dump": [
+        "Addresses.AddressID",
+        "Addresses.StreetAddress",
+        "Addresses.City",
+        "Addresses.State",
+        "Addresses.ZipCode",
+        "Addresses.StudentID",
+        "EmailAddresses.EmailAddressID",
+        "EmailAddresses.Email",
+        "EmailAddresses.IsPrimary",
+        "EmailAddresses.StudentID",
+        "Enrollments.EnrollmentID",
+        "Enrollments.CourseID",
+        "Enrollments.Semester",
+        "Enrollments.Year",
+        "Enrollments.Grade",
+        "Enrollments.StudentID",
+        "ExamScores.ScoreID",
+        "ExamScores.Month",
+        "ExamScores.Day",
+        "ExamScores.ExamDescription",
+        "ExamScores.Score",
+        "ExamScores.StudentID",
+        "PhoneNumbers.PhoneNumberID",
+        "PhoneNumbers.Number",
+        "PhoneNumbers.Type",
+        "PhoneNumbers.StudentID",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName"
+    ]
+}

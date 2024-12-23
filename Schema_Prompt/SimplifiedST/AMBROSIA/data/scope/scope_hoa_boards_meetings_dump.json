@@ -1,0 +1,18 @@
+{
+    "scope_hoa_boards_meetings_dump": [
+        "Hoa_Board_Members.hoa_board_id",
+        "Hoa_Board_Members.member_id",
+        "Hoa_Boards.board_id",
+        "Hoa_Boards.address",
+        "Hoa_Boards.president_name",
+        "Hoa_Boards_Meetings.hoa_board_id",
+        "Hoa_Boards_Meetings.meeting_id",
+        "Meeting_Attendees.meeting_id",
+        "Meeting_Attendees.attendee_id",
+        "Meetings.meeting_id",
+        "Meetings.meeting_type",
+        "Members.member_id",
+        "Members.name",
+        "Members.email"
+    ]
+}

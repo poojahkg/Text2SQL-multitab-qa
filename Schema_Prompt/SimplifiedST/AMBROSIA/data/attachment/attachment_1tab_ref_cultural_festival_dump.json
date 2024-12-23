@@ -1,0 +1,13 @@
+{
+    "attachment_1tab_ref_cultural_festival_dump": [
+        "Festivals.id",
+        "Festivals.Name",
+        "Festivals.Cultural_Festival",
+        "Festivals.Location",
+        "Participants.id",
+        "Participants.FirstName",
+        "Participants.LastName",
+        "Participants.Role",
+        "Participants.Age"
+    ]
+}

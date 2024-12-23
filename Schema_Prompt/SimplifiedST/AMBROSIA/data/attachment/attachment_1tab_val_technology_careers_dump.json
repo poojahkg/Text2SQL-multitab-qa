@@ -1,0 +1,13 @@
+{
+    "attachment_1tab_val_technology_careers_dump": [
+        "Companies.id",
+        "Companies.name",
+        "Companies.location",
+        "Roles.id",
+        "Roles.title",
+        "Roles.Technology_Career",
+        "Roles.Grade",
+        "Technologies.id",
+        "Technologies.technology_name"
+    ]
+}

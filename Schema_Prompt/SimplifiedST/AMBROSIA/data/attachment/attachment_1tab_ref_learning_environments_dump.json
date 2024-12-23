@@ -1,0 +1,16 @@
+{
+    "attachment_1tab_ref_learning_environments_dump": [
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.ClassroomID",
+        "Enrollments.StartDate",
+        "Enrollments.EndDate",
+        "LearningEnvironments.EnvironmentID",
+        "LearningEnvironments.Value",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.Age",
+        "Students.Email"
+    ]
+}

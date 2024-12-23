@@ -1,0 +1,31 @@
+{
+    "vague_2cols_designer_copy_dump": [
+        "Accidents.AccidentID",
+        "Accidents.DateOfAccident",
+        "Accidents.TimeOfAccident",
+        "Accidents.LocationText",
+        "Accidents.Latitude",
+        "Accidents.Longitude",
+        "Accidents.Severity",
+        "Drivers.DriverID",
+        "Drivers.LicenseNumber",
+        "Drivers.Name",
+        "Drivers.Address",
+        "Drivers.PhoneNumber",
+        "PoliceReports.ReportID",
+        "PoliceReports.DateReported",
+        "PoliceReports.OfficerID",
+        "PoliceReports.AccidentID",
+        "PoliceReports.OffenseType",
+        "PoliceReports.Penalty",
+        "Roads.RoadID",
+        "Roads.StreetName",
+        "Roads.City",
+        "Roads.State",
+        "Roads.ZipCode",
+        "VehicleTypes.TypeID",
+        "VehicleTypes.Make",
+        "VehicleTypes.Model",
+        "VehicleTypes.Year"
+    ]
+}

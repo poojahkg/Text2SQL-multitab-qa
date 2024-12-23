@@ -1,0 +1,18 @@
+{
+    "wedding": [
+        "people.People_ID",
+        "people.Name",
+        "people.Country",
+        "people.Is_Male",
+        "people.Age",
+        "church.Church_ID",
+        "church.Name",
+        "church.Organized_by",
+        "church.Open_Date",
+        "church.Continuation_of",
+        "wedding.Church_ID",
+        "wedding.Male_ID",
+        "wedding.Female_ID",
+        "wedding.Year"
+    ]
+}

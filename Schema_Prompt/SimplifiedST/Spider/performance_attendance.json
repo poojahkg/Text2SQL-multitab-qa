@@ -1,0 +1,16 @@
+{
+    "performance_attendance": [
+        "member.Member_ID",
+        "member.Name",
+        "member.Nationality",
+        "member.Role",
+        "performance.Performance_ID",
+        "performance.Date",
+        "performance.Host",
+        "performance.Location",
+        "performance.Attendance",
+        "member_attendance.Member_ID",
+        "member_attendance.Performance_ID",
+        "member_attendance.Num_of_Pieces"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "vague_2cols_rating_dump": [
+        "Actor.id",
+        "Actor.name",
+        "Actor.birthdate",
+        "Actor.nationality",
+        "Camera.id",
+        "Camera.camera_type",
+        "Camera.resolution",
+        "Cinematographer.id",
+        "Cinematographer.name",
+        "Cinematographer.birthdate",
+        "Cinematographer.nationality",
+        "Film.id",
+        "Film.title",
+        "Film.release_year",
+        "Film.director",
+        "Film.genre",
+        "FilmReviews.id",
+        "FilmReviews.critic_rating",
+        "FilmReviews.audience_rating",
+        "FilmReviews.film_id",
+        "Role.id",
+        "Role.actor_id",
+        "Role.role_name",
+        "Role.film_id",
+        "ShotList.id",
+        "ShotList.cinematographer_id",
+        "ShotList.shot_description",
+        "ShotList.camera_id"
+    ]
+}

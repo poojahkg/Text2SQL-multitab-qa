@@ -1,0 +1,20 @@
+{
+    "scope_photographers_styles_dump": [
+        "BookedJobs.bookingID",
+        "BookedJobs.photograherId",
+        "BookedJobs.jobId",
+        "BookedJobs.bookDate",
+        "BookedJobs.paymentAmount",
+        "JobPostings.jobID",
+        "JobPostings.title",
+        "JobPostings.description",
+        "JobPostings.deadline",
+        "Photographers.id",
+        "Photographers.name",
+        "Photographers.email",
+        "Photographers_Styles.photographerId",
+        "Photographers_Styles.styleId",
+        "Styles.id",
+        "Styles.styleName"
+    ]
+}

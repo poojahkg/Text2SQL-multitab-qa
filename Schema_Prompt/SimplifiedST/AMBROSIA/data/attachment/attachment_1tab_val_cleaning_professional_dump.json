@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_val_cleaning_professional_dump": [
+        "Cleaning_Professionals.ID",
+        "Cleaning_Professionals.Name",
+        "Cleaning_Professionals.Position",
+        "Cleaning_Professionals.Hotel_ID",
+        "Hotels.ID",
+        "Hotels.Name",
+        "Hotels.Location",
+        "Hotels.Manager_Name",
+        "Rooms.ID",
+        "Rooms.Number",
+        "Rooms.Type",
+        "Rooms.Floor",
+        "Rooms.Hotel_ID",
+        "Services.ID",
+        "Services.Service_Type",
+        "Services.Description",
+        "Services.Price"
+    ]
+}

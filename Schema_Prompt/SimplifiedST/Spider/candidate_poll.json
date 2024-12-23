@@ -1,0 +1,18 @@
+{
+    "candidate_poll": [
+        "candidate.Candidate_ID",
+        "candidate.People_ID",
+        "candidate.Poll_Source",
+        "candidate.Date",
+        "candidate.Support_rate",
+        "candidate.Consider_rate",
+        "candidate.Oppose_rate",
+        "candidate.Unsure_rate",
+        "people.People_ID",
+        "people.Sex",
+        "people.Name",
+        "people.Date_of_Birth",
+        "people.Height",
+        "people.Weight"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "vague_2cols_geographical_location_copy_dump": [
+        "Doctors.id",
+        "Doctors.name",
+        "Doctors.specialty",
+        "Doctors.hospital_id",
+        "InsurancePlans.id",
+        "InsurancePlans.plan_name",
+        "InsurancePlans.premium",
+        "InsurancePlans.coverage_details",
+        "InsurancePlans.provider_id",
+        "Patients.id",
+        "Patients.first_name",
+        "Patients.last_name",
+        "Patients.birthdate",
+        "Patients.insurance_plan_id",
+        "Prescriptions.id",
+        "Prescriptions.patient_id",
+        "Prescriptions.doctor_id",
+        "Prescriptions.medication",
+        "Prescriptions.dosage",
+        "Prescriptions.quantity",
+        "Prescriptions.refillable",
+        "Prescriptions.prescription_date"
+    ]
+}

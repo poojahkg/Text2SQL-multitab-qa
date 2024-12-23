@@ -1,0 +1,24 @@
+{
+    "attachment_1tab_val_structured_finance_vehicles_dump": [
+        "Accounts.AccountID",
+        "Accounts.ClientID",
+        "Accounts.Balance",
+        "Accounts.InterestRate",
+        "Clients.ClientID",
+        "Clients.FirstName",
+        "Clients.LastName",
+        "Clients.EmailAddress",
+        "Clients.PhoneNumber",
+        "Loans.LoanID",
+        "Loans.ClientID",
+        "Loans.Principal",
+        "Loans.InterestRate",
+        "Loans.TermYears",
+        "Loans.MonthlyPayment",
+        "Structured_Financial_Products.ProductID",
+        "Structured_Financial_Products.Name",
+        "Structured_Financial_Products.Type",
+        "Structured_Financial_Products.Price",
+        "Structured_Financial_Products.OtherValues"
+    ]
+}

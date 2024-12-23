@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_val_open-end_funds_dump": [
+        "Accounts.AccountNumber",
+        "Accounts.Balance",
+        "Accounts.InterestRate",
+        "Accounts.OpenDate",
+        "Accounts.CustomerID",
+        "Customers.CustomerID",
+        "Customers.Name",
+        "Customers.Address",
+        "InvestmentPortfolios.PortfolioID",
+        "InvestmentPortfolios.CustomerID",
+        "InvestmentPortfolios.OpenEndFunds",
+        "InvestmentPortfolios.Month",
+        "InvestmentPortfolios.TotalInvestments",
+        "Transactions.TransactionID",
+        "Transactions.Amount",
+        "Transactions.Date",
+        "Transactions.AccountNumber"
+    ]
+}

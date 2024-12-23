@@ -1,0 +1,14 @@
+{
+    "attachment_2tab_ref_earth_science_careers_dump": [
+        "Chemist.id",
+        "Chemist.university_id",
+        "Chemist.fieldOfStudy",
+        "Chemist.FullName",
+        "Geoscientist.id",
+        "Geoscientist.university_id",
+        "Geoscientist.fieldOfStudy",
+        "Geoscientist.FullName",
+        "University.id",
+        "University.name"
+    ]
+}

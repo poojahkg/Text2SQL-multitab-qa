@@ -1,0 +1,16 @@
+{
+    "museum_visit": [
+        "museum.Museum_ID",
+        "museum.Name",
+        "museum.Num_of_Staff",
+        "museum.Open_Year",
+        "visitor.ID",
+        "visitor.Name",
+        "visitor.Level_of_membership",
+        "visitor.Age",
+        "visit.Museum_ID",
+        "visit.visitor_ID",
+        "visit.Num_of_Ticket",
+        "visit.Total_spent"
+    ]
+}

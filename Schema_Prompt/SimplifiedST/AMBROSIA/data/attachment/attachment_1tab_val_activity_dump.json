@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_val_activity_dump": [
+        "Activities.ID",
+        "Activities.ActivityName",
+        "Locations.ID",
+        "Locations.LocationName",
+        "Markets.ID",
+        "Markets.Name",
+        "Markets.Activity",
+        "Markets.Location",
+        "Tourists.ID",
+        "Tourists.Name",
+        "Tourists.Activity",
+        "Tourists.Location",
+        "VisitRecords.ID",
+        "VisitRecords.VisitorID",
+        "VisitRecords.TouristAttractionID",
+        "VisitRecords.LocalMarketID",
+        "Visitors.ID",
+        "Visitors.Name",
+        "Visitors.DateOfVisit"
+    ]
+}

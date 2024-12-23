@@ -1,0 +1,23 @@
+{
+    "scope_bank_statements_transactions_dump": [
+        "Accounts.AccountNumber",
+        "Accounts.CustomerID",
+        "Accounts.Balance",
+        "Bank_Statements.StatementID",
+        "Bank_Statements.AccountNumber",
+        "Bank_Statements.StartDate",
+        "Bank_Statements.EndDate",
+        "Bank_Statements.TotalAmount",
+        "Bank_Statements_Transactions.StatementTransactionID",
+        "Bank_Statements_Transactions.StatementID",
+        "Bank_Statements_Transactions.TransactionID",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Transactions.TransactionID",
+        "Transactions.AccountNumber",
+        "Transactions.TransactionType",
+        "Transactions.Amount",
+        "Transactions.Date"
+    ]
+}

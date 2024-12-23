@@ -1,0 +1,12 @@
+{
+    "scope_quality_assurance_testers_test_cases_dump": [
+        "Qualified_Tests.testerID",
+        "Qualified_Tests.testCaseID",
+        "Qualified_Tests.qualificationDate",
+        "Quality_Assurance_Testers.testerID",
+        "Quality_Assurance_Testers.fullName",
+        "Test_Cases.testCaseID",
+        "Test_Cases.caseType",
+        "Test_Cases.description"
+    ]
+}

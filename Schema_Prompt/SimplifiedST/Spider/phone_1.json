@@ -1,0 +1,25 @@
+{
+    "phone_1": [
+        "chip_model.Model_name",
+        "chip_model.Launch_year",
+        "chip_model.RAM_MiB",
+        "chip_model.ROM_MiB",
+        "chip_model.Slots",
+        "chip_model.WiFi",
+        "chip_model.Bluetooth",
+        "screen_mode.Graphics_mode",
+        "screen_mode.Char_cells",
+        "screen_mode.Pixels",
+        "screen_mode.Hardware_colours",
+        "screen_mode.used_kb",
+        "screen_mode.map",
+        "screen_mode.Type",
+        "phone.Company_name",
+        "phone.Hardware_Model_name",
+        "phone.Accreditation_type",
+        "phone.Accreditation_level",
+        "phone.Date",
+        "phone.chip_model",
+        "phone.screen_mode"
+    ]
+}

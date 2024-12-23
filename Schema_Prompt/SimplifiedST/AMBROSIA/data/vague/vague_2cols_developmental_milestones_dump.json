@@ -1,0 +1,31 @@
+{
+    "vague_2cols_developmental_milestones_dump": [
+        "Attendance.attendanceId",
+        "Attendance.studentId",
+        "Attendance.classId",
+        "Attendance.dateAttended",
+        "Attendance.isPresent",
+        "Classes.classID",
+        "Classes.className",
+        "Classes.teacherName",
+        "DisciplineLogs.logId",
+        "DisciplineLogs.studentId",
+        "DisciplineLogs.incidentDate",
+        "DisciplineLogs.reasonForDiscipline",
+        "DisciplineLogs.disciplinaryAction",
+        "DisciplineLogs.resolutionDate",
+        "Enrollments.enrollmentId",
+        "Enrollments.studentId",
+        "Enrollments.classId",
+        "MilestoneRecords.recordId",
+        "MilestoneRecords.studentId",
+        "MilestoneRecords.physicalMilestones",
+        "MilestoneRecords.cognitiveMilestones",
+        "MilestoneRecords.childAge",
+        "MilestoneRecords.otherDetails",
+        "Students.id",
+        "Students.firstName",
+        "Students.lastName",
+        "Students.dateOfBirth"
+    ]
+}

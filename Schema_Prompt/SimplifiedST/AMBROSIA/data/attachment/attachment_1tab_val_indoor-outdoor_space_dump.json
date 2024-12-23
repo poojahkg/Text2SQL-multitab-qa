@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_val_indoor-outdoor_space_dump": [
+        "Amenities.id",
+        "Amenities.amenityName",
+        "Amenities.available",
+        "Booking.bookingID",
+        "Booking.roomId",
+        "Booking.customerId",
+        "Booking.startDate",
+        "Booking.endDate",
+        "Booking.totalPrice",
+        "Customer.customerID",
+        "Customer.firstName",
+        "Customer.lastName",
+        "Customer.email",
+        "Customer.phoneNumber",
+        "Room.id",
+        "Room.Name",
+        "Room.Indoor_Outdoor_Space",
+        "Room.Size",
+        "Room.Price"
+    ]
+}

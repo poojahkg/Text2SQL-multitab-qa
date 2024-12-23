@@ -1,0 +1,14 @@
+{
+    "singer": [
+        "singer.Singer_ID",
+        "singer.Name",
+        "singer.Birth_Year",
+        "singer.Net_Worth_Millions",
+        "singer.Citizenship",
+        "song.Song_ID",
+        "song.Title",
+        "song.Singer_ID",
+        "song.Sales",
+        "song.Highest_Position"
+    ]
+}

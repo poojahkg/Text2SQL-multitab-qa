@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_ref_periodicals_dump": [
+        "ArticleCategory.article_id",
+        "ArticleCategory.cat_id",
+        "Articles.id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.pub_date",
+        "Articles.author_id",
+        "Articles.publication_type",
+        "Authors.id",
+        "Authors.name",
+        "Authors.email",
+        "Authors.phone",
+        "Authors.address",
+        "Category.id",
+        "Category.descr",
+        "Publications.id",
+        "Publications.name",
+        "Publications.circulation_numbers",
+        "Publications.location",
+        "PublicationsPeriodicals.publication_id",
+        "PublicationsPeriodicals.periodical_type"
+    ]
+}

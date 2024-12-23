@@ -1,0 +1,19 @@
+{
+    "scope_streaming_services_content_curating_techniques_dump": [
+        "Content_Curating_Techniques.id",
+        "Content_Curating_Techniques.technique",
+        "Streaming_Services.service_id",
+        "Streaming_Services.name",
+        "Streaming_Services.genre",
+        "Streaming_Services_Content_Curating_Techniques.streaming_services_content_curating_technique_id",
+        "Streaming_Services_Content_Curating_Techniques.streaming_service_id",
+        "Streaming_Services_Content_Curating_Techniques.content_curating_technique_id",
+        "Users.user_id",
+        "Users.username",
+        "Users.password",
+        "Views.view_id",
+        "Views.user_id",
+        "Views.streamed_service_id",
+        "Views.viewed_date"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "attachment_1tab_val_business_strategy_dump": [
+        "Articles.ID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.PublicationDate",
+        "Articles.AuthorID",
+        "Authors.ID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.Role",
+        "Authors.AffiliatedMediaFranchiseID",
+        "CrossPlatformExpansions.ID",
+        "CrossPlatformExpansions.Name",
+        "CrossPlatformExpansions.Business_Strategy",
+        "CrossPlatformExpansions.Audience",
+        "CrossPlatformExpansions.Platform",
+        "CrossPlatformExpansions.Year",
+        "MediaFranchises.ID",
+        "MediaFranchises.Name",
+        "MediaFranchises.Business_Strategy",
+        "MediaFranchises.Audience",
+        "MediaFranchises.OtherColumn1",
+        "MediaFranchises.OtherColumn2",
+        "Readers.ID",
+        "Readers.FirstName",
+        "Readers.LastName",
+        "Readers.AgeGroup",
+        "Readers.PreferredGenre",
+        "Readers.FavouriteMediaFranchiseID"
+    ]
+}

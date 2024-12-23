@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_val_visual_art_professions_dump": [
+        "AppliesToJobPosting.Apply_ID",
+        "AppliesToJobPosting.Job_ID",
+        "AppliesToJobPosting.Applicant_Name",
+        "AppliesToJobPosting.Resume_Path",
+        "AppliesToJobPosting.Application_Date",
+        "Employer.ID",
+        "Employer.Name",
+        "JobPosting.ID",
+        "JobPosting.Title",
+        "JobPosting.Description",
+        "JobPosting.Date",
+        "JobPosting.Status",
+        "Visual_Art_Profession.Profession_ID",
+        "Visual_Art_Profession.Profession",
+        "Visual_Art_Profession.Price",
+        "Visual_Art_Profession.Experience_Level",
+        "Visual_Art_Profession.Specialization"
+    ]
+}

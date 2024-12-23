@@ -1,0 +1,26 @@
+{
+    "vague_2cols_demographics_dump": [
+        "Advertisements.AdvID",
+        "Advertisements.Description",
+        "Advertisements.Budget",
+        "Advertisements.StartDate",
+        "Advertisements.EndDate",
+        "Advertisements.OutletID",
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.PublicationDate",
+        "Articles.WordCount",
+        "Articles.AuthorID",
+        "Authors.AuthorID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.BirthDate",
+        "NewsOutlets.OutletID",
+        "NewsOutlets.Name",
+        "NewsOutlets.Location",
+        "NewsOutlets.FoundedYear",
+        "Publishes.PublishID",
+        "Publishes.ArticleID",
+        "Publishes.OutletID"
+    ]
+}

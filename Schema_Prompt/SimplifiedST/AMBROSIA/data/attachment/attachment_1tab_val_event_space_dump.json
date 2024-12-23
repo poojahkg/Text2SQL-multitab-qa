@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_val_event_space_dump": [
+        "Bookings.id",
+        "Bookings.EventSpaceId",
+        "Bookings.Date",
+        "Bookings.Time",
+        "Bookings.NumberOfGuests",
+        "Customers.id",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.Email",
+        "Customers.PhoneNumber",
+        "EventSpaces.id",
+        "EventSpaces.Name",
+        "EventSpaces.Event_Space",
+        "EventSpaces.Capacity",
+        "EventSpaces.Address",
+        "EventSpaces.ContactInfo",
+        "Payments.id",
+        "Payments.BookingId",
+        "Payments.Amount",
+        "Payments.PaymentDate",
+        "Payments.CustomerId"
+    ]
+}

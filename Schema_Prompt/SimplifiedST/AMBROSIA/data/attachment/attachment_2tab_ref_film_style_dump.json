@@ -1,0 +1,22 @@
+{
+    "attachment_2tab_ref_film_style_dump": [
+        "Action_Movie.id",
+        "Action_Movie.movieId",
+        "Action_Movie.actionDetails",
+        "Actor.id",
+        "Actor.actorName",
+        "Adventure_Movie.id",
+        "Adventure_Movie.movieId",
+        "Adventure_Movie.adventureDetails",
+        "Cast.id",
+        "Cast.movieId",
+        "Cast.actorId",
+        "Cast.role",
+        "Director.id",
+        "Director.name",
+        "Movie.id",
+        "Movie.title",
+        "Movie.directorId",
+        "Movie.releaseYear"
+    ]
+}

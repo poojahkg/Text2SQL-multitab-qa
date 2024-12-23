@@ -1,0 +1,32 @@
+{
+    "vague_2tabs_production_dump": [
+        "Actor.actor_id",
+        "Actor.first_name",
+        "Actor.last_name",
+        "Actor.date_of_birth",
+        "Actor.gender",
+        "Director.director_id",
+        "Director.first_name",
+        "Director.last_name",
+        "Director.birthdate",
+        "MovieActor.movie_actor_id",
+        "MovieActor.movie_id",
+        "MovieActor.actor_id",
+        "MovieActor.role",
+        "MovieDirector.movie_director_id",
+        "MovieDirector.movie_id",
+        "MovieDirector.director_id",
+        "Movies.movie_id",
+        "Movies.title",
+        "Movies.release_year",
+        "Movies.genre",
+        "Movies.studio_id",
+        "Movies.producer_id",
+        "Producer.producer_id",
+        "Producer.birthdate",
+        "Producer.full_name",
+        "Studio.studio_id",
+        "Studio.name",
+        "Studio.location"
+    ]
+}

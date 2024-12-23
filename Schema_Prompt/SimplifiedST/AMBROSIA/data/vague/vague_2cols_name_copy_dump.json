@@ -1,0 +1,30 @@
+{
+    "vague_2cols_name_copy_dump": [
+        "Actors.id",
+        "Actors.firstName",
+        "Actors.lastName",
+        "Actors.dateOfBirth",
+        "Actors.movieId",
+        "Directors.id",
+        "Directors.firstName",
+        "Directors.lastName",
+        "Directors.birthdate",
+        "Directors.realName",
+        "Directors.alias",
+        "Directors.story",
+        "Movies.id",
+        "Movies.title",
+        "Movies.releaseDate",
+        "Movies.genre",
+        "Movies.directorId",
+        "MusicAlbums.id",
+        "MusicAlbums.albumTitle",
+        "MusicAlbums.releaseYear",
+        "MusicAlbums.artistId",
+        "Roles.id",
+        "Roles.actorID",
+        "Roles.movieID",
+        "Roles.roleName",
+        "Roles.characterDescription"
+    ]
+}

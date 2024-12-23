@@ -1,0 +1,22 @@
+{
+    "scope_bank_training_topics_dump": [
+        "Bank_Training.training_id",
+        "Bank_Training.bank_id",
+        "Bank_Training.employee_id",
+        "Bank_Training_Topics.bank_training_id",
+        "Bank_Training_Topics.topic_id",
+        "Banks.id",
+        "Banks.name",
+        "Banks.location",
+        "Employees.id",
+        "Employees.first_name",
+        "Employees.last_name",
+        "Employees.bank_id",
+        "Topics.id",
+        "Topics.value",
+        "TrainingSessions.session_id",
+        "TrainingSessions.date",
+        "TrainingSessions.trainer_id",
+        "TrainingSessions.topic_id"
+    ]
+}

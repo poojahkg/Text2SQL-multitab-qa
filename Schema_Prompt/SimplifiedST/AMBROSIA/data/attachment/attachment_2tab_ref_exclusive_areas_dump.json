@@ -1,0 +1,26 @@
+{
+    "attachment_2tab_ref_exclusive_areas_dump": [
+        "Airlines.airlineID",
+        "Airlines.name",
+        "Airlines.headquarters",
+        "Airports.airportID",
+        "Airports.name",
+        "Airports.city",
+        "Airports.country",
+        "Amenities.amenityID",
+        "Amenities.description",
+        "Amenities.availableInFrequentFlyerLounge",
+        "Amenities.availableInVIPLounge",
+        "Flights.flightID",
+        "Flights.originAirport",
+        "Flights.destinationAirport",
+        "Flights.departureTime",
+        "Flights.arrivalTime",
+        "Flights.airlineID",
+        "Passengers.passengerID",
+        "Passengers.firstName",
+        "Passengers.lastName",
+        "Passengers.frequentFlyerNumber",
+        "Passengers.vipStatus"
+    ]
+}

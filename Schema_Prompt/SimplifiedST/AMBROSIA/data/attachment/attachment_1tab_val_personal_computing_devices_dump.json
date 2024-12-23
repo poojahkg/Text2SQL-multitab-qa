@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_val_personal_computing_devices_dump": [
+        "Courses.CourseID",
+        "Courses.Title",
+        "Courses.Description",
+        "Courses.InstructorID",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.CourseID",
+        "Enrollments.Grade",
+        "Instructors.InstructorID",
+        "Instructors.FirstName",
+        "Instructors.LastName",
+        "Instructors.Department",
+        "Students.StudentID",
+        "Students.Personal_Computing_Devices",
+        "Students.Operating_System",
+        "Students.EmailAddress",
+        "Students.FullName"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "attachment_1tab_ref_journalism_awards_dump": [
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.DatePublished",
+        "Articles.AuthorID",
+        "Articles.PublisherID",
+        "Authors.AuthorID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Awards.AwardID",
+        "Awards.AwardType",
+        "Publications.PublisherID",
+        "Publications.Name",
+        "Publications.YearOfEstablishment"
+    ]
+}

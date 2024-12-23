@@ -1,0 +1,19 @@
+{
+    "vague_2tabs_political_leanings_dump": [
+        "Districts.districtID",
+        "Districts.name",
+        "Districts.totalPopulation",
+        "Dominating_Party.districtID",
+        "Dominating_Party.partyName",
+        "Dominating_Party.percentageVotes",
+        "Individuals.id",
+        "Individuals.name",
+        "Individuals.age",
+        "Prevalent_Ideology.districtID",
+        "Prevalent_Ideology.ideologyName",
+        "Prevalent_Ideology.percentageVotes",
+        "VotingRecords.recordID",
+        "VotingRecords.individualId",
+        "VotingRecords.party"
+    ]
+}

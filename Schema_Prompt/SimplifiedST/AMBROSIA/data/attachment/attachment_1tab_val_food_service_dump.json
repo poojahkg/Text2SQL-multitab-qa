@@ -1,0 +1,27 @@
+{
+    "attachment_1tab_val_food_service_dump": [
+        "Orders.ID",
+        "Orders.OrderDate",
+        "Orders.Item",
+        "Orders.Quantity",
+        "Orders.Price",
+        "Orders.ReservationID",
+        "Reservations.ID",
+        "Reservations.Date",
+        "Reservations.Time",
+        "Reservations.TableNumber",
+        "Reservations.Guests",
+        "Reservations.TotalCost",
+        "Reservations.CustomerName",
+        "Reservations.TableID",
+        "Restaurants.ID",
+        "Restaurants.Name",
+        "Restaurants.Address",
+        "Restaurants.Food_Service",
+        "Restaurants.Cuisine",
+        "Tables.ID",
+        "Tables.Number",
+        "Tables.Status",
+        "Tables.RestaurantID"
+    ]
+}

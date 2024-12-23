@@ -1,0 +1,25 @@
+{
+    "attachment_2tab_val_construction_jobs_dump": [
+        "Architect_Projects.architect_id",
+        "Architect_Projects.project_id",
+        "Architects.id",
+        "Architects.name",
+        "Architects.years_in_practice",
+        "Architects.design_software_expertise",
+        "Architects.salary",
+        "Civil_Engineers.id",
+        "Civil_Engineers.name",
+        "Civil_Engineers.years_of_experience",
+        "Civil_Engineers.design_software_expertise",
+        "Civil_Engineers.salary",
+        "Design_Softwares.software_name",
+        "Design_Softwares.popularity",
+        "Engineer_Projects.engineer_id",
+        "Engineer_Projects.project_id",
+        "Projects.project_id",
+        "Projects.title",
+        "Projects.description",
+        "Projects.start_date",
+        "Projects.end_date"
+    ]
+}

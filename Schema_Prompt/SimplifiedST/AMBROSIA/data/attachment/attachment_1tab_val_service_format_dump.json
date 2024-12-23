@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_val_service_format_dump": [
+        "Customers.id",
+        "Customers.name",
+        "Customers.email",
+        "Customers.phone",
+        "Customers.preferred_language",
+        "MenuItems.id",
+        "MenuItems.restaurant_id",
+        "MenuItems.item_name",
+        "MenuItems.price",
+        "Orders.id",
+        "Orders.customer_id",
+        "Orders.order_date",
+        "Orders.total_price",
+        "Orders.paid",
+        "Restaurant.id",
+        "Restaurant.name",
+        "Restaurant.address",
+        "Restaurant.Service_format",
+        "Restaurant.Hours"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "attachment_1tab_val_special_care_passengers_dump": [
+        "Airports.id",
+        "Airports.name",
+        "Airports.city",
+        "Airports.country",
+        "Flights.flightNumber",
+        "Flights.departureAirportId",
+        "Flights.arrivalAirportId",
+        "Flights.departureTime",
+        "Flights.arrivalTime",
+        "Passengers.passengerId",
+        "Passengers.dateOfBirth",
+        "Passengers.isMinor",
+        "Passengers.FullName"
+    ]
+}

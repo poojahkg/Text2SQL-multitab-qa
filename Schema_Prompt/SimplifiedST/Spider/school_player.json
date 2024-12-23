@@ -1,0 +1,30 @@
+{
+    "school_player": [
+        "school.School_ID",
+        "school.School",
+        "school.Location",
+        "school.Enrollment",
+        "school.Founded",
+        "school.Denomination",
+        "school.Boys_or_Girls",
+        "school.Day_or_Boarding",
+        "school.Year_Entered_Competition",
+        "school.School_Colors",
+        "school_details.School_ID",
+        "school_details.Nickname",
+        "school_details.Colors",
+        "school_details.League",
+        "school_details.Class",
+        "school_details.Division",
+        "school_performance.School_Id",
+        "school_performance.School_Year",
+        "school_performance.Class_A",
+        "school_performance.Class_AA",
+        "player.Player_ID",
+        "player.Player",
+        "player.Team",
+        "player.Age",
+        "player.Position",
+        "player.School_ID"
+    ]
+}

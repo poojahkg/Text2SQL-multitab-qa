@@ -1,0 +1,25 @@
+{
+    "vague_2tabs_qualification_dump": [
+        "Article.articleID",
+        "Article.headline",
+        "Article.content",
+        "Article.publishedDate",
+        "Article.journalistID",
+        "Certificate.certificateID",
+        "Certificate.name",
+        "Certificate.issueDate",
+        "Degree.degreeID",
+        "Degree.title",
+        "Degree.major",
+        "Investigative_Journalist.journalistID",
+        "Investigative_Journalist.firstName",
+        "Investigative_Journalist.lastName",
+        "Investigative_Journalist.degreeID",
+        "Investigative_Journalist.certificateID",
+        "Source.sourceID",
+        "Source.name",
+        "Source.type",
+        "Source.contactInfo",
+        "Source.articleID"
+    ]
+}

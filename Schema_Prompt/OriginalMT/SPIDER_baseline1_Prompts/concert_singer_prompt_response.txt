@@ -1,0 +1,93 @@
+Example Queries:
+
+Question: What is the capacity of Hampden Park?
+Query:
+SELECT Capacity FROM stadium WHERE Name = "Hampden Park";
+
+Question: How many concerts were held at Stark's Park in 2014?
+Query:
+SELECT COUNT(*) FROM concert WHERE Stadium_ID = (SELECT Stadium_ID FROM stadium WHERE Name = "Stark's Park") AND Year = "2014";
+
+Question: Which singers performed at the "Super bootcamp" concert?
+Query:
+SELECT s.Name FROM singer AS s JOIN singer_in_concert AS sic ON s.Singer_ID = sic.Singer_ID WHERE sic.concert_ID = (SELECT concert_ID FROM concert WHERE concert_Name = "Super bootcamp");
+
+Instructions for Writing Queries:
+Understand the Relationships: Study the relationships between tables and identify how data is linked using foreign keys.
+Analyze the Question: Break the question into smaller parts to determine the required data and operations (e.g., filtering, aggregation, joining).
+SQL Techniques:
+Use JOIN to combine related tables.
+Use DISTINCT to filter unique results.
+Use LIMIT to restrict the number of rows in the result.
+Use nested subqueries for filtering or aggregating data.
+Apply filtering conditions (e.g., WHERE) for specific criteria.
+Write the Query: Construct the SQL query step by step, ensuring logical flow and syntax correctness.
+Test the Query: Validate the query for accuracy and completeness.
+Few-Shot Questions and Queries:
+Example 1:
+Question: List all unique themes of concerts held in 2022.
+Query:
+
+sql
+Copy code
+SELECT DISTINCT Theme
+FROM concert
+WHERE Year = '2022';
+Example 2:
+Question: Find the top 3 singers with the most performances, sorted by their number of performances in descending order.
+Query:
+
+sql
+Copy code
+SELECT s.Name, COUNT(sic.concert_ID) AS Performance_Count
+FROM singer s
+JOIN singer_in_concert sic ON s.Singer_ID = sic.Singer_ID
+GROUP BY s.Name
+ORDER BY Performance_Count DESC
+LIMIT 3;
+Example 3:
+Question: Which stadiums have hosted concerts attended by a singer whose song was released before 2010?
+Query:
+
+sql
+Copy code
+SELECT DISTINCT st.Name
+FROM stadium st
+JOIN concert c ON st.Stadium_ID = c.Stadium_ID
+JOIN singer_in_concert sic ON c.concert_ID = sic.concert_ID
+JOIN singer s ON sic.Singer_ID = s.Singer_ID
+WHERE CAST(s.Song_release_year AS INT) < 2010;
+Example 4:
+Question: What is the average age of singers who performed at "Opera Night"?
+Query:
+
+sql
+Copy code
+SELECT AVG(s.Age) AS Average_Age
+FROM singer s
+JOIN singer_in_concert sic ON s.Singer_ID = sic.Singer_ID
+WHERE sic.concert_ID = (SELECT concert_ID FROM concert WHERE concert_Name = "Opera Night");
+Example 5:
+Question: Find the stadium with the highest recorded attendance.
+Query:
+
+sql
+Copy code
+SELECT Name, Highest
+FROM stadium
+ORDER BY Highest DESC
+LIMIT 1;
+Example 6:
+Question: How many male singers performed at concerts held in London?
+Query:
+
+sql
+Copy code
+SELECT COUNT(DISTINCT s.Singer_ID) AS Male_Singers_Count
+FROM singer s
+JOIN singer_in_concert sic ON s.Singer_ID = sic.Singer_ID
+JOIN concert c ON sic.concert_ID = c.concert_ID
+JOIN stadium st ON c.Stadium_ID = st.Stadium_ID
+WHERE st.Location = "London" AND s.Is_male = TRUE;
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:

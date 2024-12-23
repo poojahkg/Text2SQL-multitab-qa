@@ -1,0 +1,11 @@
+{
+    "scope_language_schools_course_levels_dump": [
+        "Course_Levels.id",
+        "Course_Levels.level",
+        "Language_Schools.id",
+        "Language_Schools.name",
+        "Language_Schools.location",
+        "Language_Schools_Course_Levels.language_schools_id",
+        "Language_Schools_Course_Levels.course_levels_id"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "scope_employers_benefits_dump": [
+        "Applicants.id",
+        "Applicants.first_name",
+        "Applicants.last_name",
+        "Applicants.email",
+        "Applicants.phone_number",
+        "Applicants.resume",
+        "ApplicationStatuses.application_id",
+        "ApplicationStatuses.status",
+        "ApplicationStatuses.interview_date",
+        "ApplicationStatuses.feedback",
+        "Benefits.id",
+        "Benefits.benefit_name",
+        "Benefits.description",
+        "Employers.id",
+        "Employers.name",
+        "Employers.email",
+        "Employers_Benefits.employer_id",
+        "Employers_Benefits.benefit_id",
+        "JobPostings.id",
+        "JobPostings.title",
+        "JobPostings.description",
+        "JobPostings.location",
+        "JobPostings.salary",
+        "JobPostings.posting_date"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "flight_4": [
+        "routes.rid",
+        "routes.dst_apid",
+        "routes.dst_ap",
+        "routes.src_apid",
+        "routes.src_ap",
+        "routes.alid",
+        "routes.airline",
+        "routes.codeshare",
+        "airports.apid",
+        "airports.name",
+        "airports.city",
+        "airports.country",
+        "airports.x",
+        "airports.y",
+        "airports.elevation",
+        "airports.iata",
+        "airports.icao",
+        "airlines.alid",
+        "airlines.name",
+        "airlines.iata",
+        "airlines.icao",
+        "airlines.callsign",
+        "airlines.country",
+        "airlines.active"
+    ]
+}

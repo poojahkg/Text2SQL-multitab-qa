@@ -1,0 +1,12 @@
+{
+    "scope_national_parks_trails_dump": [
+        "National_Parks.park_id",
+        "National_Parks.name",
+        "National_Parks.location",
+        "National_Parks_Trails.national_park_id",
+        "National_Parks_Trails.trail_id",
+        "Trails.trail_id",
+        "Trails.difficulty",
+        "Trails.length"
+    ]
+}

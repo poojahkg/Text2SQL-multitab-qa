@@ -1,0 +1,13 @@
+{
+    "scope_mountain_resorts_winter_sports_dump": [
+        "Mountain_Resorts.ResortID",
+        "Mountain_Resorts.Name",
+        "Mountain_Resorts.Location",
+        "Mountain_Resorts.NumOfRooms",
+        "Mountain_Resorts_Winter_Sports.ResortID",
+        "Mountain_Resorts_Winter_Sports.SportID",
+        "Winter_Sports.SportID",
+        "Winter_Sports.Name",
+        "Winter_Sports.Description"
+    ]
+}

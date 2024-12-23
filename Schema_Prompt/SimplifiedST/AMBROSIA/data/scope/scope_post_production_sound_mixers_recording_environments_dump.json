@@ -1,0 +1,18 @@
+{
+    "scope_post_production_sound_mixers_recording_environments_dump": [
+        "FilmProjects.id",
+        "FilmProjects.title",
+        "FilmProjects.release_date",
+        "Films_with_Sound_Mixing.film_id",
+        "Films_with_Sound_Mixing.mixer_id",
+        "Post_Production_Sound_Mixers.id",
+        "Post_Production_Sound_Mixers.name",
+        "Post_Production_Sound_Mixers.years_of_experience",
+        "Recording_Environments.id",
+        "Recording_Environments.environment_name",
+        "Sound_Mixer_Environment_History.sound_mixer_id",
+        "Sound_Mixer_Environment_History.environment_id",
+        "Sound_Mixer_Environment_History.start_year",
+        "Sound_Mixer_Environment_History.end_year"
+    ]
+}

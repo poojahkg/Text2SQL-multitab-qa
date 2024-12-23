@@ -1,0 +1,32 @@
+{
+    "attachment_2tab_ref_aviation_jobs_dump": [
+        "Aircrafts.ID",
+        "Aircrafts.Type",
+        "Aircrafts.Model",
+        "Aircrafts.Capacity",
+        "Assignments.ID",
+        "Assignments.Flight_ID",
+        "Assignments.Pilot_ID",
+        "Assignments.CoPilot_ID",
+        "Flight_Attendants.ID",
+        "Flight_Attendants.Name",
+        "Flight_Attendants.Age",
+        "Flight_Attendants.Experience",
+        "Flight_Attendants.HireDate",
+        "Flight_Attendants.Training_Center_ID",
+        "Flights.ID",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Flights.OriginCity",
+        "Flights.DestinationCity",
+        "Flights.Aircraft_ID",
+        "Pilots.ID",
+        "Pilots.Name",
+        "Pilots.Age",
+        "Pilots.Experience",
+        "Pilots.LicenseNumber",
+        "Pilots.Training_Center_ID",
+        "Training_Center.ID",
+        "Training_Center.Name"
+    ]
+}

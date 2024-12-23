@@ -1,0 +1,18 @@
+{
+    "vague_2tabs_reporter_dump": [
+        "Category.id",
+        "Category.name",
+        "Journalist.id",
+        "Journalist.fullname",
+        "News_Agency.id",
+        "News_Agency.name",
+        "News_Agency.location",
+        "Story.id",
+        "Story.title",
+        "Story.content",
+        "Story.publishedDate",
+        "Story.journalistId",
+        "Story.agencyId",
+        "Story.categoryId"
+    ]
+}

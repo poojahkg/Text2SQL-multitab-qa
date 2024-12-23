@@ -1,0 +1,28 @@
+{
+    "vague_2tabs_historical_context_dump": [
+        "Employees.id",
+        "Employees.employee_name",
+        "Employees.position",
+        "Employees.healthcare_facility_id",
+        "Founding_Year.id",
+        "Founding_Year.year",
+        "Healthcare_Facilities.id",
+        "Healthcare_Facilities.name",
+        "Healthcare_Facilities.address",
+        "Healthcare_Facilities.founding_id",
+        "Healthcare_Facilities.past_owner_id",
+        "Past_Owners.id",
+        "Past_Owners.owner_name",
+        "Past_Owners.acquisition_year",
+        "Patients.id",
+        "Patients.patient_name",
+        "Patients.age",
+        "Patients.healthcare_facility_id",
+        "Treatments.id",
+        "Treatments.treatment_name",
+        "Treatments.start_date",
+        "Treatments.end_date",
+        "Treatments.patient_id",
+        "Treatments.healthcare_facility_id"
+    ]
+}

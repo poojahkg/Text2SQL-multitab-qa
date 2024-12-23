@@ -1,0 +1,12 @@
+{
+    "scope_terminals_facilities_dump": [
+        "Facilities.id",
+        "Facilities.facilityName",
+        "Facilities.description",
+        "Terminals.id",
+        "Terminals.name",
+        "Terminals.location",
+        "Terminals_Facilities.terminalId",
+        "Terminals_Facilities.facilityId"
+    ]
+}

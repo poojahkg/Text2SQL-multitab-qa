@@ -1,0 +1,11 @@
+{
+    "vague_2cols_capacity_dump": [
+        "Stadiums.ID",
+        "Stadiums.Seating_Capacity",
+        "Stadiums.Maximum_Occupancy",
+        "Stadiums.Name",
+        "Stadiums.Location",
+        "Stadiums.Year_Built",
+        "Stadiums.Type_of_Stadium"
+    ]
+}

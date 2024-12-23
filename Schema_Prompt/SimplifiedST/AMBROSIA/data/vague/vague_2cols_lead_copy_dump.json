@@ -1,0 +1,20 @@
+{
+    "vague_2cols_lead_copy_dump": [
+        "Actor.id",
+        "Actor.FirstName",
+        "Actor.LastName",
+        "Actor.DateOfBirth",
+        "Actress.id",
+        "Actress.FirstName",
+        "Actress.LastName",
+        "Actress.DateOfBirth",
+        "Director.id",
+        "Director.Name",
+        "Director.Birthdate",
+        "Role.id",
+        "Role.CharacterName",
+        "Role.MovieId",
+        "Role.ActorId",
+        "Role.ActressId"
+    ]
+}

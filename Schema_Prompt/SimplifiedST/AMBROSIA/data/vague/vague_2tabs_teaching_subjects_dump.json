@@ -1,0 +1,21 @@
+{
+    "vague_2tabs_teaching_subjects_dump": [
+        "Academic_Discipline.DisciplineID",
+        "Academic_Discipline.Name",
+        "Academic_Discipline.Description",
+        "Grade_Level.LevelID",
+        "Grade_Level.Name",
+        "Grade_Level.MinAge",
+        "Grade_Level.MaxAge",
+        "Student.ID",
+        "Student.BirthDate",
+        "Student.GradeLevelID",
+        "Student.DisciplineID",
+        "Student.fullname",
+        "Teacher.ID",
+        "Teacher.HireDate",
+        "Teacher.GradeLevelID",
+        "Teacher.DisciplineID",
+        "Teacher.fullname"
+    ]
+}

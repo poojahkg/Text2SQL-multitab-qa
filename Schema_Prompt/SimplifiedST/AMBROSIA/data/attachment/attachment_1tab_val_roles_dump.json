@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_val_roles_dump": [
+        "Companies.ID",
+        "Companies.Name",
+        "Education_Requirements.ID",
+        "Education_Requirements.Degree_Required",
+        "Education_Requirements.Years_Experience",
+        "JobPostings.ID",
+        "JobPostings.CompanyID",
+        "JobPostings.LocationID",
+        "JobPostings.Title",
+        "JobPostings.Description",
+        "JobPostings.Roles",
+        "JobPostings.Data",
+        "Locations.ID",
+        "Locations.City",
+        "Locations.State",
+        "Locations.Country"
+    ]
+}

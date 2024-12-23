@@ -1,0 +1,30 @@
+{
+    "vague_2cols_hospital_history_copy_dump": [
+        "Appointments.AppointmentID",
+        "Appointments.PatientID",
+        "Appointments.DoctorID",
+        "Appointments.Date",
+        "Appointments.Time",
+        "Insurances.InsuranceID",
+        "Insurances.PolicyNumber",
+        "Insurances.Provider",
+        "Insurances.CoverageAmount",
+        "Insurances.StartDate",
+        "Insurances.EndDate",
+        "Insurances.PatientID",
+        "Medications.MedicationID",
+        "Medications.MedicineName",
+        "Medications.DrugClass",
+        "Medications.Instructions",
+        "Patients.PatientID",
+        "Patients.FirstName",
+        "Patients.LastName",
+        "Patients.DateOfBirth",
+        "Prescriptions.PrescriptionID",
+        "Prescriptions.PatientID",
+        "Prescriptions.MedicationID",
+        "Prescriptions.IssueDate",
+        "Prescriptions.ExpiryDate",
+        "Prescriptions.Quantity"
+    ]
+}

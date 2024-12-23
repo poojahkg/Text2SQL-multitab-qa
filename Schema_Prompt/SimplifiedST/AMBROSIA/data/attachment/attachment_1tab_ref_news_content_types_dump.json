@@ -1,0 +1,19 @@
+{
+    "attachment_1tab_ref_news_content_types_dump": [
+        "Articles.id",
+        "Articles.Author_ID",
+        "Articles.Published_Date",
+        "Authors.id",
+        "Authors.Name",
+        "News_Contents.id",
+        "News_Contents.Title",
+        "News_Contents.Content",
+        "News_Contents.News_Type",
+        "News_Contents.Volume_ID",
+        "Publications.id",
+        "Publications.Volume_ID",
+        "Publications.Publisher_Name",
+        "Volumes.id",
+        "Volumes.Issue_Number"
+    ]
+}

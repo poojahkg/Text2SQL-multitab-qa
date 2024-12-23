@@ -1,0 +1,26 @@
+{
+    "vague_2cols_qualification_dump": [
+        "articles.id",
+        "articles.title",
+        "articles.content",
+        "articles.publishDate",
+        "articles.authorId",
+        "articles.publicationId",
+        "articles.topicId",
+        "journalists.id",
+        "journalists.name",
+        "journalists.email",
+        "journalists.phoneNumber",
+        "journalists.Degree",
+        "journalists.Certificate",
+        "journalists.Investigative_Journalist",
+        "publications.id",
+        "publications.name",
+        "publications.address",
+        "sources.id",
+        "sources.name",
+        "sources.contactInfo",
+        "topics.id",
+        "topics.description"
+    ]
+}

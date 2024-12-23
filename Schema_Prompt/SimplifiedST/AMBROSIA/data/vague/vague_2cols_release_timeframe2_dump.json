@@ -1,0 +1,29 @@
+{
+    "vague_2cols_release_timeframe2_dump": [
+        "Actors.id",
+        "Actors.FullName",
+        "Actors.DateOfBirth",
+        "Directors.id",
+        "Directors.FirstName",
+        "Directors.LastName",
+        "Directors.BirthDate",
+        "GameReviews.id",
+        "GameReviews.ReviewText",
+        "GameReviews.Rating",
+        "GameReviews.GameId",
+        "GameReviews.ReviewerId",
+        "MovieRoles.id",
+        "MovieRoles.ActorId",
+        "MovieRoles.MovieId",
+        "MovieRoles.RoleType",
+        "Movies.id",
+        "Movies.Title",
+        "Movies.YearReleased",
+        "Movies.DirectorId",
+        "VideoGames.id",
+        "VideoGames.Release_Year",
+        "VideoGames.Release_Date",
+        "VideoGames.Name",
+        "VideoGames.Platform"
+    ]
+}

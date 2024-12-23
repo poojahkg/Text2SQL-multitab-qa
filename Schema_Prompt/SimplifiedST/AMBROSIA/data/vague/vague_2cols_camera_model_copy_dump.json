@@ -1,0 +1,22 @@
+{
+    "vague_2cols_camera_model_copy_dump": [
+        "Actor.ID",
+        "Actor.Name",
+        "Actor.Date_Of_Birth",
+        "Actor.Occupation",
+        "Director.ID",
+        "Director.Name",
+        "Director.Birthdate",
+        "Director.Nationality",
+        "Film_Crew.ID",
+        "Film_Crew.Role",
+        "Film_Crew.Responsibility",
+        "Film_Crew.Salary",
+        "Movie.ID",
+        "Movie.Title",
+        "Movie.Release_Date",
+        "Movie.Genre",
+        "Movie.Runtime",
+        "Movie.Box_Office"
+    ]
+}

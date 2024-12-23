@@ -1,0 +1,24 @@
+{
+    "tracking_share_transactions": [
+        "Investors.investor_id",
+        "Investors.Investor_details",
+        "Lots.lot_id",
+        "Lots.investor_id",
+        "Lots.lot_details",
+        "Ref_Transaction_Types.transaction_type_code",
+        "Ref_Transaction_Types.transaction_type_description",
+        "Transactions.transaction_id",
+        "Transactions.investor_id",
+        "Transactions.transaction_type_code",
+        "Transactions.date_of_transaction",
+        "Transactions.amount_of_transaction",
+        "Transactions.share_count",
+        "Transactions.other_details",
+        "Sales.sales_transaction_id",
+        "Sales.sales_details",
+        "Purchases.purchase_transaction_id",
+        "Purchases.purchase_details",
+        "Transactions_Lots.transaction_id",
+        "Transactions_Lots.lot_id"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "flight_2": [
+        "airlines.uid",
+        "airlines.Airline",
+        "airlines.Abbreviation",
+        "airlines.Country",
+        "airports.City",
+        "airports.AirportCode",
+        "airports.AirportName",
+        "airports.Country",
+        "airports.CountryAbbrev",
+        "flights.Airline",
+        "flights.FlightNo",
+        "flights.SourceAirport",
+        "flights.DestAirport"
+    ]
+}

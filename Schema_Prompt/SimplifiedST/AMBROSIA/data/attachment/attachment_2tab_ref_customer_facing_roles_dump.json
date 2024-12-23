@@ -1,0 +1,22 @@
+{
+    "attachment_2tab_ref_customer_facing_roles_dump": [
+        "CS_Jobs.job_posting_id",
+        "CS_Jobs.customer_service_advisor_id",
+        "Customer_Service_Advisors.id",
+        "Customer_Service_Advisors.advisor_name",
+        "Customer_Service_Advisors.language_id",
+        "IT_Jobs.job_posting_id",
+        "IT_Jobs.it_support_technician_id",
+        "IT_Support_Technicians.id",
+        "IT_Support_Technicians.technician_name",
+        "IT_Support_Technicians.language_id",
+        "Job_Postings.id",
+        "Job_Postings.title",
+        "Job_Postings.description",
+        "Job_Postings.location",
+        "Job_Postings.salary",
+        "Job_Postings.posted_date",
+        "Languages.id",
+        "Languages.name"
+    ]
+}

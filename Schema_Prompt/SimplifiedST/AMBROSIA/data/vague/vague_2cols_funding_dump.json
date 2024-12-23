@@ -1,0 +1,31 @@
+{
+    "vague_2cols_funding_dump": [
+        "Contractors.contractorID",
+        "Contractors.companyName",
+        "Contractors.address",
+        "Contractors.phoneNumber",
+        "Contractors.employeeCount",
+        "Employees.employeeID",
+        "Employees.firstName",
+        "Employees.lastName",
+        "Employees.hireDate",
+        "Employees.salary",
+        "Employees.contractorID",
+        "Materials.materialID",
+        "Materials.description",
+        "Materials.quantity",
+        "Materials.unitCost",
+        "Materials.projectID",
+        "Payments.paymentID",
+        "Payments.amount",
+        "Payments.paymentDate",
+        "Payments.projectID",
+        "Payments.contractorID",
+        "Projects.projectID",
+        "Projects.name",
+        "Projects.startDate",
+        "Projects.endDate",
+        "Projects.budget",
+        "Projects.contractorID"
+    ]
+}

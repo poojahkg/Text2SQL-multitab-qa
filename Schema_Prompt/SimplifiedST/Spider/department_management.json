@@ -1,0 +1,17 @@
+{
+    "department_management": [
+        "department.Department_ID",
+        "department.Name",
+        "department.Creation",
+        "department.Ranking",
+        "department.Budget_in_Billions",
+        "department.Num_Employees",
+        "head.head_ID",
+        "head.name",
+        "head.born_state",
+        "head.age",
+        "management.department_ID",
+        "management.head_ID",
+        "management.temporary_acting"
+    ]
+}

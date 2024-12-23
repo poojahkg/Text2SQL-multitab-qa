@@ -1,0 +1,40 @@
+Example 1:
+
+Question: What was the result of the Battle of Adrianople?
+Query:
+
+sql
+Copy code
+SELECT result 
+FROM battle 
+WHERE name = "Battle of Adrianople";
+Example 2:
+
+Question: How many ships were sunk in the Battle of Strymon?
+Query:
+
+sql
+Copy code
+SELECT COUNT(*) AS sunk_ships
+FROM ship
+WHERE lost_in_battle = (SELECT id FROM battle WHERE name = "Battle of Strymon")
+  AND disposition_of_ship = "Sank";
+Example 3:
+
+Question: How many casualties were caused by the ship "Black Pearl"?
+Query:
+
+sql
+Copy code
+SELECT SUM(killed) AS total_killed, SUM(injured) AS total_injured
+FROM death
+WHERE caused_by_ship_id = (SELECT id FROM ship WHERE name = "Black Pearl");
+
+Instructions for Writing Queries
+Use JOINs to combine data from multiple tables.
+Apply GROUP BY and ORDER BY clauses for aggregation and sorting.
+Include LIMIT clauses to restrict results when needed.
+Use DISTINCT to avoid duplicate results if necessary.
+Always ensure WHERE clauses accurately filter data based on conditions provided in the question.
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:

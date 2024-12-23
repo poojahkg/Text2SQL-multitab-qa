@@ -1,0 +1,26 @@
+{
+    "vague_2cols_level_of_prestige_dump": [
+        "Courses.id",
+        "Courses.courseCode",
+        "Courses.courseTitle",
+        "Courses.creditHours",
+        "Courses.departmentId",
+        "Departments.id",
+        "Departments.departmentName",
+        "Departments.universityId",
+        "Enrollments.studentID",
+        "Enrollments.courseID",
+        "Enrollments.semester",
+        "Enrollments.grade",
+        "Enrollments.enrollmentDate",
+        "Students.id",
+        "Students.name",
+        "Students.age",
+        "Students.major",
+        "Universities.id",
+        "Universities.universityName",
+        "Universities.admissionRate",
+        "Universities.ranking",
+        "Universities.location"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "attachment_1tab_val_airport_accommodations_dump": [
+        "Airlines.AirlineID",
+        "Airlines.Name",
+        "Airlines.Headquarters",
+        "AssignPilotToFlight.FlightID",
+        "AssignPilotToFlight.PilotID",
+        "Flights.FlightID",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Flights.Origin",
+        "Flights.Destination",
+        "Flights.AircraftType",
+        "Flights.SeatsAvailable",
+        "Hotels.HotelID",
+        "Hotels.Name",
+        "Hotels.Location",
+        "Hotels.Price",
+        "Hotels.AccomodationType",
+        "Pilots.PilotID",
+        "Pilots.FirstName",
+        "Pilots.LastName",
+        "Pilots.LicenseNumber",
+        "Pilots.DateOfBirth"
+    ]
+}

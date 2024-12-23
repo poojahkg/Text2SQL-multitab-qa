@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_ref_theatrical_form_dump": [
+        "Actor.id",
+        "Actor.firstName",
+        "Actor.lastName",
+        "Actor.birthYear",
+        "Actor.playId",
+        "Author.id",
+        "Author.name",
+        "Character.id",
+        "Character.characterName",
+        "Character.playId",
+        "Character.actorId",
+        "Play.id",
+        "Play.title",
+        "Play.authorId",
+        "Play.theatricalFormId",
+        "Role.id",
+        "Role.roleDescription",
+        "Role.characterId",
+        "Role.actorId",
+        "Theatrical_Form.id",
+        "Theatrical_Form.form"
+    ]
+}

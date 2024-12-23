@@ -1,0 +1,19 @@
+{
+    "vague_2cols_screenwriter_copy_dump": [
+        "Actors.actor_id",
+        "Actors.first_name",
+        "Actors.last_name",
+        "Actors.birth_date",
+        "Actors.nationality",
+        "Subscribers.subscriber_id",
+        "Subscribers.username",
+        "Subscribers.email",
+        "Subscribers.password",
+        "TVShows.tvshow_id",
+        "TVShows.show_title",
+        "TVShows.start_date",
+        "TVShows.end_date",
+        "TVShows.genre",
+        "TVShows.episodes"
+    ]
+}

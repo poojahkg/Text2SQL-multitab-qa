@@ -1,0 +1,27 @@
+{
+    "vague_2cols_story_dump": [
+        "Authors.AuthorID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.BirthDate",
+        "Authors.DeathDate",
+        "Authors.Biography",
+        "Book_Authors.BookID",
+        "Book_Authors.AuthorID",
+        "Book_Genres.BookID",
+        "Book_Genres.GenreID",
+        "Books.BookID",
+        "Books.Title",
+        "Books.Author",
+        "Books.PublicationYear",
+        "Books.Summary",
+        "Books.Themes",
+        "Books.Novel",
+        "Genres.GenreID",
+        "Genres.Name",
+        "Publishers.PublisherID",
+        "Publishers.Name",
+        "Publishers.Address",
+        "Publishers.PhoneNumber"
+    ]
+}

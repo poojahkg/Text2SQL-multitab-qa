@@ -1,0 +1,28 @@
+{
+    "attachment_2tab_val_aircraft_manufacturers_dump": [
+        "Airbus.id",
+        "Airbus.Model",
+        "Airbus.Number_of_seats",
+        "Airbus.Manufacture_year",
+        "Airbus.LastMaintenanceDate",
+        "Boeing.id",
+        "Boeing.Model",
+        "Boeing.Number_of_seats",
+        "Boeing.Manufacture_year",
+        "Boeing.LastMaintenanceDate",
+        "Flight.id",
+        "Flight.airplaneId",
+        "Flight.departureTime",
+        "Flight.arrivalTime",
+        "Flight.destination",
+        "Maintenance.id",
+        "Maintenance.airplaneId",
+        "Maintenance.maintenanceType",
+        "Maintenance.datePerformed",
+        "Maintenance.technicianName",
+        "Pilot.id",
+        "Pilot.name",
+        "Pilot.licenseNumber",
+        "Pilot.experienceYears"
+    ]
+}

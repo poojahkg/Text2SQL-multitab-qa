@@ -1,0 +1,25 @@
+{
+    "attachment_2tab_ref_hospitality_staff_dump": [
+        "ChefRestaurants.ChefID",
+        "ChefRestaurants.RestaurantID",
+        "ChefRestaurants.HireDate",
+        "Chefs.ChefID",
+        "Chefs.FirstName",
+        "Chefs.LastName",
+        "Chefs.LanguageID",
+        "Languages.LanguageID",
+        "Languages.LanguageName",
+        "Restaurants.RestaurantID",
+        "Restaurants.Name",
+        "Restaurants.Address",
+        "Restaurants.PhoneNumber",
+        "Restaurants.OpeningHours",
+        "ServerRestaurants.ServerID",
+        "ServerRestaurants.RestaurantID",
+        "ServerRestaurants.HireDate",
+        "Servers.ServerID",
+        "Servers.FirstName",
+        "Servers.LastName",
+        "Servers.LanguageID"
+    ]
+}

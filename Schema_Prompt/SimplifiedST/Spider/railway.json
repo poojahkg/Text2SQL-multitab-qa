@@ -1,0 +1,26 @@
+{
+    "railway": [
+        "railway.Railway_ID",
+        "railway.Railway",
+        "railway.Builder",
+        "railway.Built",
+        "railway.Wheels",
+        "railway.Location",
+        "railway.ObjectNumber",
+        "train.Train_ID",
+        "train.Train_Num",
+        "train.Name",
+        "train.From",
+        "train.Arrival",
+        "train.Railway_ID",
+        "manager.Manager_ID",
+        "manager.Name",
+        "manager.Country",
+        "manager.Working_year_starts",
+        "manager.Age",
+        "manager.Level",
+        "railway_manage.Railway_ID",
+        "railway_manage.Manager_ID",
+        "railway_manage.From_Year"
+    ]
+}

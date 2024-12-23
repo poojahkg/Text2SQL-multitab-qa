@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_ref_business_professions_dump": [
+        "Business_Profession.id",
+        "Business_Profession.profession",
+        "Company.id",
+        "Company.name",
+        "Company.industry",
+        "Company.location",
+        "Job_Posting.id",
+        "Job_Posting.title",
+        "Job_Posting.description",
+        "Job_Posting.required_skills",
+        "Job_Posting.salary",
+        "Job_Posting.post_date",
+        "Job_Posting.business_profession_id",
+        "Job_Posting.working_arrangement_id",
+        "Job_Posting.company_id",
+        "Working_Arrangement.id",
+        "Working_Arrangement.arrangement"
+    ]
+}

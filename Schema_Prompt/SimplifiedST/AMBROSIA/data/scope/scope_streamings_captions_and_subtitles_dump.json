@@ -1,0 +1,20 @@
+{
+    "scope_streamings_captions_and_subtitles_dump": [
+        "Captions_and_subtitles.caption_id",
+        "Captions_and_subtitles.type",
+        "Captions_and_subtitles.language",
+        "Payments.payment_id",
+        "Payments.amount",
+        "Payments.date",
+        "Streamings.streaming_id",
+        "Streamings.title",
+        "Streamings.duration",
+        "Streamings_captions_and_subtitles.streamings_id",
+        "Streamings_captions_and_subtitles.captions_and_subtitles_id",
+        "User_Payments.user_id",
+        "User_Payments.payment_id",
+        "Users.user_id",
+        "Users.username",
+        "Users.email"
+    ]
+}

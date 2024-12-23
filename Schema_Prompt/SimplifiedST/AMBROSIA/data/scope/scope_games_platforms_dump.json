@@ -1,0 +1,12 @@
+{
+    "scope_games_platforms_dump": [
+        "Games.gameID",
+        "Games.title",
+        "Games.genre",
+        "Games.releaseDate",
+        "Games_Platforms.gamesID",
+        "Games_Platforms.platformsID",
+        "Platforms.platformID",
+        "Platforms.name"
+    ]
+}

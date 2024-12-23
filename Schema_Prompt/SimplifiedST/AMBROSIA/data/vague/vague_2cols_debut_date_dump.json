@@ -1,0 +1,27 @@
+{
+    "vague_2cols_debut_date_dump": [
+        "Category.id",
+        "Category.Name",
+        "Episode.id",
+        "Episode.Podcast_id",
+        "Episode.Episode_Number",
+        "Episode.Release_Date",
+        "Episode.Length",
+        "Podcast.id",
+        "Podcast.Debut_Day",
+        "Podcast.Debut_Year",
+        "Podcast.Title",
+        "Podcast.Hosts",
+        "Podcast.Duration",
+        "Podcast_Category.Podcast_id",
+        "Podcast_Category.Category_id",
+        "Subscriber.id",
+        "Subscriber.Email",
+        "Subscriber.Password",
+        "Subscriber.Joined_Date",
+        "Subscription.Subscriber_id",
+        "Subscription.Podcast_id",
+        "Subscription.Start_Date",
+        "Subscription.End_Date"
+    ]
+}

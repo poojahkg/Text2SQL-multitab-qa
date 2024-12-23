@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_val_genre1_dump": [
+        "Actors.actorID",
+        "Actors.firstName",
+        "Actors.lastName",
+        "Director_Roles.directorID",
+        "Director_Roles.movieID",
+        "Directors.directorID",
+        "Directors.firstName",
+        "Directors.lastName",
+        "Movies.movieID",
+        "Movies.title",
+        "Movies.genre",
+        "Movies.duration",
+        "Movies.productionHouseID",
+        "Production_houses.houseID",
+        "Production_houses.name",
+        "Roles.roleID",
+        "Roles.actorID",
+        "Roles.movieID",
+        "Roles.characterType"
+    ]
+}

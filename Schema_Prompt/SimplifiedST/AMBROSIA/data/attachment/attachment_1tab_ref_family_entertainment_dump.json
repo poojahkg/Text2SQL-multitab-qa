@@ -1,0 +1,10 @@
+{
+    "attachment_1tab_ref_family_entertainment_dump": [
+        "Locations.id",
+        "Locations.name",
+        "ThemeParks.id",
+        "ThemeParks.parkName",
+        "ThemeParks.locationId",
+        "ThemeParks.familyEntertainment"
+    ]
+}

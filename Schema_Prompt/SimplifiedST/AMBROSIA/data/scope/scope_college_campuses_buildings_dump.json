@@ -1,0 +1,14 @@
+{
+    "scope_college_campuses_buildings_dump": [
+        "Buildings.id",
+        "Buildings.type",
+        "Buildings.description",
+        "College_Campuses.id",
+        "College_Campuses.name",
+        "College_Campuses.location",
+        "College_Campuses_Buildings.campusId",
+        "College_Campuses_Buildings.buildingId",
+        "College_Campuses_Buildings.ON",
+        "College_Campuses_Buildings.ON"
+    ]
+}

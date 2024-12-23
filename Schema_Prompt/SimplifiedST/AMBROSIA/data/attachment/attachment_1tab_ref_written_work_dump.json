@@ -1,0 +1,24 @@
+{
+    "attachment_1tab_ref_written_work_dump": [
+        "Authors.AuthorID",
+        "Authors.Name",
+        "Authors.Country",
+        "Authors.BirthDate",
+        "Publishers.PublisherID",
+        "Publishers.Name",
+        "Publishers.Address",
+        "TypesOfWork.TypeID",
+        "TypesOfWork.Type",
+        "WorksPublishedByPublisher.WorkID",
+        "WorksPublishedByPublisher.PublisherID",
+        "WorksPublishedByPublisher.PublicationYear",
+        "Writes.WriteID",
+        "Writes.AuthorID",
+        "Writes.WorkID",
+        "WrittenWorks.WorkID",
+        "WrittenWorks.Title",
+        "WrittenWorks.TypeOfWork",
+        "WrittenWorks.PublishedDate",
+        "WrittenWorks.WordCount"
+    ]
+}

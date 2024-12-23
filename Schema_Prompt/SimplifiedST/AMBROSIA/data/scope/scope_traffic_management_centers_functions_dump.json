@@ -1,0 +1,11 @@
+{
+    "scope_traffic_management_centers_functions_dump": [
+        "Functions.id",
+        "Functions.functionName",
+        "Traffic_Management_Centers.centerID",
+        "Traffic_Management_Centers.name",
+        "Traffic_Management_Centers.location",
+        "Traffic_Management_Centers_Functions.TMC_id",
+        "Traffic_Management_Centers_Functions.Function_id"
+    ]
+}

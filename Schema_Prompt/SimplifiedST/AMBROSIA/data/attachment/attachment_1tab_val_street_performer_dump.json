@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_val_street_performer_dump": [
+        "PERFORMERS.ID",
+        "PERFORMERS.NAME",
+        "PERFORMERS.AGE",
+        "PERFORMERS.GENRE",
+        "PERFORMERS.STREET_PERFORMER",
+        "PERFORMERS.STREET_LOCATION",
+        "PERFORMER_SHOW.PERFORMER_ID",
+        "PERFORMER_SHOW.SHOW_ID",
+        "SHOWS.ID",
+        "SHOWS.TITLE",
+        "SHOWS.DURATION",
+        "SHOW_VENUE_MAPPINGS.SHOW_ID",
+        "SHOW_VENUE_MAPPINGS.VENUE_ID",
+        "VENUES.ID",
+        "VENUES.NAME",
+        "VENUES.LOCATION"
+    ]
+}

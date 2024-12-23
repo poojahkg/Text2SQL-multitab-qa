@@ -1,0 +1,33 @@
+{
+    "vague_2cols_release_timeframe1_copy_dump": [
+        "Artists.id",
+        "Artists.Name",
+        "Artists.BirthDate",
+        "Artists.Country",
+        "Artists.MusicGenre",
+        "Directors.DirectorName",
+        "Directors.Birthdate",
+        "Directors.Country",
+        "Directors.KnownFor",
+        "FilmRatings.RatingID",
+        "FilmRatings.MovieID",
+        "FilmRatings.Rating",
+        "FilmRatings.Review",
+        "MovieActors.ActorID",
+        "MovieActors.FirstName",
+        "MovieActors.LastName",
+        "MovieActors.DateOfBirth",
+        "MovieActors.Nationality",
+        "Movies.MovieID",
+        "Movies.Title",
+        "Movies.Director",
+        "Movies.ReleaseDate",
+        "Movies.Genre",
+        "Movies.Runtime",
+        "Songs.id",
+        "Songs.Title",
+        "Songs.Length",
+        "Songs.ReleaseDate",
+        "Songs.AlbumId"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "scope_sales_representatives_territories_dump": [
+        "Company.CompanyID",
+        "Company.Name",
+        "Company.Industry",
+        "Products.ProductID",
+        "Products.Name",
+        "Products.Price",
+        "Sales_Representatives.ID",
+        "Sales_Representatives.FullName",
+        "Sales_Representatives_Territories.SalesRepID",
+        "Sales_Representatives_Territories.TerritoryID",
+        "Territories.RegionID",
+        "Territories.Name",
+        "Territories.OtherColumn1",
+        "Territories.OtherColumn2"
+    ]
+}

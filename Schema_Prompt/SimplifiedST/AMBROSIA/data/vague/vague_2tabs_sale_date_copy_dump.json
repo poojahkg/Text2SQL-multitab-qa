@@ -1,0 +1,14 @@
+{
+    "vague_2tabs_sale_date_copy_dump": [
+        "Artists.artist_id",
+        "Artists.name",
+        "Artists.genre",
+        "Events.event_id",
+        "Events.artist_id",
+        "Events.venue_id",
+        "Events.event_date",
+        "Venues.venue_id",
+        "Venues.name",
+        "Venues.location"
+    ]
+}

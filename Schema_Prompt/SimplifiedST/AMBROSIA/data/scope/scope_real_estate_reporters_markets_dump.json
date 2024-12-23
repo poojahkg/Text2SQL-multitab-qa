@@ -1,0 +1,18 @@
+{
+    "scope_real_estate_reporters_markets_dump": [
+        "Articles.article_id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.published_date",
+        "Markets.id",
+        "Markets.market_name",
+        "Markets.description",
+        "Real_Estate_Reporters.id",
+        "Real_Estate_Reporters.name",
+        "Real_Estate_Reporters.email",
+        "Real_Estate_Reporters_Markets.reporter_id",
+        "Real_Estate_Reporters_Markets.market_id",
+        "Reporter_Articles.reporter_id",
+        "Reporter_Articles.article_id"
+    ]
+}

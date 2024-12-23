@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_val_visual_art_professions_dump": [
+        "Applications.id",
+        "Applications.applicantId",
+        "Applications.applicationDate",
+        "Applications.coverLetter",
+        "Applications.status",
+        "JobPosts.id",
+        "JobPosts.jobTitle",
+        "JobPosts.description",
+        "JobPosts.requiredSkills",
+        "JobPosts.budget",
+        "Photographers.id",
+        "Photographers.photographerName",
+        "Photographers.price",
+        "Photographers.experience",
+        "Photographers.specialization",
+        "SkillRequirements.requirementID",
+        "SkillRequirements.jobPostId",
+        "SkillRequirements.skillId",
+        "Skills.skillId",
+        "Skills.skillName",
+        "Videographers.id",
+        "Videographers.videographerName",
+        "Videographers.price",
+        "Videographers.experience",
+        "Videographers.specialization"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "company_employee": [
+        "people.People_ID",
+        "people.Age",
+        "people.Name",
+        "people.Nationality",
+        "people.Graduation_College",
+        "company.Company_ID",
+        "company.Name",
+        "company.Headquarters",
+        "company.Industry",
+        "company.Sales_in_Billion",
+        "company.Profits_in_Billion",
+        "company.Assets_in_Billion",
+        "company.Market_Value_in_Billion",
+        "employment.Company_ID",
+        "employment.People_ID",
+        "employment.Year_working"
+    ]
+}

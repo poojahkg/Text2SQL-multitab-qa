@@ -1,0 +1,27 @@
+{
+    "vague_2cols_editor_copy_dump": [
+        "AdAssignments.AdAssignmentID",
+        "AdAssignments.AdID",
+        "AdAssignments.ArticleID",
+        "AdAssignments.AssignmentDate",
+        "Advertisements.AdID",
+        "Advertisements.Description",
+        "Advertisements.ImgURL",
+        "Advertisements.StartDate",
+        "Advertisements.EndDate",
+        "Advertisements.Price",
+        "Authors.AuthorID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.Email",
+        "Comments.CommentID",
+        "Comments.ArticleID",
+        "Comments.ReaderID",
+        "Comments.CommentText",
+        "Comments.Rating",
+        "Readers.ReaderID",
+        "Readers.Name",
+        "Readers.SubscriptionDate",
+        "Readers.PreferredEmail"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "scope_projects_research_techniques_dump": [
+        "Projects.id",
+        "Projects.project_name",
+        "Projects.description",
+        "Projects_Research_Techniques.project_id",
+        "Projects_Research_Techniques.technique_id",
+        "Research_Techniques.id",
+        "Research_Techniques.technique_name",
+        "Research_Techniques.description"
+    ]
+}

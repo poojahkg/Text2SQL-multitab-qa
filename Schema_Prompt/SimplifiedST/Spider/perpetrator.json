@@ -1,0 +1,17 @@
+{
+    "perpetrator": [
+        "perpetrator.Perpetrator_ID",
+        "perpetrator.People_ID",
+        "perpetrator.Date",
+        "perpetrator.Year",
+        "perpetrator.Location",
+        "perpetrator.Country",
+        "perpetrator.Killed",
+        "perpetrator.Injured",
+        "people.People_ID",
+        "people.Name",
+        "people.Height",
+        "people.Weight",
+        "people.Home Town"
+    ]
+}

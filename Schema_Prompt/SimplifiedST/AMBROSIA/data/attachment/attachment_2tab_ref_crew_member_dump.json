@@ -1,0 +1,25 @@
+{
+    "attachment_2tab_ref_crew_member_dump": [
+        "Actor.id",
+        "Actor.name",
+        "Award.id",
+        "Award.award_type",
+        "Award.film_id",
+        "Award.year",
+        "Character.id",
+        "Character.character_name",
+        "Character.film_id",
+        "Character.actor_id",
+        "Cinematographer.id",
+        "Cinematographer.name",
+        "Cinematographer.years_of_experience",
+        "Director.id",
+        "Director.name",
+        "Director.years_of_experience",
+        "Film.id",
+        "Film.title",
+        "Film.release_year",
+        "Film.director_id",
+        "Film.cinematographer_id"
+    ]
+}

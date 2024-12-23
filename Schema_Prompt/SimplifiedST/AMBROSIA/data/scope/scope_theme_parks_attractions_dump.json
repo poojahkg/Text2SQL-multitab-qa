@@ -1,0 +1,12 @@
+{
+    "scope_theme_parks_attractions_dump": [
+        "Attractions.attraction_id",
+        "Attractions.type",
+        "Attractions.description",
+        "Theme_Parks.park_id",
+        "Theme_Parks.name",
+        "Theme_Parks.location",
+        "Theme_Parks_Attractions.theme_park_id",
+        "Theme_Parks_Attractions.attraction_id"
+    ]
+}

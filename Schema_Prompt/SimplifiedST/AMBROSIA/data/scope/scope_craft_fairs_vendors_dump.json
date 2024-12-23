@@ -1,0 +1,12 @@
+{
+    "scope_craft_fairs_vendors_dump": [
+        "Craft_Fairs.id",
+        "Craft_Fairs.name",
+        "Craft_Fairs.location",
+        "Craft_Fairs.date",
+        "Craft_Fairs_Vendors.craft_fair_id",
+        "Craft_Fairs_Vendors.vendor_type_id",
+        "Vendors.id",
+        "Vendors.type"
+    ]
+}

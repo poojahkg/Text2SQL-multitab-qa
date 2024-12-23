@@ -1,0 +1,18 @@
+{
+    "attachment_2tab_ref_dining_establishments_dump": [
+        "Cafe.id",
+        "Cafe.name",
+        "Cafe.location",
+        "Cafe.specialty",
+        "Cafe_Menus.cafe_id",
+        "Cafe_Menus.menu_option_id",
+        "Menu_Options.id",
+        "Menu_Options.option_name",
+        "Restaurant_Menus.restaurant_id",
+        "Restaurant_Menus.menu_option_id",
+        "Restaurants.id",
+        "Restaurants.name",
+        "Restaurants.location",
+        "Restaurants.cuisine"
+    ]
+}

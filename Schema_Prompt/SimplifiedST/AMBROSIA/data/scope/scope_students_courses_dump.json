@@ -1,0 +1,12 @@
+{
+    "scope_students_courses_dump": [
+        "Courses.CourseID",
+        "Courses.CourseName",
+        "Courses.TeacherName",
+        "Enrollments.StudentID",
+        "Enrollments.CourseID",
+        "Enrollments.Grade",
+        "Students.StudentID",
+        "Students.FullName"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "program_share": [
+        "program.Program_ID",
+        "program.Name",
+        "program.Origin",
+        "program.Launch",
+        "program.Owner",
+        "channel.Channel_ID",
+        "channel.Name",
+        "channel.Owner",
+        "channel.Share_in_percent",
+        "channel.Rating_in_percent",
+        "broadcast.Channel_ID",
+        "broadcast.Program_ID",
+        "broadcast.Time_of_day",
+        "broadcast_share.Channel_ID",
+        "broadcast_share.Program_ID",
+        "broadcast_share.Date",
+        "broadcast_share.Share_in_percent"
+    ]
+}

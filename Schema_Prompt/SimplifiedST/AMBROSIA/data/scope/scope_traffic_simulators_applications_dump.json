@@ -1,0 +1,11 @@
+{
+    "scope_traffic_simulators_applications_dump": [
+        "Applications.application_id",
+        "Applications.application_name",
+        "Traffic_Simulators.simulator_id",
+        "Traffic_Simulators.simulator_name",
+        "Traffic_Simulators.simulator_version",
+        "Traffic_Simulators_Applications.traffic_simulator_id",
+        "Traffic_Simulators_Applications.application_id"
+    ]
+}

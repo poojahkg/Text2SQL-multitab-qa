@@ -1,0 +1,12 @@
+{
+    "scope_recruiters_sources_dump": [
+        "Recruiters.recruiter_id",
+        "Recruiters.name",
+        "Recruiters.email",
+        "Recruiters_Sources.recruiter_source_id",
+        "Recruiters_Sources.recruiter_id",
+        "Recruiters_Sources.source_id",
+        "Sources.source_id",
+        "Sources.source_name"
+    ]
+}

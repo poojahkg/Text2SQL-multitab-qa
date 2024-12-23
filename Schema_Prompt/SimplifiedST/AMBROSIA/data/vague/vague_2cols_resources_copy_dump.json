@@ -1,0 +1,23 @@
+{
+    "vague_2cols_resources_copy_dump": [
+        "Contractors.ContractorID",
+        "Contractors.CompanyName",
+        "Contractors.ServicesOffered",
+        "Contractors.LicenseNumber",
+        "Employees.EmployeeID",
+        "Employees.Name",
+        "Employees.Position",
+        "Employees.HireDate",
+        "Equipment.EquipmentID",
+        "Equipment.ModelName",
+        "Equipment.RentalRate",
+        "Equipment.PurchasePrice",
+        "Materials.MaterialID",
+        "Materials.Type",
+        "Materials.Quantity",
+        "Materials.UnitCost",
+        "Suppliers.SupplierID",
+        "Suppliers.CompanyName",
+        "Suppliers.ContactInfo"
+    ]
+}

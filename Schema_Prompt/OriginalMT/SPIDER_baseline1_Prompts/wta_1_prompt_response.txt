@@ -1,0 +1,108 @@
+This database schema tracks tennis match results and player rankings. The schema consists of four tables:
+
+Understand the Schema:
+
+Determine relationships between tables (e.g., matches links to players via winner_id and loser_id).
+Analyze the Question:
+
+Identify which tables and columns are necessary.
+Determine whether filters, grouping, or aggregations are required.
+Use SQL Techniques:
+
+Use JOIN to connect tables.
+Use DISTINCT to filter unique results.
+Use LIMIT to restrict rows in the result.
+Use subqueries for intermediate calculations.
+Apply grouping and aggregation (GROUP BY, COUNT, SUM, AVG, etc.) when necessary.
+Write and Validate the Query:
+
+Ensure the query is logically structured and accurate.
+Test for completeness and correctness.
+Few-Shot Examples
+Example 1:
+Question: How many tournaments did player with player_id 5 participate in during 2022?
+Query:
+
+sql
+Copy code
+SELECT COUNT(DISTINCT tourney_id) AS Tournaments_Played
+FROM matches
+WHERE winner_id = 5 OR loser_id = 5
+AND strftime('%Y', tourney_date) = '2022';
+Example 2:
+Question: Find the names of all players who lost in the final round of any tournament.
+Query:
+
+sql
+Copy code
+SELECT DISTINCT p.first_name, p.last_name
+FROM players p
+JOIN matches m ON p.player_id = m.loser_id
+WHERE m.round = 'F';
+Example 3:
+Question: Which surface (e.g., 'Clay', 'Hard') has the highest average match duration?
+Query:
+
+sql
+Copy code
+SELECT surface, AVG(minutes) AS Avg_Duration
+FROM matches
+GROUP BY surface
+ORDER BY Avg_Duration DESC
+LIMIT 1;
+Example 4:
+Question: List the top 5 most successful players based on the total matches won.
+Query:
+
+sql
+Copy code
+SELECT p.first_name, p.last_name, COUNT(m.match_num) AS Matches_Won
+FROM players p
+JOIN matches m ON p.player_id = m.winner_id
+GROUP BY p.player_id, p.first_name, p.last_name
+ORDER BY Matches_Won DESC
+LIMIT 5;
+Example 5:
+Question: Find the average ranking of players who reached the semi-finals ('SF') in tournaments held on grass courts.
+Query:
+
+sql
+Copy code
+SELECT AVG(winner_rank) AS Avg_Ranking
+FROM matches
+WHERE round = 'SF' AND surface = 'Grass';
+Example 6:
+Question: List all players who have participated in both qualifying matches and main matches.
+Query:
+
+sql
+Copy code
+SELECT DISTINCT p.first_name, p.last_name
+FROM players p
+WHERE p.player_id IN (
+    SELECT DISTINCT winner_id FROM matches
+    UNION
+    SELECT DISTINCT winner_id FROM qualifying_matches
+);
+Example 7:
+Question: Find the youngest player to ever win a match.
+Query:
+
+sql
+Copy code
+SELECT p.first_name, p.last_name, MIN(m.winner_age) AS Youngest_Winner_Age
+FROM players p
+JOIN matches m ON p.player_id = m.winner_id
+WHERE m.winner_age IS NOT NULL;
+Example 8:
+Question: What is the total number of ranking points accumulated by players from Spain ('ESP') in 2023?
+Query:
+
+sql
+Copy code
+SELECT SUM(r.ranking_points) AS Total_Points
+FROM rankings r
+JOIN players p ON r.player_id = p.player_id
+WHERE p.country_code = 'ESP' AND strftime('%Y', r.ranking_date) = '2023';
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

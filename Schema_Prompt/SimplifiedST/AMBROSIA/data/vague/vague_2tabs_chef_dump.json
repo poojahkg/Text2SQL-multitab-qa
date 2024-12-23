@@ -1,0 +1,27 @@
+{
+    "vague_2tabs_chef_dump": [
+        "Executive_chef.chef_id",
+        "Executive_chef.full_name",
+        "Menu_items.menu_item_id",
+        "Menu_items.item_name",
+        "Menu_items.description",
+        "Menu_items.price",
+        "Order_details.detail_id",
+        "Order_details.quantity",
+        "Order_details.menu_item_id",
+        "Order_details.order_id",
+        "Orders.order_id",
+        "Orders.customer_name",
+        "Orders.date",
+        "Orders.total_amount",
+        "Orders.restaurant_id",
+        "Restaurant.restaurant_id",
+        "Restaurant.name",
+        "Restaurant.address",
+        "Restaurant.executive_chef_id",
+        "Restaurant.SOUS_CHEF_ID",
+        "Sous_chef.sous_id",
+        "Sous_chef.executive_chef_id",
+        "Sous_chef.full_name"
+    ]
+}

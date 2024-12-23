@@ -1,0 +1,12 @@
+{
+    "scope_district_school_grades_dump": [
+        "District.id",
+        "District.name",
+        "District.location",
+        "District_School_Grades.district_id",
+        "District_School_Grades.school_grade_id",
+        "School_Grades.id",
+        "School_Grades.grade",
+        "School_Grades.description"
+    ]
+}

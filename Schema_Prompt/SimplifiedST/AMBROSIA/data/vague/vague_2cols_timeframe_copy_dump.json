@@ -1,0 +1,27 @@
+{
+    "vague_2cols_timeframe_copy_dump": [
+        "ArticleSources.ArticleSourceID",
+        "ArticleSources.ArticleID",
+        "ArticleSources.SourceID",
+        "ArticleSources.Quote",
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.PublishDate",
+        "Articles.AuthorID",
+        "PressConferences.ConferenceID",
+        "PressConferences.Timeframe",
+        "PressConferences.Location",
+        "PressConferences.Subject",
+        "Reporters.ReporterID",
+        "Reporters.FirstName",
+        "Reporters.LastName",
+        "Reporters.Email",
+        "ReportersAttending.ReporterAttendeeID",
+        "ReportersAttending.ReporterID",
+        "ReportersAttending.ConferenceID",
+        "Sources.SourceID",
+        "Sources.Name",
+        "Sources.ContactInfo"
+    ]
+}

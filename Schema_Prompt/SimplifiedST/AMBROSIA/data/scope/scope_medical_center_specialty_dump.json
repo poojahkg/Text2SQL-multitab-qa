@@ -1,0 +1,25 @@
+{
+    "scope_medical_center_specialty_dump": [
+        "Appointment.ID",
+        "Appointment.Patient_ID",
+        "Appointment.Doctor_ID",
+        "Appointment.StartTime",
+        "Appointment.EndTime",
+        "Doctor.ID",
+        "Doctor.FirstName",
+        "Doctor.LastName",
+        "Doctor.LicenseNumber",
+        "Medical_Center.ID",
+        "Medical_Center.Name",
+        "Medical_Center.Location",
+        "Medical_Center_Specialty.Medical_Center_ID",
+        "Medical_Center_Specialty.Specialty_ID",
+        "Patient.ID",
+        "Patient.FirstName",
+        "Patient.LastName",
+        "Patient.DateOfBirth",
+        "Patient.PhoneNumber",
+        "Specialty.ID",
+        "Specialty.Type"
+    ]
+}

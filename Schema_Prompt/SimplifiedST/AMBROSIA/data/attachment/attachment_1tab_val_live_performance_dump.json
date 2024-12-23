@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_val_live_performance_dump": [
+        "Artist.ArtistID",
+        "Artist.Name",
+        "Artist.Genre",
+        "Artists_in_Concert.ConcertID",
+        "Artists_in_Concert.ArtistID",
+        "Concert.ConcertID",
+        "Concert.Band_or_Artist_name",
+        "Concert.Album",
+        "Live_Event.EventID",
+        "Live_Event.Title",
+        "Live_Event.Date",
+        "Live_Event.Time",
+        "Live_Event.VenueName",
+        "Live_Event.Live_Performance",
+        "Live_Event.Venue_Capacity",
+        "Plays_at_Venues.PlayID",
+        "Plays_at_Venues.VenueName",
+        "Theater_Play.PlayID",
+        "Theater_Play.Title",
+        "Theater_Play.Author",
+        "Theater_Play.Year"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "vague_2cols_grades_copy_dump": [
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.ProgramID",
+        "Programs.ProgramID",
+        "Programs.Name",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName"
+    ]
+}

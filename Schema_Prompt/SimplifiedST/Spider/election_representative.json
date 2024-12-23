@@ -1,0 +1,16 @@
+{
+    "election_representative": [
+        "election.Election_ID",
+        "election.Representative_ID",
+        "election.Date",
+        "election.Votes",
+        "election.Vote_Percent",
+        "election.Seats",
+        "election.Place",
+        "representative.Representative_ID",
+        "representative.Name",
+        "representative.State",
+        "representative.Party",
+        "representative.Lifespan"
+    ]
+}

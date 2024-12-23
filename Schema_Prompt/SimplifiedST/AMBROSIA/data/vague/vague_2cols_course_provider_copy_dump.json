@@ -1,0 +1,21 @@
+{
+    "vague_2cols_course_provider_copy_dump": [
+        "Courses.CourseID",
+        "Courses.Title",
+        "Courses.DepartmentID",
+        "Courses.Semester",
+        "Courses.Year",
+        "Departments.DepartmentID",
+        "Departments.DepartmentName",
+        "Departments.Description",
+        "EnrolledStudents.EnrollmentID",
+        "EnrolledStudents.StudentID",
+        "EnrolledStudents.CourseID",
+        "Instructors.InstructorID",
+        "Instructors.Name",
+        "Instructors.Email",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName"
+    ]
+}

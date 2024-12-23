@@ -1,0 +1,11 @@
+{
+    "scope_content_creators_platforms_dump": [
+        "Content_Creators.id",
+        "Content_Creators.name",
+        "Content_Creators.email",
+        "Content_Creators_Platforms.content_creator_id",
+        "Content_Creators_Platforms.platform_id",
+        "Platforms.id",
+        "Platforms.platform_name"
+    ]
+}

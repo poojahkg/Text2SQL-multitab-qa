@@ -1,0 +1,26 @@
+{
+    "music_2": [
+        "Songs.SongId",
+        "Songs.Title",
+        "Albums.AId",
+        "Albums.Title",
+        "Albums.Year",
+        "Albums.Label",
+        "Albums.Type",
+        "Band.Id",
+        "Band.Firstname",
+        "Band.Lastname",
+        "Instruments.SongId",
+        "Instruments.BandmateId",
+        "Instruments.Instrument",
+        "Performance.SongId",
+        "Performance.Bandmate",
+        "Performance.StagePosition",
+        "Tracklists.AlbumId",
+        "Tracklists.Position",
+        "Tracklists.SongId",
+        "Vocals.SongId",
+        "Vocals.Bandmate",
+        "Vocals.Type"
+    ]
+}

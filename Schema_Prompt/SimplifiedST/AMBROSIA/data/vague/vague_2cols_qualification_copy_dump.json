@@ -1,0 +1,19 @@
+{
+    "vague_2cols_qualification_copy_dump": [
+        "articles.id",
+        "articles.title",
+        "articles.content",
+        "articles.publishDate",
+        "articles.authorId",
+        "articles.publicationId",
+        "articles.topicId",
+        "publications.id",
+        "publications.name",
+        "publications.address",
+        "sources.id",
+        "sources.name",
+        "sources.contactInfo",
+        "topics.id",
+        "topics.description"
+    ]
+}

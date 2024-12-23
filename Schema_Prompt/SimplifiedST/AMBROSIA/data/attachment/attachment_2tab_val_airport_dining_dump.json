@@ -1,0 +1,32 @@
+{
+    "attachment_2tab_val_airport_dining_dump": [
+        "Bar.barID",
+        "Bar.airportID",
+        "Bar.name",
+        "Bar.location",
+        "Bar.capacity",
+        "Bar.openingHours",
+        "Employee.employeeID",
+        "Employee.name",
+        "Employee.position",
+        "Employee.hireDate",
+        "Employee.salary",
+        "Flight.flightID",
+        "Flight.airline",
+        "Flight.departureAirport",
+        "Flight.arrivalAirport",
+        "Flight.date",
+        "Flight.duration",
+        "Passenger.passengerID",
+        "Passenger.firstName",
+        "Passenger.lastName",
+        "Passenger.birthdate",
+        "Passenger.nationality",
+        "Restaurant.restaurantID",
+        "Restaurant.airportID",
+        "Restaurant.name",
+        "Restaurant.location",
+        "Restaurant.type",
+        "Restaurant.openingHours"
+    ]
+}

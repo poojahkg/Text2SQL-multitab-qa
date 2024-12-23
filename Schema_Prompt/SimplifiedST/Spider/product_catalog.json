@@ -1,0 +1,33 @@
+{
+    "product_catalog": [
+        "Attribute_Definitions.attribute_id",
+        "Attribute_Definitions.attribute_name",
+        "Attribute_Definitions.attribute_data_type",
+        "Catalogs.catalog_id",
+        "Catalogs.catalog_name",
+        "Catalogs.catalog_publisher",
+        "Catalogs.date_of_publication",
+        "Catalogs.date_of_latest_revision",
+        "Catalog_Structure.catalog_level_number",
+        "Catalog_Structure.catalog_id",
+        "Catalog_Structure.catalog_level_name",
+        "Catalog_Contents.catalog_entry_id",
+        "Catalog_Contents.catalog_level_number",
+        "Catalog_Contents.parent_entry_id",
+        "Catalog_Contents.previous_entry_id",
+        "Catalog_Contents.next_entry_id",
+        "Catalog_Contents.catalog_entry_name",
+        "Catalog_Contents.product_stock_number",
+        "Catalog_Contents.price_in_dollars",
+        "Catalog_Contents.price_in_euros",
+        "Catalog_Contents.price_in_pounds",
+        "Catalog_Contents.capacity",
+        "Catalog_Contents.length",
+        "Catalog_Contents.height",
+        "Catalog_Contents.width",
+        "Catalog_Contents_Additional_Attributes.catalog_entry_id",
+        "Catalog_Contents_Additional_Attributes.catalog_level_number",
+        "Catalog_Contents_Additional_Attributes.attribute_id",
+        "Catalog_Contents_Additional_Attributes.attribute_value"
+    ]
+}

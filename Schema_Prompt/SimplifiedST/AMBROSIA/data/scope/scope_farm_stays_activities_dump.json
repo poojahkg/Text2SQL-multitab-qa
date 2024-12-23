@@ -1,0 +1,11 @@
+{
+    "scope_farm_stays_activities_dump": [
+        "Activities.activity_id",
+        "Activities.description",
+        "Farm_Stays.id",
+        "Farm_Stays.name",
+        "Farm_Stays.location",
+        "Farm_Stays_Activities.farm_stay_id",
+        "Farm_Stays_Activities.activity_id"
+    ]
+}

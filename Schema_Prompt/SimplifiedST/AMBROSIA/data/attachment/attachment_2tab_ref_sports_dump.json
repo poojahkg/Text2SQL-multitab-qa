@@ -1,0 +1,12 @@
+{
+    "attachment_2tab_ref_sports_dump": [
+        "BaseballTeams.id",
+        "BaseballTeams.teamName",
+        "BaseballTeams.countryId",
+        "BasketballTeams.id",
+        "BasketballTeams.teamName",
+        "BasketballTeams.countryId",
+        "Countries.id",
+        "Countries.name"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "attachment_2tab_val_overnight_stay_dump": [
+        "Employees.employee_id",
+        "Employees.name",
+        "Employees.role",
+        "Employees.department",
+        "Employees.hire_date",
+        "FoodMenu.menu_item_id",
+        "FoodMenu.item_name",
+        "FoodMenu.description",
+        "FoodMenu.price",
+        "GuestReviews.review_id",
+        "GuestReviews.guest_name",
+        "GuestReviews.rating",
+        "GuestReviews.comments",
+        "Guestrooms.id",
+        "Guestrooms.\"room\"",
+        "Guestrooms.floor_no",
+        "Guestrooms.capacity",
+        "Guestrooms.amenities",
+        "Reservations.reservation_id",
+        "Reservations.guest_name",
+        "Reservations.checkin",
+        "Reservations.checkout",
+        "Reservations.room_type",
+        "Reservations.total_cost",
+        "Suites.id",
+        "Suites.suite_name",
+        "Suites.area_sqft",
+        "Suites.occupancy",
+        "Suites.amenities"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "attachment_1tab_ref_airline_types_dump": [
+        "Airlines.id",
+        "Airlines.airline_name",
+        "Airlines.type_of_alliance",
+        "Airlines.home_airport_id",
+        "Airports.id",
+        "Airports.name",
+        "Airports.city",
+        "Airports.country",
+        "Airports.latitude",
+        "Airports.longitude",
+        "Assignments.assignment_id",
+        "Assignments.flight_number",
+        "Assignments.pilot_license_number",
+        "Flights.flight_number",
+        "Flights.departure_time",
+        "Flights.arrival_time",
+        "Flights.airline_id",
+        "Flights.aircraft_model",
+        "Flights.source_airport_id",
+        "Flights.destination_airport_id",
+        "Pilots.pilot_license_number",
+        "Pilots.first_name",
+        "Pilots.last_name",
+        "Pilots.date_of_birth",
+        "Pilots.rating_level"
+    ]
+}

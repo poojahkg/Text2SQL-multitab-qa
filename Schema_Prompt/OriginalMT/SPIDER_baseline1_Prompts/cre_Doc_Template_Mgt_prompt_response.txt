@@ -1,0 +1,80 @@
+Instructions for Writing Queries
+Understand the Relationships:
+Identify the relationships between tables:
+Templates is linked to Ref_Template_Types via Template_Type_Code.
+Documents is linked to Templates via Template_ID.
+Paragraphs is linked to Documents via Document_ID.
+Break Down the Question:
+Determine which tables and columns are relevant.
+Identify filtering conditions, aggregation requirements, or specific fields to be selected.
+Use SQL Techniques:
+Use JOIN to combine data from multiple tables.
+Use subqueries for filtering or calculating intermediate results.
+Apply DISTINCT for unique results, and LIMIT to restrict the number of rows.
+Use functions like COUNT, AVG, or MAX for aggregations.
+Write and Validate the Query: Ensure it answers the question step by step with correct syntax.
+Few-Shot Questions and Queries
+Example 1:
+Question: How many documents were created from templates effective after January 1, 2023?
+Query:
+
+sql
+Copy code
+SELECT COUNT(*) AS Document_Count
+FROM Documents d
+JOIN Templates t ON d.Template_ID = t.Template_ID
+WHERE t.Date_Effective_From > '2023-01-01';
+Example 2:
+Question: List all paragraph texts from documents created using templates of type 'CV'.
+Query:
+
+sql
+Copy code
+SELECT p.Paragraph_Text
+FROM Paragraphs p
+JOIN Documents d ON p.Document_ID = d.Document_ID
+JOIN Templates t ON d.Template_ID = t.Template_ID
+WHERE t.Template_Type_Code = 'CV';
+Example 3:
+Question: Find the template with the longest effective period (Date_Effective_To - Date_Effective_From).
+Query:
+
+sql
+Copy code
+SELECT Template_ID, MAX(DATEDIFF(Date_Effective_To, Date_Effective_From)) AS Longest_Effective_Period
+FROM Templates;
+Example 4:
+Question: What is the total number of paragraphs across all documents created using templates of version 2?
+Query:
+
+sql
+Copy code
+SELECT COUNT(p.Paragraph_ID) AS Total_Paragraphs
+FROM Paragraphs p
+JOIN Documents d ON p.Document_ID = d.Document_ID
+JOIN Templates t ON d.Template_ID = t.Template_ID
+WHERE t.Version_Number = 2;
+Example 5:
+Question: List the descriptions of templates that have not been used to create any document.
+Query:
+
+sql
+Copy code
+SELECT t.Template_Details
+FROM Templates t
+WHERE NOT EXISTS (
+    SELECT 1 FROM Documents d WHERE d.Template_ID = t.Template_ID
+);
+Example 6:
+Question: List the names of documents that contain a paragraph with the word "important".
+Query:
+
+sql
+Copy code
+SELECT DISTINCT d.Document_Name
+FROM Documents d
+JOIN Paragraphs p ON d.Document_ID = p.Document_ID
+WHERE p.Paragraph_Text LIKE '%important%';
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

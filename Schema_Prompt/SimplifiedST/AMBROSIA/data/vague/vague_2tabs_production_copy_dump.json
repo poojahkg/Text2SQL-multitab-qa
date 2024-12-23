@@ -1,0 +1,20 @@
+{
+    "vague_2tabs_production_copy_dump": [
+        "Actor.actor_id",
+        "Actor.first_name",
+        "Actor.last_name",
+        "Actor.date_of_birth",
+        "Actor.gender",
+        "Director.director_id",
+        "Director.first_name",
+        "Director.last_name",
+        "Director.birthdate",
+        "MovieActor.movie_actor_id",
+        "MovieActor.movie_id",
+        "MovieActor.actor_id",
+        "MovieActor.role",
+        "MovieDirector.movie_director_id",
+        "MovieDirector.movie_id",
+        "MovieDirector.director_id"
+    ]
+}

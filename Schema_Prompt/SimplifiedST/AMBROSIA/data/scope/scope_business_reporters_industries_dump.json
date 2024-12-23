@@ -1,0 +1,17 @@
+{
+    "scope_business_reporters_industries_dump": [
+        "Articles.articleID",
+        "Articles.title",
+        "Articles.content",
+        "Business_Reporters.reporterID",
+        "Business_Reporters.fullName",
+        "Business_Reporters_Articles.businessReporterID",
+        "Business_Reporters_Articles.articleID",
+        "Business_Reporters_Industries.businessReporterID",
+        "Business_Reporters_Industries.industryID",
+        "Industries.industryID",
+        "Industries.name",
+        "Reporters_Industries.businessReporterID",
+        "Reporters_Industries.industryID"
+    ]
+}

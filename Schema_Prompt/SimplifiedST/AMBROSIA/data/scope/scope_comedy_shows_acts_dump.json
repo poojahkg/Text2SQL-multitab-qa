@@ -1,0 +1,12 @@
+{
+    "scope_comedy_shows_acts_dump": [
+        "Acts.act_id",
+        "Acts.act_name",
+        "Comedy_Shows.comedy_show_id",
+        "Comedy_Shows.show_title",
+        "Comedy_Shows.date",
+        "Comedy_Shows.location",
+        "Comedy_Shows_Acts.acts_comedy_shows_id",
+        "Comedy_Shows_Acts.comedy_show_id"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_val_book_genre_dump": [
+        "Authors.AuthorID",
+        "Authors.Name",
+        "Authors.BirthDate",
+        "Authors.Country",
+        "Books.BookID",
+        "Books.Title",
+        "Books.PageCount",
+        "Books.Book_Genre",
+        "Books.Year_Of_Publication",
+        "Books.AuthorID",
+        "Books.PublisherID",
+        "Books.GenreID",
+        "Genres.GenreID",
+        "Genres.Description",
+        "Publishers.PublisherID",
+        "Publishers.Name",
+        "Publishers.Address",
+        "Publishers.YearEstablished"
+    ]
+}

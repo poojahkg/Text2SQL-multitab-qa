@@ -1,0 +1,30 @@
+{
+    "world_1": [
+        "city.ID",
+        "city.Name",
+        "city.CountryCode",
+        "city.District",
+        "city.Population",
+        "sqlite_sequence.name",
+        "sqlite_sequence.seq",
+        "country.Code",
+        "country.Name",
+        "country.Continent",
+        "country.Region",
+        "country.SurfaceArea",
+        "country.IndepYear",
+        "country.Population",
+        "country.LifeExpectancy",
+        "country.GNP",
+        "country.GNPOld",
+        "country.LocalName",
+        "country.GovernmentForm",
+        "country.HeadOfState",
+        "country.Capital",
+        "country.Code2",
+        "countrylanguage.CountryCode",
+        "countrylanguage.Language",
+        "countrylanguage.IsOfficial",
+        "countrylanguage.Percentage"
+    ]
+}

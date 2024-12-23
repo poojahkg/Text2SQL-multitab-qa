@@ -1,0 +1,27 @@
+{
+    "vague_2cols_study_plan_dump": [
+        "Courses.CourseID",
+        "Courses.Title",
+        "Courses.Description",
+        "Courses.Credit",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.CourseID",
+        "Grades.GradeID",
+        "Grades.EnrollmentID",
+        "Grades.FinalGrade",
+        "Programs.ProgramID",
+        "Programs.ProgramName",
+        "Programs.Core_Courses",
+        "Programs.Electives",
+        "Programs.Requirements",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.DateOfBirth",
+        "Teachers.TeacherID",
+        "Teachers.FirstName",
+        "Teachers.LastName",
+        "Teachers.Subject"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "attachment_2tab_ref_production_role_dump": [
+        "Assignments.ScriptwriterID",
+        "Assignments.EditorID",
+        "Assignments.ProjectID",
+        "Editors.ID",
+        "Editors.Name",
+        "Editors.HireDate",
+        "Projects.ID",
+        "Projects.Title",
+        "Projects.Deadline",
+        "Projects.Budget",
+        "Scriptwriters.ID",
+        "Scriptwriters.Name",
+        "Scriptwriters.Birthdate"
+    ]
+}

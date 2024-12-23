@@ -1,0 +1,22 @@
+{
+    "vague_2cols_recruiter_copy_dump": [
+        "Applications.applicationId",
+        "Applications.applicantId",
+        "Applications.jobId",
+        "Applications.resumePath",
+        "Applications.coverLetterPath",
+        "Applications.status",
+        "Departments.id",
+        "Departments.name",
+        "Departments.managerId",
+        "Employees.id",
+        "Employees.firstName",
+        "Employees.lastName",
+        "Employees.email",
+        "Employees.phoneNumber",
+        "Employees.hireDate",
+        "Salaries.employeeId",
+        "Salaries.salary",
+        "Salaries.effectiveDate"
+    ]
+}

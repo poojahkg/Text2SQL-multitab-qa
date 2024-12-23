@@ -1,0 +1,26 @@
+{
+    "scope_nutritionists_diets_dump": [
+        "Applicants.applicant_id",
+        "Applicants.first_name",
+        "Applicants.last_name",
+        "Applicants.email",
+        "Applicants.phone_number",
+        "ApplicationStatus.application_id",
+        "ApplicationStatus.job_posting_id",
+        "ApplicationStatus.applicant_id",
+        "ApplicationStatus.status",
+        "ApplicationStatus.applied_date",
+        "Diets.diet_type_id",
+        "Diets.diet_type_value",
+        "JobPostings.job_posting_id",
+        "JobPostings.title",
+        "JobPostings.description",
+        "JobPostings.location",
+        "JobPostings.salary",
+        "Nutritionists.nutritionist_id",
+        "Nutritionists.email",
+        "Nutritionists.full_name",
+        "Nutritionists_Diets.nutritionist_id",
+        "Nutritionists_Diets.diet_type_id"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "vague_2tabs_production1_dump": [
+        "Actor.id",
+        "Actor.name",
+        "Actor.date_of_birth",
+        "Company.id",
+        "Company.name",
+        "Company.founded_year",
+        "Documentary.id",
+        "Documentary.title",
+        "Documentary.release_date",
+        "Documentary.producer_id",
+        "Documentary.company_id",
+        "Movie.id",
+        "Movie.title",
+        "Movie.release_date",
+        "Movie.budget",
+        "Movie.box_office",
+        "Movie.foreign_key",
+        "Producer.id",
+        "Producer.name",
+        "Producer.birth_date",
+        "Review.id",
+        "Review.rating",
+        "Review.reviewer_name",
+        "Review.comment",
+        "Review.movie_id",
+        "Review.documentary_id"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "csu_1": [
+        "Campuses.Id",
+        "Campuses.Campus",
+        "Campuses.Location",
+        "Campuses.County",
+        "Campuses.Year",
+        "csu_fees.Campus",
+        "csu_fees.Year",
+        "csu_fees.CampusFee",
+        "degrees.Year",
+        "degrees.Campus",
+        "degrees.Degrees",
+        "discipline_enrollments.Campus",
+        "discipline_enrollments.Discipline",
+        "discipline_enrollments.Year",
+        "discipline_enrollments.Undergraduate",
+        "discipline_enrollments.Graduate",
+        "enrollments.Campus",
+        "enrollments.Year",
+        "enrollments.TotalEnrollment_AY",
+        "enrollments.FTE_AY",
+        "faculty.Campus",
+        "faculty.Year",
+        "faculty.Faculty"
+    ]
+}

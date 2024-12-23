@@ -1,0 +1,27 @@
+{
+    "vague_2tabs_place_of_origin_dump": [
+        "Country.id",
+        "Country.name",
+        "Country.population",
+        "Doctor.id",
+        "Doctor.doctor_name",
+        "Doctor.speciality",
+        "Manufacturing_Company.id",
+        "Manufacturing_Company.company_name",
+        "Manufacturing_Company.address",
+        "Medical_Device.id",
+        "Medical_Device.device_name",
+        "Medical_Device.manufacturing_company_id",
+        "Medical_Device.country_id",
+        "Patient.id",
+        "Patient.first_name",
+        "Patient.last_name",
+        "Patient.age",
+        "Prescription.prescription_id",
+        "Prescription.patient_id",
+        "Prescription.doctor_id",
+        "Prescription.medical_device_id",
+        "Prescription.quantity",
+        "Prescription.date"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "vague_2tabs_lifecycle_copy_dump": [
+        "Materials.material_id",
+        "Materials.name",
+        "Materials.cost",
+        "Projects.project_id",
+        "Projects.name",
+        "Projects.start_date",
+        "Projects.end_date",
+        "Projects.infrastructure_id",
+        "Projects.ON",
+        "Tasks.task_id",
+        "Tasks.description",
+        "Tasks.assigned_to_worker_id",
+        "Tasks.due_date",
+        "Tasks.completed",
+        "Tasks.ON",
+        "Workers.worker_id",
+        "Workers.first_name",
+        "Workers.last_name",
+        "Workers.skill_level"
+    ]
+}

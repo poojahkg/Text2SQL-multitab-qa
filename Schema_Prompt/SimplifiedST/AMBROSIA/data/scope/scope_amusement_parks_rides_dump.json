@@ -1,0 +1,12 @@
+{
+    "scope_amusement_parks_rides_dump": [
+        "Amusement_Parks.id",
+        "Amusement_Parks.name",
+        "Amusement_Parks.location",
+        "Amusement_Parks_Rides.amusement_park_id",
+        "Amusement_Parks_Rides.rides_id",
+        "Rides.id",
+        "Rides.ride_name",
+        "Rides.ride_type"
+    ]
+}

@@ -1,0 +1,100 @@
+CREATE TABLE "continents" ( 
+	"ContId" INTEGER PRIMARY KEY, 
+	"Continent" TEXT 
+);
+
+CREATE TABLE "countries" (
+	"CountryId" INTEGER PRIMARY KEY, 
+	"CountryName" TEXT, 
+	"Continent" INTEGER,
+	FOREIGN KEY (Continent) REFERENCES continents(ContId)
+);
+
+
+CREATE TABLE "car_makers" ( 
+	"Id" INTEGER PRIMARY KEY, 
+	"Maker" TEXT, 
+	"FullName" TEXT, 
+	"Country" TEXT,
+	FOREIGN KEY (Country) REFERENCES countries(CountryId)
+);
+
+
+CREATE TABLE "model_list" ( 
+	"ModelId" INTEGER PRIMARY KEY, 
+	"Maker" INTEGER, 
+	"Model" TEXT UNIQUE,
+	FOREIGN KEY (Maker) REFERENCES car_makers (Id)
+
+);
+
+
+
+CREATE TABLE "car_names" ( 
+	"MakeId" INTEGER PRIMARY KEY, 
+	"Model" TEXT, 
+	"Make" TEXT,
+	FOREIGN KEY (Model) REFERENCES model_list (Model)
+);
+
+CREATE TABLE "cars_data" (
+	"Id" INTEGER PRIMARY KEY, 
+	"MPG" TEXT, 
+	"Cylinders" INTEGER, 
+	"Edispl" REAL, 
+	"Horsepower" TEXT, 
+	"Weight" INTEGER, 
+	"Accelerate" REAL, 
+	"Year" INTEGER,
+	FOREIGN KEY (Id) REFERENCES car_names (MakeId)
+);
+
+
+Schema Overview:
+
+This database schema is designed to store information about car makers, their models, and car specifications. It consists of five tables:
+
+**continents:** Contains a list of continents.
+**countries:** Contains a list of countries, linked to continents.
+**car_makers:** Contains information about car manufacturers, linked to countries.
+**model_list:** Contains a list of car models, linked to car makers.
+**car_names:** Contains the names of car models and makes.
+**cars_data:** Contains detailed specifications for each car model.
+
+
+Table Descriptions:
+
+**continents:**
+* ContId (INTEGER): Unique identifier for each continent.
+* Continent (TEXT): Name of the continent.
+
+**countries:**
+* CountryId (INTEGER): Unique identifier for each country.
+* CountryName (TEXT): Name of the country.
+* Continent (INTEGER): Foreign key referencing the `continents` table, indicating the continent the country belongs to.
+
+**car_makers:**
+* Id (INTEGER): Unique identifier for each car maker.
+* Maker (TEXT): Short name of the car maker.
+* FullName (TEXT): Full name of the car maker.
+* Country (INTEGER): Foreign key referencing the `countries` table, indicating the country where the car maker is based.
+
+**model_list:**
+* ModelId (INTEGER): Unique identifier for each car model.
+* Maker (INTEGER): Foreign key referencing the `car_makers` table, indicating the car maker of the model.
+* Model (TEXT): Name of the car model.
+
+**car_names:**
+* MakeId (INTEGER): Unique identifier for each car name entry.
+* Model (TEXT): Foreign key referencing the `model_list` table, indicating the model.
+* Make (TEXT): Make of the car.
+
+**cars_data:**
+* Id (INTEGER): Unique identifier for each car's data entry.  Foreign key referencing `car_names` table.
+* MPG (TEXT): Miles per gallon.
+* Cylinders (INTEGER): Number of cylinders in the engine.
+* Edispl (REAL): Engine displacement.
+* Horsepower (TEXT): Horsepower of the engine.
+* Weight (INTEGER): Weight of the car.
+* Accelerate (REAL): Acceleration rate.
+* Year (INTEGER): Year the car model was made.

@@ -1,0 +1,22 @@
+{
+    "scope_vineyards_wines_dump": [
+        "Countries.countryId",
+        "Countries.countryName",
+        "Regions.regionId",
+        "Regions.regionName",
+        "Regions.countryId",
+        "VineyardTypes.id",
+        "VineyardTypes.typeName",
+        "Vineyards.vineyardId",
+        "Vineyards.name",
+        "Vineyards.areaSize",
+        "Vineyards.typeId",
+        "Vineyards.regionId",
+        "Vineyards_Wines.vineyardId",
+        "Vineyards_Wines.wineId",
+        "Vineyards_Wines.yearProduced",
+        "Wines.wineId",
+        "Wines.name",
+        "Wines.variety"
+    ]
+}

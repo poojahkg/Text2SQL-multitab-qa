@@ -1,0 +1,15 @@
+{
+    "vague_2tabs_topic_dump": [
+        "Industry_Sector.id",
+        "Industry_Sector.name",
+        "Industry_Sector.description",
+        "Internship.id",
+        "Internship.student_id",
+        "Internship.industry_sector_id",
+        "Internship.project_id",
+        "Project_Name.id",
+        "Project_Name.project_name",
+        "Project_Name.start_date",
+        "Project_Name.end_date"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "scope_professional_development_programs_topics_dump": [
+        "Professional_Development_Programs.program_id",
+        "Professional_Development_Programs.program_name",
+        "Professional_Development_Programs.duration",
+        "Professional_Development_Programs.cost",
+        "Professional_Development_Programs_Topics.pdp_topics_id",
+        "Professional_Development_Programs_Topics.topics_id",
+        "Topics.id",
+        "Topics.topic_name"
+    ]
+}

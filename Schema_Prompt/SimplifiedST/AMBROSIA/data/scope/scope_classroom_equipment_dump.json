@@ -1,0 +1,12 @@
+{
+    "scope_classroom_equipment_dump": [
+        "Classroom.id",
+        "Classroom.name",
+        "Classroom.capacity",
+        "Classroom_Equipment.classroomId",
+        "Classroom_Equipment.equipmentId",
+        "Equipment.id",
+        "Equipment.equipmentName",
+        "Equipment.quantity"
+    ]
+}

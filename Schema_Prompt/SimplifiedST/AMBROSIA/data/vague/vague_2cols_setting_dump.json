@@ -1,0 +1,25 @@
+{
+    "vague_2cols_setting_dump": [
+        "CastMembers.castMemberId",
+        "CastMembers.name",
+        "CastMembers.roleInPerformance",
+        "CastMembers.performanceId",
+        "Composers.composerId",
+        "Composers.name",
+        "Composers.birthYear",
+        "Operas.operaID",
+        "Operas.title",
+        "Operas.Historical_Era",
+        "Operas.Location",
+        "Operas.Duration",
+        "Operas.composerId",
+        "Performances.performanceId",
+        "Performances.date",
+        "Performances.startTime",
+        "Performances.venueId",
+        "Performances.operaId",
+        "Venues.venueID",
+        "Venues.name",
+        "Venues.capacity"
+    ]
+}

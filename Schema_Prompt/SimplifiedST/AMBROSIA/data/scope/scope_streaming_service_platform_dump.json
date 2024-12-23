@@ -1,0 +1,12 @@
+{
+    "scope_streaming_service_platform_dump": [
+        "Platform.id",
+        "Platform.name",
+        "Streaming_Service.id",
+        "Streaming_Service.service_name",
+        "Streaming_Service.description",
+        "Streaming_Service_Platform.id",
+        "Streaming_Service_Platform.streaming_id",
+        "Streaming_Service_Platform.platform_id"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "attachment_1tab_val_exclusive_areas_dump": [
+        "Aircraft.aircraftID",
+        "Aircraft.model",
+        "Aircraft.capacity",
+        "Amenity.amenityID",
+        "Amenity.description",
+        "Flight.flightID",
+        "Flight.departureTime",
+        "Flight.arrivalTime",
+        "Flight.aircraftID",
+        "Flight.terminalID",
+        "Lounge.loungeID",
+        "Lounge.name",
+        "Lounge.exclusiveArea",
+        "Lounge.amenities",
+        "Lounge.capacity",
+        "Lounge.terminalID",
+        "Passenger.passengerID",
+        "Passenger.firstName",
+        "Passenger.lastName",
+        "Passenger.flightID",
+        "Passenger.loungeID",
+        "Terminal.terminalID",
+        "Terminal.location"
+    ]
+}

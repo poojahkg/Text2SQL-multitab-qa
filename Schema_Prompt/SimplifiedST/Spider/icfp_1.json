@@ -1,0 +1,16 @@
+{
+    "icfp_1": [
+        "Inst.instID",
+        "Inst.name",
+        "Inst.country",
+        "Authors.authID",
+        "Authors.lname",
+        "Authors.fname",
+        "Papers.paperID",
+        "Papers.title",
+        "Authorship.authID",
+        "Authorship.instID",
+        "Authorship.paperID",
+        "Authorship.authOrder"
+    ]
+}

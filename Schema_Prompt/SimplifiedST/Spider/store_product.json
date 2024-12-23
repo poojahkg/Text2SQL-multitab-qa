@@ -1,0 +1,26 @@
+{
+    "store_product": [
+        "product.product_id",
+        "product.product",
+        "product.dimensions",
+        "product.dpi",
+        "product.pages_per_minute_color",
+        "product.max_page_size",
+        "product.interface",
+        "store.Store_ID",
+        "store.Store_Name",
+        "store.Type",
+        "store.Area_size",
+        "store.Number_of_product_category",
+        "store.Ranking",
+        "district.District_ID",
+        "district.District_name",
+        "district.Headquartered_City",
+        "district.City_Population",
+        "district.City_Area",
+        "store_product.Store_ID",
+        "store_product.Product_ID",
+        "store_district.Store_ID",
+        "store_district.District_ID"
+    ]
+}

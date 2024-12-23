@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_val_music_performer_dump": [
+        "Album.AlbumID",
+        "Album.Title",
+        "Album.ReleaseDate",
+        "Album.PerformerID",
+        "MovieActor.ActorID",
+        "MovieActor.FirstName",
+        "MovieActor.LastName",
+        "MovieActor.DateOfBirth",
+        "MovieActor.Nationality",
+        "MusicPerformer.PerformerID",
+        "MusicPerformer.Name",
+        "MusicPerformer.Genre",
+        "MusicPerformer.YearsInIndustry",
+        "MusicPerformer.MusicPerformerType",
+        "Song.SongID",
+        "Song.Title",
+        "Song.Length",
+        "Song.AlbumID"
+    ]
+}

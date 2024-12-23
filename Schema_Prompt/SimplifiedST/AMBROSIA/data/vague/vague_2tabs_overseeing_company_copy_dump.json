@@ -1,0 +1,9 @@
+{
+    "vague_2tabs_overseeing_company_copy_dump": [
+        "Project_Milestone.id",
+        "Project_Milestone.milestone_description",
+        "Project_Milestone.start_date",
+        "Project_Milestone.end_date",
+        "Project_Milestone.development_project_id"
+    ]
+}

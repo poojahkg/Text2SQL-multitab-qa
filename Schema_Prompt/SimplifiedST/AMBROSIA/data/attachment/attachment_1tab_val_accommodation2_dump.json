@@ -1,0 +1,19 @@
+{
+    "attachment_1tab_val_accommodation2_dump": [
+        "Bookings.BookingID",
+        "Bookings.CheckInDate",
+        "Bookings.CheckOutDate",
+        "Bookings.AccommodationID",
+        "Bookings.GuestID",
+        "Bookings.TotalCost",
+        "Guests.GuestID",
+        "Guests.FirstName",
+        "Guests.LastName",
+        "Guests.Email",
+        "Hotels.HotelID",
+        "Hotels.Name",
+        "Hotels.Address",
+        "Hotels.City",
+        "Hotels.Country"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "vague_2cols_qualifications_copy_dump": [
+        "Applicants.id",
+        "Applicants.applicant_name",
+        "Applicants.email",
+        "Applicants.phone_number",
+        "Applications.application_id",
+        "Applications.applicant_id",
+        "Applications.job_id",
+        "Applications.status",
+        "Applications.submission_date",
+        "Companies.id",
+        "Companies.company_name",
+        "Companies.location",
+        "Companies.industry",
+        "CompanyJobs.company_id",
+        "CompanyJobs.job_id",
+        "Jobs.id",
+        "Jobs.title",
+        "Jobs.description",
+        "Jobs.salary",
+        "Jobs.posted_date"
+    ]
+}

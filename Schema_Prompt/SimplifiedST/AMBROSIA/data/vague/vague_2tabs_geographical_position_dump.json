@@ -1,0 +1,28 @@
+{
+    "vague_2tabs_geographical_position_dump": [
+        "Airline.id",
+        "Airline.name",
+        "Airline.headquarter_city_id",
+        "Airport.id",
+        "Airport.name",
+        "Airport.city_id",
+        "Airport.coordinates_id",
+        "City.id",
+        "City.name",
+        "City.country",
+        "Coordinates.id",
+        "Coordinates.latitude",
+        "Coordinates.longitude",
+        "Flight.id",
+        "Flight.airport_from_id",
+        "Flight.airport_to_id",
+        "Flight.airline_id",
+        "Flight.departure_time",
+        "Flight.arrival_time",
+        "Runway.id",
+        "Runway.airport_id",
+        "Runway.length",
+        "Runway.width",
+        "Runway.surface_type"
+    ]
+}

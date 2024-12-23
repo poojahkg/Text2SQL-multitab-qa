@@ -1,0 +1,15 @@
+{
+    "soccer_2": [
+        "College.cName",
+        "College.state",
+        "College.enr",
+        "Player.pID",
+        "Player.pName",
+        "Player.yCard",
+        "Player.HS",
+        "Tryout.pID",
+        "Tryout.cName",
+        "Tryout.pPos",
+        "Tryout.decision"
+    ]
+}

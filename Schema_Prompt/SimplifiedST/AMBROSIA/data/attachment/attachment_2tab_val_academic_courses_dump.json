@@ -1,0 +1,32 @@
+{
+    "attachment_2tab_val_academic_courses_dump": [
+        "Design_Class.id",
+        "Design_Class.Name",
+        "Design_Class.Age",
+        "Design_Class.Skills",
+        "Design_Class.Projects",
+        "Engineering_Class.id",
+        "Engineering_Class.Name",
+        "Engineering_Class.Age",
+        "Engineering_Class.Grade",
+        "Engineering_Class.Projects",
+        "Parents.id",
+        "Parents.FullName",
+        "Parents.PhoneNumber",
+        "Parents.Address",
+        "School.id",
+        "School.Name",
+        "School.Location",
+        "School.NumberOfStudents",
+        "School.Principal",
+        "Students.id",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.DateOfBirth",
+        "Students.Email",
+        "Subjects.id",
+        "Subjects.Name",
+        "Subjects.Teacher",
+        "Subjects.Classroom"
+    ]
+}

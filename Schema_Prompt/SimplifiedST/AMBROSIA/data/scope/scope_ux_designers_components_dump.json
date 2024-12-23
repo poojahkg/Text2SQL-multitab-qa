@@ -1,0 +1,12 @@
+{
+    "scope_ux_designers_components_dump": [
+        "Components.id",
+        "Components.component_name",
+        "Components.description",
+        "Ux_Designers.id",
+        "Ux_Designers.name",
+        "Ux_Designers.years_of_experience",
+        "Ux_Designers_Components.ux_designer_id",
+        "Ux_Designers_Components.component_id"
+    ]
+}

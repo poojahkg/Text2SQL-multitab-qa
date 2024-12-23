@@ -1,0 +1,17 @@
+{
+    "scope_homeowners_associations_rules_dump": [
+        "Homeowners_association_rules.associd",
+        "Homeowners_association_rules.ruleid",
+        "Homeowners_associations.id",
+        "Homeowners_associations.name",
+        "Homeowners_associations.location",
+        "Homeowners_associations_homes.associd",
+        "Homeowners_associations_homes.houseid",
+        "Homes.houseid",
+        "Homes.address",
+        "Homes.price",
+        "Rules.ruleid",
+        "Rules.rulename",
+        "Rules.description"
+    ]
+}

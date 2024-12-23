@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_ref_television_genre_dump": [
+        "Episodes.id",
+        "Episodes.season_id",
+        "Episodes.episode_number",
+        "Episodes.title",
+        "Episodes.run_time",
+        "Episodes.airdate",
+        "Genres.name",
+        "Seasons.id",
+        "Seasons.show_id",
+        "Seasons.number_of_seasons",
+        "Seasons.release_year",
+        "TelevisionShows.id",
+        "TelevisionShows.title",
+        "TelevisionShows.year",
+        "TelevisionShows.network",
+        "TelevisionShows.genre"
+    ]
+}

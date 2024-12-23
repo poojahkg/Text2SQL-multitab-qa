@@ -1,0 +1,12 @@
+{
+    "scope_streaming_service_advertisement_dump": [
+        "Advertisement.id",
+        "Advertisement.type",
+        "Advertisement.duration",
+        "Streaming_Service.id",
+        "Streaming_Service.name",
+        "Streaming_Service.platform",
+        "Streaming_Service_Advertisement.streaming_service_id",
+        "Streaming_Service_Advertisement.advertisement_id"
+    ]
+}

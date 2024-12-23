@@ -1,0 +1,11 @@
+{
+    "scope_communities_features2_dump": [
+        "Communities.id",
+        "Communities.name",
+        "Communities.location",
+        "Communities_Features.community_id",
+        "Communities_Features.feature_id",
+        "Features.id",
+        "Features.feature_name"
+    ]
+}

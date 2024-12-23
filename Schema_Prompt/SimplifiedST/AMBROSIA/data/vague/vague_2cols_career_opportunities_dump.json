@@ -1,0 +1,23 @@
+{
+    "vague_2cols_career_opportunities_dump": [
+        "Courses.CourseID",
+        "Courses.Title",
+        "Courses.Description",
+        "Courses.JobRole",
+        "Courses.Industry",
+        "Courses.Major",
+        "Courses.EnrollmentLimit",
+        "Courses.CurrentEnrollment",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.CourseID",
+        "Enrollments.Grade",
+        "Instructors.InstructorID",
+        "Instructors.FirstName",
+        "Instructors.LastName",
+        "Instructors.Email",
+        "Students.StudentID",
+        "Students.BirthDate",
+        "Students.fullname"
+    ]
+}

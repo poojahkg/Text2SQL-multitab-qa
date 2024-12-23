@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_ref_personal_computing_devices_dump": [
+        "Laptops.Laptop_ID",
+        "Laptops.Model",
+        "Laptops.Processor",
+        "Laptops.RAM_Size",
+        "Laptops.Hard_Disk_Space",
+        "Laptops.Graphics_Card",
+        "Laptops.Weight",
+        "Laptops.Price",
+        "Laptops.OS_ID",
+        "Operating_System.OS_ID",
+        "Operating_System.Name",
+        "Students.Student_ID",
+        "Students.First_Name",
+        "Students.Last_Name",
+        "Students.Age",
+        "Students.Grade_Level",
+        "Students.Tablet_ID",
+        "Students.Laptop_ID",
+        "Tablets.Tablet_ID",
+        "Tablets.Model",
+        "Tablets.Screen_Size",
+        "Tablets.RAM_Size",
+        "Tablets.Storage_Capacity",
+        "Tablets.Purchase_Price",
+        "Tablets.OS_ID"
+    ]
+}

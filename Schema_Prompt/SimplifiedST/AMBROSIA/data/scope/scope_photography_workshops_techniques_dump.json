@@ -1,0 +1,23 @@
+{
+    "scope_photography_workshops_techniques_dump": [
+        "Enrollments.enrollment_id",
+        "Enrollments.participant_id",
+        "Enrollments.workshop_session_id",
+        "Participants.participant_id",
+        "Participants.first_name",
+        "Participants.last_name",
+        "Participants.email",
+        "Photographers.photographer_id",
+        "Photographers.name",
+        "Photographers.experience",
+        "Photography_Workshops_Techniques.id",
+        "Photography_Workshops_Techniques.photography_workshop_id",
+        "Photography_Workshops_Techniques.technique_id",
+        "Techniques.technique_id",
+        "Techniques.technique_name",
+        "Workshop_Sessions.session_id",
+        "Workshop_Sessions.workshop_title",
+        "Workshop_Sessions.start_time",
+        "Workshop_Sessions.end_time"
+    ]
+}

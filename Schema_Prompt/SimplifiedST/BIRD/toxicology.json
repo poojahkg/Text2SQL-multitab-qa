@@ -1,0 +1,15 @@
+{
+    "toxicology": [
+        "atom.atom_id",
+        "atom.molecule_id",
+        "atom.element",
+        "bond.bond_id",
+        "bond.molecule_id",
+        "bond.bond_type",
+        "connected.atom_id",
+        "connected.atom_id2",
+        "connected.bond_id",
+        "molecule.molecule_id",
+        "molecule.label"
+    ]
+}

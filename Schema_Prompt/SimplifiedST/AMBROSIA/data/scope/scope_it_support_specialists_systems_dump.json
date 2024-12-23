@@ -1,0 +1,15 @@
+{
+    "scope_it_support_specialists_systems_dump": [
+        "Companies.company_id",
+        "Companies.company_name",
+        "Companies.location",
+        "It_Support_Specialists.id",
+        "It_Support_Specialists.name",
+        "It_Support_Specialists.experience",
+        "It_Support_Specialists_Systems.it_specialist_id",
+        "It_Support_Specialists_Systems.system_id",
+        "Systems.system_id",
+        "Systems.system_name",
+        "Systems.is_active"
+    ]
+}

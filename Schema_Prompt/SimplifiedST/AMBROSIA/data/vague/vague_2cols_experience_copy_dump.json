@@ -1,0 +1,13 @@
+{
+    "vague_2cols_experience_copy_dump": [
+        "Companies.CompanyID",
+        "Companies.Name",
+        "Companies.Location",
+        "EducationRequirements.RequirementID",
+        "EducationRequirements.DegreeLevel",
+        "EducationRequirements.FieldOfStudy",
+        "RequiredSkills.SkillID",
+        "RequiredSkills.SkillName",
+        "RequiredSkills.ProficiencyLevel"
+    ]
+}

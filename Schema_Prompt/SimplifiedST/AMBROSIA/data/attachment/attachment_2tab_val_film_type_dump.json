@@ -1,0 +1,23 @@
+{
+    "attachment_2tab_val_film_type_dump": [
+        "ActorsInFilms.ActorID",
+        "ActorsInFilms.FilmID",
+        "ActorsInFilms.Role",
+        "Directors.id",
+        "Directors.Name",
+        "Directors.BirthDate",
+        "Directors.Nationality",
+        "Documentaries.id",
+        "Documentaries.Title",
+        "Documentaries.Genre",
+        "Documentaries.Duration",
+        "Documentaries.Budget",
+        "FilmsDirectedBy.FilmID",
+        "FilmsDirectedBy.DirectorID",
+        "ShortFilms.id",
+        "ShortFilms.Title",
+        "ShortFilms.Genre",
+        "ShortFilms.Duration",
+        "ShortFilms.Budget"
+    ]
+}

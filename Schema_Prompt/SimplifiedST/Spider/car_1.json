@@ -1,0 +1,27 @@
+{
+    "car_1": [
+        "continents.ContId",
+        "continents.Continent",
+        "countries.CountryId",
+        "countries.CountryName",
+        "countries.Continent",
+        "car_makers.Id",
+        "car_makers.Maker",
+        "car_makers.FullName",
+        "car_makers.Country",
+        "model_list.ModelId",
+        "model_list.Maker",
+        "model_list.Model",
+        "car_names.MakeId",
+        "car_names.Model",
+        "car_names.Make",
+        "cars_data.Id",
+        "cars_data.MPG",
+        "cars_data.Cylinders",
+        "cars_data.Edispl",
+        "cars_data.Horsepower",
+        "cars_data.Weight",
+        "cars_data.Accelerate",
+        "cars_data.Year"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "attachment_1tab_ref_crew_dump": [
+        "Actors.Actor_ID",
+        "Actors.FirstName",
+        "Actors.LastName",
+        "Actors.DateOfBirth",
+        "Actors.Height",
+        "Crew.Crew_ID",
+        "Crew.Position",
+        "Crew.Name",
+        "Crew.Experience",
+        "Crew.Episode_ID",
+        "Episodes.Episode_ID",
+        "Episodes.SeasonNumber",
+        "Episodes.EpisodeTitle",
+        "Episodes.EpisodeLength",
+        "Episodes.AirDate",
+        "Episodes.Crew_ID",
+        "Roles.Role_ID",
+        "Roles.CharacterName",
+        "Roles.Movie_ID",
+        "Roles.Actor_ID"
+    ]
+}

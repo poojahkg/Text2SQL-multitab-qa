@@ -1,0 +1,25 @@
+{
+    "attachment_2tab_ref_space_planning_jobs_dump": [
+        "Interior_Designer.designer_id",
+        "Interior_Designer.name",
+        "Interior_Designer.design_style",
+        "Landscape_Architect.architect_id",
+        "Landscape_Architect.name",
+        "Landscape_Architect.landscape_style",
+        "Material.material_id",
+        "Material.name",
+        "Material.description",
+        "Project.project_id",
+        "Project.title",
+        "Project.start_date",
+        "Project.end_date",
+        "Project.interior_designer_id",
+        "Project.landscape_architect_id",
+        "ProjectMaterial.projectmaterial_id",
+        "ProjectMaterial.project_id",
+        "ProjectMaterial.material_id",
+        "ProjectMaterial.quantity",
+        "Style.style_id",
+        "Style.style_name"
+    ]
+}

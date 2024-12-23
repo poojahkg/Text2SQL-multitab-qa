@@ -1,0 +1,16 @@
+{
+    "scope_books_formats_dump": [
+        "Authors.id",
+        "Authors.firstname",
+        "Authors.lastname",
+        "Book_Formats.book_id",
+        "Book_Formats.format_id",
+        "Books.id",
+        "Books.title",
+        "Books.author",
+        "Books_Authors.book_id",
+        "Books_Authors.author_id",
+        "Formats.id",
+        "Formats.name"
+    ]
+}

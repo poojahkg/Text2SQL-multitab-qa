@@ -1,0 +1,26 @@
+{
+    "scope_apartment_buildings_units_dump": [
+        "Apartment_Buildings.id",
+        "Apartment_Buildings.name",
+        "Apartment_Buildings.address",
+        "Apartment_Buildings.city",
+        "Apartment_Buildings.state",
+        "Apartment_Buildings.zipcode",
+        "Apartment_Buildings.num_units",
+        "Apartment_Buildings_Units.building_id",
+        "Apartment_Buildings_Units.unit_id",
+        "RentPayments.payment_id",
+        "RentPayments.amount",
+        "RentPayments.paid_date",
+        "RentPayments.due_date",
+        "RentPayments.tenant_id",
+        "Tenants.tenant_id",
+        "Tenants.firstname",
+        "Tenants.lastname",
+        "Tenants.email",
+        "Tenants.phone",
+        "Units.id",
+        "Units.unit_type",
+        "Units.description"
+    ]
+}

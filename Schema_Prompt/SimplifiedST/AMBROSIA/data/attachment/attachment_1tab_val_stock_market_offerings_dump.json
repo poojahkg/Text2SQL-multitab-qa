@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_val_stock_market_offerings_dump": [
+        "Accounts.AccountID",
+        "Accounts.CustomerID",
+        "Accounts.Balance",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.DateOfBirth",
+        "Customers.Address",
+        "Deposits.DepositID",
+        "Deposits.AccountID",
+        "Deposits.Amount",
+        "Deposits.TransactionDate",
+        "Loans.LoanID",
+        "Loans.CustomerID",
+        "Loans.StockMarketOfferings",
+        "Loans.RaisedCapitalAmount",
+        "Loans.InterestRate",
+        "Loans.StartDate",
+        "Loans.EndDate"
+    ]
+}

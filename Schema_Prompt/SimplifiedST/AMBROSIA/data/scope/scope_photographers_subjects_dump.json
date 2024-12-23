@@ -1,0 +1,11 @@
+{
+    "scope_photographers_subjects_dump": [
+        "Photographers.id",
+        "Photographers.name",
+        "Photographers.email",
+        "Photographers_Subjects.photographer_id",
+        "Photographers_Subjects.subject_id",
+        "Subjects.id",
+        "Subjects.subject_name"
+    ]
+}

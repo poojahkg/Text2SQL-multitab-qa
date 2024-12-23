@@ -1,0 +1,29 @@
+{
+    "attachment_1tab_ref_book_genre_dump": [
+        "Authors.AuthorID",
+        "Authors.Name",
+        "Authors.Country",
+        "BookPublishingHistory.PublishingID",
+        "BookPublishingHistory.ISBN",
+        "BookPublishingHistory.PublisherID",
+        "BookPublishingHistory.YearOfPublication",
+        "Books.ISBN",
+        "Books.Title",
+        "Books.YearOfPublication",
+        "Books.Genre",
+        "Books.AuthorID",
+        "Publishers.PublisherID",
+        "Publishers.Name",
+        "Publishers.Location",
+        "Reviews.ReviewID",
+        "Reviews.ISBN",
+        "Reviews.Rating",
+        "Reviews.Comment",
+        "Reviews.DatePosted",
+        "SalesData.SaleID",
+        "SalesData.ISBN",
+        "SalesData.QuantitySold",
+        "SalesData.Revenue",
+        "SalesData.DateOfSale"
+    ]
+}

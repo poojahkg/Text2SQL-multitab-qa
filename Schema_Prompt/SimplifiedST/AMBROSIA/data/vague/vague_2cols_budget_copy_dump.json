@@ -1,0 +1,26 @@
+{
+    "vague_2cols_budget_copy_dump": [
+        "Actors.id",
+        "Actors.firstname",
+        "Actors.lastname",
+        "Actors.birthdate",
+        "Actors.roleInFilms",
+        "Awards.id",
+        "Awards.awardTitle",
+        "Awards.filmId",
+        "Awards.yearOfAward",
+        "Directors.id",
+        "Directors.name",
+        "Directors.birthdate",
+        "Directors.nationality",
+        "Producers.id",
+        "Producers.name",
+        "Producers.company",
+        "Producers.networth",
+        "Roles.id",
+        "Roles.actorId",
+        "Roles.characterName",
+        "Roles.salary",
+        "Roles.filmId"
+    ]
+}

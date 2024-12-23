@@ -1,0 +1,25 @@
+{
+    "vague_2tabs_production2_dump": [
+        "Actor.id",
+        "Actor.first_name",
+        "Actor.last_name",
+        "Play_Actor.play_id",
+        "Play_Actor.actor_id",
+        "Play_Actor.character_played",
+        "Producer.id",
+        "Producer.name",
+        "Producer.email",
+        "Review.id",
+        "Review.rating",
+        "Review.reviewer_email",
+        "Review.stage_play_id",
+        "Stage_Play.id",
+        "Stage_Play.title",
+        "Stage_Play.description",
+        "Stage_Play.theater_company_id",
+        "Stage_Play.producer_id",
+        "Theater_Company.id",
+        "Theater_Company.name",
+        "Theater_Company.address"
+    ]
+}

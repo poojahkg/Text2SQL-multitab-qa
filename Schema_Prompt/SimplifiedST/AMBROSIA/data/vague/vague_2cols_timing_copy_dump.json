@@ -1,0 +1,25 @@
+{
+    "vague_2cols_timing_copy_dump": [
+        "Courses.course_id",
+        "Courses.course_name",
+        "Courses.instructor_name",
+        "Enrollments.enrollment_id",
+        "Enrollments.student_id",
+        "Enrollments.course_id",
+        "Grades.grade_id",
+        "Grades.student_id",
+        "Grades.course_id",
+        "Grades.final_grade",
+        "Grades.semester",
+        "Students.id",
+        "Students.first_name",
+        "Students.last_name",
+        "Students.email",
+        "Submissions.submission_id",
+        "Submissions.student_id",
+        "Submissions.assignment_id",
+        "Submissions.file_path",
+        "Submissions.score",
+        "Submissions.submitted_time"
+    ]
+}

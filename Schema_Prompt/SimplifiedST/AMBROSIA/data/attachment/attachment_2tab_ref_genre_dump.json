@@ -1,0 +1,33 @@
+{
+    "attachment_2tab_ref_genre_dump": [
+        "Actors.id",
+        "Actors.name",
+        "Actors.dateOfBirth",
+        "Actors.gender",
+        "Actors.ethnicity",
+        "Blockbusters.id",
+        "Blockbusters.title",
+        "Blockbusters.releaseYear",
+        "Blockbusters.director",
+        "Blockbusters.budget",
+        "Blockbusters.boxOffice",
+        "Blockbusters.film_festival_id",
+        "Directors.id",
+        "Directors.name",
+        "Directors.birthDate",
+        "Directors.nationality",
+        "Festivals.id",
+        "Festivals.name",
+        "Indies.id",
+        "Indies.title",
+        "Indies.releaseYear",
+        "Indies.director",
+        "Indies.budget",
+        "Indies.gross",
+        "Indies.film_festival_id",
+        "Roles.actor_id",
+        "Roles.film_id",
+        "Roles.characterName",
+        "Roles.FOREIGN"
+    ]
+}

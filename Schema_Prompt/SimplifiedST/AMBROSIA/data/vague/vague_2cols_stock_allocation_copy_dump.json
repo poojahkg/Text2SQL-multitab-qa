@@ -1,0 +1,26 @@
+{
+    "vague_2cols_stock_allocation_copy_dump": [
+        "Accounts.AccountNumber",
+        "Accounts.Balance",
+        "Accounts.InterestRate",
+        "Accounts.OpenDate",
+        "Accounts.CustomerID",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.Email",
+        "Investments.InvestmentID",
+        "Investments.AccountNumber",
+        "Investments.StockSymbol",
+        "Investments.Quantity",
+        "Investments.PurchaseDate",
+        "Stocks.StockSymbol",
+        "Stocks.CompanyName",
+        "Stocks.CurrentPrice",
+        "Transactions.TransactionID",
+        "Transactions.AccountNumber",
+        "Transactions.Amount",
+        "Transactions.Type",
+        "Transactions.Date"
+    ]
+}

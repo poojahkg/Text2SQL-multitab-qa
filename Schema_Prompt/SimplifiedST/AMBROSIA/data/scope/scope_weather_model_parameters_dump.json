@@ -1,0 +1,13 @@
+{
+    "scope_weather_model_parameters_dump": [
+        "Parameters.parameterID",
+        "Parameters.parameterName",
+        "Parameters.unit",
+        "Weather_Model.modelID",
+        "Weather_Model.modelName",
+        "Weather_Model.manufacturer",
+        "Weather_Model_Parameters.weatherModelId",
+        "Weather_Model_Parameters.parameterId",
+        "Weather_Model_Parameters.value"
+    ]
+}

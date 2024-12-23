@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_ref_overnight_stay_dump": [
+        "Bookings.BookingID",
+        "Bookings.CheckInDate",
+        "Bookings.CheckOutDate",
+        "Bookings.NumberOfAdults",
+        "Bookings.NumberOfChildren",
+        "Bookings.GuestID",
+        "Bookings.ROOMID",
+        "Guests.ID",
+        "Guests.EmailAddress",
+        "Guests.PhoneNumber",
+        "Guests.FullName",
+        "Rooms.RoomID",
+        "Rooms.TypeOfRoom",
+        "Rooms.ServiceID",
+        "Services.ServiceID",
+        "Services.Amenity",
+        "Services.Description"
+    ]
+}

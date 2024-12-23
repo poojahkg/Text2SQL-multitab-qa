@@ -1,0 +1,11 @@
+{
+    "scope_boutique_hotels_themes_dump": [
+        "Boutique_Hotels.hotel_id",
+        "Boutique_Hotels.name",
+        "Boutique_Hotels.location",
+        "Boutique_Hotels_Themes.boutique_hotel_id",
+        "Boutique_Hotels_Themes.theme_id",
+        "Themes.theme_id",
+        "Themes.theme_name"
+    ]
+}

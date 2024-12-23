@@ -1,0 +1,11 @@
+{
+    "scope_airports_facilities_dump": [
+        "Airports.AirportID",
+        "Airports.Name",
+        "Airports.Location",
+        "Airports_Facilities.AirportID",
+        "Airports_Facilities.FacilityID",
+        "Facilities.FacilityID",
+        "Facilities.Type"
+    ]
+}

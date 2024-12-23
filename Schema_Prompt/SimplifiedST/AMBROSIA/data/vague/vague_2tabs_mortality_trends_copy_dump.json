@@ -1,0 +1,10 @@
+{
+    "vague_2tabs_mortality_trends_copy_dump": [
+        "Disease.diseaseID",
+        "Disease.name",
+        "Disease.deathrate",
+        "Person.personID",
+        "Person.name",
+        "Person.dateofbirth"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "attachment_2tab_val_airport_personnel_dump": [
+        "Air_traffic_controller.id",
+        "Air_traffic_controller.Name",
+        "Air_traffic_controller.Experience",
+        "Air_traffic_controller.Salary",
+        "Air_traffic_controller.Training_Center",
+        "Flight.id",
+        "Flight.Date",
+        "Flight.Time",
+        "Flight.Destination",
+        "Flight.Pilot_id",
+        "Ground_staff.id",
+        "Ground_staff.Name",
+        "Ground_staff.Experience",
+        "Ground_staff.Salary",
+        "Ground_staff.Role",
+        "Pilots.id",
+        "Pilots.Name",
+        "Pilots.License_Number",
+        "Pilots.Total_Flights",
+        "Planes.id",
+        "Planes.Model",
+        "Planes.Registration_number",
+        "Planes.Capacity",
+        "Planes.Current_Location",
+        "Runway.id",
+        "Runway.Length",
+        "Runway.Width",
+        "Runway.Location"
+    ]
+}

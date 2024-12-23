@@ -1,0 +1,11 @@
+{
+    "vague_2tabs_curriculum_topics_copy_dump": [
+        "EnrolledStudents.enrollment_id",
+        "EnrolledStudents.student_id",
+        "EnrolledStudents.subject_id",
+        "EnrolledStudents.grade",
+        "Students.id",
+        "Students.name",
+        "Students.age"
+    ]
+}

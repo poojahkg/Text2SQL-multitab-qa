@@ -1,0 +1,31 @@
+{
+    "vague_2cols_timeline_dump": [
+        "Classes.ClassID",
+        "Classes.TeacherID",
+        "Classes.RoomNumber",
+        "Classes.DayOfWeek",
+        "Classes.TimeStart",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.ClassID",
+        "Enrollments.Grade",
+        "Expenses.ExpenseID",
+        "Expenses.MaterialID",
+        "Expenses.Supplier",
+        "Expenses.Amount",
+        "Materials.MaterialID",
+        "Materials.Month",
+        "Materials.Year",
+        "Materials.ResourceType",
+        "Materials.Quantity",
+        "Materials.Price",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.DateOfBirth",
+        "Teachers.TeacherID",
+        "Teachers.FirstName",
+        "Teachers.LastName",
+        "Teachers.Subject"
+    ]
+}

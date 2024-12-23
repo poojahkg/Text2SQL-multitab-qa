@@ -1,0 +1,23 @@
+{
+    "pilot_record": [
+        "aircraft.Aircraft_ID",
+        "aircraft.Order_Year",
+        "aircraft.Manufacturer",
+        "aircraft.Model",
+        "aircraft.Fleet_Series",
+        "aircraft.Powertrain",
+        "aircraft.Fuel_Propulsion",
+        "pilot.Pilot_ID",
+        "pilot.Pilot_name",
+        "pilot.Rank",
+        "pilot.Age",
+        "pilot.Nationality",
+        "pilot.Position",
+        "pilot.Join_Year",
+        "pilot.Team",
+        "pilot_record.Record_ID",
+        "pilot_record.Pilot_ID",
+        "pilot_record.Aircraft_ID",
+        "pilot_record.Date"
+    ]
+}

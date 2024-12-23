@@ -1,0 +1,29 @@
+{
+    "scope_bank_products_risks_dump": [
+        "Accounts.AccountID",
+        "Accounts.AccountNumber",
+        "Accounts.Balance",
+        "Accounts.OpenDate",
+        "Bank_Accounts.BankID",
+        "Bank_Accounts.AccountID",
+        "Bank_Customers.BankID",
+        "Bank_Customers.CustomerID",
+        "Bank_Products.ProductID",
+        "Bank_Products.ProductName",
+        "Bank_Products.InterestRate",
+        "Bank_Products_Risks.ProductID",
+        "Bank_Products_Risks.RiskID",
+        "Banks.BankID",
+        "Banks.BankName",
+        "Banks.Location",
+        "Customers.CustomerID",
+        "Customers.Name",
+        "Customers.Age",
+        "Risks.RiskID",
+        "Risks.RiskName",
+        "Transactions.TransactionID",
+        "Transactions.AccountID",
+        "Transactions.Amount",
+        "Transactions.Date"
+    ]
+}

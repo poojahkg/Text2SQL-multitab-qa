@@ -1,0 +1,28 @@
+{
+    "vague_2tabs_sale_date_dump": [
+        "Artists.artist_id",
+        "Artists.name",
+        "Artists.genre",
+        "Events.event_id",
+        "Events.artist_id",
+        "Events.venue_id",
+        "Events.event_date",
+        "On_Sale_Date.sale_id",
+        "On_Sale_Date.event_id",
+        "On_Sale_Date.start_time",
+        "On_Sale_Date.end_time",
+        "Pre_sale_Date.presale_id",
+        "Pre_sale_Date.event_id",
+        "Pre_sale_Date.start_time",
+        "Pre_sale_Date.end_time",
+        "Tickets.ticket_id",
+        "Tickets.event_id",
+        "Tickets.seat_number",
+        "Tickets.price",
+        "Tickets.ON_SALE_DATE_ID",
+        "Tickets.PRESALE_DATE_ID",
+        "Venues.venue_id",
+        "Venues.name",
+        "Venues.location"
+    ]
+}

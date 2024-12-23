@@ -1,0 +1,12 @@
+{
+    "network_2": [
+        "Person.name",
+        "Person.age",
+        "Person.city",
+        "Person.gender",
+        "Person.job",
+        "PersonFriend.name",
+        "PersonFriend.friend",
+        "PersonFriend.year"
+    ]
+}

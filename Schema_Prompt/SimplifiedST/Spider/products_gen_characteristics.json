@@ -1,0 +1,27 @@
+{
+    "products_gen_characteristics": [
+        "Ref_Characteristic_Types.characteristic_type_code",
+        "Ref_Characteristic_Types.characteristic_type_description",
+        "Ref_Colors.color_code",
+        "Ref_Colors.color_description",
+        "Ref_Product_Categories.product_category_code",
+        "Ref_Product_Categories.product_category_description",
+        "Ref_Product_Categories.unit_of_measure",
+        "Characteristics.characteristic_id",
+        "Characteristics.characteristic_type_code",
+        "Characteristics.characteristic_data_type",
+        "Characteristics.characteristic_name",
+        "Characteristics.other_characteristic_details",
+        "Products.product_id",
+        "Products.color_code",
+        "Products.product_category_code",
+        "Products.product_name",
+        "Products.typical_buying_price",
+        "Products.typical_selling_price",
+        "Products.product_description",
+        "Products.other_product_details",
+        "Product_Characteristics.product_id",
+        "Product_Characteristics.characteristic_id",
+        "Product_Characteristics.product_characteristic_value"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "riding_club": [
+        "player.Player_ID",
+        "player.Sponsor_name",
+        "player.Player_name",
+        "player.Gender",
+        "player.Residence",
+        "player.Occupation",
+        "player.Votes",
+        "player.Rank",
+        "club.Club_ID",
+        "club.Club_name",
+        "club.Region",
+        "club.Start_year",
+        "coach.Coach_ID",
+        "coach.Coach_name",
+        "coach.Gender",
+        "coach.Club_ID",
+        "coach.Rank",
+        "player_coach.Player_ID",
+        "player_coach.Coach_ID",
+        "player_coach.Starting_year",
+        "match_result.Rank",
+        "match_result.Club_ID",
+        "match_result.Gold",
+        "match_result.Big_Silver",
+        "match_result.Small_Silver",
+        "match_result.Bronze",
+        "match_result.Points"
+    ]
+}

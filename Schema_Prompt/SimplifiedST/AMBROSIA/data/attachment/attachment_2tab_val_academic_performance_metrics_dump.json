@@ -1,0 +1,18 @@
+{
+    "attachment_2tab_val_academic_performance_metrics_dump": [
+        "Attendance.AttendID",
+        "Attendance.StudentID",
+        "Attendance.Date",
+        "Attendance.Status",
+        "Classroom.ClassID",
+        "Classroom.TeachID",
+        "Classroom.Location",
+        "Enrollment.EnrollID",
+        "Enrollment.StudentID",
+        "Enrollment.ClassID",
+        "Student.ID",
+        "Student.Name",
+        "Teacher.TeachID",
+        "Teacher.Name"
+    ]
+}

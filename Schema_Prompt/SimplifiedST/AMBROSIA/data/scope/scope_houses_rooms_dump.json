@@ -1,0 +1,17 @@
+{
+    "scope_houses_rooms_dump": [
+        "HouseFeatures.id",
+        "HouseFeatures.featureName",
+        "Houses.id",
+        "Houses.address",
+        "Houses.price",
+        "Houses.numOfFloors",
+        "Houses.ON",
+        "Houses_Rooms.houseId",
+        "Houses_Rooms.roomId",
+        "Houses_Rooms.ON",
+        "Houses_Rooms.ON",
+        "Rooms.id",
+        "Rooms.roomType"
+    ]
+}

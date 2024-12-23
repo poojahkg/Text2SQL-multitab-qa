@@ -1,0 +1,23 @@
+{
+    "attachment_2tab_ref_airport_staff_dump": [
+        "Flights.flightNumber",
+        "Flights.departureTime",
+        "Flights.arrivalTime",
+        "Flights.pilotId",
+        "Flights.gateAgentId",
+        "GateAgents.id",
+        "GateAgents.name",
+        "GateAgents.gateNumber",
+        "GateAgents.speaksId",
+        "Languages.id",
+        "Languages.language",
+        "Passengers.passengerId",
+        "Passengers.firstName",
+        "Passengers.lastName",
+        "Passengers.age",
+        "Pilots.id",
+        "Pilots.name",
+        "Pilots.licenseNumber",
+        "Pilots.speaksId"
+    ]
+}

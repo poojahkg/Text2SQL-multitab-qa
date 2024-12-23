@@ -1,0 +1,25 @@
+{
+    "attachment_2tab_val_media_jobs_dump": [
+        "Applications.applicationId",
+        "Applications.applicantEmail",
+        "Applications.appliedJob",
+        "Applications.applyDate",
+        "Companies.id",
+        "Companies.companyName",
+        "Companies.location",
+        "Editors.id",
+        "Editors.name",
+        "Editors.email",
+        "Editors.language_proficiency",
+        "Editors.experience_years",
+        "JobPostings.id",
+        "JobPostings.jobTitle",
+        "JobPostings.description",
+        "JobPostings.salary",
+        "Journalists.id",
+        "Journalists.name",
+        "Journalists.email",
+        "Journalists.language_proficiency",
+        "Journalists.years_experience"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "attachment_2tab_ref_types_of_banks_dump": [
+        "Account.id",
+        "Account.account_number",
+        "Account.balance",
+        "Account.commercial_bank_id",
+        "Central_Bank.id",
+        "Central_Bank.central_bank_name",
+        "Central_Bank.country_id",
+        "Commercial_Bank.id",
+        "Commercial_Bank.commercial_bank_name",
+        "Commercial_Bank.country_id",
+        "Country.id",
+        "Country.name"
+    ]
+}

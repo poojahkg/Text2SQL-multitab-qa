@@ -1,0 +1,14 @@
+{
+    "attachment_2tab_val_writing_styles_dump": [
+        "MagazineArticles.ArticleID",
+        "MagazineArticles.Title",
+        "MagazineArticles.Category",
+        "MagazineArticles.Writer",
+        "MagazineArticles.IssueDate",
+        "NewsReports.ReportID",
+        "NewsReports.EventName",
+        "NewsReports.Reporter",
+        "NewsReports.Location",
+        "NewsReports.DatePublished"
+    ]
+}

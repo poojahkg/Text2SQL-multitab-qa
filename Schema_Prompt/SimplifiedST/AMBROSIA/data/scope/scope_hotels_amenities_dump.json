@@ -1,0 +1,11 @@
+{
+    "scope_hotels_amenities_dump": [
+        "Amenities.amenityId",
+        "Amenities.amenityName",
+        "Hotel_Amenities.hotelId",
+        "Hotel_Amenities.amenityId",
+        "Hotels.id",
+        "Hotels.name",
+        "Hotels.location"
+    ]
+}

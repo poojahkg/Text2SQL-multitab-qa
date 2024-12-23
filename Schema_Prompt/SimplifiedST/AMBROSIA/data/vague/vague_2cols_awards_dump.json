@@ -1,0 +1,32 @@
+{
+    "vague_2cols_awards_dump": [
+        "Actor.id",
+        "Actor.Name",
+        "Actor.Date_of_Birth",
+        "Actor.Ethnicity",
+        "Award.id",
+        "Award.Award_Name",
+        "Award.Winning_Category",
+        "Award.Film",
+        "Award.Year",
+        "Award.Presenter",
+        "Director.id",
+        "Director.Name",
+        "Director.Birthdate",
+        "Director.Nationality",
+        "Movie.id",
+        "Movie.Title",
+        "Movie.Release_Date",
+        "Movie.Runtime",
+        "Movie.Genre",
+        "Producer.id",
+        "Producer.Name",
+        "Producer.Production_Company",
+        "Producer.Number_Of_Productions",
+        "Viewership.id",
+        "Viewership.Movie_ID",
+        "Viewership.Total_Views",
+        "Viewership.Peak_Concurrent_Streams",
+        "Viewership.Platform"
+    ]
+}

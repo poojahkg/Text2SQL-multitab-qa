@@ -1,0 +1,30 @@
+{
+    "vague_2tabs_effects_dump": [
+        "Doctor.doctorID",
+        "Doctor.firstName",
+        "Doctor.lastName",
+        "Doctor.specialty",
+        "Drug.drugID",
+        "Drug.name",
+        "Drug.dosage",
+        "Drug.sideEffectID",
+        "Drug.effectivenessID",
+        "Effectiveness.effectivenessID",
+        "Effectiveness.percentage",
+        "MedicalRecord.recordID",
+        "MedicalRecord.patientID",
+        "MedicalRecord.diagnosis",
+        "MedicalRecord.treatmentPlan",
+        "Patient.patientID",
+        "Patient.firstName",
+        "Patient.lastName",
+        "Patient.dateOfBirth",
+        "Prescription.prescriptionID",
+        "Prescription.patientID",
+        "Prescription.drugID",
+        "Prescription.quantity",
+        "Side_Effects.sideEffectID",
+        "Side_Effects.effectText",
+        "Side_Effects.severity"
+    ]
+}

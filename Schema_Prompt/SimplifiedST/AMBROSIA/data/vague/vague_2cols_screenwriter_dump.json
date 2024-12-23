@@ -1,0 +1,30 @@
+{
+    "vague_2cols_screenwriter_dump": [
+        "Actors.actor_id",
+        "Actors.first_name",
+        "Actors.last_name",
+        "Actors.birth_date",
+        "Actors.nationality",
+        "Movies.movie_id",
+        "Movies.title",
+        "Movies.release_year",
+        "Movies.genre",
+        "Movies.novelist",
+        "Movies.playwright",
+        "Movies.film",
+        "Novelists.novelist_id",
+        "Novelists.name",
+        "Playwrights.playwright_id",
+        "Playwrights.name",
+        "Subscribers.subscriber_id",
+        "Subscribers.username",
+        "Subscribers.email",
+        "Subscribers.password",
+        "TVShows.tvshow_id",
+        "TVShows.show_title",
+        "TVShows.start_date",
+        "TVShows.end_date",
+        "TVShows.genre",
+        "TVShows.episodes"
+    ]
+}

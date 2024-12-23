@@ -1,0 +1,32 @@
+{
+    "attachment_1tab_val_literature_type_dump": [
+        "Authors.AuthorID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.BirthDate",
+        "Authors.Country",
+        "Editions.EditionID",
+        "Editions.ISBN",
+        "Editions.ReleaseDate",
+        "Editions.Price",
+        "Editions.Quantity",
+        "Editions.LitID",
+        "Literatures.LitID",
+        "Literatures.Title",
+        "Literatures.Synopsis",
+        "Literatures.Language",
+        "Literatures.PublicationYear",
+        "Literatures.LiteratureType",
+        "Literatures.AuthorID",
+        "Literatures.PublisherID",
+        "Publishers.PublisherID",
+        "Publishers.Name",
+        "Publishers.Address",
+        "Publishers.PhoneNumber",
+        "Reviews.ReviewID",
+        "Reviews.Rating",
+        "Reviews.CommentText",
+        "Reviews.ReviewerID",
+        "Reviews.EditionID"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "vague_2cols_background_dump": [
+        "Article.id",
+        "Article.title",
+        "Article.content",
+        "Article.author_id",
+        "Article.publication_date",
+        "Author.id",
+        "Author.name",
+        "Author.email",
+        "Journalist.id",
+        "Journalist.name",
+        "Journalist.email",
+        "Journalist.education",
+        "Journalist.experience",
+        "Journalist.photojournalist",
+        "Publication.id",
+        "Publication.publisher_id",
+        "Publication.publication_name",
+        "Publication.start_year",
+        "Publication.end_year",
+        "Publisher.id",
+        "Publisher.name",
+        "Publisher.address",
+        "Publisher.contact_email"
+    ]
+}

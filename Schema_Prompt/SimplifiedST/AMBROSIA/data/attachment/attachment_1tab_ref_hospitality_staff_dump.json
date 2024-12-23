@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_ref_hospitality_staff_dump": [
+        "Bookings.ID",
+        "Bookings.GuestName",
+        "Bookings.CheckInDate",
+        "Bookings.CheckOutDate",
+        "Bookings.RoomID",
+        "Languages.ID",
+        "Languages.Language",
+        "Rooms.ID",
+        "Rooms.RoomNumber",
+        "Staff.ID",
+        "Staff.Name",
+        "Staff.Position",
+        "Staff.LanguageID",
+        "StaffRooms.StaffID",
+        "StaffRooms.RoomID",
+        "StaffRooms.WorkDays"
+    ]
+}

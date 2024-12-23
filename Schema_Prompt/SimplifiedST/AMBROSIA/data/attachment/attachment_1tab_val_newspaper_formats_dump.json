@@ -1,0 +1,33 @@
+{
+    "attachment_1tab_val_newspaper_formats_dump": [
+        "ArticleCategories.id",
+        "ArticleCategories.CategoryName",
+        "ArticleCategories.Description",
+        "Articles.id",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.PublicationDate",
+        "Articles.NewspaperId",
+        "Articles.AuthorId",
+        "Articles.CategoryId",
+        "Authors.id",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.Birthdate",
+        "Distributors.id",
+        "Distributors.Name",
+        "Distributors.Address",
+        "Distributors.PhoneNumber",
+        "Distributors.EmailAddress",
+        "Newspapers.id",
+        "Newspapers.Name",
+        "Newspapers.Format",
+        "Newspapers.Distributor",
+        "Newspapers.FoundedDate",
+        "Readers.id",
+        "Readers.FullName",
+        "Readers.Age",
+        "Readers.Email",
+        "Readers.FavouriteNewspaperId"
+    ]
+}

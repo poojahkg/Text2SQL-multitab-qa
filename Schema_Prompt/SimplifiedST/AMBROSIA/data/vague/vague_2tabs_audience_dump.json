@@ -1,0 +1,28 @@
+{
+    "vague_2tabs_audience_dump": [
+        "Articles.article_id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.author_id",
+        "Articles.magazine_id",
+        "Authors.author_id",
+        "Authors.name",
+        "Authors.occupation",
+        "Authors.demographic_group_id",
+        "Demographic_Groups.id",
+        "Demographic_Groups.group_name",
+        "Demographic_Groups.population",
+        "Magazines.magazine_id",
+        "Magazines.title",
+        "Magazines.publication_date",
+        "Magazines.demographic_group_id",
+        "Magazines.professional_field_id",
+        "Professional_Fields.field_id",
+        "Professional_Fields.field_name",
+        "Readers.reader_id",
+        "Readers.name",
+        "Readers.email",
+        "Readers.preferred_magazine_id",
+        "Readers.demographic_group_id"
+    ]
+}

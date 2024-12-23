@@ -1,0 +1,21 @@
+{
+    "attachment_2tab_ref_sales_and_marketing_jobs_dump": [
+        "Company.id",
+        "Company.name",
+        "MarketingSpecialists.id",
+        "MarketingSpecialists.position_id",
+        "MarketingSpecialists.target_market_id",
+        "MarketingSpecialists.skills",
+        "MarketingSpecialists.experience",
+        "Position.id",
+        "Position.title",
+        "Position.salary",
+        "SalesAssociates.id",
+        "SalesAssociates.position_id",
+        "SalesAssociates.target_market_id",
+        "SalesAssociates.skills",
+        "SalesAssociates.experience",
+        "TargetMarket.id",
+        "TargetMarket.type"
+    ]
+}

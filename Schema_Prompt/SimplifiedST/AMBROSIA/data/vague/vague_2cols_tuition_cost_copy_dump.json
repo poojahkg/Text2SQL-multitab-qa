@@ -1,0 +1,29 @@
+{
+    "vague_2cols_tuition_cost_copy_dump": [
+        "Courses.CourseID",
+        "Courses.Title",
+        "Courses.Description",
+        "Courses.DepartmentID",
+        "Courses.Credits",
+        "Courses.InstructorID",
+        "Departments.DepartmentID",
+        "Departments.Name",
+        "Departments.Description",
+        "Departments.Location",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.CourseID",
+        "Enrollments.Semester",
+        "Enrollments.Grade",
+        "Instructors.InstructorID",
+        "Instructors.FirstName",
+        "Instructors.LastName",
+        "Instructors.HireDate",
+        "Instructors.Email",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.DateOfBirth",
+        "Students.Email"
+    ]
+}

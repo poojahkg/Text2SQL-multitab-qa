@@ -1,0 +1,23 @@
+{
+    "vague_2cols_release_date_copy_dump": [
+        "Actors.id",
+        "Actors.first_name",
+        "Actors.last_name",
+        "Actors.date_of_birth",
+        "Actors.gender",
+        "Directors.id",
+        "Directors.name",
+        "Directors.birth_date",
+        "Directors.nationality",
+        "FilmCrew.id",
+        "FilmCrew.member_type",
+        "FilmCrew.full_name",
+        "FilmCrew.birth_date",
+        "MovieCast.movie_id",
+        "MovieCast.actor_id",
+        "MovieCast.role",
+        "MovieCrew.movie_id",
+        "MovieCrew.crew_member_id",
+        "MovieCrew.position_held"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_val_music_dump": [
+        "Albums.id",
+        "Albums.AlbumTitle",
+        "Albums.ReleaseYear",
+        "Albums.Music_Genre_id",
+        "Music_Genre.id",
+        "Music_Genre.Genre",
+        "Performances.id",
+        "Performances.PerformanceDate",
+        "Performances.Venue",
+        "Performances.Song_id",
+        "Singers.id",
+        "Singers.SingerName",
+        "Songs.id",
+        "Songs.SongTitle",
+        "Songs.Duration",
+        "Songs.Music",
+        "Songs.Singer_id",
+        "Songs.Album_id"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "scope_streamings_payments_dump": [
+        "Genres.genre_id",
+        "Genres.name",
+        "Movies.movie_id",
+        "Movies.title",
+        "Movies.release_year",
+        "Movies.genre_id",
+        "Streamings.streaming_id",
+        "Streamings.movie_id",
+        "Streamings.user_id",
+        "Streamings.stream_start_time",
+        "Streamings.stream_end_time",
+        "Streamings_Payments.streaming_id",
+        "Streamings_Payments.payment_id",
+        "Subscriptions.subscription_id",
+        "Subscriptions.user_id",
+        "Subscriptions.start_date",
+        "Subscriptions.end_date",
+        "Subscriptions.status",
+        "Users.id",
+        "Users.username",
+        "Users.email"
+    ]
+}

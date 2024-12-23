@@ -1,0 +1,11 @@
+{
+    "scope_customer_service_representatives_channels_dump": [
+        "Channels.channel_id",
+        "Channels.channel_value",
+        "Customer_Service_Representatives.id",
+        "Customer_Service_Representatives.email",
+        "Customer_Service_Representatives.full_name",
+        "Customer_Service_Representatives_Channels.representative_id",
+        "Customer_Service_Representatives_Channels.channel_id"
+    ]
+}

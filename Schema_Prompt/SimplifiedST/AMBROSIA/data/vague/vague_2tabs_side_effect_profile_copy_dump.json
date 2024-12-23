@@ -1,0 +1,15 @@
+{
+    "vague_2tabs_side_effect_profile_copy_dump": [
+        "Doctor.doctorID",
+        "Doctor.firstName",
+        "Doctor.lastName",
+        "Patient.patientID",
+        "Patient.firstName",
+        "Patient.lastName",
+        "Prescription.prescriptionID",
+        "Prescription.antibioticID",
+        "Prescription.patientID",
+        "Prescription.doctorID",
+        "Prescription.datePrescribed"
+    ]
+}

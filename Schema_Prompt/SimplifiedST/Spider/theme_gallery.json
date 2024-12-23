@@ -1,0 +1,17 @@
+{
+    "theme_gallery": [
+        "artist.Artist_ID",
+        "artist.Name",
+        "artist.Country",
+        "artist.Year_Join",
+        "artist.Age",
+        "exhibition.Exhibition_ID",
+        "exhibition.Year",
+        "exhibition.Theme",
+        "exhibition.Artist_ID",
+        "exhibition.Ticket_Price",
+        "exhibition_record.Exhibition_ID",
+        "exhibition_record.Date",
+        "exhibition_record.Attendance"
+    ]
+}

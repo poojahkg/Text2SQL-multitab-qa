@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_val_service_format_dump": [
+        "Bar.id",
+        "Bar.Name",
+        "Bar.Address",
+        "Bar.DrinkSelection",
+        "Bar.OpeningTime",
+        "Buffet.id",
+        "Buffet.Name",
+        "Buffet.Address",
+        "Buffet.Capacity",
+        "Buffet.Hours",
+        "Coffee_Shop.id",
+        "Coffee_Shop.Name",
+        "Coffee_Shop.Address",
+        "Coffee_Shop.SeatingCapacity",
+        "Coffee_Shop.Hours",
+        "Event.id",
+        "Event.Name",
+        "Event.Venue",
+        "Event.Date",
+        "Event.Time",
+        "Restaurant.id",
+        "Restaurant.Name",
+        "Restaurant.Address",
+        "Restaurant.Cuisine",
+        "Restaurant.OperatingTime"
+    ]
+}

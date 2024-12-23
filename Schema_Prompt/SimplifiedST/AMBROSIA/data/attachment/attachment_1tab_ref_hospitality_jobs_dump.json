@@ -1,0 +1,24 @@
+{
+    "attachment_1tab_ref_hospitality_jobs_dump": [
+        "Agency.id",
+        "Agency.name",
+        "Applicant.id",
+        "Applicant.first_name",
+        "Applicant.last_name",
+        "Applicant.email",
+        "Applicant.phone_number",
+        "Application.application_id",
+        "Application.job_posting_id",
+        "Application.applicant_id",
+        "Application.application_date",
+        "Application.status",
+        "HospitalityJobType.id",
+        "HospitalityJobType.job_type",
+        "JobPosting.id",
+        "JobPosting.title",
+        "JobPosting.description",
+        "JobPosting.posted_date",
+        "JobPosting.agency_id",
+        "JobPosting.hospitality_job_type_id"
+    ]
+}

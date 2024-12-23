@@ -1,0 +1,23 @@
+{
+    "vague_2cols_teaching_subject2_dump": [
+        "Courses.id",
+        "Courses.discipline_id",
+        "Courses.course_name",
+        "Courses.professor_id",
+        "Disciplines.id",
+        "Disciplines.name",
+        "Enrollments.id",
+        "Enrollments.student_id",
+        "Enrollments.course_id",
+        "Grades.id",
+        "Grades.enrollment_id",
+        "Grades.grade",
+        "Professors.id",
+        "Professors.email",
+        "Professors.fullname",
+        "Students.id",
+        "Students.firstname",
+        "Students.lastname",
+        "Students.email"
+    ]
+}

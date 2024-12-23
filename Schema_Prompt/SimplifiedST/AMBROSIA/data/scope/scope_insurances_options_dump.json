@@ -1,0 +1,11 @@
+{
+    "scope_insurances_options_dump": [
+        "Insurance_Options.insurance_id",
+        "Insurance_Options.option_id",
+        "Insurances.id",
+        "Insurances.policy_holder",
+        "Insurances.premium",
+        "Options.id",
+        "Options.option_name"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "vague_2tabs_rating_copy_dump": [
+        "Actor.id",
+        "Actor.firstName",
+        "Actor.lastName",
+        "Cast.movieId",
+        "Cast.actorId",
+        "Cast.role",
+        "Genre.id",
+        "Genre.genreText",
+        "Movie.id",
+        "Movie.title",
+        "Movie.releaseYear",
+        "Movie.directorId",
+        "Movie.ON",
+        "Movie_Genre.movieId",
+        "Movie_Genre.genreId"
+    ]
+}

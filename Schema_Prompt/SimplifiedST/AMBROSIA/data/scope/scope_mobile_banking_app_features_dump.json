@@ -1,0 +1,20 @@
+{
+    "scope_mobile_banking_app_features_dump": [
+        "Accounts.account_id",
+        "Accounts.customer_id",
+        "Accounts.account_type",
+        "Accounts.balance",
+        "Accounts.ON",
+        "Customers.customer_id",
+        "Customers.first_name",
+        "Customers.last_name",
+        "Customers.email",
+        "Customers.phone_number",
+        "Features.feature_id",
+        "Features.feature_value",
+        "Mobile_Banking_App.app_id",
+        "Mobile_Banking_App.app_version",
+        "Mobile_Banking_App.release_date",
+        "Mobile_Banking_App.platform"
+    ]
+}

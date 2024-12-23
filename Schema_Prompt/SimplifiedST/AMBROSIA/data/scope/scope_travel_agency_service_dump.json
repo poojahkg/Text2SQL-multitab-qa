@@ -1,0 +1,12 @@
+{
+    "scope_travel_agency_service_dump": [
+        "Service.ServiceID",
+        "Service.Description",
+        "Service.Price",
+        "Travel_Agency.AgencyID",
+        "Travel_Agency.Name",
+        "Travel_Agency.Location",
+        "Travel_Agency_Service.AgencyID",
+        "Travel_Agency_Service.ServiceID"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_ref_exclusive_areas_dump": [
+        "AircraftType.id",
+        "AircraftType.typeName",
+        "Amenity.amenityId",
+        "Amenity.amenityValue",
+        "AreaAmenityMap.areaId",
+        "AreaAmenityMap.amenityId",
+        "ExclusiveArea.areaId",
+        "ExclusiveArea.terminalId",
+        "ExclusiveArea.exclusiveAreaValue",
+        "Flight.flightNumber",
+        "Flight.aircraftTypeId",
+        "Flight.departureTime",
+        "Flight.arrivalTime",
+        "Flight.originTerminalId",
+        "Flight.destinationTerminalId",
+        "Gate.id",
+        "Gate.terminal_id",
+        "Gate.gate_number",
+        "Terminal.id",
+        "Terminal.name",
+        "Terminal.location"
+    ]
+}

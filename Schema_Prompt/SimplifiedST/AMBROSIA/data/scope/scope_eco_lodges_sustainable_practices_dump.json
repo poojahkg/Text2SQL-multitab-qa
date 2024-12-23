@@ -1,0 +1,11 @@
+{
+    "scope_eco_lodges_sustainable_practices_dump": [
+        "Eco_Lodges.id",
+        "Eco_Lodges.name",
+        "Eco_Lodges.location",
+        "Eco_Lodges_Sustainable_Practices.eco_lodge_id",
+        "Eco_Lodges_Sustainable_Practices.practice_id",
+        "Sustainable_Practices.practice_id",
+        "Sustainable_Practices.practice_name"
+    ]
+}

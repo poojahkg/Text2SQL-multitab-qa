@@ -1,0 +1,12 @@
+{
+    "scope_assistants_tasks_dump": [
+        "Assistants.id",
+        "Assistants.name",
+        "Assistants.email",
+        "Assistants_Tasks.assistant_id",
+        "Assistants_Tasks.task_id",
+        "Tasks.id",
+        "Tasks.task_name",
+        "Tasks.description"
+    ]
+}

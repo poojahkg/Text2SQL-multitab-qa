@@ -1,0 +1,15 @@
+{
+    "twitter_1": [
+        "follows.f1",
+        "follows.f2",
+        "tweets.id",
+        "tweets.uid",
+        "tweets.text",
+        "tweets.createdate",
+        "user_profiles.uid",
+        "user_profiles.name",
+        "user_profiles.email",
+        "user_profiles.partitionid",
+        "user_profiles.followers"
+    ]
+}

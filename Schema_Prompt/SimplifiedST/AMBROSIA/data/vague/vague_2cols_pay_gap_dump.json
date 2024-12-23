@@ -1,0 +1,29 @@
+{
+    "vague_2cols_pay_gap_dump": [
+        "CityPopulationByDemographics.locationID",
+        "CityPopulationByDemographics.ageRange",
+        "CityPopulationByDemographics.gender",
+        "CityPopulationByDemographics.ethnicity",
+        "CityPopulationByDemographics.population",
+        "EducationLevel.educationLevel",
+        "EducationLevel.avgYearsOfEducation",
+        "EducationLevel.avgAnnualIncome",
+        "LocationData.locationID",
+        "LocationData.city",
+        "LocationData.state",
+        "LocationData.country",
+        "LocationData.numPeople",
+        "OccupationalStats.occupation",
+        "OccupationalStats.percentageGap",
+        "OccupationalStats.differenceInSalaries",
+        "OccupationalStats.jobSatisfactionIndex",
+        "People.id",
+        "People.firstName",
+        "People.lastName",
+        "People.dateOfBirth",
+        "People.occupation",
+        "SalaryData.personId",
+        "SalaryData.salary",
+        "SalaryData.hireDate"
+    ]
+}

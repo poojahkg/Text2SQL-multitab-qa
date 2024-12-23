@@ -1,0 +1,29 @@
+{
+    "vague_2tabs_origin_dump": [
+        "Actor.id",
+        "Actor.actor_name",
+        "Actor.birthdate",
+        "Actor.nationality",
+        "Culture.id",
+        "Culture.name",
+        "Culture.description",
+        "Dance.id",
+        "Dance.dance_name",
+        "Dance.culture_id",
+        "Dance.geographical_area_id",
+        "Director.id",
+        "Director.director_name",
+        "Director.birthplace",
+        "Director.known_for",
+        "Geographical_Area.id",
+        "Geographical_Area.region",
+        "Movie.id",
+        "Movie.movie_title",
+        "Movie.release_year",
+        "Movie.director_id",
+        "Music.id",
+        "Music.music_title",
+        "Music.genre",
+        "Music.cultural_influence"
+    ]
+}

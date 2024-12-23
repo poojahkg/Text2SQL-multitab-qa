@@ -1,0 +1,11 @@
+{
+    "scope_cars_safety_features_dump": [
+        "Cars.id",
+        "Cars.make",
+        "Cars.model",
+        "Cars_Safety_Features.carId",
+        "Cars_Safety_Features.featureId",
+        "Safety_Features.featureId",
+        "Safety_Features.name"
+    ]
+}

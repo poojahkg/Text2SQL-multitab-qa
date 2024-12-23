@@ -1,0 +1,19 @@
+{
+    "attachment_2tab_ref_live_performance_dump": [
+        "Concert.id",
+        "Concert.title",
+        "Concert.date",
+        "Concert.artist_name",
+        "Concert.venue_id",
+        "Theater_Play.id",
+        "Theater_Play.title",
+        "Theater_Play.start_date",
+        "Theater_Play.end_date",
+        "Theater_Play.theater_company",
+        "Theater_Play.venue_id",
+        "Venue.id",
+        "Venue.name",
+        "Venue.address",
+        "Venue.venue_capacity"
+    ]
+}

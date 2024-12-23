@@ -1,0 +1,23 @@
+{
+    "scope_streaming_services_devices_compatibility_dump": [
+        "DeviceUsers.deviceId",
+        "DeviceUsers.userId",
+        "Devices_Compatibility.id",
+        "Devices_Compatibility.deviceName",
+        "Devices_Compatibility.isActive",
+        "Streaming_Service_Devices_Compatibility.streamingServiceId",
+        "Streaming_Service_Devices_Compatibility.deviceTypeId",
+        "Streaming_Services.id",
+        "Streaming_Services.serviceName",
+        "Streaming_Services.subscriptionPrice",
+        "SubscriptionPlans.id",
+        "SubscriptionPlans.planName",
+        "SubscriptionPlans.price",
+        "UserSubscriptions.userId",
+        "UserSubscriptions.streamingServiceId",
+        "UserSubscriptions.subscriptionPlanId",
+        "Users.id",
+        "Users.userName",
+        "Users.emailAddress"
+    ]
+}

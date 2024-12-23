@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_ref_transaction_types_dump": [
+        "Accounts.AccountID",
+        "Accounts.Number",
+        "Accounts.OpenDate",
+        "Accounts.Balance",
+        "Accounts.CustomerID",
+        "Banks.BankID",
+        "Banks.Name",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.DateOfBirth",
+        "Customers.PhoneNumber",
+        "Customers.EmailAddress",
+        "Customers.BankID",
+        "Transaction_Details.DetailsID",
+        "Transaction_Details.TransactionID",
+        "Transaction_Details.AdditionalInfo",
+        "Transaction_Types.TypeID",
+        "Transaction_Types.TypeName"
+    ]
+}

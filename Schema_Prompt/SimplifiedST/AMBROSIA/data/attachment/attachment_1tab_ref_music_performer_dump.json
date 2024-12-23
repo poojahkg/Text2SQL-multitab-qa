@@ -1,0 +1,17 @@
+{
+    "attachment_1tab_ref_music_performer_dump": [
+        "Albums.id",
+        "Albums.title",
+        "Albums.release_date",
+        "Albums.artist_id",
+        "Artist_genre.artist_id",
+        "Artist_genre.genre_id",
+        "Artist_genre.years_in_industry",
+        "Genres.genre_id",
+        "Genres.name",
+        "Songs.id",
+        "Songs.title",
+        "Songs.length",
+        "Songs.album_id"
+    ]
+}

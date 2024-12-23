@@ -1,0 +1,17 @@
+{
+    "scope_makeup_artists_techniques_dump": [
+        "Artist_Techniques.artist_id",
+        "Artist_Techniques.technique_id",
+        "Makeup_Artists.artist_id",
+        "Makeup_Artists.full_name",
+        "Movie_Makeup_Artists.movie_id",
+        "Movie_Makeup_Artists.artist_id",
+        "Movie_Technique.movie_id",
+        "Movie_Technique.technique_id",
+        "Movies.movie_id",
+        "Movies.title",
+        "Movies.release_date",
+        "Techniques.technique_id",
+        "Techniques.name"
+    ]
+}

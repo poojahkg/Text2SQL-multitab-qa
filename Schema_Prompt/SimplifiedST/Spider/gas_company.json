@@ -1,0 +1,22 @@
+{
+    "gas_company": [
+        "company.Company_ID",
+        "company.Rank",
+        "company.Company",
+        "company.Headquarters",
+        "company.Main_Industry",
+        "company.Sales_billion",
+        "company.Profits_billion",
+        "company.Assets_billion",
+        "company.Market_Value",
+        "gas_station.Station_ID",
+        "gas_station.Open_Year",
+        "gas_station.Location",
+        "gas_station.Manager_Name",
+        "gas_station.Vice_Manager_Name",
+        "gas_station.Representative_Name",
+        "station_company.Station_ID",
+        "station_company.Company_ID",
+        "station_company.Rank_of_the_Year"
+    ]
+}

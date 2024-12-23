@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_ref__bank_cards_dump": [
+        "Accounts.account_id",
+        "Accounts.client_id",
+        "Accounts.account_type",
+        "Accounts.balance",
+        "Clients.client_id",
+        "Clients.name",
+        "Clients.address",
+        "Clients.email",
+        "Clients.phoneNumber",
+        "Limits.limit_id",
+        "Limits.card_id",
+        "Limits.card_limit",
+        "_Bank_Cards.card_id",
+        "_Bank_Cards.account_id",
+        "_Bank_Cards.card_number",
+        "_Bank_Cards.card_expiry",
+        "_Bank_Cards.cvv",
+        "_Bank_Cards._bank_card_type"
+    ]
+}

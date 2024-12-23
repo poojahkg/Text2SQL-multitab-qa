@@ -1,0 +1,24 @@
+{
+    "scope_diagnostic_centers_tests_dump": [
+        "Appointments.AppointmentID",
+        "Appointments.CenterID",
+        "Appointments.PatientID",
+        "Appointments.AppointmentDate",
+        "Diagnostic_Centers.CenterID",
+        "Diagnostic_Centers.Name",
+        "Diagnostic_Centers.Address",
+        "Diagnostic_Centers_Tests.DiagnosticCenterID",
+        "Diagnostic_Centers_Tests.TestTypeID",
+        "Patients.PatientID",
+        "Patients.FirstName",
+        "Patients.LastName",
+        "Patients.DateOfBirth",
+        "Patients.PhoneNumber",
+        "Results.ResultID",
+        "Results.AppointmentID",
+        "Results.TestResultText",
+        "Results.ResultDate",
+        "Tests.TestTypeID",
+        "Tests.TestName"
+    ]
+}

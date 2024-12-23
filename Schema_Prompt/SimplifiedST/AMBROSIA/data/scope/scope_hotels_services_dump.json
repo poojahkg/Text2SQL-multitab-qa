@@ -1,0 +1,11 @@
+{
+    "scope_hotels_services_dump": [
+        "Hotels.HotelID",
+        "Hotels.Name",
+        "Hotels.Location",
+        "Hotels_Services.Hotels_ID",
+        "Hotels_Services.Service_ID",
+        "Services.ServiceID",
+        "Services.ServiceName"
+    ]
+}

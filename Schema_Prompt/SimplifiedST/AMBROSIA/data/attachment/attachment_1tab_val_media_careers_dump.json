@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_val_media_careers_dump": [
+        "Company.id",
+        "Company.name",
+        "Company.address",
+        "Company.phoneNumber",
+        "Company.website",
+        "JobPosting.id",
+        "JobPosting.title",
+        "JobPosting.description",
+        "JobPosting.mediaCareer",
+        "JobPosting.languages",
+        "JobPosting.startDate",
+        "JobPosting.endDate",
+        "JobPosting.companyId",
+        "JobPosting.locationId",
+        "Location.id",
+        "Location.city",
+        "Location.state",
+        "Location.country",
+        "Location.zipCode",
+        "Skills.id",
+        "Skills.skillName"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "attachment_2tab_ref_family_entertainment_dump": [
+        "AmusementPark.id",
+        "AmusementPark.name",
+        "AmusementPark.locationID",
+        "Location.id",
+        "Location.city",
+        "Location.state",
+        "Rides.id",
+        "Rides.parkID",
+        "Rides.rideName",
+        "Rides.description",
+        "WaterPark.id",
+        "WaterPark.name",
+        "WaterPark.locationID"
+    ]
+}

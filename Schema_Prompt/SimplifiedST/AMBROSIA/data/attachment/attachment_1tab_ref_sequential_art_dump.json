@@ -1,0 +1,17 @@
+{
+    "attachment_1tab_ref_sequential_art_dump": [
+        "ArtWork.id",
+        "ArtWork.title",
+        "ArtWork.publishDate",
+        "ArtWork.publisherId",
+        "ArtWork.sequentialArtTypeId",
+        "Artist.id",
+        "Artist.firstName",
+        "Artist.lastName",
+        "Artist.artWorkId",
+        "Publisher.id",
+        "Publisher.name",
+        "SequentialArtType.id",
+        "SequentialArtType.type"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "attachment_2tab_val_airport_services_dump": [
+        "Aircraft.Registration",
+        "Aircraft.Model",
+        "Aircraft.Manufacturer",
+        "Aircraft.YearOfManufacture",
+        "Aircraft.SeatCapacity",
+        "Customer_Complaints.ComplaintID",
+        "Customer_Complaints.CustomerName",
+        "Customer_Complaints.FlightNumber",
+        "Customer_Complaints.Issue",
+        "Customer_Complaints.Resolution",
+        "Customer_Complaints.Date",
+        "Employees.EmployeeID",
+        "Employees.FirstName",
+        "Employees.LastName",
+        "Employees.JobTitle",
+        "Employees.HireDate",
+        "Flights.FlightNumber",
+        "Flights.Airline",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Flights.OriginAirport",
+        "Flights.DestinationAirport",
+        "Lost_Property.ID",
+        "Lost_Property.Item",
+        "Lost_Property.FoundAt",
+        "Lost_Property.Description",
+        "Lost_Property.Date",
+        "Lost_Property.Owner"
+    ]
+}

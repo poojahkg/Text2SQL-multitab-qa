@@ -1,0 +1,22 @@
+{
+    "shop_membership": [
+        "member.Member_ID",
+        "member.Card_Number",
+        "member.Name",
+        "member.Hometown",
+        "member.Level",
+        "branch.Branch_ID",
+        "branch.Name",
+        "branch.Open_year",
+        "branch.Address_road",
+        "branch.City",
+        "branch.membership_amount",
+        "membership_register_branch.Member_ID",
+        "membership_register_branch.Branch_ID",
+        "membership_register_branch.Register_Year",
+        "purchase.Member_ID",
+        "purchase.Branch_ID",
+        "purchase.Year",
+        "purchase.Total_pounds"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "vague_2cols_production2_copy_dump": [
+        "Actors.id",
+        "Actors.ActorName",
+        "Actors.Age",
+        "Actors.FeePerMovie",
+        "Actors.MovieId",
+        "Directors.id",
+        "Directors.DirectorName",
+        "Directors.YearsExperience",
+        "FilmRatings.id",
+        "FilmRatings.Rating",
+        "FilmRatings.Description",
+        "MovieRatings.id",
+        "MovieRatings.MovieId",
+        "MovieRatings.RatingId",
+        "Movies.id",
+        "Movies.MovieTitle",
+        "Movies.ReleaseYear",
+        "Movies.Genre",
+        "Movies.ProducerId"
+    ]
+}

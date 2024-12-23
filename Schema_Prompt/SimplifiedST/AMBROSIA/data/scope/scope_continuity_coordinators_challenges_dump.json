@@ -1,0 +1,11 @@
+{
+    "scope_continuity_coordinators_challenges_dump": [
+        "Challenges.ChallengeID",
+        "Challenges.ChallengeName",
+        "Continuity_Coordinators.ID",
+        "Continuity_Coordinators.Name",
+        "Continuity_Coordinators.Experience",
+        "Continuity_Coordinators_Challenges.CoordinatorID",
+        "Continuity_Coordinators_Challenges.ChallengeID"
+    ]
+}

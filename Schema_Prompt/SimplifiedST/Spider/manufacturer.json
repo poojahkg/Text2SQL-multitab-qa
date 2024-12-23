@@ -1,0 +1,16 @@
+{
+    "manufacturer": [
+        "manufacturer.Manufacturer_ID",
+        "manufacturer.Open_Year",
+        "manufacturer.Name",
+        "manufacturer.Num_of_Factories",
+        "manufacturer.Num_of_Shops",
+        "furniture.Furniture_ID",
+        "furniture.Name",
+        "furniture.Num_of_Component",
+        "furniture.Market_Rate",
+        "furniture_manufacte.Manufacturer_ID",
+        "furniture_manufacte.Furniture_ID",
+        "furniture_manufacte.Price_in_Dollar"
+    ]
+}

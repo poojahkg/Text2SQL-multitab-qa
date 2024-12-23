@@ -1,0 +1,59 @@
+Prompt
+You are tasked with writing a query to solve a specific problem based on the schema and instructions below. Follow the step-by-step process to construct the query.
+
+Use Joins Wisely: Utilize foreign keys to join related tables.
+Filter Effectively: Apply WHERE clauses to narrow down results to relevant data.
+Aggregate Appropriately: Use aggregation functions (AVG, SUM, COUNT) for summary statistics.
+Optimize with Aliases: Use table aliases (AS) for readability and concise queries.
+Order and Limit Results: Apply ORDER BY and LIMIT to organize or restrict output.
+Example Queries:
+Question 1: How many patients had a positive result for anti-Cardiolipin antibody (IgG) above 20?
+sql
+Copy code
+SELECT COUNT(DISTINCT ex.ID) AS PositivePatients
+FROM Examination AS ex
+WHERE ex.aCL_IgG > 20;
+Explanation:
+
+Filter: Restricts results to rows where aCL_IgG > 20.
+Count: Uses COUNT(DISTINCT ex.ID) to count unique patients.
+Question 2: What is the average level of C-reactive protein (CRP) in patients diagnosed with thrombosis?
+sql
+Copy code
+SELECT AVG(lab.CRP) AS AvgCRP
+FROM Laboratory AS lab
+JOIN Examination AS ex ON lab.ID = ex.ID
+WHERE ex.Thrombosis = 1;
+Explanation:
+
+Join: Connects Laboratory and Examination tables via the patient ID (ID).
+Filter: Limits to rows where Thrombosis = 1.
+Aggregate: Calculates the average CRP level using AVG.
+Question 3: List the top 5 patients with the highest WBC count along with their diagnosis.
+sql
+Copy code
+SELECT p.ID, p.Diagnosis, lab.WBC
+FROM Patient AS p
+JOIN Laboratory AS lab ON p.ID = lab.ID
+ORDER BY lab.WBC DESC
+LIMIT 5;
+Explanation:
+
+Join: Links Patient and Laboratory tables to retrieve WBC and diagnosis.
+Order: Sorts by WBC in descending order.
+Limit: Restricts results to the top 5 rows.
+Question 4: How many examinations were conducted on patients born before 1970?
+sql
+Copy code
+SELECT COUNT(*) AS ExamCount
+FROM Examination AS ex
+JOIN Patient AS p ON ex.ID = p.ID
+WHERE p.Birthday < '1970-01-01';
+Explanation:
+
+Join: Connects Examination and Patient tables.
+Filter: Restricts results to patients born before 1970.
+Count: Uses COUNT(*) to count examinations.
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

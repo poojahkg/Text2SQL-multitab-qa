@@ -1,0 +1,31 @@
+{
+    "vague_2cols_resources2_dump": [
+        "Courses.CourseID",
+        "Courses.Title",
+        "Courses.Description",
+        "Courses.TeacherID",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.CourseID",
+        "Enrollments.Grade",
+        "Exams.ExamID",
+        "Exams.CourseID",
+        "Exams.Date",
+        "Exams.TotalMarks",
+        "Exams.PassMark",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.Age",
+        "Teachers.TeacherID",
+        "Teachers.FirstName",
+        "Teachers.LastName",
+        "Teachers.SubjectTaught",
+        "Textbooks_and_Software.ItemID",
+        "Textbooks_and_Software.TextbookTitle",
+        "Textbooks_and_Software.SoftwareName",
+        "Textbooks_and_Software.CourseID",
+        "Textbooks_and_Software.Quantity",
+        "Textbooks_and_Software.Price"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_val_street_performer_dump": [
+        "Magicians.id",
+        "Magicians.Name",
+        "Magicians.Street_Location",
+        "Magicians.MagicType",
+        "Magicians.YearsExperience",
+        "Mimes.id",
+        "Mimes.Name",
+        "Mimes.Street_Location",
+        "Mimes.StyleOfMiming",
+        "Mimes.PerformanceDuration",
+        "Performers.id",
+        "Performers.FirstName",
+        "Performers.LastName",
+        "Performers.Age",
+        "Performers.Genre",
+        "Shows.id",
+        "Shows.ShowName",
+        "Shows.StartTime",
+        "Shows.EndTime",
+        "Shows.LocationID",
+        "Venues.id",
+        "Venues.VenueName",
+        "Venues.Address",
+        "Venues.City",
+        "Venues.Capacity"
+    ]
+}

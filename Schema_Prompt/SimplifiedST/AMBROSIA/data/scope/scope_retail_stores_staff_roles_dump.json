@@ -1,0 +1,11 @@
+{
+    "scope_retail_stores_staff_roles_dump": [
+        "Retail_Stores.store_id",
+        "Retail_Stores.store_name",
+        "Retail_Stores.store_location",
+        "Retail_Stores_Staff_Roles.retail_store_id",
+        "Retail_Stores_Staff_Roles.staff_role_id",
+        "Staff_Roles.role_id",
+        "Staff_Roles.role_title"
+    ]
+}

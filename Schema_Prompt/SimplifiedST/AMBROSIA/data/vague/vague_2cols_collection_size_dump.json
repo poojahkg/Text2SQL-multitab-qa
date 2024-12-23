@@ -1,0 +1,29 @@
+{
+    "vague_2cols_collection_size_dump": [
+        "Courses.CourseID",
+        "Courses.CourseTitle",
+        "Courses.Instructor",
+        "Courses.StartDate",
+        "Courses.EndDate",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.CourseID",
+        "Enrollments.Semester",
+        "Enrollments.Year",
+        "Grades.GradeID",
+        "Grades.EnrollmentID",
+        "Grades.FinalGrade",
+        "Library.LibraryID",
+        "Library.Number_Of_Volumes",
+        "Library.Shelving_Space",
+        "Library.Library",
+        "Library.Accessible",
+        "Library.OpeningHours",
+        "Students.ID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.DateOfBirth",
+        "Students.Email",
+        "Students.PhoneNumber"
+    ]
+}

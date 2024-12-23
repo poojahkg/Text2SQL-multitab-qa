@@ -1,0 +1,24 @@
+{
+    "vague_2cols_sale_date_copy_dump": [
+        "Albums.AlbumID",
+        "Albums.AlbumTitle",
+        "Albums.ReleaseDate",
+        "Albums.ARTISTID",
+        "Artists.ArtistID",
+        "Artists.ArtistName",
+        "Events.EventID",
+        "Events.EventName",
+        "Events.StartDateTime",
+        "Events.EndDateTime",
+        "Events.VenueID",
+        "Events.TICKETID",
+        "Performances.PerformanceID",
+        "Performances.EventID",
+        "Performances.ArtistID",
+        "Performances.PerformanceStartTime",
+        "Performances.PerformanceEndTime",
+        "Venues.VenueID",
+        "Venues.Name",
+        "Venues.Address"
+    ]
+}

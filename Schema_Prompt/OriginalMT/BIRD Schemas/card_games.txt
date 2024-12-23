@@ -1,0 +1,188 @@
+-- Schema for card_games database
+
+CREATE TABLE cards (
+    id INTEGER PRIMARY KEY,
+    artist TEXT,
+    asciiName TEXT,
+    availability TEXT,
+    borderColor TEXT,
+    cardKingdomFoilId TEXT,
+    cardKingdomId TEXT,
+    colorIdentity TEXT,
+    colorIndicator TEXT,
+    colors TEXT,
+    convertedManaCost REAL,
+    duelDeck TEXT,
+    edhrecRank INTEGER,
+    faceConvertedManaCost REAL,
+    faceName TEXT,
+    flavorName TEXT,
+    flavorText TEXT,
+    frameEffects TEXT,
+    frameVersion TEXT,
+    hand TEXT,
+    hasAlternativeDeckLimit INTEGER,
+    hasContentWarning INTEGER,
+    hasFoil INTEGER,
+    hasNonFoil INTEGER,
+    isAlternative INTEGER,
+    isFullArt INTEGER,
+    isOnlineOnly INTEGER,
+    isOversized INTEGER,
+    isPromo INTEGER,
+    isReprint INTEGER,
+    isReserved INTEGER,
+    isStarter INTEGER,
+    isStorySpotlight INTEGER,
+    isTextless INTEGER,
+    isTimeshifted INTEGER,
+    keywords TEXT,
+    layout TEXT,
+    leadershipSkills TEXT,
+    life TEXT,
+    loyalty TEXT,
+    manaCost TEXT,
+    mcmId TEXT,
+    mcmMetaId TEXT,
+    mtgArenaId TEXT,
+    mtgjsonV4Id TEXT,
+    mtgoFoilId TEXT,
+    mtgoId TEXT,
+    multiverseId TEXT,
+    name TEXT,
+    number TEXT,
+    originalReleaseDate TEXT,
+    originalText TEXT,
+    originalType TEXT,
+    otherFaceIds TEXT,
+    power TEXT,
+    printings TEXT,
+    promoTypes TEXT,
+    purchaseUrls TEXT,
+    rarity TEXT,
+    scryfallId TEXT,
+    scryfallIllustrationId TEXT,
+    scryfallOracleId TEXT,
+    setCode TEXT,
+    side TEXT,
+    subtypes TEXT,
+    supertypes TEXT,
+    tcgplayerProductId TEXT,
+    text TEXT,
+    toughness TEXT,
+    type TEXT,
+    types TEXT,
+    uuid TEXT UNIQUE,
+    variations TEXT,
+    watermark TEXT
+);
+
+CREATE TABLE foreign_data (
+    id INTEGER PRIMARY KEY,
+    flavorText TEXT,
+    language TEXT,
+    multiverseid TEXT,
+    name TEXT,
+    text TEXT,
+    type TEXT,
+    uuid TEXT UNIQUE,
+    FOREIGN KEY (uuid) REFERENCES cards(uuid)
+);
+
+CREATE TABLE legalities (
+    id INTEGER PRIMARY KEY,
+    format TEXT,
+    status TEXT,
+    uuid TEXT UNIQUE,
+    FOREIGN KEY (uuid) REFERENCES cards(uuid)
+);
+
+CREATE TABLE sets (
+    id INTEGER PRIMARY KEY,
+    baseSetSize INTEGER,
+    block TEXT,
+    booster TEXT,
+    code TEXT,
+    isFoilOnly INTEGER,
+    isForeignOnly INTEGER,
+    isNonFoilOnly INTEGER,
+    isOnlineOnly INTEGER,
+    isPartialPreview INTEGER,
+    keyruneCode TEXT,
+    mcmId TEXT,
+    mcmIdExtras TEXT,
+    mcmName TEXT,
+    mtgoCode TEXT,
+    name TEXT,
+    parentCode TEXT,
+    releaseDate TEXT,
+    tcgplayerGroupId INTEGER,
+    totalSetSize INTEGER,
+    type TEXT
+);
+
+CREATE TABLE set_translations (
+    id INTEGER PRIMARY KEY,
+    language TEXT,
+    setCode TEXT,
+    translation TEXT,
+    FOREIGN KEY (setCode) REFERENCES sets(code)
+);
+
+CREATE TABLE rulings (
+    id INTEGER PRIMARY KEY,
+    date TEXT,
+    text TEXT,
+    uuid TEXT UNIQUE,
+    FOREIGN KEY (uuid) REFERENCES cards(uuid)
+);
+
+Schema Overview
+This database schema is designed for a card game database, specifically for Magic: The Gathering cards. It contains six tables, which store details about individual cards, their sets, legalities in different formats, translations, and rulings.
+
+Table Descriptions
+cards
+This table contains core information about each card in the game.
+
+id: Unique identifier for each card (INTEGER).
+name: The card's name (TEXT).
+manaCost: The mana cost required to play the card (TEXT).
+type: The type of card (e.g., "Creature", "Sorcery") (TEXT).
+text: The ability text on the card (TEXT).
+rarity: The card's rarity (e.g., "Common", "Rare") (TEXT).
+setCode: The code for the set the card belongs to (TEXT).
+foreign_data
+This table stores foreign language details for cards.
+
+id: Unique identifier for each entry (INTEGER).
+uuid: Links to the uuid in the cards table (TEXT).
+language: Language of the foreign text (TEXT).
+flavorText: Flavor text in the specified language (TEXT).
+legalities
+This table specifies the card's legality in various game formats.
+
+id: Unique identifier for each legality entry (INTEGER).
+uuid: Links to the uuid in the cards table (TEXT).
+format: The Magic: The Gathering format (e.g., "Standard", "Modern") (TEXT).
+status: Legality status in the format (e.g., "Legal", "Banned") (TEXT).
+sets
+This table describes sets or expansions of Magic: The Gathering cards.
+
+id: Unique identifier for each set (INTEGER).
+code: Short code for the set (TEXT).
+name: Full name of the set (TEXT).
+releaseDate: The release date of the set (DATE).
+set_translations
+This table provides translated names for sets.
+
+id: Unique identifier for each translation entry (INTEGER).
+setCode: Links to the code in the sets table (TEXT).
+language: Language of the translation (TEXT).
+translation: Translated name of the set (TEXT).
+rulings
+This table stores official rulings for cards.
+
+id: Unique identifier for each ruling (INTEGER).
+uuid: Links to the uuid in the cards table (TEXT).
+date: The date of the ruling (DATE).
+text: The ruling text (TEXT).

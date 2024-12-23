@@ -1,0 +1,27 @@
+{
+    "attachment_2tab_ref_inflight_amenities_dump": [
+        "Aircraft.id",
+        "Aircraft.Name",
+        "Baggage.id",
+        "Baggage.Weight_kg",
+        "Baggage.Type",
+        "Baggage.Flight_number",
+        "Flights.id",
+        "Flights.Departure_time",
+        "Flights.Arrival_time",
+        "Flights.Origin_airport",
+        "Flights.Destination_airport",
+        "Flights.Aircraft_id",
+        "Inflight_Entertainments.id",
+        "Inflight_Entertainments.Entertainment_name",
+        "Inflight_Entertainments.Aircraft_id",
+        "Onboard_Services.id",
+        "Onboard_Services.Service_name",
+        "Onboard_Services.Aircraft_id",
+        "Passengers.id",
+        "Passengers.First_name",
+        "Passengers.Last_name",
+        "Passengers.Age",
+        "Passengers.Flight_number"
+    ]
+}

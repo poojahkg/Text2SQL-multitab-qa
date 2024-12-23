@@ -1,0 +1,21 @@
+{
+    "scope_circles_performers_dump": [
+        "CirclePerformers.circle_id",
+        "CirclePerformers.performer_id",
+        "CircleShows.circle_id",
+        "CircleShows.show_id",
+        "Circles.id",
+        "Circles.name",
+        "Performers.id",
+        "Performers.type",
+        "ShowVenues.show_id",
+        "ShowVenues.venue_id",
+        "ShowVenues.date",
+        "Shows.id",
+        "Shows.title",
+        "Shows.start_date",
+        "Shows.end_date",
+        "Venues.id",
+        "Venues.name"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "attachment_1tab_ref_tv_dump": [
+        "EpisodeCounts.Show_ID",
+        "EpisodeCounts.Number_of_Episodes",
+        "Genres.Id",
+        "Genres.Name",
+        "Ratings.Show_ID",
+        "Ratings.RatingValue",
+        "Ratings.ReviewText",
+        "Ratings.RaterName",
+        "Ratings.RatedOn",
+        "TVShows.Id",
+        "TVShows.Title",
+        "TVShows.Type",
+        "TVShows.ReleaseDate",
+        "TVShows.GENRE_ID"
+    ]
+}

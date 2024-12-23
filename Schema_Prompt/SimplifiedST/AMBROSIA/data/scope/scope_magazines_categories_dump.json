@@ -1,0 +1,12 @@
+{
+    "scope_magazines_categories_dump": [
+        "Categories.id",
+        "Categories.categoryName",
+        "Magazines.magazineId",
+        "Magazines.magazineTitle",
+        "Magazines.publicationYear",
+        "Magazines.websiteUrl",
+        "Magazines_Categories.magazineId",
+        "Magazines_Categories.categoryId"
+    ]
+}

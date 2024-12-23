@@ -1,0 +1,21 @@
+{
+    "vague_2cols_restrictions_copy_dump": [
+        "Airports.AirportCode",
+        "Airports.AirportName",
+        "Airports.City",
+        "Airports.Country",
+        "Airports.Latitude",
+        "Airports.Longitude",
+        "Flights.FlightID",
+        "Flights.AirlineName",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Flights.DestinationCity",
+        "Flights.NumberOfPassengers",
+        "Flights.BaggageAllowance",
+        "Terminals.TerminalId",
+        "Terminals.AirportCode",
+        "Terminals.FloorSpace",
+        "Terminals.NumberOfGates"
+    ]
+}

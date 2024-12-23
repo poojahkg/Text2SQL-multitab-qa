@@ -1,0 +1,29 @@
+{
+    "vague_2cols_supervisor_copy_dump": [
+        "Employees.employeeID",
+        "Employees.firstName",
+        "Employees.lastName",
+        "Employees.jobTitle",
+        "Employees.salary",
+        "Equipment.equipmentID",
+        "Equipment.type",
+        "Equipment.make",
+        "Equipment.model",
+        "Equipment.purchasePrice",
+        "Materials.materialID",
+        "Materials.name",
+        "Materials.quantity",
+        "Materials.unitCost",
+        "Suppliers.supplierID",
+        "Suppliers.companyName",
+        "Suppliers.contactName",
+        "Suppliers.phoneNumber",
+        "Suppliers.address",
+        "Tasks.taskID",
+        "Tasks.description",
+        "Tasks.status",
+        "Tasks.startTime",
+        "Tasks.completionTime",
+        "Tasks.assignedEmployeeID"
+    ]
+}

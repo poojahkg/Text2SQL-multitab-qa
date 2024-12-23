@@ -1,0 +1,18 @@
+{
+    "attachment_2tab_ref_team_sports_dump": [
+        "Fitness_Level.ID",
+        "Fitness_Level.Level",
+        "Football_Players.ID",
+        "Football_Players.PlayerName",
+        "Football_Players.Team",
+        "Football_Players.Position",
+        "Football_Players.Age",
+        "Football_Players.Fitness_ID",
+        "Rugby_Players.ID",
+        "Rugby_Players.PlayerName",
+        "Rugby_Players.Team",
+        "Rugby_Players.Position",
+        "Rugby_Players.Age",
+        "Rugby_Players.Fitness_ID"
+    ]
+}

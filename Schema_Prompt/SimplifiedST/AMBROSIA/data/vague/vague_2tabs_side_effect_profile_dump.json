@@ -1,0 +1,23 @@
+{
+    "vague_2tabs_side_effect_profile_dump": [
+        "Antibiotic.antibioticID",
+        "Antibiotic.name",
+        "Antibiotic.commonSideEffects",
+        "Antibiotic.seriousSideEffects",
+        "Common_Side_Effects.sideEffectID",
+        "Common_Side_Effects.description",
+        "Doctor.doctorID",
+        "Doctor.firstName",
+        "Doctor.lastName",
+        "Patient.patientID",
+        "Patient.firstName",
+        "Patient.lastName",
+        "Prescription.prescriptionID",
+        "Prescription.antibioticID",
+        "Prescription.patientID",
+        "Prescription.doctorID",
+        "Prescription.datePrescribed",
+        "Serious_Side_Effects.seriousSideEffectID",
+        "Serious_Side_Effects.description"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "vague_2cols_minimum_requirement_dump": [
+        "accounts.account_number",
+        "accounts.customer_id",
+        "accounts.account_type",
+        "accounts.balance",
+        "customers.customer_id",
+        "customers.first_name",
+        "customers.last_name",
+        "customers.date_of_birth",
+        "customers.address",
+        "loans.loan_id",
+        "loans.customer_id",
+        "loans.loan_amount",
+        "loans.interest_rate",
+        "loans.repayment_term",
+        "loans.start_date",
+        "overdraft_facilities.facility_id",
+        "overdraft_facilities.customer_id",
+        "overdraft_facilities.limit_amount",
+        "overdraft_facilities.interest_rate",
+        "transactions.transaction_id",
+        "transactions.account_number",
+        "transactions.amount",
+        "transactions.transaction_date"
+    ]
+}

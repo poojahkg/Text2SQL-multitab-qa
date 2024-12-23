@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_val_mental_health_careers_dump": [
+        "Companies.CompanyID",
+        "Companies.Name",
+        "Companies.Address",
+        "Companies.PhoneNumber",
+        "Departments.DepartmentID",
+        "Departments.Name",
+        "Departments.Description",
+        "Departments.LocationID",
+        "Employees.EmployeeID",
+        "Employees.BirthDate",
+        "Employees.HireDate",
+        "Employees.PositionID",
+        "Employees.Mental_Health_Career",
+        "Employees.Clinic",
+        "Employees.FullName",
+        "Positions.PositionID",
+        "Positions.Title",
+        "Positions.Salary",
+        "Positions.DepartmentID"
+    ]
+}

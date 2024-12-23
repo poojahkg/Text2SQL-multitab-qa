@@ -1,0 +1,28 @@
+{
+    "vague_2cols_developer_copy_dump": [
+        "Appointments.appointmentId",
+        "Appointments.doctorId",
+        "Appointments.patientId",
+        "Appointments.date",
+        "Companies.id",
+        "Companies.name",
+        "Companies.location",
+        "Doctors.doctorId",
+        "Doctors.firstName",
+        "Doctors.lastName",
+        "Doctors.specialty",
+        "MedicalDevices.id",
+        "MedicalDevices.deviceName",
+        "MedicalDevices.description",
+        "MedicalDevices.price",
+        "Patients.patientId",
+        "Patients.firstName",
+        "Patients.lastName",
+        "Patients.dateOfBirth",
+        "Patients.gender",
+        "Scientists.id",
+        "Scientists.firstName",
+        "Scientists.lastName",
+        "Scientists.birthDate"
+    ]
+}

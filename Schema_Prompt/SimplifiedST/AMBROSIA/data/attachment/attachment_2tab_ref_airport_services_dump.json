@@ -1,0 +1,26 @@
+{
+    "attachment_2tab_ref_airport_services_dump": [
+        "Complaints.ComplaintID",
+        "Complaints.Description",
+        "Complaints.Severity",
+        "Complaints.Resolved",
+        "Complaints.SubmissionDate",
+        "Complaints.CustomerId",
+        "Complaints.FlightNumber",
+        "Complaints.FOREIGN",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.EmailAddress",
+        "Flights.FlightNumber",
+        "Flights.DepartureAirport",
+        "Flights.ArrivalAirport",
+        "Flights.DepartureTime",
+        "Flights.EstimatedArrivalTime",
+        "LostProperties.PropertyID",
+        "LostProperties.ItemDescription",
+        "LostProperties.DateOfLoss",
+        "LostProperties.Found",
+        "LostProperties.FOREIGN"
+    ]
+}

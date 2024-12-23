@@ -1,0 +1,15 @@
+{
+    "browser_web": [
+        "Web_client_accelerator.id",
+        "Web_client_accelerator.name",
+        "Web_client_accelerator.Operating_system",
+        "Web_client_accelerator.Client",
+        "Web_client_accelerator.Connection",
+        "browser.id",
+        "browser.name",
+        "browser.market_share",
+        "accelerator_compatible_browser.accelerator_id",
+        "accelerator_compatible_browser.browser_id",
+        "accelerator_compatible_browser.compatible_since_year"
+    ]
+}

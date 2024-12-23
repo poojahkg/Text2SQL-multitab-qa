@@ -1,0 +1,16 @@
+{
+    "vague_2cols_career_opportunities_copy_dump": [
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.CourseID",
+        "Enrollments.Grade",
+        "Instructors.InstructorID",
+        "Instructors.FirstName",
+        "Instructors.LastName",
+        "Instructors.Email",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.BirthDate"
+    ]
+}

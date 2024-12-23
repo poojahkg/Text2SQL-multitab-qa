@@ -1,0 +1,27 @@
+{
+    "vague_2cols_life_expectancy_dump": [
+        "EducationLevels.education_level_id",
+        "EducationLevels.level_name",
+        "EducationLevels.years_of_education",
+        "LifeExpectancies.id",
+        "LifeExpectancies.average_years_of_life",
+        "LifeExpectancies.gender_specific_life_expectancy",
+        "LifeExpectancies.region_id",
+        "Occupations.occupation_id",
+        "Occupations.job_title",
+        "Occupations.industry",
+        "PersonEducation.person_education_id",
+        "PersonEducation.persons_id",
+        "PersonEducation.education_levels_id",
+        "PersonOccupation.person_occupation_id",
+        "PersonOccupation.persons_id",
+        "PersonOccupation.occupations_id",
+        "Persons.person_id",
+        "Persons.first_name",
+        "Persons.last_name",
+        "Persons.birthdate",
+        "Regions.region_id",
+        "Regions.name",
+        "Regions.population"
+    ]
+}

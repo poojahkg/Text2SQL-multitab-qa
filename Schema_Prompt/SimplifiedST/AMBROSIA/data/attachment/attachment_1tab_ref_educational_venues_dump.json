@@ -1,0 +1,24 @@
+{
+    "attachment_1tab_ref_educational_venues_dump": [
+        "Educational_Venues.VenueID",
+        "Educational_Venues.Name",
+        "Educational_Venues.Type",
+        "Educational_Venues.Address",
+        "Educational_Venues.City",
+        "Educational_Venues.State",
+        "Tickets.TicketID",
+        "Tickets.Price",
+        "Venue_Tickets.VenueID",
+        "Venue_Tickets.TicketID",
+        "Visit_Records.RecordID",
+        "Visit_Records.VenueID",
+        "Visit_Records.VisitorID",
+        "Visit_Records.Date",
+        "Visit_Records.Time",
+        "Visitors.VisitorID",
+        "Visitors.FirstName",
+        "Visitors.LastName",
+        "Visitors.Age",
+        "Visitors.Email"
+    ]
+}

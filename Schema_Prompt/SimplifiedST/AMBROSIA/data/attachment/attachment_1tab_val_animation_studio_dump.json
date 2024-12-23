@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_val_animation_studio_dump": [
+        "Actor.id",
+        "Actor.name",
+        "Actor.birthYear",
+        "Director.id",
+        "Director.name",
+        "Director.birthYear",
+        "Film.id",
+        "Film.title",
+        "Film.releaseDate",
+        "Film.duration",
+        "Film.animationStudio",
+        "Film.awards",
+        "FilmActors.filmID",
+        "FilmActors.actorID",
+        "FilmActors.role",
+        "FilmDirectors.filmID",
+        "FilmDirectors.directorID",
+        "FilmGenres.filmID",
+        "FilmGenres.genreID",
+        "Genre.id",
+        "Genre.genreName"
+    ]
+}

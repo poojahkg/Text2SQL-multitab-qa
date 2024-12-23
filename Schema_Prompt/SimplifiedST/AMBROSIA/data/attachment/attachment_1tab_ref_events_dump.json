@@ -1,0 +1,15 @@
+{
+    "attachment_1tab_ref_events_dump": [
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.AuthorID",
+        "MediaScrums.MediaScrumID",
+        "MediaScrums.Description",
+        "MediaScrums.StartTime",
+        "MediaScrums.EndTime",
+        "MediaScrums.PersonID",
+        "Persons.PersonID",
+        "Persons.FullName"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "scope_law_firms_legal_positions_dump": [
+        "Law_Firm_Job_Postings.id",
+        "Law_Firm_Job_Postings.job_title",
+        "Law_Firm_Job_Postings.posted_date",
+        "Law_Firm_Job_Postings.application_deadline",
+        "Law_Firm_Job_Postings.description",
+        "Law_Firm_Job_Postings.salary",
+        "Law_Firms.id",
+        "Law_Firms.name",
+        "Law_Firms.address",
+        "Law_Firms.website",
+        "Law_Firms_Legal_Positions.firm_id",
+        "Law_Firms_Legal_Positions.position_id",
+        "Legal_Positions.id",
+        "Legal_Positions.position_name",
+        "Legal_Positions.required_experience"
+    ]
+}

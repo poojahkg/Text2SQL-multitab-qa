@@ -1,0 +1,8 @@
+{
+    "vague_2tabs_passing_requirements_copy_dump": [
+        "Students.id",
+        "Students.firstName",
+        "Students.lastName",
+        "Students.birthDate"
+    ]
+}

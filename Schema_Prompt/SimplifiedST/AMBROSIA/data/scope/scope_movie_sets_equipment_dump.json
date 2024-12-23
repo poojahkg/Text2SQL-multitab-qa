@@ -1,0 +1,14 @@
+{
+    "scope_movie_sets_equipment_dump": [
+        "Equipment.id",
+        "Equipment.name",
+        "Equipment.type",
+        "Movie_sets.id",
+        "Movie_sets.title",
+        "Movie_sets.director",
+        "Movie_sets.release_date",
+        "Movie_sets_equipment.movie_set_id",
+        "Movie_sets_equipment.equipment_id",
+        "Movie_sets_equipment.quantity"
+    ]
+}

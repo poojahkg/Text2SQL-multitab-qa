@@ -1,0 +1,29 @@
+{
+    "vague_2cols_immigration_status_dump": [
+        "EducationLevel.id",
+        "EducationLevel.Age_Group",
+        "EducationLevel.Graduation_Rate",
+        "EducationLevel.HighSchool_Diploma_or_Higher",
+        "EducationLevel.College_Degree",
+        "EmploymentStatus.id",
+        "EmploymentStatus.Age_Group",
+        "EmploymentStatus.Unemployed",
+        "EmploymentStatus.Employed",
+        "EmploymentStatus.Labor_Force_Participation_Rate",
+        "HealthStatistics.id",
+        "HealthStatistics.Age_Group",
+        "HealthStatistics.Obesity_Rate",
+        "HealthStatistics.Smoking_Prevalence",
+        "HealthStatistics.LifeExpectancy",
+        "IncomeLevels.id",
+        "IncomeLevels.Age_Group",
+        "IncomeLevels.Median_Income",
+        "IncomeLevels.Poverty_Rate",
+        "IncomeLevels.Low_Income_Percentage",
+        "Population.id",
+        "Population.Total_Population",
+        "Population.Foreign_born_Population",
+        "Population.Naturalized_Citizens",
+        "Population.Municipality"
+    ]
+}

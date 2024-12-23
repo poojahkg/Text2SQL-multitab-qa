@@ -1,0 +1,31 @@
+{
+    "vague_2cols_chef_copy_dump": [
+        "Customers.customer_id",
+        "Customers.name",
+        "Customers.email",
+        "Customers.address",
+        "Customers.phone_number",
+        "Employees.employee_id",
+        "Employees.first_name",
+        "Employees.last_name",
+        "Employees.position",
+        "Employees.hire_date",
+        "Employees.wage",
+        "MenuItems.item_id",
+        "MenuItems.restaurant_id",
+        "MenuItems.item_name",
+        "MenuItems.description",
+        "MenuItems.price",
+        "MenuItems.ON",
+        "Reservations.reservation_id",
+        "Reservations.customer_name",
+        "Reservations.phone_number",
+        "Reservations.date",
+        "Reservations.time",
+        "Reviews.review_id",
+        "Reviews.customer_id",
+        "Reviews.rating",
+        "Reviews.comments",
+        "Reviews.ON"
+    ]
+}

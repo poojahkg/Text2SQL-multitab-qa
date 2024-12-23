@@ -1,0 +1,27 @@
+{
+    "vague_2cols_rating1_copy_dump": [
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.EmailAddress",
+        "Customers.PhoneNumber",
+        "Hotels.HotelID",
+        "Hotels.Name",
+        "Hotels.Address",
+        "Hotels.City",
+        "Hotels.State",
+        "Hotels.PostalCode",
+        "Hotels.Country",
+        "Reservations.ReservationID",
+        "Reservations.CheckInDate",
+        "Reservations.CheckOutDate",
+        "Reservations.GuestID",
+        "Reservations.TotalCost",
+        "Reservations.PaymentMethod",
+        "Rooms.RoomID",
+        "Rooms.HotelID",
+        "Rooms.Number",
+        "Rooms.Type",
+        "Rooms.Amenities"
+    ]
+}

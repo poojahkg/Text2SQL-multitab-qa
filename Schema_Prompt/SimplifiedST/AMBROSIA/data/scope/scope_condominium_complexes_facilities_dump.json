@@ -1,0 +1,11 @@
+{
+    "scope_condominium_complexes_facilities_dump": [
+        "Condominium_Complexes.id",
+        "Condominium_Complexes.name",
+        "Condominium_Complexes.location",
+        "Condominium_Complexes_Facilities.condoId",
+        "Condominium_Complexes_Facilities.facilityId",
+        "Facilities.id",
+        "Facilities.facilityName"
+    ]
+}

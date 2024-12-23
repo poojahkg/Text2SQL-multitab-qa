@@ -1,0 +1,26 @@
+{
+    "attachment_1tab_ref_construction_jobs_dump": [
+        "Applicants.applicantID",
+        "Applicants.firstName",
+        "Applicants.lastName",
+        "Applicants.email",
+        "Applicants.phoneNumber",
+        "Applicants.resumePath",
+        "Construction_Jobs.constructionJobID",
+        "Construction_Jobs.jobTitle",
+        "Construction_Jobs.jobDescription",
+        "Construction_Jobs.requiredSkills",
+        "Construction_Jobs.constructionJobType",
+        "Construction_Jobs.designSoftware",
+        "Design_Software_Expertise.softwareID",
+        "Design_Software_Expertise.softwareName",
+        "Employed_in_Construction_Jobs.employedID",
+        "Employed_in_Construction_Jobs.applicantID",
+        "Employed_in_Construction_Jobs.constructionJobID",
+        "Employed_in_Construction_Jobs.startDate",
+        "Employed_in_Construction_Jobs.endDate",
+        "Employers.employerID",
+        "Employers.companyName",
+        "Employers.location"
+    ]
+}

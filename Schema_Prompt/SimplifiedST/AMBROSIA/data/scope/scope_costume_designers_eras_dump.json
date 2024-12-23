@@ -1,0 +1,28 @@
+{
+    "scope_costume_designers_eras_dump": [
+        "Actors.id",
+        "Actors.first_name",
+        "Actors.last_name",
+        "Costume_Designers.id",
+        "Costume_Designers.name",
+        "Costume_Designers.birthdate",
+        "Costume_Designers_Eras.costume_designer_id",
+        "Costume_Designers_Eras.eras_id",
+        "Directors.id",
+        "Directors.first_name",
+        "Directors.last_name",
+        "Eras.id",
+        "Eras.era_name",
+        "Film_Projects.id",
+        "Film_Projects.title",
+        "Film_Projects.release_year",
+        "Film_Projects.director",
+        "Films_and_Actors.film_id",
+        "Films_and_Actors.actor_id",
+        "Films_and_Directors.film_id",
+        "Films_and_Directors.director_id",
+        "Roles.role_id",
+        "Roles.actor_id",
+        "Roles.character_name"
+    ]
+}

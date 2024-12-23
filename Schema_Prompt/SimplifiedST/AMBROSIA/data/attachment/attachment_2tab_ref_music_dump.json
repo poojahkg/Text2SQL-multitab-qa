@@ -1,0 +1,23 @@
+{
+    "attachment_2tab_ref_music_dump": [
+        "Album.id",
+        "Album.Title",
+        "Album.Year",
+        "Album.Singer_id",
+        "Band_Member.id",
+        "Band_Member.Name",
+        "Band_Member.Instrument_id",
+        "Blues_Song.id",
+        "Blues_Song.Song_Name",
+        "Blues_Song.Genre",
+        "Blues_Song.Singer_id",
+        "Folk_Song.id",
+        "Folk_Song.Song_Name",
+        "Folk_Song.Genre",
+        "Folk_Song.Singer_id",
+        "Instrument.id",
+        "Instrument.Type",
+        "Singer.id",
+        "Singer.Name"
+    ]
+}

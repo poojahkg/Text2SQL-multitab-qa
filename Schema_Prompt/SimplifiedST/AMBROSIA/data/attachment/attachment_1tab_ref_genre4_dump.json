@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_ref_genre4_dump": [
+        "Actors.id",
+        "Actors.name",
+        "Actors.birthdate",
+        "Directors.id",
+        "Directors.name",
+        "Directors.birthdate",
+        "Films.id",
+        "Films.title",
+        "Films.releaseDate",
+        "Films.directorId",
+        "Films.genreId",
+        "Films.filmingLocation",
+        "Genres.id",
+        "Genres.genreName",
+        "Roles.id",
+        "Roles.movieId",
+        "Roles.actorId",
+        "Roles.roleName"
+    ]
+}

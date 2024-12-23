@@ -1,0 +1,79 @@
+Instructions for Writing Queries:
+Understand the Relationships: Review the schema and identify the foreign key relationships between tables.
+Analyze the Question: Break down the question into smaller steps to identify the required tables and filters.
+Use Appropriate SQL Techniques: Depending on the question, incorporate techniques such as:
+JOIN to combine data across tables.
+DISTINCT to remove duplicates.
+LIMIT to restrict the number of rows in the result.
+Subqueries or nested queries for filtering or aggregations.
+Write the Query Step-by-Step: Ensure the query is syntactically correct and solves the given problem.
+Test for Clarity and Completeness: Verify the query covers all parts of the question and retrieves the desired results.
+Few-Shot Questions and Queries:
+Example 1:
+Question: List the unique car makers that have models weighing over 3000 pounds.
+Query:
+
+sql
+Copy code
+SELECT DISTINCT cm.Maker
+FROM car_makers cm
+JOIN model_list ml ON cm.Id = ml.Maker
+JOIN car_names cn ON ml.ModelId = cn.Model
+JOIN cars_data cd ON cn.MakeId = cd.Id
+WHERE cd.Weight > 3000;
+Example 2:
+Question: What is the average MPG of cars made by manufacturers based in Asia?
+Query:
+
+sql
+Copy code
+SELECT AVG(CAST(cd.MPG AS REAL)) AS avg_mpg
+FROM cars_data cd
+JOIN car_names cn ON cd.Id = cn.MakeId
+JOIN model_list ml ON cn.Model = ml.ModelId
+JOIN car_makers cm ON ml.Maker = cm.Id
+JOIN countries c ON cm.Country = c.CountryId
+JOIN continents co ON c.Continent = co.ContId
+WHERE co.Continent = 'Asia';
+Example 3:
+Question: Find the top 5 car models with the highest horsepower in 2021.
+Query:
+
+sql
+Copy code
+SELECT cn.Model, CAST(cd.Horsepower AS REAL) AS horsepower
+FROM cars_data cd
+JOIN car_names cn ON cd.Id = cn.MakeId
+WHERE cd.Year = 2021
+ORDER BY horsepower DESC
+LIMIT 5;
+Example 4:
+Question: Which car maker produces the most models in Europe?
+Query:
+
+sql
+Copy code
+SELECT cm.Maker, COUNT(ml.ModelId) AS model_count
+FROM car_makers cm
+JOIN model_list ml ON cm.Id = ml.Maker
+JOIN countries c ON cm.Country = c.CountryId
+JOIN continents co ON c.Continent = co.ContId
+WHERE co.Continent = 'Europe'
+GROUP BY cm.Maker
+ORDER BY model_count DESC
+LIMIT 1;
+Example 5:
+Question: What are the names of all car models with MPG greater than the average MPG across all cars?
+Query:
+
+sql
+Copy code
+SELECT cn.Model
+FROM cars_data cd
+JOIN car_names cn ON cd.Id = cn.MakeId
+WHERE CAST(cd.MPG AS REAL) > (
+    SELECT AVG(CAST(MPG AS REAL)) FROM cars_data
+);
+
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:

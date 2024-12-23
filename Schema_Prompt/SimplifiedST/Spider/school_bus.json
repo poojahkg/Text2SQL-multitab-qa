@@ -1,0 +1,18 @@
+{
+    "school_bus": [
+        "driver.Driver_ID",
+        "driver.Name",
+        "driver.Party",
+        "driver.Home_city",
+        "driver.Age",
+        "school.School_ID",
+        "school.Grade",
+        "school.School",
+        "school.Location",
+        "school.Type",
+        "school_bus.School_ID",
+        "school_bus.Driver_ID",
+        "school_bus.Years_Working",
+        "school_bus.If_full_time"
+    ]
+}

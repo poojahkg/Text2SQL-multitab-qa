@@ -1,0 +1,18 @@
+{
+    "roller_coaster": [
+        "roller_coaster.Roller_Coaster_ID",
+        "roller_coaster.Name",
+        "roller_coaster.Park",
+        "roller_coaster.Country_ID",
+        "roller_coaster.Length",
+        "roller_coaster.Height",
+        "roller_coaster.Speed",
+        "roller_coaster.Opened",
+        "roller_coaster.Status",
+        "country.Country_ID",
+        "country.Name",
+        "country.Population",
+        "country.Area",
+        "country.Languages"
+    ]
+}

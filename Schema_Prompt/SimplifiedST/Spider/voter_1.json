@@ -1,0 +1,13 @@
+{
+    "voter_1": [
+        "AREA_CODE_STATE.area_code",
+        "AREA_CODE_STATE.state",
+        "CONTESTANTS.contestant_number",
+        "CONTESTANTS.contestant_name",
+        "VOTES.vote_id",
+        "VOTES.phone_number",
+        "VOTES.state",
+        "VOTES.contestant_number",
+        "VOTES.created"
+    ]
+}

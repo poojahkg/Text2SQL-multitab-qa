@@ -1,0 +1,18 @@
+{
+    "attachment_1tab_val_print_media_dump": [
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.PublishDate",
+        "Articles.AuthorID",
+        "Authors.AuthorID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Publications.ID",
+        "Publications.Title",
+        "Publications.Print_Media",
+        "Publications.Publication_Frequency",
+        "PublicationsAuthors.PublicationID",
+        "PublicationsAuthors.AuthorID"
+    ]
+}

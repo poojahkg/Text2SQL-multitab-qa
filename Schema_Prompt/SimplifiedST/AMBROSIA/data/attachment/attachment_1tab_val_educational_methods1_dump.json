@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_val_educational_methods1_dump": [
+        "Courses.CourseID",
+        "Courses.Name",
+        "Courses.EducationalMethod",
+        "Courses.CurriculumContent",
+        "Courses.InstructorID",
+        "Enrollments.EnrollmentID",
+        "Enrollments.CourseID",
+        "Enrollments.StudentID",
+        "Instructors.InstructorID",
+        "Instructors.FirstName",
+        "Instructors.LastName",
+        "Instructors.Department",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.DOB"
+    ]
+}

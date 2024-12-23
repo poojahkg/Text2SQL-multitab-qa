@@ -1,0 +1,11 @@
+{
+    "scope_space_reporters_missions_dump": [
+        "Missions.mission_id",
+        "Missions.mission_name",
+        "Space_Reporters.reporter_id",
+        "Space_Reporters.full_name",
+        "Space_Reporters_Missions.space_reporter_id",
+        "Space_Reporters_Missions.mission_id",
+        "Space_Reporters_Missions.assignment_date"
+    ]
+}

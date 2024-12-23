@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_val_educational_activities_dump": [
+        "Classes.ClassID",
+        "Classes.SchoolID",
+        "Classes.TeacherName",
+        "Classes.Subject",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.ClassID",
+        "Enrollments.Educational_Activity",
+        "Enrollments.Number_of_students",
+        "Schools.SchoolID",
+        "Schools.Name",
+        "Schools.Address",
+        "Schools.PhoneText",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.Age",
+        "Students.EnrollmentDate"
+    ]
+}

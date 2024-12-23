@@ -1,0 +1,18 @@
+{
+    "device": [
+        "device.Device_ID",
+        "device.Device",
+        "device.Carrier",
+        "device.Package_Version",
+        "device.Applications",
+        "device.Software_Platform",
+        "shop.Shop_ID",
+        "shop.Shop_Name",
+        "shop.Location",
+        "shop.Open_Date",
+        "shop.Open_Year",
+        "stock.Shop_ID",
+        "stock.Device_ID",
+        "stock.Quantity"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "attachment_1tab_ref_terms_dump": [
+        "AccountTypes.ID",
+        "AccountTypes.TypeName",
+        "BankAccounts.AccountNumber",
+        "BankAccounts.CustomerID",
+        "BankAccounts.OpenDate",
+        "BankAccounts.CurrentBalance",
+        "Banks.ID",
+        "Banks.Name",
+        "Banks.HeadQuarters",
+        "Customers.ID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.DateOfBirth",
+        "Customers.Email",
+        "Loans.LoanID",
+        "Loans.AccountNumber",
+        "Loans.Amount",
+        "Loans.StartDate",
+        "Loans.EndDate",
+        "Loans.ForeignKeyAccountNumber",
+        "Terms.TermId",
+        "Terms.Description",
+        "Terms.\"Value\"",
+        "Terms.AccountTypeID",
+        "Terms.LOAN_ID"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "attachment_1tab_ref_learning_materials_dump": [
+        "Classes.classId",
+        "Classes.className",
+        "Classes.startDate",
+        "Classes.endDate",
+        "Classes.teacherId",
+        "Difficulty_levels.difficultyLevel",
+        "Difficulty_levels.levelDescription",
+        "Learning_Materials.materialId",
+        "Learning_Materials.typeOfMaterial",
+        "Learning_Materials.title",
+        "Learning_Materials.description",
+        "Learning_Materials.difficultyLevel",
+        "Students.studentId",
+        "Students.firstName",
+        "Students.lastName",
+        "Students.enrollmentYear",
+        "Students.classId",
+        "Subjects.id",
+        "Subjects.subjectName",
+        "Teachers.teacherId",
+        "Teachers.firstName",
+        "Teachers.lastName",
+        "Teachers.email"
+    ]
+}

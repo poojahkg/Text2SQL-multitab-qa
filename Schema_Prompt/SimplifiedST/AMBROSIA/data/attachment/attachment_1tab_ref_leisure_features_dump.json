@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_ref_leisure_features_dump": [
+        "City.id",
+        "City.name",
+        "FeatureInRoom.id",
+        "FeatureInRoom.roomtype_id",
+        "FeatureInRoom.leisurefeature_id",
+        "Hotel.id",
+        "Hotel.name",
+        "Hotel.address",
+        "Hotel.city_id",
+        "LeisureFeature.id",
+        "LeisureFeature.feature",
+        "Reservation.id",
+        "Reservation.checkin_date",
+        "Reservation.checkout_date",
+        "Reservation.roomtype_id",
+        "Reservation.customer_name",
+        "Reservation.guest_count",
+        "RoomType.id",
+        "RoomType.hotel_id",
+        "RoomType.type",
+        "RoomType.price"
+    ]
+}

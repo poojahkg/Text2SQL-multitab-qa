@@ -1,0 +1,21 @@
+{
+    "vague_2cols_creator_copy_dump": [
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.PublicationDate",
+        "Articles.WordCount",
+        "Articles.MagazineId",
+        "Articles.AuthorId",
+        "Authors.AuthorID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.EmailAddress",
+        "Magazines.MagazineID",
+        "Magazines.Title",
+        "Magazines.YearEstablished",
+        "Magazines.PublisherId",
+        "Publishers.PublisherID",
+        "Publishers.Name",
+        "Publishers.Address"
+    ]
+}

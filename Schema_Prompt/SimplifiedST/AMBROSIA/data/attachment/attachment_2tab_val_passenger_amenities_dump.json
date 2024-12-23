@@ -1,0 +1,27 @@
+{
+    "attachment_2tab_val_passenger_amenities_dump": [
+        "Flight.id",
+        "Flight.FlightNumber",
+        "Flight.DepartureTime",
+        "Flight.Destination",
+        "Flight.AircraftModel",
+        "Gate.id",
+        "Gate.GateNumber",
+        "Gate.TerminalName",
+        "Gate.AirlinesCode",
+        "Lounge.id",
+        "Lounge.Name",
+        "Lounge.Location",
+        "Lounge.Capacity",
+        "Lounge.Accessibility",
+        "ObservationDeck.id",
+        "ObservationDeck.Name",
+        "ObservationDeck.Location",
+        "ObservationDeck.ViewType",
+        "ObservationDeck.Accessibility",
+        "SecurityCheckpoint.id",
+        "SecurityCheckpoint.CheckpointLocation",
+        "SecurityCheckpoint.Accessibility",
+        "SecurityCheckpoint.OperatingHours"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "attachment_1tab_val_written_journalism_dump": [
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.Written_Journalism",
+        "Articles.Word_Count",
+        "Articles.PublicationDate",
+        "Articles.AuthorID",
+        "Articles.CategoryID",
+        "Articles.PublisherID",
+        "Authors.AuthorID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Categories.CategoryID",
+        "Categories.CategoryName",
+        "Publishers.PublisherID",
+        "Publishers.Name"
+    ]
+}

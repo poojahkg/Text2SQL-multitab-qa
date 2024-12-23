@@ -1,0 +1,29 @@
+{
+    "attachment_1tab_val_musician_dump": [
+        "Album.id",
+        "Album.Title",
+        "Album.ReleaseYear",
+        "Album.ArtistId",
+        "Concert.id",
+        "Concert.Date",
+        "Concert.Venue",
+        "Concert.HeadlinerId",
+        "Fan.id",
+        "Fan.FirstName",
+        "Fan.LastName",
+        "Fan.Email",
+        "Musician.id",
+        "Musician.Name",
+        "Musician.Genre",
+        "Musician.Instrument",
+        "Musician.YearOfBirth",
+        "Purchase.id",
+        "Purchase.AmountMoney",
+        "Purchase.ConcertId",
+        "Purchase.FanId",
+        "Song.id",
+        "Song.Title",
+        "Song.Duration",
+        "Song.AlbumId"
+    ]
+}

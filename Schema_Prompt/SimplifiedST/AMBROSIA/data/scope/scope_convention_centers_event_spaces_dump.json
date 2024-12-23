@@ -1,0 +1,25 @@
+{
+    "scope_convention_centers_event_spaces_dump": [
+        "Convention_Centers.id",
+        "Convention_Centers.name",
+        "Convention_Centers.capacity",
+        "Convention_Centers_Event_Spaces.convention_center_id",
+        "Convention_Centers_Event_Spaces.event_space_id",
+        "Event_Spaces.id",
+        "Event_Spaces.space_name",
+        "Event_Spaces.type",
+        "Guests.id",
+        "Guests.first_name",
+        "Guests.last_name",
+        "Guests.email",
+        "Reservations.id",
+        "Reservations.guest_id",
+        "Reservations.event_space_id",
+        "Reservations.checkin",
+        "Reservations.checkout",
+        "Rooms.id",
+        "Rooms.room_number",
+        "Rooms.floor_no",
+        "Rooms.capacity"
+    ]
+}

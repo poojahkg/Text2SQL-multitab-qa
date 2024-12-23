@@ -1,0 +1,16 @@
+{
+    "attachment_1tab_ref_customer_facing_roles_dump": [
+        "Companies.id",
+        "Companies.name",
+        "Customer_Facing_Roles.id",
+        "Customer_Facing_Roles.role",
+        "Employees.id",
+        "Employees.email",
+        "Employees.phone",
+        "Employees.customer_role_id",
+        "Employees.language_proficiency_id",
+        "Employees.FullName",
+        "Language_Proficiencies.id",
+        "Language_Proficiencies.language"
+    ]
+}

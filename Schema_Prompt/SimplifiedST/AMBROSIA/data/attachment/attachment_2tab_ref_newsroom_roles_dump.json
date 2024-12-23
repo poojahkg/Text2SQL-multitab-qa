@@ -1,0 +1,32 @@
+{
+    "attachment_2tab_ref_newsroom_roles_dump": [
+        "ArticleSources.article_id",
+        "ArticleSources.source_id",
+        "ArticleSources.relationship",
+        "Articles.id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.deadline",
+        "Articles.reporter_id",
+        "Articles.photographer_id",
+        "Photographers.id",
+        "Photographers.name",
+        "Photographers.email",
+        "Photographers.phone_number",
+        "Photographers.address",
+        "ReaderComments.comment_id",
+        "ReaderComments.reader_name",
+        "ReaderComments.email",
+        "ReaderComments.comment",
+        "ReaderComments.article_id",
+        "Reporters.id",
+        "Reporters.name",
+        "Reporters.email",
+        "Reporters.phone_number",
+        "Reporters.address",
+        "Sources.id",
+        "Sources.name",
+        "Sources.contact_info",
+        "Sources.type"
+    ]
+}

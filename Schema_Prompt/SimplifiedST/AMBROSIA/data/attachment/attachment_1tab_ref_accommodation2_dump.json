@@ -1,0 +1,19 @@
+{
+    "attachment_1tab_ref_accommodation2_dump": [
+        "Accomodations.id",
+        "Accomodations.name",
+        "Accomodations.type",
+        "Guests.id",
+        "Guests.firstName",
+        "Guests.lastName",
+        "Guests.emailAddress",
+        "Prices.accommodationId",
+        "Prices.price_per_night",
+        "Reservations.reservationId",
+        "Reservations.guestId",
+        "Reservations.accommodationId",
+        "Reservations.checkInDate",
+        "Reservations.checkOutDate",
+        "Reservations.totalCost"
+    ]
+}

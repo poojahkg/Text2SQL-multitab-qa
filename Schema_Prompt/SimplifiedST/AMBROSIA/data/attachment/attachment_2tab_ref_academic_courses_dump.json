@@ -1,0 +1,22 @@
+{
+    "attachment_2tab_ref_academic_courses_dump": [
+        "CourseEnrollments.StudentID",
+        "CourseEnrollments.EngineeringClassId",
+        "CourseEnrollments.DesignClassId",
+        "DesignClasses.ClassID",
+        "DesignClasses.ClassName",
+        "EngineeringClasses.ClassID",
+        "EngineeringClasses.ClassName",
+        "EnrolledStudents.StudentID",
+        "EnrolledStudents.ProjectID",
+        "EnrolledStudents.Grade",
+        "Projects.ProjectID",
+        "Projects.ProjectName",
+        "Projects.EngineeringClassId",
+        "Projects.DesignClassId",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.DateOfBirth"
+    ]
+}

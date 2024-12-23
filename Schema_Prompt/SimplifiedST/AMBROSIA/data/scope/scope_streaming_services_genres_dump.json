@@ -1,0 +1,11 @@
+{
+    "scope_streaming_services_genres_dump": [
+        "Genres.id",
+        "Genres.name",
+        "Streaming_Services.id",
+        "Streaming_Services.service_name",
+        "Streaming_Services.release_date",
+        "Streaming_Services_Genres.streaming_services_id",
+        "Streaming_Services_Genres.genres_id"
+    ]
+}

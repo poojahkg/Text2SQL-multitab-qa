@@ -1,0 +1,19 @@
+{
+    "vague_2cols_departure_copy_dump": [
+        "airlines.airline_id",
+        "airlines.name",
+        "airlines.code",
+        "flights.flight_id",
+        "flights.departure_time",
+        "flights.arrival_time",
+        "flights.distance",
+        "flights.origin_airport_code",
+        "flights.destination_airport_code",
+        "flights.airline_id",
+        "flights_boarding_areas.flight_id",
+        "flights_boarding_areas.boarding_area_id",
+        "terminals.terminal_number",
+        "terminals.capacity",
+        "terminals.location"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "scope_locations_managers_responsibilities_dump": [
+        "Directed_Movies.director_id",
+        "Directed_Movies.movie_id",
+        "Directors.id",
+        "Directors.director_name",
+        "Directors.birth_year",
+        "Film_Crews.id",
+        "Film_Crews.crew_name",
+        "Film_Crews.role",
+        "Locations_Managers.id",
+        "Locations_Managers.name",
+        "Locations_Managers.contact_info",
+        "Locations_Managers_Responsibilities.locations_manager_id",
+        "Locations_Managers_Responsibilities.responsibility_id",
+        "Movie_Projects.id",
+        "Movie_Projects.title",
+        "Movie_Projects.release_date",
+        "Movie_Projects.budget",
+        "Movies_Cast.movie_id",
+        "Movies_Cast.actor_id",
+        "Movies_Cast.character_name",
+        "Responsibilities.id",
+        "Responsibilities.description"
+    ]
+}

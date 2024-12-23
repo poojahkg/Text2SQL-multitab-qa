@@ -1,0 +1,30 @@
+{
+    "attachment_1tab_ref_information_gathering_methods_dump": [
+        "Article_Source.article_source_id",
+        "Article_Source.news_article_id",
+        "Article_Source.source_id",
+        "Information_Gathering_Method.id",
+        "Information_Gathering_Method.method",
+        "News_Article.article_id",
+        "News_Article.title",
+        "News_Article.content",
+        "News_Article.date",
+        "News_Article.author_id",
+        "News_Article.information_gathering_method_id",
+        "News_Article.participant_type_id",
+        "Participant_Type.id",
+        "Participant_Type.type",
+        "Quote.quote_id",
+        "Quote.text",
+        "Quote.start_time",
+        "Quote.end_time",
+        "Quote.news_article_id",
+        "Quote.speaker_id",
+        "Source.source_id",
+        "Source.name",
+        "Source.url",
+        "Speaker.speaker_id",
+        "Speaker.name",
+        "Speaker.role"
+    ]
+}

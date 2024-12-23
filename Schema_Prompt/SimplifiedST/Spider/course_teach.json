@@ -1,0 +1,14 @@
+{
+    "course_teach": [
+        "course.Course_ID",
+        "course.Staring_Date",
+        "course.Course",
+        "teacher.Teacher_ID",
+        "teacher.Name",
+        "teacher.Age",
+        "teacher.Hometown",
+        "course_arrange.Course_ID",
+        "course_arrange.Teacher_ID",
+        "course_arrange.Grade"
+    ]
+}

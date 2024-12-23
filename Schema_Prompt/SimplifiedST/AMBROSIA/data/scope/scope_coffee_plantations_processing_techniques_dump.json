@@ -1,0 +1,12 @@
+{
+    "scope_coffee_plantations_processing_techniques_dump": [
+        "Coffee_Plantations.plantation_id",
+        "Coffee_Plantations.name",
+        "Coffee_Plantations.location",
+        "Coffee_Plantations_Processing_Techniques.id",
+        "Coffee_Plantations_Processing_Techniques.coffee_plantation_id",
+        "Coffee_Plantations_Processing_Techniques.processing_technique_id",
+        "Processing_Techniques.technique_id",
+        "Processing_Techniques.technique_name"
+    ]
+}

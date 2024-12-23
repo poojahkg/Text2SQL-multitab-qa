@@ -1,0 +1,26 @@
+{
+    "attachment_1tab_val_development_projects_dump": [
+        "Aircraft.ID",
+        "Aircraft.Model",
+        "Aircraft.Capacity",
+        "Aircraft.Manufacturer",
+        "Aircraft.Year",
+        "Development_Projects.ID",
+        "Development_Projects.ProjectName",
+        "Development_Projects.Increased_Capacity",
+        "Development_Projects.StartDate",
+        "Development_Projects.EndDate",
+        "Development_Projects.Cost",
+        "Flight.ID",
+        "Flight.DepartureTime",
+        "Flight.ArrivalTime",
+        "Flight.Origin",
+        "Flight.Destination",
+        "Flight.AircraftID",
+        "Staff.ID",
+        "Staff.Name",
+        "Staff.Position",
+        "Staff.Salary",
+        "Staff.HireDate"
+    ]
+}

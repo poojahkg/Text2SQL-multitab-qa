@@ -1,0 +1,11 @@
+{
+    "student_1": [
+        "list.LastName",
+        "list.FirstName",
+        "list.Grade",
+        "list.Classroom",
+        "teachers.LastName",
+        "teachers.FirstName",
+        "teachers.Classroom"
+    ]
+}

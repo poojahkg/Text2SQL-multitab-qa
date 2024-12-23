@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_val_technical_professions_dump": [
+        "Companies.id",
+        "Companies.name",
+        "Companies.address",
+        "Companies.email",
+        "Jobs.id",
+        "Jobs.title",
+        "Jobs.description",
+        "Jobs.companyId",
+        "Jobs.salary",
+        "Jobs.technicalProfession",
+        "Jobs.skillIds",
+        "Jobs.locationId",
+        "Locations.id",
+        "Locations.city",
+        "Locations.country",
+        "Technologies.id",
+        "Technologies.technologyName"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "scope_banks_financial_roles_dump": [
+        "Banks.BankID",
+        "Banks.Name",
+        "Banks.Location",
+        "Banks_Financial_Roles.BankID",
+        "Banks_Financial_Roles.RoleID",
+        "Financial_Roles.RoleID",
+        "Financial_Roles.RoleName"
+    ]
+}

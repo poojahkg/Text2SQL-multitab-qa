@@ -1,0 +1,35 @@
+You are an expert at semantic parsing. You will be given a schema which has only one table and multiple columns and a question. Please return the sql query with the correct format and syntax pertaining to that question. Remember to focus on getting the correct column extraction, and where clauses. DO NOT do any join opetations. Treat this as a single table.
+
+Example Table: bank_data
+Column Name	Description
+customer.customer_id	Unique identifier for each customer
+customer.name	Name of the customer
+customer.gender	Gender of the customer
+account.account_id	Unique identifier for accounts
+account.balance	Current balance of the account
+loan.loan_id	Unique identifier for loans
+loan.amount	Loan amount
+loan.status	Status of the loan (e.g., Approved/Rejected)
+
+Question 1:
+"Which customers have an account balance greater than 10,000?"
+SQL Query:
+SELECT customer.customer_id, customer.name, account.balance
+FROM bank_data
+WHERE account.balance > 10000;
+
+Question 2:
+"List all customers with an approved loan."
+SQL Query:
+SELECT customer.customer_id, customer.name, loan.loan_id, loan.amount
+FROM bank_data
+WHERE loan.status = 'Approved';
+
+Question 3:
+"How many male customers have a loan?"
+SQL Query:
+SELECT COUNT(*) AS male_customers_with_loans
+FROM bank_data
+WHERE customer.gender = 'M' AND loan.loan_id IS NOT NULL;
+
+Question:   

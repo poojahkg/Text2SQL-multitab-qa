@@ -1,0 +1,26 @@
+{
+    "insurance_fnol": [
+        "Customers.Customer_ID",
+        "Customers.Customer_name",
+        "Services.Service_ID",
+        "Services.Service_name",
+        "Available_Policies.Policy_ID",
+        "Available_Policies.policy_type_code",
+        "Available_Policies.Customer_Phone",
+        "Customers_Policies.Customer_ID",
+        "Customers_Policies.Policy_ID",
+        "Customers_Policies.Date_Opened",
+        "Customers_Policies.Date_Closed",
+        "First_Notification_of_Loss.FNOL_ID",
+        "First_Notification_of_Loss.Customer_ID",
+        "First_Notification_of_Loss.Policy_ID",
+        "First_Notification_of_Loss.Service_ID",
+        "Claims.Claim_ID",
+        "Claims.FNOL_ID",
+        "Claims.Effective_Date",
+        "Settlements.Settlement_ID",
+        "Settlements.Claim_ID",
+        "Settlements.Effective_Date",
+        "Settlements.Settlement_Amount"
+    ]
+}

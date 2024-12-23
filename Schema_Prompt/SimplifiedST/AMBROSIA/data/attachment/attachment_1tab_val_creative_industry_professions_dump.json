@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_val_creative_industry_professions_dump": [
+        "Company.id",
+        "Company.name",
+        "Company.address",
+        "Company.website",
+        "Department.id",
+        "Department.company_id",
+        "Department.name",
+        "Employee.id",
+        "Employee.position_id",
+        "Employee.employee_name",
+        "Employee.hire_date",
+        "Position.id",
+        "Position.department_id",
+        "Position.title",
+        "Position.creative_industry_profession",
+        "Position.office",
+        "Position.salary"
+    ]
+}

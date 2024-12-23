@@ -1,0 +1,113 @@
+This database schema tracks city information, including demographics and geographical details. The schema consists of a single table:
+
+
+Instructions for Writing Queries
+Understand the Schema:
+
+The city table is the main data source, containing fields for city names, country codes, districts, and populations.
+Analyze the Question:
+
+Identify which fields are needed to answer the query.
+Determine whether filters, aggregations, or ordering are required.
+Use SQL Techniques:
+
+Use JOIN when combining tables (if additional related tables exist).
+Use DISTINCT to retrieve unique results.
+Use LIMIT to restrict rows in the output.
+Use subqueries for filtering or intermediate calculations.
+Apply grouping and aggregation (GROUP BY, COUNT, SUM, AVG, etc.) when necessary.
+Write and Validate the Query:
+
+Structure the query logically and ensure it is syntactically correct.
+Test the query for completeness and accuracy.
+Few-Shot Examples
+Example 1:
+Question: What is the name of the city with the smallest population in India (CountryCode = 'IND')?
+Query:
+
+sql
+Copy code
+SELECT Name 
+FROM city 
+WHERE CountryCode = 'IND' 
+ORDER BY Population ASC 
+LIMIT 1;
+Example 2:
+Question: List all districts with at least 1,000,000 total population across their cities.
+Query:
+
+sql
+Copy code
+SELECT District, SUM(Population) AS Total_Population 
+FROM city 
+GROUP BY District 
+HAVING SUM(Population) >= 1000000;
+Example 3:
+Question: How many unique countries are represented in the city table?
+Query:
+
+sql
+Copy code
+SELECT COUNT(DISTINCT CountryCode) AS Unique_Countries 
+FROM city;
+Example 4:
+Question: Find the average population of cities in districts starting with "S."
+Query:
+
+sql
+Copy code
+SELECT AVG(Population) AS Average_Population 
+FROM city 
+WHERE District LIKE 'S%';
+Example 5:
+Question: Which country has the most cities in the database?
+Query:
+
+sql
+Copy code
+SELECT CountryCode, COUNT(*) AS City_Count 
+FROM city 
+GROUP BY CountryCode 
+ORDER BY City_Count DESC 
+LIMIT 1;
+Example 6:
+Question: Find all cities in the district with the highest total population.
+Query:
+
+sql
+Copy code
+SELECT Name 
+FROM city 
+WHERE District = (
+    SELECT District 
+    FROM city 
+    GROUP BY District 
+    ORDER BY SUM(Population) DESC 
+    LIMIT 1
+);
+Example 7:
+Question: What is the total population of cities in the top 5 most populous countries?
+Query:
+
+sql
+Copy code
+SELECT SUM(Population) AS Total_Population 
+FROM city 
+WHERE CountryCode IN (
+    SELECT CountryCode 
+    FROM city 
+    GROUP BY CountryCode 
+    ORDER BY SUM(Population) DESC 
+    LIMIT 5
+);
+Example 8:
+Question: List the names of all cities with a population higher than the average population of all cities in the database.
+Query:
+
+sql
+Copy code
+SELECT Name 
+FROM city 
+WHERE Population > (SELECT AVG(Population) FROM city);
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:

@@ -1,0 +1,16 @@
+{
+    "ship_1": [
+        "captain.Captain_ID",
+        "captain.Name",
+        "captain.Ship_ID",
+        "captain.age",
+        "captain.Class",
+        "captain.Rank",
+        "Ship.Ship_ID",
+        "Ship.Name",
+        "Ship.Type",
+        "Ship.Built_Year",
+        "Ship.Class",
+        "Ship.Flag"
+    ]
+}

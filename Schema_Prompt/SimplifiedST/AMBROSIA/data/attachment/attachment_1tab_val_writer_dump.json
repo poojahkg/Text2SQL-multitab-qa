@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_val_writer_dump": [
+        "Director.id",
+        "Director.Name",
+        "Director.BirthDate",
+        "Director_Film.directorId",
+        "Director_Film.filmId",
+        "Film.id",
+        "Film.Title",
+        "Film.ReleaseYear",
+        "Film.Genre",
+        "Film_Screenplay.filmId",
+        "Film_Screenplay.scriptId",
+        "Screenplay.id",
+        "Screenplay.Title",
+        "Screenplay.Year",
+        "Writer.id",
+        "Writer.Name",
+        "Writer.Type",
+        "Writer.Education"
+    ]
+}

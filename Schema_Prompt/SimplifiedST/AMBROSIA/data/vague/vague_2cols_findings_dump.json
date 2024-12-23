@@ -1,0 +1,12 @@
+{
+    "vague_2cols_findings_dump": [
+        "Equipment.ID",
+        "Equipment.Type",
+        "Equipment.SerialNumber",
+        "Equipment.PurchaseDate",
+        "Workers.ID",
+        "Workers.Name",
+        "Workers.ContactNumber",
+        "Workers.SkillLevel"
+    ]
+}

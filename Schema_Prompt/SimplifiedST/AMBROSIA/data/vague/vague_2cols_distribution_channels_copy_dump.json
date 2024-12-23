@@ -1,0 +1,22 @@
+{
+    "vague_2cols_distribution_channels_copy_dump": [
+        "Actors.ActorID",
+        "Actors.Name",
+        "Actors.DateOfBirth",
+        "Directors.DirectorID",
+        "Directors.Name",
+        "Directors.BirthDate",
+        "Films.FilmID",
+        "Films.Title",
+        "Films.ReleaseYear",
+        "Films.DirectorID",
+        "Films.ProducerID",
+        "Producers.ProducerID",
+        "Producers.Name",
+        "Producers.ContactNumber",
+        "Roles.RoleID",
+        "Roles.FilmID",
+        "Roles.ActorID",
+        "Roles.CharacterName"
+    ]
+}

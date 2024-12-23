@@ -1,0 +1,109 @@
+Instructions for Writing Queries
+Understand the Schema:
+
+Review relationships:
+Highschooler is the main table with student information.
+Friend represents friendships between students using student_id and friend_id.
+Likes represents "like" relationships using student_id and liked_id.
+Analyze the Question:
+
+Identify the tables required and how they connect.
+Determine filters, conditions, and relationships between entities.
+SQL Techniques:
+
+Use JOIN to combine related tables.
+Use DISTINCT to filter unique results.
+Use LIMIT to restrict the number of rows.
+Use subqueries for intermediate calculations or conditions.
+Apply grouping and aggregation (GROUP BY, COUNT, etc.) if needed.
+Write and Validate the Query:
+
+Structure the query logically, step by step.
+Test for completeness and accuracy.
+Few-Shot Questions and Queries
+Example 1:
+Question: Find the names of students who are friends with at least 3 other students.
+Query:
+
+sql
+Copy code
+SELECT hs.name
+FROM Highschooler hs
+JOIN Friend f ON hs.ID = f.student_id
+GROUP BY hs.ID, hs.name
+HAVING COUNT(f.friend_id) >= 3;
+Example 2:
+Question: List all unique pairs of students who like each other (mutual likes).
+Query:
+
+sql
+Copy code
+SELECT hs1.name AS Student1, hs2.name AS Student2
+FROM Likes l1
+JOIN Likes l2 ON l1.student_id = l2.liked_id AND l1.liked_id = l2.student_id
+JOIN Highschooler hs1 ON l1.student_id = hs1.ID
+JOIN Highschooler hs2 ON l1.liked_id = hs2.ID
+WHERE hs1.ID < hs2.ID; -- Prevent duplicate pairs
+Example 3:
+Question: Which student has the most friends?
+Query:
+
+sql
+Copy code
+SELECT hs.name, COUNT(f.friend_id) AS Friend_Count
+FROM Highschooler hs
+JOIN Friend f ON hs.ID = f.student_id
+GROUP BY hs.ID, hs.name
+ORDER BY Friend_Count DESC
+LIMIT 1;
+Example 4:
+Question: Find the names of students who like someone in the same grade.
+Query:
+
+sql
+Copy code
+SELECT DISTINCT hs1.name AS Liker
+FROM Likes l
+JOIN Highschooler hs1 ON l.student_id = hs1.ID
+JOIN Highschooler hs2 ON l.liked_id = hs2.ID
+WHERE hs1.grade = hs2.grade;
+Example 5:
+Question: List all students who do not have any friends.
+Query:
+
+sql
+Copy code
+SELECT hs.name
+FROM Highschooler hs
+WHERE hs.ID NOT IN (
+    SELECT student_id FROM Friend
+    UNION
+    SELECT friend_id FROM Friend
+);
+Example 6:
+Question: Find all students who are liked by more than 5 different people.
+Query:
+
+sql
+Copy code
+SELECT hs.name AS Liked_Student, COUNT(l.student_id) AS Likes_Count
+FROM Highschooler hs
+JOIN Likes l ON hs.ID = l.liked_id
+GROUP BY hs.ID, hs.name
+HAVING COUNT(l.student_id) > 5;
+Example 7:
+Question: Which grade has the highest number of friendships?
+Query:
+
+sql
+Copy code
+SELECT hs.grade, COUNT(*) AS Friendship_Count
+FROM Highschooler hs
+JOIN Friend f ON hs.ID = f.student_id
+GROUP BY hs.grade
+ORDER BY Friendship_Count DESC
+LIMIT 1;
+
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

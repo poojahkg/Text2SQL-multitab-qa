@@ -1,0 +1,12 @@
+{
+    "scope_streaming_services_subtitles_dump": [
+        "Streaming_Services.id",
+        "Streaming_Services.name",
+        "Streaming_Services.url",
+        "Streaming_Services_Subtitles.streaming_service_id",
+        "Streaming_Services_Subtitles.subtitle_id",
+        "Subtitles.id",
+        "Subtitles.language",
+        "Subtitles.default_subtitle"
+    ]
+}

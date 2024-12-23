@@ -1,0 +1,18 @@
+{
+    "vague_2cols_rating2_copy_dump": [
+        "bookings.booking_id",
+        "bookings.customer_id",
+        "bookings.checkin",
+        "bookings.checkout",
+        "bookings.total_amount",
+        "customers.customer_id",
+        "customers.first_name",
+        "customers.last_name",
+        "customers.email",
+        "customers.phone_number",
+        "rooms.room_id",
+        "rooms.room_type",
+        "rooms.price",
+        "rooms.available"
+    ]
+}

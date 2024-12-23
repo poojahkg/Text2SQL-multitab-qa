@@ -1,0 +1,13 @@
+{
+    "scope_greenhouse_plant_dump": [
+        "Greenhouse.id",
+        "Greenhouse.name",
+        "Greenhouse.location",
+        "Greenhouse_Plant.greenhouse_id",
+        "Greenhouse_Plant.plant_id",
+        "Greenhouse_Plant.quantity",
+        "Plant.id",
+        "Plant.name",
+        "Plant.type"
+    ]
+}

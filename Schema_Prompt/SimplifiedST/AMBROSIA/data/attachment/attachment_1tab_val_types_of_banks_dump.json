@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_val_types_of_banks_dump": [
+        "Banks.id",
+        "Banks.name",
+        "Banks.types_of_bank",
+        "Banks.country",
+        "Branches.id",
+        "Branches.bank_id",
+        "Branches.address",
+        "Branches.city",
+        "Branches.state",
+        "Customers.id",
+        "Customers.first_name",
+        "Customers.last_name",
+        "Customers.birth_date",
+        "Customers.phone_number",
+        "Customers.email",
+        "Transactions.id",
+        "Transactions.branch_id",
+        "Transactions.customer_id",
+        "Transactions.transaction_type",
+        "Transactions.amount",
+        "Transactions.date"
+    ]
+}

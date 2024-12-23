@@ -1,0 +1,30 @@
+{
+    "vague_2cols_stock_allocation_dump": [
+        "Accounts.AccountNumber",
+        "Accounts.Balance",
+        "Accounts.InterestRate",
+        "Accounts.OpenDate",
+        "Accounts.CustomerID",
+        "Customers.CustomerID",
+        "Customers.Email",
+        "Customers.fullname",
+        "Investments.InvestmentID",
+        "Investments.AccountNumber",
+        "Investments.StockSymbol",
+        "Investments.Quantity",
+        "Investments.PurchaseDate",
+        "PortfolioPerformance.PerformanceID",
+        "PortfolioPerformance.InvestmentID",
+        "PortfolioPerformance.Stock_Percentage",
+        "PortfolioPerformance.Stock_Value",
+        "PortfolioPerformance.Investment_Portfolios",
+        "Stocks.StockSymbol",
+        "Stocks.CompanyName",
+        "Stocks.CurrentPrice",
+        "Transactions.TransactionID",
+        "Transactions.AccountNumber",
+        "Transactions.Amount",
+        "Transactions.Type",
+        "Transactions.Date"
+    ]
+}

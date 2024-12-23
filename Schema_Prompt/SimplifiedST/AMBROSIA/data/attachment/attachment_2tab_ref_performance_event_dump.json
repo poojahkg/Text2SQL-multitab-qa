@@ -1,0 +1,19 @@
+{
+    "attachment_2tab_ref_performance_event_dump": [
+        "Audition_Room.RoomID",
+        "Audition_Room.RoomName",
+        "Participant.ParticipantID",
+        "Participant.FirstName",
+        "Participant.LastName",
+        "Participant.Age",
+        "Participant.PhoneNumber",
+        "Participant.Email",
+        "Participant.Role",
+        "Participant.RecitalID",
+        "Participant.ShowID",
+        "Talent_Show.ShowID",
+        "Talent_Show.Name",
+        "Talent_Show.Description",
+        "Talent_Show.RoomID"
+    ]
+}

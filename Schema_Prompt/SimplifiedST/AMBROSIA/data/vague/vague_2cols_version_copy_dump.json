@@ -1,0 +1,25 @@
+{
+    "vague_2cols_version_copy_dump": [
+        "BookCopies.CopyID",
+        "BookCopies.CourseOfferingID",
+        "BookCopies.TextbookEditionID",
+        "BookCopies.Quantity",
+        "CourseOfferings.OfferingID",
+        "CourseOfferings.CourseCode",
+        "CourseOfferings.Semester",
+        "CourseOfferings.Year",
+        "CourseOfferings.InstructorID",
+        "Enrollments.RegistrationID",
+        "Enrollments.StudentID",
+        "Enrollments.CourseCode",
+        "Enrollments.Grade",
+        "Instructors.ID",
+        "Instructors.FirstName",
+        "Instructors.LastName",
+        "Instructors.Department",
+        "Students.ID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.Email"
+    ]
+}

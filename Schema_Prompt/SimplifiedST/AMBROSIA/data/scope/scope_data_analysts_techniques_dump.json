@@ -1,0 +1,11 @@
+{
+    "scope_data_analysts_techniques_dump": [
+        "Data_Analysts.id",
+        "Data_Analysts.name",
+        "Data_Analysts.years_of_experience",
+        "Data_Analysts_Techniques.data_analyst_id",
+        "Data_Analysts_Techniques.technique_id",
+        "Techniques.id",
+        "Techniques.technique_name"
+    ]
+}

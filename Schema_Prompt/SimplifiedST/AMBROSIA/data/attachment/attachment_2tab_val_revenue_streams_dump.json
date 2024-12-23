@@ -1,0 +1,22 @@
+{
+    "attachment_2tab_val_revenue_streams_dump": [
+        "Accounts.AccountNumber",
+        "Accounts.Balance",
+        "Accounts.InterestRate",
+        "Accounts.OpenDate",
+        "Accounts.CustomerID",
+        "CustomerAccounts.CustomerAccountID",
+        "CustomerAccounts.CustomerID",
+        "CustomerAccounts.AccountNumber",
+        "CustomerAccounts.OpenDate",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.DateOfBirth",
+        "Customers.EmailAddress",
+        "Products.ProductID",
+        "Products.Name",
+        "Products.Type",
+        "Products.Description"
+    ]
+}

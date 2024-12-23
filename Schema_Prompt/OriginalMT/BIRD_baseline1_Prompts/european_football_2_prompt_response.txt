@@ -1,0 +1,57 @@
+Prompt
+You are tasked with writing a query to solve a specific problem based on the schema and instructions below. Follow the step-by-step process to construct the query.
+
+
+Example Queries
+Question 1: What is the average overall rating of players in the "Premier League" during the 2015 season?
+
+sql
+Copy code
+SELECT AVG(PA.overall_rating) AS AverageOverallRating
+FROM Player_Attributes AS PA
+JOIN Match AS M ON PA.date = M.date
+JOIN League AS L ON M.league_id = L.id
+WHERE L.name = 'Premier League' AND M.season = '2015';
+Description:
+
+This query calculates the average overall_rating of players in the "Premier League" during the 2015 season.
+Joins: Connects Player_Attributes, Match, and League tables.
+Filters: Ensures only matches from the "Premier League" in the 2015 season are considered.
+Question 2: Which team had the highest average build-up play speed in the 2014-2015 season?
+
+sql
+Copy code
+SELECT T.team_long_name, AVG(TA.buildUpPlaySpeed) AS AvgBuildUpPlaySpeed
+FROM Team_Attributes AS TA
+JOIN Team AS T ON TA.team_api_id = T.team_api_id
+WHERE TA.date BETWEEN '2014-07-01' AND '2015-06-30'
+GROUP BY T.team_long_name
+ORDER BY AvgBuildUpPlaySpeed DESC
+LIMIT 1;
+Description:
+
+This query identifies the team with the highest average buildUpPlaySpeed during the 2014-2015 season.
+Joins: Links Team_Attributes and Team tables.
+Filters: Considers attributes recorded between July 1, 2014, and June 30, 2015.
+Grouping and Sorting: Groups by team and orders results by the average build-up play speed in descending order.
+Question 3: How many matches ended in a draw during the 2013-2014 season?
+
+sql
+Copy code
+SELECT COUNT(*) AS DrawMatches
+FROM Match
+WHERE home_team_goal = away_team_goal
+  AND season = '2013/2014';
+Description:
+
+This query counts the number of matches that ended in a draw during the 2013-2014 season.
+Filters: Compares home_team_goal and away_team_goal to identify draws, and limits the season to 2013/2014.
+Instructions for Writing Queries
+Use JOINs to combine data from multiple tables.
+Apply GROUP BY and ORDER BY clauses for aggregation and sorting.
+Include LIMIT clauses to restrict results when needed.
+Use DISTINCT to avoid duplicate results if necessary.
+Always ensure WHERE clauses accurately filter data based on conditions provided in the question.
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

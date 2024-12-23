@@ -1,0 +1,33 @@
+{
+    "scope_online_learning_platforms_courses_dump": [
+        "Course_Instructor.courseID",
+        "Course_Instructor.instructorID",
+        "Course_Instructor.startDate",
+        "Course_Instructor.endDate",
+        "Courses.courseID",
+        "Courses.title",
+        "Courses.description",
+        "Enrolled_Students.studentID",
+        "Enrolled_Students.courseID",
+        "Enrolled_Students.enrollmentDate",
+        "Instructors.instructorID",
+        "Instructors.firstName",
+        "Instructors.lastName",
+        "Instructors.email",
+        "Online_Learning_Platforms.platformID",
+        "Online_Learning_Platforms.name",
+        "Online_Learning_Platforms.website",
+        "Online_Learning_Platforms_Courses.platformID",
+        "Online_Learning_Platforms_Courses.courseID",
+        "Online_Learning_Platforms_Courses.availabilityStatus",
+        "Ratings.ratingID",
+        "Ratings.studentID",
+        "Ratings.courseID",
+        "Ratings.stars",
+        "Ratings.reviewText",
+        "Ratings.submissionDate",
+        "Users.userID",
+        "Users.username",
+        "Users.password"
+    ]
+}

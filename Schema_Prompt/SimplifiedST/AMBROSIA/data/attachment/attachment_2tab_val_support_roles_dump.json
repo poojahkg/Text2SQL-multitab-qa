@@ -1,0 +1,20 @@
+{
+    "attachment_2tab_val_support_roles_dump": [
+        "Applications.id",
+        "Applications.applicantId",
+        "Applications.postingId",
+        "Applications.applicationDate",
+        "Call_Center_Agents.id",
+        "Call_Center_Agents.skills",
+        "Call_Center_Agents.FullName",
+        "Companies.id",
+        "Companies.name",
+        "Companies.location",
+        "Customer_Service_Representatives.id",
+        "Customer_Service_Representatives.skills",
+        "Customer_Service_Representatives.FullName",
+        "Postings.id",
+        "Postings.title",
+        "Postings.companyID"
+    ]
+}

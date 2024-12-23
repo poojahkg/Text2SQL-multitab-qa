@@ -1,0 +1,12 @@
+{
+    "scope_nature_reserves_flora_and_fauna_dump": [
+        "Flora_and_fauna.FaunaID",
+        "Flora_and_fauna.SpeciesName",
+        "Nature_Reserves.ReserveID",
+        "Nature_Reserves.Name",
+        "Nature_Reserves.Location",
+        "Nature_reserves_flora_and_fauna.ID",
+        "Nature_reserves_flora_and_fauna.NatureReserveId",
+        "Nature_reserves_flora_and_fauna.FaunaId"
+    ]
+}

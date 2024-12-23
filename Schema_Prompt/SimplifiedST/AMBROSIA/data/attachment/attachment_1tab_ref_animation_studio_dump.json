@@ -1,0 +1,20 @@
+{
+    "attachment_1tab_ref_animation_studio_dump": [
+        "AnimationStudios.id",
+        "AnimationStudios.studioName",
+        "Awards.id",
+        "Awards.awardName",
+        "Genres.id",
+        "Genres.genreName",
+        "MovieAwards.id",
+        "MovieAwards.movieId",
+        "MovieAwards.awardId",
+        "MovieDetails.id",
+        "MovieDetails.movieTitle",
+        "MovieDetails.releaseDate",
+        "MovieDetails.animationStudioId",
+        "MoviesGenre.id",
+        "MoviesGenre.movieId",
+        "MoviesGenre.genreId"
+    ]
+}

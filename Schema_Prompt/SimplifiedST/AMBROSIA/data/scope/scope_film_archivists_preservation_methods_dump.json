@@ -1,0 +1,30 @@
+{
+    "scope_film_archivists_preservation_methods_dump": [
+        "Actor.actor_id",
+        "Actor.firstname",
+        "Actor.lastname",
+        "Archived_Films.film_id",
+        "Archived_Films.archiver_id",
+        "Archived_Films.preservation_method_id",
+        "Director.director_id",
+        "Director.firstname",
+        "Director.lastname",
+        "Film_Archivists.id",
+        "Film_Archivists.name",
+        "Film_Archivists.email",
+        "Films.id",
+        "Films.title",
+        "Films.year",
+        "Preservation_Methods.id",
+        "Preservation_Methods.method",
+        "Preservation_Methods.description",
+        "Producer.producer_id",
+        "Producer.firstname",
+        "Producer.lastname",
+        "Roles.role_id",
+        "Roles.film_id",
+        "Roles.director_id",
+        "Roles.producer_id",
+        "Roles.actor_id"
+    ]
+}

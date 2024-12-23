@@ -1,0 +1,29 @@
+{
+    "scholar": [
+        "venue.venueId",
+        "venue.venueName",
+        "author.authorId",
+        "author.authorName",
+        "dataset.datasetId",
+        "dataset.datasetName",
+        "journal.journalId",
+        "journal.journalName",
+        "keyphrase.keyphraseId",
+        "keyphrase.keyphraseName",
+        "paper.paperId",
+        "paper.title",
+        "paper.venueId",
+        "paper.year",
+        "paper.numCiting",
+        "paper.numCitedBy",
+        "paper.journalId",
+        "cite.citingPaperId",
+        "cite.citedPaperId",
+        "paperDataset.paperId",
+        "paperDataset.datasetId",
+        "paperKeyphrase.paperId",
+        "paperKeyphrase.keyphraseId",
+        "writes.paperId",
+        "writes.authorId"
+    ]
+}

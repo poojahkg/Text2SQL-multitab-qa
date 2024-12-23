@@ -1,0 +1,13 @@
+{
+    "scope_hostels_dormitories_dump": [
+        "Dormitories.dormitory_id",
+        "Dormitories.type",
+        "Dormitories.capacity",
+        "Hostels.id",
+        "Hostels.name",
+        "Hostels.address",
+        "Hostels_Dormitories.hostel_dormitory_id",
+        "Hostels_Dormitories.hostel_id",
+        "Hostels_Dormitories.dormitory_id"
+    ]
+}

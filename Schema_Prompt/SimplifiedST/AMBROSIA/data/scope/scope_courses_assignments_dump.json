@@ -1,0 +1,28 @@
+{
+    "scope_courses_assignments_dump": [
+        "Assignments.assignmentID",
+        "Assignments.type",
+        "Assignments.description",
+        "Courses.courseID",
+        "Courses.title",
+        "Courses.credits",
+        "Courses.professorID",
+        "Courses_Assignments.coursesAssignmentID",
+        "Courses_Assignments.courseID",
+        "Courses_Assignments.assignmentID",
+        "Departments.departmentID",
+        "Departments.name",
+        "Departments.head",
+        "Enrollments.enrollmentID",
+        "Enrollments.studentID",
+        "Enrollments.courseID",
+        "Enrollments.grade",
+        "Professors.professorID",
+        "Professors.firstName",
+        "Professors.lastName",
+        "Professors.departmentID",
+        "Students.studentID",
+        "Students.firstName",
+        "Students.lastName"
+    ]
+}

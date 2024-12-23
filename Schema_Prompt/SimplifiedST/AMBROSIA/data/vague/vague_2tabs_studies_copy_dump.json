@@ -1,0 +1,18 @@
+{
+    "vague_2tabs_studies_copy_dump": [
+        "Course.id",
+        "Course.course_code",
+        "Course.title",
+        "Course.credit",
+        "Course.faculty_id",
+        "Department.id",
+        "Department.department_name",
+        "Department.head_id",
+        "Enrollment.id",
+        "Enrollment.student_id",
+        "Enrollment.course_id",
+        "Faculty.id",
+        "Faculty.faculty_name",
+        "Faculty.department_id"
+    ]
+}

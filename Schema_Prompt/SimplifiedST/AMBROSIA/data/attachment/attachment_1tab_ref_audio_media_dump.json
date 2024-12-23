@@ -1,0 +1,19 @@
+{
+    "attachment_1tab_ref_audio_media_dump": [
+        "Audio_Media.MediaID",
+        "Audio_Media.Title",
+        "Audio_Media.Category",
+        "Audio_Media.ReleaseDate",
+        "Audio_Media.Creator",
+        "Episode_Details.EpisodeID",
+        "Episode_Details.AudioMediaID",
+        "Episode_Details.Title",
+        "Episode_Details.Length",
+        "Other_Category.CategoryID",
+        "Other_Category.Name",
+        "Podcast_Category.CategoryID",
+        "Podcast_Category.Name",
+        "RadioShow_Category.CategoryID",
+        "RadioShow_Category.Name"
+    ]
+}

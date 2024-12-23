@@ -1,0 +1,20 @@
+{
+    "scope_scuba_diving_centers_dive_sites_dump": [
+        "Bookings.booking_id",
+        "Bookings.customer_id",
+        "Bookings.scuba_center_id",
+        "Bookings.dive_site_id",
+        "Bookings.date",
+        "Bookings.time",
+        "Customers.id",
+        "Customers.first_name",
+        "Customers.last_name",
+        "Customers.email",
+        "Dive_Sites.id",
+        "Dive_Sites.site_name",
+        "Dive_Sites.type",
+        "Scuba_Diving_Centers.id",
+        "Scuba_Diving_Centers.name",
+        "Scuba_Diving_Centers.location"
+    ]
+}

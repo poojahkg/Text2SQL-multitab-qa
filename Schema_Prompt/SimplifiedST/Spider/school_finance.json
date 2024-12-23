@@ -1,0 +1,23 @@
+{
+    "school_finance": [
+        "School.School_id",
+        "School.School_name",
+        "School.Location",
+        "School.Mascot",
+        "School.Enrollment",
+        "School.IHSAA_Class",
+        "School.IHSAA_Football_Class",
+        "School.County",
+        "budget.School_id",
+        "budget.Year",
+        "budget.Budgeted",
+        "budget.total_budget_percent_budgeted",
+        "budget.Invested",
+        "budget.total_budget_percent_invested",
+        "budget.Budget_invested_percent",
+        "endowment.endowment_id",
+        "endowment.School_id",
+        "endowment.donator_name",
+        "endowment.amount"
+    ]
+}

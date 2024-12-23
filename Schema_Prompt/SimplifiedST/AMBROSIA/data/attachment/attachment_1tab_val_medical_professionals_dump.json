@@ -1,0 +1,25 @@
+{
+    "attachment_1tab_val_medical_professionals_dump": [
+        "Departments.DepartmentID",
+        "Departments.DepartmentName",
+        "Departments.HospitalID",
+        "Employees.EmployeeID",
+        "Employees.Email",
+        "Employees.PhoneNumber",
+        "Employees.MedicalProfession",
+        "Employees.Patient",
+        "Employees.FullName",
+        "Hospitals.HospitalID",
+        "Hospitals.Name",
+        "Hospitals.Location",
+        "JobPostings.JobPostID",
+        "JobPostings.PositionTitle",
+        "JobPostings.Description",
+        "JobPostings.Requirements",
+        "JobPostings.StartDate",
+        "JobPostings.EndDate",
+        "JobPostings.Salary",
+        "JobPostings.Vacancy",
+        "JobPostings.DepartmentID"
+    ]
+}

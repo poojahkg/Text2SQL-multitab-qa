@@ -1,0 +1,11 @@
+{
+    "scope_high_schools_clubs_dump": [
+        "Clubs.id",
+        "Clubs.club_name",
+        "High_Schools.id",
+        "High_Schools.name",
+        "High_Schools.location",
+        "High_Schools_Clubs.high_school_id",
+        "High_Schools_Clubs.club_id"
+    ]
+}

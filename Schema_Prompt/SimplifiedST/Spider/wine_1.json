@@ -1,0 +1,24 @@
+{
+    "wine_1": [
+        "grapes.ID",
+        "grapes.Grape",
+        "grapes.Color",
+        "appellations.No",
+        "appellations.Appelation",
+        "appellations.County",
+        "appellations.State",
+        "appellations.Area",
+        "appellations.isAVA",
+        "wine.No",
+        "wine.Grape",
+        "wine.Winery",
+        "wine.Appelation",
+        "wine.State",
+        "wine.Name",
+        "wine.Year",
+        "wine.Price",
+        "wine.Score",
+        "wine.Cases",
+        "wine.Drink"
+    ]
+}

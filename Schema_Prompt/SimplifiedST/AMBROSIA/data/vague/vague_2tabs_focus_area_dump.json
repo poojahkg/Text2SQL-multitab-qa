@@ -1,0 +1,31 @@
+{
+    "vague_2tabs_focus_area_dump": [
+        "Enrollment.id",
+        "Enrollment.studentId",
+        "Enrollment.projectId",
+        "Enrollment.grade",
+        "Enrollment.enrolledDate",
+        "Enrollment.completionDate",
+        "Field_Of_Study.id",
+        "Field_Of_Study.name",
+        "Field_Of_Study.description",
+        "Instructor.id",
+        "Instructor.firstName",
+        "Instructor.lastName",
+        "Instructor.email",
+        "Instructor.fieldOfStudyId",
+        "Project.id",
+        "Project.title",
+        "Project.details",
+        "Project.topicId",
+        "Project.fieldOfStudyId",
+        "Student.id",
+        "Student.firstName",
+        "Student.lastName",
+        "Student.email",
+        "Student.majorId",
+        "Topic.id",
+        "Topic.name",
+        "Topic.description"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "vague_2cols_divorce_rate_copy_dump": [
+        "AgeGroup.id",
+        "AgeGroup.AgeRange",
+        "AgeGroup.PopulationInThisAgeRange",
+        "EducationLevel.id",
+        "EducationLevel.Level",
+        "EmploymentStatus.id",
+        "EmploymentStatus.Status",
+        "GenderDemographics.id",
+        "GenderDemographics.Gender",
+        "GenderDemographics.Count",
+        "MaritalStatus.id",
+        "MaritalStatus.Status"
+    ]
+}

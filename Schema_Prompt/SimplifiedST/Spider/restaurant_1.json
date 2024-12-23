@@ -1,0 +1,25 @@
+{
+    "restaurant_1": [
+        "Student.StuID",
+        "Student.LName",
+        "Student.Fname",
+        "Student.Age",
+        "Student.Sex",
+        "Student.Major",
+        "Student.Advisor",
+        "Student.city_code",
+        "Restaurant.ResID",
+        "Restaurant.ResName",
+        "Restaurant.Address",
+        "Restaurant.Rating",
+        "Type_Of_Restaurant.ResID",
+        "Type_Of_Restaurant.ResTypeID",
+        "Restaurant_Type.ResTypeID",
+        "Restaurant_Type.ResTypeName",
+        "Restaurant_Type.ResTypeDescription",
+        "Visits_Restaurant.StuID",
+        "Visits_Restaurant.ResID",
+        "Visits_Restaurant.Time",
+        "Visits_Restaurant.Spent"
+    ]
+}

@@ -1,0 +1,111 @@
+Instructions for Writing Queries
+Understand the Schema:
+
+Identify the relationships between tables:
+Student is linked to Has_Pet via StuID.
+Has_Pet links to Pets via PetID.
+Use these relationships to connect students and their pets.
+Analyze the Question:
+
+Determine which tables and fields are needed to answer the query.
+Identify filtering criteria, grouping, or aggregation required.
+Use SQL Techniques:
+
+Use JOIN to combine related tables.
+Use DISTINCT to filter unique results.
+Use LIMIT to restrict the number of rows in the output.
+Use subqueries for intermediate calculations or filtering.
+Apply grouping and aggregation (GROUP BY, COUNT, AVG) when needed.
+Write and Validate the Query:
+
+Structure the query logically step by step.
+Test for accuracy and completeness.
+Few-Shot Questions and Queries
+Example 1:
+Question: Find the names of all students who own pets weighing more than 10 pounds.
+Query:
+
+sql
+Copy code
+SELECT s.Fname, s.LName
+FROM Student s
+JOIN Has_Pet hp ON s.StuID = hp.StuID
+JOIN Pets p ON hp.PetID = p.PetID
+WHERE p.weight > 10;
+Example 2:
+Question: List all unique types of pets owned by students.
+Query:
+
+sql
+Copy code
+SELECT DISTINCT p.PetType
+FROM Pets p
+JOIN Has_Pet hp ON p.PetID = hp.PetID;
+Example 3:
+Question: Which student owns the oldest pet?
+Query:
+
+sql
+Copy code
+SELECT s.Fname, s.LName, p.PetType, p.pet_age
+FROM Student s
+JOIN Has_Pet hp ON s.StuID = hp.StuID
+JOIN Pets p ON hp.PetID = p.PetID
+ORDER BY p.pet_age DESC
+LIMIT 1;
+Example 4:
+Question: What is the average weight of all cats owned by students?
+Query:
+
+sql
+Copy code
+SELECT AVG(p.weight) AS Average_Weight
+FROM Pets p
+JOIN Has_Pet hp ON p.PetID = hp.PetID
+WHERE p.PetType = 'cat';
+Example 5:
+Question: List the students who do not own any pets.
+Query:
+
+sql
+Copy code
+SELECT s.Fname, s.LName
+FROM Student s
+WHERE s.StuID NOT IN (SELECT hp.StuID FROM Has_Pet hp);
+Example 6:
+Question: Find the student who owns the most pets.
+Query:
+
+sql
+Copy code
+SELECT s.Fname, s.LName, COUNT(hp.PetID) AS Pet_Count
+FROM Student s
+JOIN Has_Pet hp ON s.StuID = hp.StuID
+GROUP BY s.StuID, s.Fname, s.LName
+ORDER BY Pet_Count DESC
+LIMIT 1;
+Example 7:
+Question: How many pets are owned by students majoring in Major ID 200?
+Query:
+
+sql
+Copy code
+SELECT COUNT(hp.PetID) AS Total_Pets
+FROM Student s
+JOIN Has_Pet hp ON s.StuID = hp.StuID
+WHERE s.Major = 200;
+Example 8:
+Question: What is the average age of pets owned by female students?
+Query:
+
+sql
+Copy code
+SELECT AVG(p.pet_age) AS Average_Pet_Age
+FROM Pets p
+JOIN Has_Pet hp ON p.PetID = hp.PetID
+JOIN Student s ON hp.StuID = s.StuID
+WHERE s.Sex = 'F';
+
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

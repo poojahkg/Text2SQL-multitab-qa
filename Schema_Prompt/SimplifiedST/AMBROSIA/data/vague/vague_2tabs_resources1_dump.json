@@ -1,0 +1,23 @@
+{
+    "vague_2tabs_resources1_dump": [
+        "Projects.id",
+        "Projects.project_name",
+        "Projects.description",
+        "Projects.supplies_id",
+        "Projects.textbook_id",
+        "Students.id",
+        "Students.student_name",
+        "Students.age",
+        "Students.class_id",
+        "Supplies.id",
+        "Supplies.name",
+        "Supplies.quantity_needed",
+        "Teachers.id",
+        "Teachers.teacher_name",
+        "Teachers.subject",
+        "Teachers.class_id",
+        "Textbooks.id",
+        "Textbooks.title",
+        "Textbooks.author"
+    ]
+}

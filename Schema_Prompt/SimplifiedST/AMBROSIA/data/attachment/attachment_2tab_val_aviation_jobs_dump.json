@@ -1,0 +1,31 @@
+{
+    "attachment_2tab_val_aviation_jobs_dump": [
+        "Aircrafts.id",
+        "Aircrafts.Model",
+        "Aircrafts.Manufacturer",
+        "Aircrafts.Year_Manufactured",
+        "Airlines.id",
+        "Airlines.Name",
+        "Airlines.Headquarters",
+        "Airlines.Fleet_Size",
+        "Aviation_Academies.id",
+        "Aviation_Academies.Name",
+        "Aviation_Academies.Location",
+        "Aviation_Academies.Years_Operating",
+        "Flight_Attendants.id",
+        "Flight_Attendants.Name",
+        "Flight_Attendants.Age",
+        "Flight_Attendants.Experience_Years",
+        "Flight_Attendants.Training_Center",
+        "Flight_Routes.id",
+        "Flight_Routes.Route_Number",
+        "Flight_Routes.Origin_Airport",
+        "Flight_Routes.Destination_Airport",
+        "Flight_Routes.Distance",
+        "Pilots.id",
+        "Pilots.Name",
+        "Pilots.Age",
+        "Pilots.Licenses",
+        "Pilots.Training_Center"
+    ]
+}

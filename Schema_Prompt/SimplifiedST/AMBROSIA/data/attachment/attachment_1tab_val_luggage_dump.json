@@ -1,0 +1,32 @@
+{
+    "attachment_1tab_val_luggage_dump": [
+        "Aircrafts.AircraftID",
+        "Aircrafts.Model",
+        "Aircrafts.Capacity",
+        "Aircrafts.RegistrationNumber",
+        "Assignments.AssignmentID",
+        "Assignments.FlightID",
+        "Assignments.AircraftID",
+        "Assignments.AssignedDate",
+        "Assignments.ReturnedDate",
+        "CheckIns.CheckInID",
+        "CheckIns.FlightID",
+        "CheckIns.PassengerID",
+        "CheckIns.CheckInDateTime",
+        "CheckIns.BoardingGate",
+        "CheckIns.Seat",
+        "Flights.FlightID",
+        "Flights.Origin",
+        "Flights.Destination",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Luggage.ItemID",
+        "Luggage.PassengerID",
+        "Luggage.Description",
+        "Luggage.Fees",
+        "Passengers.PassengerID",
+        "Passengers.DateOfBirth",
+        "Passengers.Nationality",
+        "Passengers.FullName"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "attachment_2tab_ref_age_group_dump": [
+        "Authors.id",
+        "Authors.name",
+        "ChildrensBooks.id",
+        "ChildrensBooks.title",
+        "ChildrensBooks.authorId",
+        "ChildrensBooks.illustratorId",
+        "Illustrators.id",
+        "Illustrators.illustratorName",
+        "YoungAdultBooks.id",
+        "YoungAdultBooks.title",
+        "YoungAdultBooks.authorId",
+        "YoungAdultBooks.illustratorId"
+    ]
+}

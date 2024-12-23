@@ -1,0 +1,32 @@
+{
+    "attachment_2tab_val_animal_study_careers_dump": [
+        "Applications.id",
+        "Applications.ApplicantID",
+        "Applications.JobID",
+        "Applications.ApplicationDate",
+        "Applications.Status",
+        "Companies.id",
+        "Companies.CompanyName",
+        "Companies.Location",
+        "Companies.Size",
+        "Jobs.id",
+        "Jobs.PositionTitle",
+        "Jobs.Description",
+        "Jobs.Salary",
+        "Jobs.PostedDate",
+        "Marine_Biologists.id",
+        "Marine_Biologists.Name",
+        "Marine_Biologists.Age",
+        "Marine_Biologists.Specialization",
+        "Marine_Biologists.Experience",
+        "Skills.id",
+        "Skills.SkillName",
+        "Skills.Level",
+        "Skills.ProficiencyScore",
+        "Zoologists.id",
+        "Zoologists.Name",
+        "Zoologists.Age",
+        "Zoologists.Specialization",
+        "Zoologists.Experience"
+    ]
+}

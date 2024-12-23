@@ -1,0 +1,12 @@
+{
+    "scope_routes_restrictions_dump": [
+        "Restrictions.restrictionType",
+        "Restrictions.value",
+        "Routes.id",
+        "Routes.routeName",
+        "Routes.distance",
+        "Routes_Restrictions.routesId",
+        "Routes_Restrictions.restrictionsType",
+        "Routes_Restrictions.ON"
+    ]
+}

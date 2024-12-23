@@ -1,0 +1,23 @@
+{
+    "scope_hr_professionals_functions_dump": [
+        "Applicants.applicantId",
+        "Applicants.firstName",
+        "Applicants.lastName",
+        "Applicants.email",
+        "Applications.applicationId",
+        "Applications.applicantId",
+        "Applications.jobId",
+        "Applications.dateApplied",
+        "Applications.status",
+        "Functions.functionId",
+        "Functions.description",
+        "Hr_Professionals.id",
+        "Hr_Professionals.name",
+        "Hr_Professionals.email",
+        "Hr_Professionals_Functions.hrProfessionalId",
+        "Hr_Professionals_Functions.functionId",
+        "Jobs.jobId",
+        "Jobs.title",
+        "Jobs.description"
+    ]
+}

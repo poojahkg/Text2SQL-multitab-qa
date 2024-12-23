@@ -1,0 +1,17 @@
+{
+    "vague_2tabs_chef_copy_dump": [
+        "Menu_items.menu_item_id",
+        "Menu_items.item_name",
+        "Menu_items.description",
+        "Menu_items.price",
+        "Order_details.detail_id",
+        "Order_details.quantity",
+        "Order_details.menu_item_id",
+        "Order_details.order_id",
+        "Orders.order_id",
+        "Orders.customer_name",
+        "Orders.date",
+        "Orders.total_amount",
+        "Orders.restaurant_id"
+    ]
+}

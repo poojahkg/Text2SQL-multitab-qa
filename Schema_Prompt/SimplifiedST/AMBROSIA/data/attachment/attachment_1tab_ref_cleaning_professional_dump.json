@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_ref_cleaning_professional_dump": [
+        "CleaningProfessionals.id",
+        "CleaningProfessionals.name",
+        "CleaningProfessionals.type",
+        "CleaningProfessionals.hotel_id",
+        "Customers.id",
+        "Customers.full_name",
+        "Customers.email",
+        "Customers.phone",
+        "Hotels.id",
+        "Hotels.name",
+        "Reservations.id",
+        "Reservations.checkin",
+        "Reservations.checkout",
+        "Reservations.room_id",
+        "Reservations.customer_name",
+        "Rooms.id",
+        "Rooms.room_number",
+        "Rooms.hotel_id"
+    ]
+}

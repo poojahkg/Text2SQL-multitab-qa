@@ -1,0 +1,11 @@
+{
+    "scope_cinematographies_techniques_dump": [
+        "Cinematographies.id",
+        "Cinematographies.name",
+        "Cinematographies.release_year",
+        "Cinematographies_Techniques.cinematography_id",
+        "Cinematographies_Techniques.technique_id",
+        "Techniques.id",
+        "Techniques.technique_name"
+    ]
+}

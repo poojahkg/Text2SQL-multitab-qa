@@ -1,0 +1,112 @@
+Instructions for Writing Queries
+Understand the Schema:
+
+AREA_CODE_STATE links area codes to states.
+CONTESTANTS lists the participants in the contest.
+VOTES records votes cast, linking voters to contestants and states.
+Analyze the Question:
+
+Identify which tables and columns are relevant.
+Determine whether filtering, grouping, or aggregation is needed.
+Use SQL Techniques:
+
+Use JOIN to combine related tables.
+Use DISTINCT to filter unique results.
+Use LIMIT to restrict rows.
+Use subqueries for filtering or intermediate calculations.
+Apply grouping and aggregation (GROUP BY, COUNT, AVG, etc.) where applicable.
+Write and Validate the Query:
+
+Structure the query logically, step by step.
+Test for completeness and accuracy.
+Few-Shot Questions and Queries
+Example 1:
+Question: How many votes were cast for each contestant?
+Query:
+
+sql
+Copy code
+SELECT c.contestant_name, COUNT(v.vote_id) AS Vote_Count
+FROM CONTESTANTS c
+JOIN VOTES v ON c.contestant_number = v.contestant_number
+GROUP BY c.contestant_name
+ORDER BY Vote_Count DESC;
+Example 2:
+Question: List the states from which votes were cast for contestant number 2.
+Query:
+
+sql
+Copy code
+SELECT DISTINCT v.state
+FROM VOTES v
+WHERE v.contestant_number = 2;
+Example 3:
+Question: Find the contestant with the highest number of votes.
+Query:
+
+sql
+Copy code
+SELECT c.contestant_name, COUNT(v.vote_id) AS Total_Votes
+FROM CONTESTANTS c
+JOIN VOTES v ON c.contestant_number = v.contestant_number
+GROUP BY c.contestant_name
+ORDER BY Total_Votes DESC
+LIMIT 1;
+Example 4:
+Question: How many votes were cast by area codes starting with '212'?
+Query:
+
+sql
+Copy code
+SELECT COUNT(*) AS Vote_Count
+FROM VOTES v
+JOIN AREA_CODE_STATE acs ON SUBSTRING(v.phone_number::TEXT, 1, 3) = acs.area_code::TEXT
+WHERE acs.area_code LIKE '212%';
+Example 5:
+Question: What is the total number of votes cast for contestants with more than 100 votes?
+Query:
+
+sql
+Copy code
+SELECT SUM(Vote_Count) AS Total_Votes
+FROM (
+    SELECT v.contestant_number, COUNT(v.vote_id) AS Vote_Count
+    FROM VOTES v
+    GROUP BY v.contestant_number
+    HAVING COUNT(v.vote_id) > 100
+) AS Subquery;
+Example 6:
+Question: List all contestants who received votes from California (CA).
+Query:
+
+sql
+Copy code
+SELECT DISTINCT c.contestant_name
+FROM CONTESTANTS c
+JOIN VOTES v ON c.contestant_number = v.contestant_number
+WHERE v.state = 'CA';
+Example 7:
+Question: What is the average number of votes per contestant?
+Query:
+
+sql
+Copy code
+SELECT AVG(Vote_Count) AS Average_Votes
+FROM (
+    SELECT c.contestant_name, COUNT(v.vote_id) AS Vote_Count
+    FROM CONTESTANTS c
+    JOIN VOTES v ON c.contestant_number = v.contestant_number
+    GROUP BY c.contestant_name
+) AS Subquery;
+Example 8:
+Question: How many votes were cast on January 1, 2023?
+Query:
+
+sql
+Copy code
+SELECT COUNT(*) AS Votes_On_Jan1
+FROM VOTES
+WHERE created LIKE '2023-01-01%';
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

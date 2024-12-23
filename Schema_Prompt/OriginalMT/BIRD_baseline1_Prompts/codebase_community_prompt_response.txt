@@ -1,0 +1,56 @@
+Prompt
+You are tasked with writing a query to solve a specific problem based on the schema and instructions below. Follow the step-by-step process to construct the query.
+
+
+Few-Shot Examples
+Question 1: What are the top 5 most viewed questions tagged with "Python"?
+sql
+Copy code
+SELECT T1.Title, T1.ViewCount
+FROM posts AS T1
+JOIN tags AS T2 ON T1.Tags LIKE CONCAT('%', T2.TagName, '%')
+WHERE T2.TagName = 'Python' AND T1.PostTypeId = 1
+ORDER BY T1.ViewCount DESC
+LIMIT 5;
+Description:
+
+This query retrieves the top 5 most viewed questions tagged with "Python".
+It uses a JOIN between posts and tags and filters for questions (PostTypeId = 1) containing the "Python" tag.
+The ORDER BY clause sorts the results by ViewCount in descending order, and LIMIT 5 restricts the output to 5 rows.
+Question 2: Which users have received the most badges?
+sql
+Copy code
+SELECT T2.DisplayName, COUNT(T1.Id) AS BadgeCount
+FROM badges AS T1
+JOIN users AS T2 ON T1.UserId = T2.Id
+GROUP BY T2.DisplayName
+ORDER BY BadgeCount DESC
+LIMIT 10;
+Description:
+
+This query retrieves the top 10 users with the highest number of badges.
+A JOIN connects badges with users on UserId, and the results are grouped by DisplayName.
+The COUNT function calculates the number of badges per user, and the results are sorted in descending order by BadgeCount.
+Question 3: What is the average score of answers for each question?
+sql
+Copy code
+SELECT T1.Id AS QuestionId, T1.Title, AVG(T2.Score) AS AvgAnswerScore
+FROM posts AS T1
+JOIN posts AS T2 ON T2.ParentId = T1.Id
+WHERE T1.PostTypeId = 1 AND T2.PostTypeId = 2
+GROUP BY T1.Id, T1.Title;
+Description:
+
+This query calculates the average score of answers for each question.
+A JOIN connects posts to itself, linking answers (PostTypeId = 2) to their parent questions (PostTypeId = 1) via ParentId.
+The results are grouped by question ID and title, with the average score of answers computed using AVG.
+
+Instructions for Writing Queries
+Use JOINs to combine data from multiple tables.
+Apply GROUP BY and ORDER BY clauses for aggregation and sorting.
+Include LIMIT clauses to restrict results when needed.
+Use DISTINCT to avoid duplicate results if necessary.
+Always ensure WHERE clauses accurately filter data based on conditions provided in the question.
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

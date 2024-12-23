@@ -1,0 +1,24 @@
+{
+    "vague_2tabs_recruiter_copy_dump": [
+        "Applicant.id",
+        "Applicant.firstName",
+        "Applicant.lastName",
+        "Applicant.email",
+        "Applicant.phoneNumber",
+        "Applicant.positionId",
+        "Employee.id",
+        "Employee.firstName",
+        "Employee.lastName",
+        "Employee.email",
+        "Employee.phoneNumber",
+        "Employee.role",
+        "Employee.hireDate",
+        "Interview.id",
+        "Interview.date",
+        "Interview.time",
+        "Interview.applicantId",
+        "Interview.interviewerId",
+        "Interview.positionId",
+        "Interview.status"
+    ]
+}

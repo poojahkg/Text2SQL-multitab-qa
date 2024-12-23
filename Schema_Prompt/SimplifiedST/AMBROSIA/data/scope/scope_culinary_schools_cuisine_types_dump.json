@@ -1,0 +1,11 @@
+{
+    "scope_culinary_schools_cuisine_types_dump": [
+        "Cuisine_Types.cuisine_id",
+        "Cuisine_Types.type",
+        "Culinary_Schools.id",
+        "Culinary_Schools.name",
+        "Culinary_Schools.location",
+        "Culinary_Schools_Cuisine_Types.culinary_school_id",
+        "Culinary_Schools_Cuisine_Types.cuisine_type_id"
+    ]
+}

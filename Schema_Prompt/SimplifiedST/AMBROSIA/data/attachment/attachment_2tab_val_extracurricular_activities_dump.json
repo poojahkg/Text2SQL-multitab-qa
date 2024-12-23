@@ -1,0 +1,30 @@
+{
+    "attachment_2tab_val_extracurricular_activities_dump": [
+        "Classes.ClassID",
+        "Classes.ClassroomNumber",
+        "Classes.StartTime",
+        "Classes.EndTime",
+        "Classes.TeacherId",
+        "Clubs.ClubID",
+        "Clubs.Name",
+        "Clubs.Description",
+        "Clubs.Participants",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.ClassId",
+        "Enrollments.Grade",
+        "LeadershipPrograms.ProgramID",
+        "LeadershipPrograms.Name",
+        "LeadershipPrograms.Description",
+        "LeadershipPrograms.Participants",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.DateOfBirth",
+        "Students.EmailAddress",
+        "Teachers.TeacherID",
+        "Teachers.FirstName",
+        "Teachers.LastName",
+        "Teachers.SubjectTaught"
+    ]
+}

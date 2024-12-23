@@ -1,0 +1,26 @@
+{
+    "vague_2cols_employment_start_copy_dump": [
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.PublicationDate",
+        "Articles.AuthorID",
+        "Interviews.InterviewID",
+        "Interviews.Date",
+        "Interviews.SourceId",
+        "Interviews.Notes",
+        "Magazines.MagazineId",
+        "Magazines.Name",
+        "Magazines.EditorInChiefID",
+        "Sources.SourceId",
+        "Sources.Name",
+        "Sources.ContactInfo",
+        "Sources.LastContacted",
+        "Stories.StoryId",
+        "Stories.Headline",
+        "Stories.Content",
+        "Stories.PublishDate",
+        "Stories.AssignedToReporterID",
+        "Stories.MagazineId"
+    ]
+}

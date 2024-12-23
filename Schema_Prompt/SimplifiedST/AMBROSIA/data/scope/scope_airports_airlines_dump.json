@@ -1,0 +1,11 @@
+{
+    "scope_airports_airlines_dump": [
+        "Airlines.AirlineID",
+        "Airlines.Name",
+        "Airports.AirportID",
+        "Airports.Name",
+        "Airports.Location",
+        "Airports_Airlines.AirportID",
+        "Airports_Airlines.AirlineID"
+    ]
+}

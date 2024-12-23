@@ -1,0 +1,11 @@
+{
+    "scope_onboard_entertainment_system_features_dump": [
+        "Features.feature_id",
+        "Features.feature_name",
+        "Onboard_Entertainment_System.id",
+        "Onboard_Entertainment_System.airline",
+        "Onboard_Entertainment_System.aircraft_model",
+        "Onboard_Entertainment_System_Features.onboard_entertainment_system_id",
+        "Onboard_Entertainment_System_Features.features_feature_id"
+    ]
+}

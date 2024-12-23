@@ -1,0 +1,28 @@
+{
+    "vague_2cols_camera_model_dump": [
+        "Actor.ID",
+        "Actor.Name",
+        "Actor.Date_Of_Birth",
+        "Actor.Occupation",
+        "Camera.ID",
+        "Camera.Brand_Name",
+        "Camera.Camera_Type",
+        "Camera.Cinematographer",
+        "Camera.Purchase_Year",
+        "Camera.Currently_In_Use",
+        "Director.ID",
+        "Director.Name",
+        "Director.Birthdate",
+        "Director.Nationality",
+        "Film_Crew.ID",
+        "Film_Crew.Role",
+        "Film_Crew.Responsibility",
+        "Film_Crew.Salary",
+        "Movie.ID",
+        "Movie.Title",
+        "Movie.Release_Date",
+        "Movie.Genre",
+        "Movie.Runtime",
+        "Movie.Box_Office"
+    ]
+}

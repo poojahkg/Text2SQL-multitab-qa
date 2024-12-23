@@ -1,0 +1,31 @@
+{
+    "vague_2cols_leadership_dump": [
+        "Accounts.accountNumber",
+        "Accounts.balance",
+        "Accounts.interestRate",
+        "Accounts.customerId",
+        "Banks.id",
+        "Banks.name",
+        "Banks.location",
+        "Banks.Ceo",
+        "Banks.Management_Team",
+        "Customers.customerId",
+        "Customers.dob",
+        "Customers.phoneNumber",
+        "Customers.emailAddress",
+        "Customers.bankID",
+        "Customers.fullname",
+        "Loans.loanId",
+        "Loans.principalAmount",
+        "Loans.interestRate",
+        "Loans.termMonths",
+        "Loans.monthlyPayment",
+        "Loans.customerId",
+        "Transactions.transactionId",
+        "Transactions.amount",
+        "Transactions.date",
+        "Transactions.description",
+        "Transactions.sourceAccountNumber",
+        "Transactions.destinationAccountNumber"
+    ]
+}

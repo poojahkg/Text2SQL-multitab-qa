@@ -1,0 +1,13 @@
+{
+    "scope_duty_free_shops_products_dump": [
+        "Duty_Free_Shops.shop_id",
+        "Duty_Free_Shops.name",
+        "Duty_Free_Shops.location",
+        "Duty_Free_Shops_Products.shop_id",
+        "Duty_Free_Shops_Products.product_id",
+        "Duty_Free_Shops_Products.quantity",
+        "Products.product_id",
+        "Products.category",
+        "Products.price"
+    ]
+}

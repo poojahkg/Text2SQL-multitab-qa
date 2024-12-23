@@ -1,0 +1,26 @@
+{
+    "vague_2tabs_film_creator_dump": [
+        "Actor.id",
+        "Actor.first_name",
+        "Actor.last_name",
+        "Actor.date_of_birth",
+        "Director.id",
+        "Director.name",
+        "Director.birth_year",
+        "Genre.genre_id",
+        "Genre.name",
+        "Movie.id",
+        "Movie.title",
+        "Movie.release_date",
+        "Movie.studio_id",
+        "Movie.director_id",
+        "MovieGenre.movie_id",
+        "MovieGenre.genre_id",
+        "Role.movie_id",
+        "Role.actor_id",
+        "Role.character",
+        "Studio.id",
+        "Studio.name",
+        "Studio.location"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "vague_2cols_location_dump": [
+        "ClientProperties.client_id",
+        "ClientProperties.property_id",
+        "ClientProperties.InterestedDate",
+        "Clients.client_id",
+        "Clients.Name",
+        "Clients.Email",
+        "Clients.PhoneNumber",
+        "Properties.property_id",
+        "Properties.Street_Address",
+        "Properties.City",
+        "Properties.Real_Estate_Offices",
+        "Properties.Price",
+        "Properties.Property_Type",
+        "Properties.Square_Feet",
+        "RealEstateOffices.real_estate_office_id",
+        "RealEstateOffices.Name",
+        "RealEstateOffices.Address",
+        "RealEstateOffices.PhoneNumber",
+        "Transactions.transaction_id",
+        "Transactions.TransactionDate",
+        "Transactions.client_id",
+        "Transactions.property_id",
+        "Transactions.TypeOfTransaction"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "attachment_2tab_val_insurance_product_dump": [
+        "accounts.account_number",
+        "accounts.balance",
+        "accounts.interest_rate",
+        "accounts.customer_id",
+        "customers.customer_id",
+        "customers.first_name",
+        "customers.last_name",
+        "customers.date_of_birth",
+        "customers.email",
+        "loans.loan_id",
+        "loans.amount",
+        "loans.start_date",
+        "loans.end_date",
+        "loans.monthly_payment",
+        "loans.account_number",
+        "transactions.transaction_id",
+        "transactions.type",
+        "transactions.amount",
+        "transactions.account_number"
+    ]
+}

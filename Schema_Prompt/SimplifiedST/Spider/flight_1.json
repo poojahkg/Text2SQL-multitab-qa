@@ -1,0 +1,20 @@
+{
+    "flight_1": [
+        "flight.flno",
+        "flight.origin",
+        "flight.destination",
+        "flight.distance",
+        "flight.departure_date",
+        "flight.arrival_date",
+        "flight.price",
+        "flight.aid",
+        "aircraft.aid",
+        "aircraft.name",
+        "aircraft.distance",
+        "employee.eid",
+        "employee.name",
+        "employee.salary",
+        "certificate.eid",
+        "certificate.aid"
+    ]
+}

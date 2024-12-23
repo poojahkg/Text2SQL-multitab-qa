@@ -1,0 +1,21 @@
+{
+    "architecture": [
+        "architect.id",
+        "architect.name",
+        "architect.nationality",
+        "architect.gender",
+        "bridge.architect_id",
+        "bridge.id",
+        "bridge.name",
+        "bridge.location",
+        "bridge.length_meters",
+        "bridge.length_feet",
+        "mill.architect_id",
+        "mill.id",
+        "mill.location",
+        "mill.name",
+        "mill.type",
+        "mill.built_year",
+        "mill.notes"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "attachment_1tab_val_sports_dump": [
+        "sports_team.id",
+        "sports_team.name",
+        "sports_team.sport",
+        "sports_team.country",
+        "sports_team.founded_year"
+    ]
+}

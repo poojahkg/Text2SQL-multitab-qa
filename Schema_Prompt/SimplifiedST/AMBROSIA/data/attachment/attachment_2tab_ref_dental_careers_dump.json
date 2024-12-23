@@ -1,0 +1,16 @@
+{
+    "attachment_2tab_ref_dental_careers_dump": [
+        "Education.id",
+        "Education.degree_name",
+        "Orthodontists.id",
+        "Orthodontists.name",
+        "Orthodontists.education_id",
+        "Orthodontists.specialty_id",
+        "Periodontists.id",
+        "Periodontists.name",
+        "Periodontists.education_id",
+        "Periodontists.specialty_id",
+        "Specialization.id",
+        "Specialization.speciality_name"
+    ]
+}

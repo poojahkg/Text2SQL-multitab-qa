@@ -1,0 +1,19 @@
+{
+    "scope_construction_companies_projects_dump": [
+        "Construction_Companies.id",
+        "Construction_Companies.company_name",
+        "Construction_Companies.location",
+        "Construction_Companies_Projects.construction_company_id",
+        "Construction_Companies_Projects.project_id",
+        "House_Sizes.house_size_id",
+        "House_Sizes.size_in_sqft",
+        "House_Sizes.price",
+        "Material_Types.material_type_id",
+        "Material_Types.type_of_material",
+        "Material_Types.cost_per_unit",
+        "Projects.id",
+        "Projects.project_type",
+        "Projects.start_date",
+        "Projects.end_date"
+    ]
+}

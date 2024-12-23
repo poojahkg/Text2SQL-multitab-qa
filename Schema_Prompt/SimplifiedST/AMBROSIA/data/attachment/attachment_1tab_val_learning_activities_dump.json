@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_val_learning_activities_dump": [
+        "Classes.ClassID",
+        "Classes.Name",
+        "Classes.GradeLevel",
+        "Classes.TeacherID",
+        "LearningActivities.ActivityID",
+        "LearningActivities.ActivityType",
+        "LearningActivities.Purpose",
+        "LearningActivities.Date",
+        "LearningActivities.ClassID",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.DateOfBirth",
+        "Teachers.TeacherID",
+        "Teachers.FirstName",
+        "Teachers.LastName",
+        "Teachers.SubjectTaught"
+    ]
+}

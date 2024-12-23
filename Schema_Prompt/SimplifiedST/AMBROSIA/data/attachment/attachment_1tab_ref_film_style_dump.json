@@ -1,0 +1,26 @@
+{
+    "attachment_1tab_ref_film_style_dump": [
+        "CastMembers.MemberId",
+        "CastMembers.MovieId",
+        "CastMembers.ActorName",
+        "CastMembers.CharacterPlayed",
+        "Directors.DirectorId",
+        "Directors.Name",
+        "MovieDetails.DetailID",
+        "MovieDetails.MovieId",
+        "MovieDetails.ReleaseYear",
+        "MovieDetails.Budget",
+        "MovieDetails.Revenue",
+        "MovieDetails.Duration",
+        "MovieDetails.Rating",
+        "Movies.MovieId",
+        "Movies.Title",
+        "Movies.FilmStyle",
+        "Movies.DirectorId",
+        "Reviews.ReviewId",
+        "Reviews.MovieId",
+        "Reviews.UserId",
+        "Reviews.Comment",
+        "Reviews.Stars"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "manufactory_1": [
+        "Manufacturers.Code",
+        "Manufacturers.Name",
+        "Manufacturers.Headquarter",
+        "Manufacturers.Founder",
+        "Manufacturers.Revenue",
+        "Products.Code",
+        "Products.Name",
+        "Products.Price",
+        "Products.Manufacturer"
+    ]
+}

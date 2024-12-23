@@ -1,0 +1,14 @@
+{
+    "race_track": [
+        "race.Race_ID",
+        "race.Name",
+        "race.Class",
+        "race.Date",
+        "race.Track_ID",
+        "track.Track_ID",
+        "track.Name",
+        "track.Location",
+        "track.Seating",
+        "track.Year_Opened"
+    ]
+}

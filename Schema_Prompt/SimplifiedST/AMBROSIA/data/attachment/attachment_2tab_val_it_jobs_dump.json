@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_val_it_jobs_dump": [
+        "Data_Analyst.id",
+        "Data_Analyst.Tools_Used",
+        "Data_Analyst.Analytical_Skills",
+        "Data_Analyst.Problem_Solving_Abilities",
+        "Data_Analyst.Salary",
+        "HR_Specialist.id",
+        "HR_Specialist.Industry_Experience",
+        "HR_Specialist.Certifications",
+        "HR_Specialist.Recruitment_Methods",
+        "HR_Specialist.Salary",
+        "IT_Consultant.id",
+        "IT_Consultant.\"Type\"",
+        "IT_Consultant.Projects_Worked",
+        "IT_Consultant.Languages_Known",
+        "IT_Consultant.Salary",
+        "Network_Admin.id",
+        "Network_Admin.Position",
+        "Network_Admin.Years_of_Experience",
+        "Network_Admin.Degree_Level",
+        "Network_Admin.Salary",
+        "Software_Engineer.id",
+        "Software_Engineer.Programming_Languages",
+        "Software_Engineer.Experience_in_Teamwork",
+        "Software_Engineer.Specialization",
+        "Software_Engineer.Salary"
+    ]
+}

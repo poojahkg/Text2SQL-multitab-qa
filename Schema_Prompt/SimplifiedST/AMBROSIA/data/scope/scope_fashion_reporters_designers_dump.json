@@ -1,0 +1,21 @@
+{
+    "scope_fashion_reporters_designers_dump": [
+        "Article_Publications.ArticleID",
+        "Article_Publications.PublicationID",
+        "Article_Publications.PublishedOn",
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.PublishDate",
+        "Articles.ReporterID",
+        "Designers.DesignerID",
+        "Designers.Name",
+        "Fashion_Reporters.ReporterID",
+        "Fashion_Reporters.FullName",
+        "Fashion_Reporters_Designers.ReporterID",
+        "Fashion_Reporters_Designers.DesignerID",
+        "Publications.PublicationID",
+        "Publications.PublisherName",
+        "Publications.WebsiteURL"
+    ]
+}

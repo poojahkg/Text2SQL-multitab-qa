@@ -1,0 +1,32 @@
+{
+    "tracking_software_problems": [
+        "Problem_Category_Codes.problem_category_code",
+        "Problem_Category_Codes.problem_category_description",
+        "Problem_Log.problem_log_id",
+        "Problem_Log.assigned_to_staff_id",
+        "Problem_Log.problem_id",
+        "Problem_Log.problem_category_code",
+        "Problem_Log.problem_status_code",
+        "Problem_Log.log_entry_date",
+        "Problem_Log.log_entry_description",
+        "Problem_Log.log_entry_fix",
+        "Problem_Log.other_log_details",
+        "Problem_Status_Codes.problem_status_code",
+        "Problem_Status_Codes.problem_status_description",
+        "Product.product_id",
+        "Product.product_name",
+        "Product.product_details",
+        "Staff.staff_id",
+        "Staff.staff_first_name",
+        "Staff.staff_last_name",
+        "Staff.other_staff_details",
+        "Problems.problem_id",
+        "Problems.product_id",
+        "Problems.closure_authorised_by_staff_id",
+        "Problems.reported_by_staff_id",
+        "Problems.date_problem_reported",
+        "Problems.date_problem_closed",
+        "Problems.problem_description",
+        "Problems.other_problem_details"
+    ]
+}

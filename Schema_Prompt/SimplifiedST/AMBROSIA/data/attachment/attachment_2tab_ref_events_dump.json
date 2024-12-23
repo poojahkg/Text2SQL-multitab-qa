@@ -1,0 +1,25 @@
+{
+    "attachment_2tab_ref_events_dump": [
+        "Article.id",
+        "Article.title",
+        "Article.content",
+        "Article.authorId",
+        "Article.pressConferenceId",
+        "Article.mediaScrumId",
+        "Article.publicationDate",
+        "Media_Scrum.id",
+        "Media_Scrum.personId",
+        "Media_Scrum.date",
+        "Media_Scrum.time",
+        "Media_Scrum.location",
+        "Media_Scrum.topic",
+        "Person.id",
+        "Person.name",
+        "Press_Conference.id",
+        "Press_Conference.personId",
+        "Press_Conference.date",
+        "Press_Conference.time",
+        "Press_Conference.venue",
+        "Press_Conference.notes"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "film_rank": [
+        "film.Film_ID",
+        "film.Title",
+        "film.Studio",
+        "film.Director",
+        "film.Gross_in_dollar",
+        "market.Market_ID",
+        "market.Country",
+        "market.Number_cities",
+        "film_market_estimation.Estimation_ID",
+        "film_market_estimation.Low_Estimate",
+        "film_market_estimation.High_Estimate",
+        "film_market_estimation.Film_ID",
+        "film_market_estimation.Type",
+        "film_market_estimation.Market_ID",
+        "film_market_estimation.Year"
+    ]
+}

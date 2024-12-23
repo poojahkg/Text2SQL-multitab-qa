@@ -1,0 +1,30 @@
+{
+    "scope_healthcare_centers_programs_dump": [
+        "Appointments.AppointmentID",
+        "Appointments.PatientID",
+        "Appointments.DoctorID",
+        "Appointments.Date",
+        "Doctors.DoctorID",
+        "Doctors.Name",
+        "Doctors.Specialization",
+        "Doctors.CenterID",
+        "Healthcare_Centers.CenterID",
+        "Healthcare_Centers.CenterName",
+        "Healthcare_Centers.Address",
+        "Healthcare_Centers_Programs.CenterID",
+        "Healthcare_Centers_Programs.ProgramID",
+        "Healthcare_Centers_Programs.StartDate",
+        "Healthcare_Centers_Programs.EndDate",
+        "MedicalHistory.HistoryID",
+        "MedicalHistory.PatientID",
+        "MedicalHistory.Diagnosis",
+        "MedicalHistory.Treatment",
+        "Patients.PatientID",
+        "Patients.FirstName",
+        "Patients.LastName",
+        "Patients.Age",
+        "Patients.CenterID",
+        "Programs.ProgramID",
+        "Programs.ProgramType"
+    ]
+}

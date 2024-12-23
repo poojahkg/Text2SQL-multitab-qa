@@ -1,0 +1,14 @@
+{
+    "journal_committee": [
+        "journal.Journal_ID",
+        "journal.Date",
+        "journal.Theme",
+        "journal.Sales",
+        "editor.Editor_ID",
+        "editor.Name",
+        "editor.Age",
+        "journal_committee.Editor_ID",
+        "journal_committee.Journal_ID",
+        "journal_committee.Work_Type"
+    ]
+}

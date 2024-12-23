@@ -1,0 +1,12 @@
+{
+    "scope_tech_startups_tech_jobs_dump": [
+        "Tech_Jobs.id",
+        "Tech_Jobs.job_title",
+        "Tech_Jobs.description",
+        "Tech_Startups.id",
+        "Tech_Startups.name",
+        "Tech_Startups.location",
+        "Tech_Startups_Tech_Jobs.tech_startup_id",
+        "Tech_Startups_Tech_Jobs.tech_job_id"
+    ]
+}

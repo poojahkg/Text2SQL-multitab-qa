@@ -1,0 +1,24 @@
+{
+    "attachment_1tab_val_dining_dump": [
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.Email",
+        "Customers.PhoneNumber",
+        "Meals.MealID",
+        "Meals.MealType",
+        "Meals.BestBefore",
+        "Meals.Description",
+        "Meals.Price",
+        "Orders.OrderID",
+        "Orders.CustomerID",
+        "Orders.MealID",
+        "Orders.Quantity",
+        "Orders.OrderDate",
+        "Restaurants.RestaurantID",
+        "Restaurants.Name",
+        "Restaurants.Address",
+        "Restaurants.OpeningTime",
+        "Restaurants.ClosingTime"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "attachment_2tab_ref_news_types_dump": [
+        "Authors.id",
+        "Authors.name",
+        "Authors.email",
+        "Breaking_News.newsId",
+        "Breaking_News.headline",
+        "Breaking_News.content",
+        "Breaking_News.authorId",
+        "Breaking_News.eventId",
+        "Comments.commentId",
+        "Comments.text",
+        "Comments.authorId",
+        "Comments.postType",
+        "Events.eventId",
+        "Events.eventName",
+        "News_Analysis.analysisId",
+        "News_Analysis.title",
+        "News_Analysis.content",
+        "News_Analysis.authorId",
+        "News_Analysis.eventId",
+        "Sources.sourceId",
+        "Sources.url",
+        "Sources.description",
+        "Sources.eventId"
+    ]
+}

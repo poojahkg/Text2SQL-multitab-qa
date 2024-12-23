@@ -1,0 +1,15 @@
+{
+    "workshop_paper": [
+        "workshop.Workshop_ID",
+        "workshop.Date",
+        "workshop.Venue",
+        "workshop.Name",
+        "submission.Submission_ID",
+        "submission.Scores",
+        "submission.Author",
+        "submission.College",
+        "Acceptance.Submission_ID",
+        "Acceptance.Workshop_ID",
+        "Acceptance.Result"
+    ]
+}

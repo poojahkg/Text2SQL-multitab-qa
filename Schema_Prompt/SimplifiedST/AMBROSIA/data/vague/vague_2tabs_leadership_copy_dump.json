@@ -1,0 +1,17 @@
+{
+    "vague_2tabs_leadership_copy_dump": [
+        "Accounts.accountID",
+        "Accounts.accountType",
+        "Accounts.balance",
+        "Accounts.customerID",
+        "Customers.customerID",
+        "Customers.customerName",
+        "Customers.accountNumber",
+        "Customers.bankID",
+        "Transactions.transactionID",
+        "Transactions.amount",
+        "Transactions.type",
+        "Transactions.date",
+        "Transactions.accountID"
+    ]
+}

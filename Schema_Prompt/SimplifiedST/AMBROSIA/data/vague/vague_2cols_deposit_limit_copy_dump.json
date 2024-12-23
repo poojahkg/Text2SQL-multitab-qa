@@ -1,0 +1,22 @@
+{
+    "vague_2cols_deposit_limit_copy_dump": [
+        "Accounts.AccountNumber",
+        "Accounts.CustomerID",
+        "Accounts.Balance",
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Loans.LoanNumber",
+        "Loans.CustomerID",
+        "Loans.Principal",
+        "Loans.InterestRate",
+        "Loans.MonthlyPayment",
+        "SavingsAccounts.SavingsID",
+        "SavingsAccounts.CustomerID",
+        "SavingsAccounts.InterestRate",
+        "Transactions.TransactionID",
+        "Transactions.AccountNumber",
+        "Transactions.Amount",
+        "Transactions.TransactionDate"
+    ]
+}

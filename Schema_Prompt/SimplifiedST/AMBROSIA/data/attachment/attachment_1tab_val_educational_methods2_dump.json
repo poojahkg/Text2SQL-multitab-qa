@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_val_educational_methods2_dump": [
+        "Assignment.assignmentID",
+        "Assignment.title",
+        "Assignment.dueDate",
+        "Assignment.educationalMethod",
+        "Assignment.participants",
+        "Assignment.classID",
+        "Class.classID",
+        "Class.subjectID",
+        "Class.teacherID",
+        "Student.studentID",
+        "Student.name",
+        "Student.grade",
+        "Student.teacherID",
+        "Subject.subjectID",
+        "Subject.name",
+        "Teacher.teacherID",
+        "Teacher.name",
+        "Teacher.age",
+        "Teacher.experience"
+    ]
+}

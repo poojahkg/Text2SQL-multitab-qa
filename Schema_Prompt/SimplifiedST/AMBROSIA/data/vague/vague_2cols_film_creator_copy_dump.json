@@ -1,0 +1,21 @@
+{
+    "vague_2cols_film_creator_copy_dump": [
+        "Actor.id",
+        "Actor.name",
+        "Actor.date_of_birth",
+        "Actor.gender",
+        "Award.award_name",
+        "Award.category",
+        "Director.id",
+        "Director.name",
+        "Director.birth_date",
+        "Director.nationality",
+        "Role.movie_id",
+        "Role.actor_id",
+        "Role.character",
+        "Studio.id",
+        "Studio.name",
+        "Studio.location",
+        "Studio.year_founded"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "attachment_1tab_ref_music_dump": [
+        "Instrument.id",
+        "Instrument.type",
+        "Singer.id",
+        "Singer.first_name",
+        "Singer.last_name",
+        "Singer.birth_date",
+        "Singer.death_date"
+    ]
+}

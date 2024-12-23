@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_val_trades_jobs_dump": [
+        "Company.id",
+        "Company.name",
+        "Company.contact_number",
+        "Company.address",
+        "Education.id",
+        "Education.degree",
+        "Education.major",
+        "Education.institution",
+        "Education.completion_year",
+        "Employee.id",
+        "Employee.employee_name",
+        "Employee.position",
+        "Employee.hire_date",
+        "Trade_Jobs.id",
+        "Trade_Jobs.trade_job",
+        "Trade_Jobs.company_owner",
+        "Trade_Jobs.posted_date",
+        "Trade_Jobs.salary"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "scope_productions_locations_dump": [
+        "Actors.ActorID",
+        "Actors.FirstName",
+        "Actors.LastName",
+        "Actors.Birthdate",
+        "Cast.ProductionID",
+        "Cast.ActorID",
+        "Cast.Role",
+        "Locations.LocationID",
+        "Locations.Name",
+        "Locations.Type",
+        "Productions.ProductionID",
+        "Productions.Title",
+        "Productions.ReleaseDate",
+        "Productions_Locations.ProductionID",
+        "Productions_Locations.LocationID"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "scope_field_trips_stops_dump": [
+        "Field_Trips.tripID",
+        "Field_Trips.fieldTripName",
+        "Field_Trips.date",
+        "Field_Trips_Stops.tripID",
+        "Field_Trips_Stops.stopID",
+        "Field_Trips_Students.tripID",
+        "Field_Trips_Students.studentID",
+        "Field_Trips_Teachers.tripID",
+        "Field_Trips_Teachers.teacherID",
+        "Stops.stopID",
+        "Stops.stopLocation",
+        "Students.studentID",
+        "Students.firstName",
+        "Students.lastName",
+        "Teachers.teacherID",
+        "Teachers.firstName",
+        "Teachers.lastName"
+    ]
+}

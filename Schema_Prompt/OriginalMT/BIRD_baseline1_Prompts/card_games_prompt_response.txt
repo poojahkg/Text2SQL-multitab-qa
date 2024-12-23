@@ -1,0 +1,37 @@
+Prompt
+You are tasked with writing a query to solve a specific problem based on the schema and instructions below. Follow the step-by-step process to construct the query.
+
+
+Few-Shot Examples
+Question 1: How many cards from the "Dominaria" set are legal in the "Commander" format?
+sql
+Copy code
+SELECT COUNT(*) AS LegalCardsInCommander
+FROM cards
+JOIN legalities ON cards.uuid = legalities.uuid
+WHERE cards.setCode = 'DOM' AND legalities.format = 'Commander' AND legalities.status = 'Legal';
+Description: This query counts the number of cards in the "Dominaria" set that are legal in the "Commander" format. A JOIN connects the cards and legalities tables, and filtering is done on setCode, format, and status.
+Question 2: List the top 5 most recent sets, including their release date.
+sql
+Copy code
+SELECT name AS SetName, releaseDate
+FROM sets
+ORDER BY releaseDate DESC
+LIMIT 5;
+Description: This query retrieves the top 5 most recent sets by their release date. The ORDER BY clause sorts the sets in descending order by releaseDate, and LIMIT restricts the output to 5 rows.
+Question 3: What are the unique languages in which the card "Black Lotus" has foreign flavor text?
+sql
+Copy code
+SELECT DISTINCT foreign_data.language
+FROM cards
+JOIN foreign_data ON cards.uuid = foreign_data.uuid
+WHERE cards.name = 'Black Lotus';
+Description: This query retrieves the distinct languages in which the card "Black Lotus" has foreign flavor text. A JOIN connects the cards and foreign_data tables, and filtering is done by the card's name.
+
+Instructions for Writing Queries
+Use JOINs to combine data from multiple tables.
+Apply GROUP BY and ORDER BY clauses for aggregation and sorting.
+Include LIMIT clauses to restrict results when needed.
+Use DISTINCT to avoid duplicate results if necessary.
+Always ensure WHERE clauses accurately filter data based on conditions provided in the question.
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:

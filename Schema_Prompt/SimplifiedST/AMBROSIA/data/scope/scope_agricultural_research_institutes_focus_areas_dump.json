@@ -1,0 +1,11 @@
+{
+    "scope_agricultural_research_institutes_focus_areas_dump": [
+        "Agricultural_Research_Institutes.id",
+        "Agricultural_Research_Institutes.name",
+        "Agricultural_Research_Institutes.location",
+        "Agricultural_Research_Institutes_Focus_Areas.institute_id",
+        "Agricultural_Research_Institutes_Focus_Areas.focus_area_id",
+        "Focus_Areas.id",
+        "Focus_Areas.area_name"
+    ]
+}

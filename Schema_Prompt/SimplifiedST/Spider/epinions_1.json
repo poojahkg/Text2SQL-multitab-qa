@@ -1,0 +1,16 @@
+{
+    "epinions_1": [
+        "item.i_id",
+        "item.title",
+        "review.a_id",
+        "review.u_id",
+        "review.i_id",
+        "review.rating",
+        "review.rank",
+        "useracct.u_id",
+        "useracct.name",
+        "trust.source_u_id",
+        "trust.target_u_id",
+        "trust.trust"
+    ]
+}

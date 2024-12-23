@@ -1,0 +1,16 @@
+{
+    "attachment_1tab_ref_trades_jobs_dump": [
+        "Company.id",
+        "Company.name",
+        "Employee.id",
+        "Employee.company_id",
+        "Employee.employee_name",
+        "Position.id",
+        "Position.position_title",
+        "Position.trades_jobs",
+        "Position.company_id",
+        "Skill.id",
+        "Skill.skill_type",
+        "Skill.position_id"
+    ]
+}

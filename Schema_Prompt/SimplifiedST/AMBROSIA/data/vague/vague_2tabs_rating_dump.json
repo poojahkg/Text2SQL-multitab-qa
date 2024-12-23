@@ -1,0 +1,29 @@
+{
+    "vague_2tabs_rating_dump": [
+        "Actor.id",
+        "Actor.firstName",
+        "Actor.lastName",
+        "Age_Rating.ratingId",
+        "Age_Rating.ageMinimum",
+        "Cast.movieId",
+        "Cast.actorId",
+        "Cast.role",
+        "Critical_Rating.ratingId",
+        "Critical_Rating.score",
+        "Genre.id",
+        "Genre.genreText",
+        "Movie.id",
+        "Movie.title",
+        "Movie.releaseYear",
+        "Movie.directorId",
+        "Movie.ON",
+        "Movie_Genre.movieId",
+        "Movie_Genre.genreId",
+        "Tv_Show.showId",
+        "Tv_Show.title",
+        "Tv_Show.network",
+        "Tv_Show.premiereDate",
+        "Tv_Show.ageRatingId",
+        "Tv_Show.criticalScoreId"
+    ]
+}

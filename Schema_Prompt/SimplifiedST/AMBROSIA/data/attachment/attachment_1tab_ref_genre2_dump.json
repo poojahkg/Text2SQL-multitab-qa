@@ -1,0 +1,19 @@
+{
+    "attachment_1tab_ref_genre2_dump": [
+        "Film_Genres.film_genre_id",
+        "Film_Genres.film_id",
+        "Film_Stars.film_star_id",
+        "Film_Stars.film_id",
+        "Film_Stars.role",
+        "Films.film_id",
+        "Films.title",
+        "Films.release_year",
+        "Films.director_name",
+        "Films.country",
+        "Films.runtime",
+        "Genres.id",
+        "Genres.genre",
+        "Stars.id",
+        "Stars.star_name"
+    ]
+}

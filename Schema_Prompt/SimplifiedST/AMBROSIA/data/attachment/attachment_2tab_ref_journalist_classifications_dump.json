@@ -1,0 +1,22 @@
+{
+    "attachment_2tab_ref_journalist_classifications_dump": [
+        "Articles.id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.published_date",
+        "Articles.author_id",
+        "Articles.stringer_id",
+        "Articles.editor_id",
+        "Authors.id",
+        "Authors.first_name",
+        "Authors.last_name",
+        "Authors.email",
+        "Editors.id",
+        "Editors.email",
+        "Editors.FullName",
+        "Stringers.id",
+        "Stringers.email",
+        "Stringers.phone_number",
+        "Stringers.FullName"
+    ]
+}

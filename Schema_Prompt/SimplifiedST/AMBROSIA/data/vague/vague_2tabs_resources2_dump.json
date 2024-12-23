@@ -1,0 +1,25 @@
+{
+    "vague_2tabs_resources2_dump": [
+        "Authors.id",
+        "Authors.name",
+        "Authors.email",
+        "Courses.id",
+        "Courses.course_name",
+        "Courses.textbook_id",
+        "Courses.software_id",
+        "Grades.id",
+        "Grades.grade",
+        "Grades.student_id",
+        "Grades.course_id",
+        "Software.id",
+        "Software.name",
+        "Software.version_number",
+        "Software.author_id",
+        "Students.id",
+        "Students.student_name",
+        "Students.enrolled_course_id",
+        "Textbooks.id",
+        "Textbooks.title",
+        "Textbooks.author_id"
+    ]
+}

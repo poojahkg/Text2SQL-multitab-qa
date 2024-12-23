@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_val_academic_papers_dump": [
+        "Authors.id",
+        "Authors.name",
+        "Authors.email",
+        "Journals.id",
+        "Journals.journal_name",
+        "Journals.ISSN",
+        "Papers_Authors.paper_id",
+        "Papers_Authors.author_id",
+        "Publications.id",
+        "Publications.paper_id",
+        "Publications.journal_id",
+        "Publications.volume",
+        "Publications.issue",
+        "Publications.page_start",
+        "Publications.page_end",
+        "Research_Papers.id",
+        "Research_Papers.title",
+        "Research_Papers.abstract",
+        "Research_Papers.publication_date",
+        "Research_Papers.citation_style",
+        "Review_Articles.id",
+        "Review_Articles.title",
+        "Review_Articles.reviewer",
+        "Review_Articles.publication_date",
+        "Review_Articles.citation_style"
+    ]
+}

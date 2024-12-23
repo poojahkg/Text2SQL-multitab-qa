@@ -1,0 +1,21 @@
+{
+    "voter_2": [
+        "Student.StuID",
+        "Student.LName",
+        "Student.Fname",
+        "Student.Age",
+        "Student.Sex",
+        "Student.Major",
+        "Student.Advisor",
+        "Student.city_code",
+        "Voting_record.StuID",
+        "Voting_record.Registration_Date",
+        "Voting_record.Election_Cycle",
+        "Voting_record.President_Vote",
+        "Voting_record.Vice_President_Vote",
+        "Voting_record.Secretary_Vote",
+        "Voting_record.Treasurer_Vote",
+        "Voting_record.Class_President_Vote",
+        "Voting_record.Class_Senator_Vote"
+    ]
+}

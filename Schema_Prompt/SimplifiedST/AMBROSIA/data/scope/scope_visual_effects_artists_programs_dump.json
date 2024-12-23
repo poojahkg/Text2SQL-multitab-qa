@@ -1,0 +1,17 @@
+{
+    "scope_visual_effects_artists_programs_dump": [
+        "Film_Movies.film_id",
+        "Film_Movies.movie_id",
+        "Movies.movie_id",
+        "Movies.title",
+        "Movies.release_date",
+        "Programs.program_id",
+        "Programs.name",
+        "Programs.version",
+        "Visual_Effects_Artists.artist_id",
+        "Visual_Effects_Artists.name",
+        "Visual_Effects_Artists.email",
+        "Visual_Effects_Artists_Programs.visual_effects_artist_id",
+        "Visual_Effects_Artists_Programs.program_id"
+    ]
+}

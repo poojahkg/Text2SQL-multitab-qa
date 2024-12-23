@@ -1,0 +1,27 @@
+{
+    "attachment_2tab_val_technology_careers_dump": [
+        "Analysts_Projects.analystId",
+        "Analysts_Projects.projectId",
+        "Companies.id",
+        "Companies.name",
+        "Companies.location",
+        "Companies.size",
+        "Data_Analysts.id",
+        "Data_Analysts.name",
+        "Data_Analysts.experience",
+        "Data_Analysts.tools",
+        "Data_Analysts.grade",
+        "Developers_Projects.developerId",
+        "Developers_Projects.projectId",
+        "Projects.id",
+        "Projects.description",
+        "Projects.startDate",
+        "Projects.endDate",
+        "Projects.companyId",
+        "Software_Developers.id",
+        "Software_Developers.name",
+        "Software_Developers.experience",
+        "Software_Developers.skills",
+        "Software_Developers.grade"
+    ]
+}

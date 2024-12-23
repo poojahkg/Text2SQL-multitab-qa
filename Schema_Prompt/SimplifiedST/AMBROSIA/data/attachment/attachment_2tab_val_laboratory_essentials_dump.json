@@ -1,0 +1,32 @@
+{
+    "attachment_2tab_val_laboratory_essentials_dump": [
+        "Classes.classID",
+        "Classes.className",
+        "Classes.instructorID",
+        "Instructors.instructorID",
+        "Instructors.firstName",
+        "Instructors.lastName",
+        "Instructors.email",
+        "Lab_Equipments.equipmentID",
+        "Lab_Equipments.labID",
+        "Lab_Equipments.equipName",
+        "Lab_Equipments.dateOfPurchase",
+        "Lab_Equipments.cost",
+        "Labs.labID",
+        "Labs.labName",
+        "Labs.buildingNumber",
+        "Labs.roomNumber",
+        "Safety_Gears.safetyGearID",
+        "Safety_Gears.labID",
+        "Safety_Gears.gearName",
+        "Safety_Gears.dateOfPurchase",
+        "Safety_Gears.cost",
+        "Students.studentID",
+        "Students.firstName",
+        "Students.lastName",
+        "Students.email",
+        "StudentsEnrolledInClasses.enrollmentID",
+        "StudentsEnrolledInClasses.studentID",
+        "StudentsEnrolledInClasses.classID"
+    ]
+}

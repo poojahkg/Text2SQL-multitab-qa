@@ -1,0 +1,12 @@
+{
+    "scope_press_conferences_participants_dump": [
+        "Participants.id",
+        "Participants.role",
+        "Participants.name",
+        "Press_Conferences.id",
+        "Press_Conferences.name",
+        "Press_Conferences.date",
+        "Press_Conferences_Participants.press_conference_id",
+        "Press_Conferences_Participants.participant_id"
+    ]
+}

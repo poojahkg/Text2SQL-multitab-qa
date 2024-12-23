@@ -1,0 +1,26 @@
+{
+    "vague_2tabs_venue_dump": [
+        "Campus_Building.id",
+        "Campus_Building.name",
+        "Campus_Building.capacity",
+        "Course.id",
+        "Course.courseCode",
+        "Course.courseTitle",
+        "Course.lecturesInCourse",
+        "Enrollment.studentId",
+        "Enrollment.lectureId",
+        "Enrollment.grade",
+        "Lecture.id",
+        "Lecture.title",
+        "Lecture.duration",
+        "Lecture.campusId",
+        "Lecture.onlineId",
+        "Online_Platform.id",
+        "Online_Platform.platformName",
+        "Online_Platform.URL",
+        "Student.id",
+        "Student.firstName",
+        "Student.lastName",
+        "Student.email"
+    ]
+}

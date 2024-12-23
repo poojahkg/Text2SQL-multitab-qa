@@ -1,0 +1,18 @@
+{
+    "attachment_1tab_ref_genre5_dump": [
+        "Actors.id",
+        "Actors.name",
+        "Directors.id",
+        "Directors.name",
+        "FilmGenres.film_id",
+        "FilmGenres.genre",
+        "Films.id",
+        "Films.title",
+        "Films.release_year",
+        "Films.director_id",
+        "Films.producer_id",
+        "Films.actor_id",
+        "Producers.id",
+        "Producers.name"
+    ]
+}

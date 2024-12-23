@@ -1,0 +1,18 @@
+{
+    "attachment_1tab_ref_genre1_dump": [
+        "Directors.id",
+        "Directors.first_name",
+        "Directors.last_name",
+        "Durations.id",
+        "Durations.minutes",
+        "Genres.id",
+        "Genres.name",
+        "MovieDurations.movie_id",
+        "MovieDurations.duration_id",
+        "Movies.id",
+        "Movies.title",
+        "Movies.release_year",
+        "Movies.genre_id",
+        "Movies.director_id"
+    ]
+}

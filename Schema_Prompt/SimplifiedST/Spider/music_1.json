@@ -1,0 +1,25 @@
+{
+    "music_1": [
+        "genre.g_name",
+        "genre.rating",
+        "genre.most_popular_in",
+        "artist.artist_name",
+        "artist.country",
+        "artist.gender",
+        "artist.preferred_genre",
+        "files.f_id",
+        "files.artist_name",
+        "files.file_size",
+        "files.duration",
+        "files.formats",
+        "song.song_name",
+        "song.artist_name",
+        "song.country",
+        "song.f_id",
+        "song.genre_is",
+        "song.rating",
+        "song.languages",
+        "song.releasedate",
+        "song.resolution"
+    ]
+}

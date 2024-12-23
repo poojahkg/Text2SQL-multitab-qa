@@ -1,0 +1,32 @@
+{
+    "vague_2cols_developer_dump": [
+        "Appointments.appointmentId",
+        "Appointments.doctorId",
+        "Appointments.patientId",
+        "Appointments.date",
+        "Companies.id",
+        "Companies.name",
+        "Companies.location",
+        "DeviceDevelopment.scientistId",
+        "DeviceDevelopment.companyId",
+        "DeviceDevelopment.medicalDeviceId",
+        "DeviceDevelopment.startDate",
+        "DeviceDevelopment.endDate",
+        "Doctors.doctorId",
+        "Doctors.firstName",
+        "Doctors.lastName",
+        "Doctors.specialty",
+        "MedicalDevices.id",
+        "MedicalDevices.deviceName",
+        "MedicalDevices.description",
+        "MedicalDevices.price",
+        "Patients.patientId",
+        "Patients.firstName",
+        "Patients.lastName",
+        "Patients.dateOfBirth",
+        "Patients.gender",
+        "Scientists.id",
+        "Scientists.birthDate",
+        "Scientists.fullname"
+    ]
+}

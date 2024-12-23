@@ -1,0 +1,11 @@
+{
+    "scope_train_stations_platforms_dump": [
+        "Platforms.PlatformID",
+        "Platforms.\"Name\"",
+        "Train_Stations.StationID",
+        "Train_Stations.Name",
+        "Train_Stations.Location",
+        "Train_Stations_Platforms.StationID",
+        "Train_Stations_Platforms.PlatformID"
+    ]
+}

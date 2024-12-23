@@ -1,0 +1,22 @@
+{
+    "scope_property_management_companies_services_dump": [
+        "Clients.id",
+        "Clients.client_name",
+        "Clients.contact",
+        "Properties.id",
+        "Properties.property_address",
+        "Properties.price",
+        "Property_Management_Companies.id",
+        "Property_Management_Companies.name",
+        "Property_Management_Companies.address",
+        "Property_Management_Companies_Services.company_id",
+        "Property_Management_Companies_Services.service_id",
+        "Services.id",
+        "Services.service_name",
+        "Transactions.transaction_id",
+        "Transactions.property_id",
+        "Transactions.client_id",
+        "Transactions.management_company_id",
+        "Transactions.service_id"
+    ]
+}

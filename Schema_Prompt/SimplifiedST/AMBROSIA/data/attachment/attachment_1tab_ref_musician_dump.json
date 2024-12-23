@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_ref_musician_dump": [
+        "Albums.id",
+        "Albums.album_title",
+        "Albums.release_year",
+        "Albums.artist_id",
+        "Instruments.id",
+        "Instruments.instrument_name",
+        "MusicianInstrument.id",
+        "MusicianInstrument.musician_id",
+        "MusicianInstrument.instrument_id",
+        "Musicians.id",
+        "Musicians.name",
+        "Musicians.musician_type",
+        "SongAlbum.id",
+        "SongAlbum.song_id",
+        "SongAlbum.album_id",
+        "Songs.id",
+        "Songs.song_title",
+        "Songs.release_date"
+    ]
+}

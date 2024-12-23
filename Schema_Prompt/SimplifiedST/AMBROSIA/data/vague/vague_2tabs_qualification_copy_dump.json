@@ -1,0 +1,14 @@
+{
+    "vague_2tabs_qualification_copy_dump": [
+        "Article.articleID",
+        "Article.headline",
+        "Article.content",
+        "Article.publishedDate",
+        "Article.journalistID",
+        "Source.sourceID",
+        "Source.name",
+        "Source.type",
+        "Source.contactInfo",
+        "Source.articleID"
+    ]
+}

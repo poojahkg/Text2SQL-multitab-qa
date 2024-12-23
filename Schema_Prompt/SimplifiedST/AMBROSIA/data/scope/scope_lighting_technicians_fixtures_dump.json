@@ -1,0 +1,26 @@
+{
+    "scope_lighting_technicians_fixtures_dump": [
+        "Actors.actorID",
+        "Actors.name",
+        "Actors.age",
+        "Cinematographers.cinematographerID",
+        "Cinematographers.name",
+        "Cinematographers.experience",
+        "Directors.directorID",
+        "Directors.name",
+        "Directors.birthdate",
+        "FilmProjects.projectID",
+        "FilmProjects.title",
+        "FilmProjects.releaseDate",
+        "Fixtures.fixtureType",
+        "Fixtures.description",
+        "Lighting_Technicians.technicianID",
+        "Lighting_Technicians.name",
+        "Lighting_Technicians.yearsExperience",
+        "Lighting_Technicians_Fixtures.technicianID",
+        "Lighting_Technicians_Fixtures.fixtureType",
+        "Roles.roleID",
+        "Roles.filmProjectID",
+        "Roles.actorID"
+    ]
+}

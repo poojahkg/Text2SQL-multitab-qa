@@ -1,0 +1,24 @@
+{
+    "attachment_2tab_ref_visual_storytelling_dump": [
+        "article_details.detailID",
+        "article_details.details",
+        "article_details.articleID",
+        "articles.articleID",
+        "articles.title",
+        "articles.content",
+        "articles.publishDate",
+        "articles.author",
+        "authors.authorID",
+        "authors.name",
+        "photos.photoID",
+        "photos.\"photo\"",
+        "photos.description",
+        "photos.articleID",
+        "photos.ON",
+        "videos.videoID",
+        "videos.\"video\"",
+        "videos.description",
+        "videos.articleID",
+        "videos.ON"
+    ]
+}

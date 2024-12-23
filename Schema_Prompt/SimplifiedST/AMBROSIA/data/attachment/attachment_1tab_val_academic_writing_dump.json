@@ -1,0 +1,18 @@
+{
+    "attachment_1tab_val_academic_writing_dump": [
+        "Courses.CourseID",
+        "Courses.Title",
+        "Courses.Department",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.CourseID",
+        "Enrollments.Semester",
+        "Grades.GradeID",
+        "Grades.EnrollmentID",
+        "Grades.Grade",
+        "Students.StudentID",
+        "Students.Academic_Writing",
+        "Students.Academic_Supervisor",
+        "Students.FullName"
+    ]
+}

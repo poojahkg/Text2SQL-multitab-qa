@@ -1,0 +1,21 @@
+{
+    "attachment_1tab_val_written_work_dump": [
+        "Authors.id",
+        "Authors.Name",
+        "Books_Sales.id",
+        "Books_Sales.BookID",
+        "Books_Sales.Quantity",
+        "Books_Sales.SaleDate",
+        "Books_Sales.Revenue",
+        "Movie_Ratings.id",
+        "Movie_Ratings.MovieID",
+        "Movie_Ratings.Rating",
+        "Movie_Ratings.ReviewerID",
+        "Movie_Ratings.DateRated",
+        "Written_Works.id",
+        "Written_Works.AuthorID",
+        "Written_Works.Type",
+        "Written_Works.Title",
+        "Written_Works.DatePublished"
+    ]
+}

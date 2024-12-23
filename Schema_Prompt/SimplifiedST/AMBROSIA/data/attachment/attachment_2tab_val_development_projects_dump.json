@@ -1,0 +1,26 @@
+{
+    "attachment_2tab_val_development_projects_dump": [
+        "Airlines.id",
+        "Airlines.AirlineName",
+        "Airlines.HeadquartersLocation",
+        "Airlines.FleetSize",
+        "Airlines.AirportID",
+        "Airports.id",
+        "Airports.Name",
+        "Airports.Location",
+        "Airports.YearEstablished",
+        "Expansions.id",
+        "Expansions.AirportID",
+        "Expansions.Airport_Expansion",
+        "Expansions.Increased_Capacity",
+        "Flights.id",
+        "Flights.FlightNumber",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Flights.AirportID",
+        "Renovations.id",
+        "Renovations.AirportID",
+        "Renovations.Renovation",
+        "Renovations.Increased_Capacity"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "vague_2tabs_audience_copy_dump": [
+        "Articles.article_id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.author_id",
+        "Articles.magazine_id"
+    ]
+}

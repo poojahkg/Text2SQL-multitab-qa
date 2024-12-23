@@ -1,0 +1,11 @@
+{
+    "scope_cinematographers_tools_dump": [
+        "Cinematographers.id",
+        "Cinematographers.name",
+        "Cinematographers.birthdate",
+        "Cinematographers_Tools.cinematographerId",
+        "Cinematographers_Tools.toolId",
+        "Tools.id",
+        "Tools.toolName"
+    ]
+}

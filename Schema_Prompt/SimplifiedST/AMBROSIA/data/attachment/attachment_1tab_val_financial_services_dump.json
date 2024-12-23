@@ -1,0 +1,28 @@
+{
+    "attachment_1tab_val_financial_services_dump": [
+        "Airlines.id",
+        "Airlines.airline_name",
+        "Airlines.terminal_id",
+        "Airports.code",
+        "Airports.name",
+        "Airports.city",
+        "Airports.country",
+        "Baggage_Claims.claim_number",
+        "Baggage_Claims.carousel_location",
+        "Baggage_Claims.airport_code",
+        "Financial_Services.id",
+        "Financial_Services.Name",
+        "Financial_Services.Type",
+        "Financial_Services.Location_Within_Terminal",
+        "Financial_Services.Operating_Hours",
+        "Flight_Details.flight_number",
+        "Flight_Details.departure_time",
+        "Flight_Details.arrival_time",
+        "Flight_Details.origin_airport",
+        "Flight_Details.destination_airport",
+        "Flight_Details.airline_id",
+        "Terminals.id",
+        "Terminals.name",
+        "Terminals.location"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "vague_2tabs_technology_dump": [
+        "Article.id",
+        "Article.title",
+        "Article.content",
+        "Article.author_id",
+        "Article.category_id",
+        "Author.id",
+        "Author.name",
+        "Author.email",
+        "Category.id",
+        "Category.name",
+        "Content_Management_System.id",
+        "Content_Management_System.system_name",
+        "Content_Management_System.description",
+        "Online_News_Platform.id",
+        "Online_News_Platform.platform_name",
+        "Online_News_Platform.url",
+        "Online_News_Platform.cms_id",
+        "Online_News_Platform.web_framework_id",
+        "Web_Framework.id",
+        "Web_Framework.framework_name",
+        "Web_Framework.description"
+    ]
+}

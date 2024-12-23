@@ -1,0 +1,33 @@
+{
+    "attachment_1tab_val_digital_art_tool_dump": [
+        "Digital_Tools.id",
+        "Digital_Tools.Name",
+        "Digital_Tools.Category",
+        "Digital_Tools.Access",
+        "Digital_Tools.Price",
+        "Graphics_Designers.id",
+        "Graphics_Designers.Name",
+        "Graphics_Designers.Age",
+        "Graphics_Designers.Experience",
+        "Graphics_Designers.Digital_Tool_ID",
+        "Movie_Directors.id",
+        "Movie_Directors.Name",
+        "Movie_Directors.Age",
+        "Movie_Directors.YearsOfExperience",
+        "Movie_Producers.id",
+        "Movie_Producers.Name",
+        "Movie_Producers.Company",
+        "Movie_Producers.Budget",
+        "Movies.id",
+        "Movies.Title",
+        "Movies.Producer_ID",
+        "Movies.Director_ID",
+        "Movies.ReleaseDate",
+        "Movies.BoxOfficeCollection",
+        "Web_Designers.id",
+        "Web_Designers.Name",
+        "Web_Designers.Age",
+        "Web_Designers.Experience",
+        "Web_Designers.Digital_Tool_ID"
+    ]
+}

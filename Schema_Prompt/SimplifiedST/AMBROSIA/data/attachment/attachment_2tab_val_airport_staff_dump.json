@@ -1,0 +1,33 @@
+{
+    "attachment_2tab_val_airport_staff_dump": [
+        "Airlines.ID",
+        "Airlines.Name",
+        "Airlines.Code",
+        "Airlines.Headquarters",
+        "Baggage.ID",
+        "Baggage.FlightID",
+        "Baggage.OwnerID",
+        "Baggage.Weight",
+        "Baggage.Description",
+        "Flights.ID",
+        "Flights.AirlineID",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Flights.DestinationAirport",
+        "Gate_Agents.ID",
+        "Gate_Agents.Name",
+        "Gate_Agents.Language",
+        "Gate_Agents.YearsOfExperience",
+        "Gate_Agents.LicenseNumber",
+        "Passengers.ID",
+        "Passengers.FirstName",
+        "Passengers.LastName",
+        "Passengers.Age",
+        "Passengers.Nationality",
+        "Pilots.ID",
+        "Pilots.Name",
+        "Pilots.Language",
+        "Pilots.FlightHours",
+        "Pilots.LicenseNumber"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_ref_visual_art_dump": [
+        "ArtType.id",
+        "ArtType.TypeName",
+        "Artist.id",
+        "Artist.Name",
+        "Artist.BirthYear",
+        "Artist.DeathYear",
+        "ArtworkInExhibition.id",
+        "ArtworkInExhibition.ExhibitId",
+        "ArtworkInExhibition.VisualArtId",
+        "Exhibit.id",
+        "Exhibit.GalleryId",
+        "Exhibit.StartDate",
+        "Exhibit.EndDate",
+        "Gallery.id",
+        "Gallery.Name",
+        "VisualArt.id",
+        "VisualArt.ArtTypeId",
+        "VisualArt.Title",
+        "VisualArt.Description"
+    ]
+}

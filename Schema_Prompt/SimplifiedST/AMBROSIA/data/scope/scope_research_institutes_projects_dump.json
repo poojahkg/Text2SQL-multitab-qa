@@ -1,0 +1,11 @@
+{
+    "scope_research_institutes_projects_dump": [
+        "Projects.ProjectID",
+        "Projects.Name",
+        "Research_Institutes.InstituteID",
+        "Research_Institutes.Name",
+        "Research_Institutes.Location",
+        "Research_Institutes_Projects.InstituteID",
+        "Research_Institutes_Projects.ProjectID"
+    ]
+}

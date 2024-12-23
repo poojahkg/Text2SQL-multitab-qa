@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_val_entertainment_hub_dump": [
+        "cocktail_lounges.id",
+        "cocktail_lounges.name",
+        "cocktail_lounges.address",
+        "cocktail_lounges.phone_number",
+        "cocktail_lounges.hours",
+        "employees.id",
+        "employees.first_name",
+        "employees.last_name",
+        "employees.position",
+        "employees.salary",
+        "restaurants.id",
+        "restaurants.name",
+        "restaurants.address",
+        "restaurants.phone_number",
+        "restaurants.cuisine",
+        "rooms.id",
+        "rooms.hotel_name",
+        "rooms.room_type",
+        "rooms.price",
+        "rooms.capacity",
+        "sports_bars.id",
+        "sports_bars.name",
+        "sports_bars.address",
+        "sports_bars.phone_number",
+        "sports_bars.hours"
+    ]
+}

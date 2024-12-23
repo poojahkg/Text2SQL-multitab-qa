@@ -1,0 +1,27 @@
+{
+    "attachment_2tab_val_written_journalism_dump": [
+        "Authors.AuthorID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.BirthDate",
+        "Authors.Country",
+        "Feature_Articles.ArticleID",
+        "Feature_Articles.Title",
+        "Feature_Articles.Content",
+        "Feature_Articles.Word_Count",
+        "Feature_Articles.Published_Date",
+        "Feature_Articles.AuthorID",
+        "News_Articles.ArticleID",
+        "News_Articles.Title",
+        "News_Articles.Content",
+        "News_Articles.Word_Count",
+        "News_Articles.Published_Date",
+        "News_Articles.AuthorID",
+        "Publications.PublisherID",
+        "Publications.Name",
+        "Publications.Address",
+        "Publications.Website",
+        "Publishers_and_Authors.PublisherID",
+        "Publishers_and_Authors.AuthorID"
+    ]
+}

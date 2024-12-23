@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_val_writer_dump": [
+        "Actors.id",
+        "Actors.Name",
+        "Actors.BirthDate",
+        "Actors.Nationality",
+        "Actors.FamousFor",
+        "Directors.id",
+        "Directors.Name",
+        "Directors.BirthDate",
+        "Directors.Nationality",
+        "Directors.FavoriteGenre",
+        "FilmProductions.id",
+        "FilmProductions.Title",
+        "FilmProductions.ReleaseYear",
+        "FilmProductions.Budget",
+        "FilmProductions.BoxOffice",
+        "Playwrights.id",
+        "Playwrights.Name",
+        "Playwrights.BirthDate",
+        "Playwrights.Nationality",
+        "Playwrights.Education",
+        "Screenwriters.id",
+        "Screenwriters.Name",
+        "Screenwriters.BirthDate",
+        "Screenwriters.Nationality",
+        "Screenwriters.Education"
+    ]
+}

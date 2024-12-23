@@ -1,0 +1,19 @@
+{
+    "attachment_1tab_ref_dining_dump": [
+        "Customers.CustomerID",
+        "Customers.FirstName",
+        "Customers.LastName",
+        "Customers.EmailAddress",
+        "Customers.PhoneNumber",
+        "FoodTypes.FoodTypeID",
+        "FoodTypes.TypeName",
+        "Orders.OrderID",
+        "Orders.CustomerID",
+        "Orders.TotalAmount",
+        "Orders.OrderDate",
+        "Products.ProductID",
+        "Products.Name",
+        "Products.Dining",
+        "Products.Best_Before"
+    ]
+}

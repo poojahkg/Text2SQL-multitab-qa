@@ -1,0 +1,15 @@
+{
+    "attachment_1tab_ref_accommodation1_dump": [
+        "hotels.id",
+        "hotels.name",
+        "hotels.location",
+        "hotels.accommodation_type",
+        "reviews.user_name",
+        "reviews.review_text",
+        "reviews.rating",
+        "reviews.room_number",
+        "rooms.hotel_id",
+        "rooms.room_number",
+        "rooms.price"
+    ]
+}

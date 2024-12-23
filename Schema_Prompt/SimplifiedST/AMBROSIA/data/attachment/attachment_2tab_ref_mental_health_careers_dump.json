@@ -1,0 +1,28 @@
+{
+    "attachment_2tab_ref_mental_health_careers_dump": [
+        "Appointments.id",
+        "Appointments.patient_id",
+        "Appointments.date",
+        "Appointments.notes",
+        "Clinics.id",
+        "Clinics.name",
+        "Patients.id",
+        "Patients.psychologist_id",
+        "Patients.psychiatrist_id",
+        "Patients.name",
+        "Patients.age",
+        "Patients.diagnosis",
+        "Psychiatrists.id",
+        "Psychiatrists.clinic_id",
+        "Psychiatrists.name",
+        "Psychiatrists.specialty",
+        "Psychologists.id",
+        "Psychologists.clinic_id",
+        "Psychologists.name",
+        "Psychologists.specialty",
+        "TreatmentPlans.id",
+        "TreatmentPlans.appointment_id",
+        "TreatmentPlans.plan",
+        "TreatmentPlans.status"
+    ]
+}

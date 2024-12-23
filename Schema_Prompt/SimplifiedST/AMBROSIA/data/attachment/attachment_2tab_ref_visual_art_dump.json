@@ -1,0 +1,26 @@
+{
+    "attachment_2tab_ref_visual_art_dump": [
+        "Artist.ArtistID",
+        "Artist.Name",
+        "Exhibition.ExhibitionId",
+        "Exhibition.Name",
+        "Exhibition.StartDate",
+        "Exhibition.EndDate",
+        "Gallery.GalleryId",
+        "Gallery.Name",
+        "PainterOfPaintings.ArtistId",
+        "PainterOfPaintings.PaintingId",
+        "Painting.PaintingID",
+        "Painting.Title",
+        "Painting.Year",
+        "Painting.Description",
+        "Painting.GalleryId",
+        "PhotographerOfPhotos.ArtistId",
+        "PhotographerOfPhotos.PhotoId",
+        "Photography.PhotoId",
+        "Photography.Title",
+        "Photography.Year",
+        "Photography.Description",
+        "Photography.GalleryId"
+    ]
+}

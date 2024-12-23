@@ -1,0 +1,25 @@
+{
+    "vague_2tabs_departure_point_dump": [
+        "Airline.id",
+        "Airline.airline_name",
+        "Airline.headquarter_city_id",
+        "City.id",
+        "City.name",
+        "City.country",
+        "Flight.id",
+        "Flight.flight_number",
+        "Flight.departure_time",
+        "Flight.arrival_time",
+        "Flight.terminal_id",
+        "Flight.origin_city_id",
+        "Flight.destination_city_id",
+        "Pilot.id",
+        "Pilot.pilot_license_number",
+        "Pilot.home_airport_code",
+        "Plane.id",
+        "Plane.plane_type",
+        "Plane.capacity",
+        "Plane.registered_to_airline_id",
+        "Plane.current_pilot_id"
+    ]
+}

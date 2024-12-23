@@ -1,0 +1,11 @@
+{
+    "scope_graphic_designers_programs_dump": [
+        "Graphic_Designers.id",
+        "Graphic_Designers.name",
+        "Graphic_Designers.experience",
+        "Graphic_Designers_Programs.graphicDesignerId",
+        "Graphic_Designers_Programs.programId",
+        "Programs.id",
+        "Programs.programName"
+    ]
+}

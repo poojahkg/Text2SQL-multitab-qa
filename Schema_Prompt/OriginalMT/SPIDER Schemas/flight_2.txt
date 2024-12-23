@@ -1,0 +1,52 @@
+CREATE TABLE 'airlines' (
+	uid INTEGER PRIMARY KEY, 
+	Airline TEXT, 
+	Abbreviation TEXT, 
+	Country TEXT
+);
+CREATE TABLE 'airports' (
+	City TEXT, 
+	AirportCode TEXT PRIMARY KEY, 
+	AirportName TEXT, 
+	Country TEXT, 
+	CountryAbbrev TEXT
+);
+CREATE TABLE 'flights' (
+	Airline INTEGER, 
+	FlightNo INTEGER, 
+	SourceAirport TEXT, 
+	DestAirport TEXT, 
+	PRIMARY KEY(Airline, FlightNo),
+	FOREIGN KEY (SourceAirport) REFERENCES airports(AirportCode),
+	FOREIGN KEY (DestAirport) REFERENCES airports(AirportCode)
+);
+
+Schema Overview:
+
+This database schema stores information about airlines, airports, and flights. It consists of three tables:
+
+**airlines:** Contains information about airlines.
+**airports:** Contains information about airports.
+**flights:** Contains information about flights, linking airlines and airports.
+
+
+Table Descriptions:
+
+**airlines:**
+* uid (INTEGER): Unique identifier for each airline.
+* Airline (TEXT): Full name of the airline.
+* Abbreviation (TEXT): Abbreviation or code for the airline.
+* Country (TEXT): Country where the airline is based.
+
+**airports:**
+* City (TEXT): City where the airport is located.
+* AirportCode (TEXT): Unique code for the airport (primary key).
+* AirportName (TEXT): Full name of the airport.
+* Country (TEXT): Country where the airport is located.
+* CountryAbbrev (TEXT): Abbreviation for the country.
+
+**flights:**
+* Airline (INTEGER): Foreign key referencing `airlines`(uid), indicating the airline operating the flight.
+* FlightNo (INTEGER): Flight number.
+* SourceAirport (TEXT): Foreign key referencing `airports`(AirportCode), indicating the departure airport.
+* DestAirport (TEXT): Foreign key referencing `airports`(AirportCode), indicating the arrival airport.

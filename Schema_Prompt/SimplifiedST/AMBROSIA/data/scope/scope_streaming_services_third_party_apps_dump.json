@@ -1,0 +1,12 @@
+{
+    "scope_streaming_services_third_party_apps_dump": [
+        "Streaming_Services.id",
+        "Streaming_Services.name",
+        "Streaming_Services.description",
+        "Streaming_Services_Third_Party_Apps.streaming_service_id",
+        "Streaming_Services_Third_Party_Apps.third_party_app_id",
+        "Third_Party_Apps.app_id",
+        "Third_Party_Apps.app_name",
+        "Third_Party_Apps.is_active"
+    ]
+}

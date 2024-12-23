@@ -1,0 +1,23 @@
+{
+    "vague_2cols_compensation_copy_dump": [
+        "Applicant.Id",
+        "Applicant.FirstName",
+        "Applicant.LastName",
+        "Applicant.Email",
+        "Applicant.ResumeText",
+        "Application.Id",
+        "Application.ApplicationDate",
+        "Application.ApplicantId",
+        "Application.PositionId",
+        "ApplicationDeadline.Id",
+        "ApplicationDeadline.Deadline",
+        "ApplicationDeadline.PositionId",
+        "Employer.Id",
+        "Employer.Name",
+        "Employer.Email",
+        "Employer.PhoneNumber",
+        "Position.Id",
+        "Position.Title",
+        "Position.Description"
+    ]
+}

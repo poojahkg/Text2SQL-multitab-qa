@@ -1,0 +1,22 @@
+{
+    "vague_2cols_building_design_dump": [
+        "Airports.id",
+        "Airports.name",
+        "Airports.location",
+        "Architects.id",
+        "Architects.name",
+        "Architects.email",
+        "Buildings.id",
+        "Buildings.architecture_firm",
+        "Buildings.architect",
+        "Buildings.airport_terminal",
+        "Flights.id",
+        "Flights.flight_number",
+        "Flights.departure_airport",
+        "Flights.arrival_airport",
+        "Terminals.id",
+        "Terminals.airport_id",
+        "Terminals.terminal_name",
+        "Terminals.capacity"
+    ]
+}

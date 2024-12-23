@@ -1,0 +1,16 @@
+{
+    "scope_traffic_camera_function_dump": [
+        "Camera_Road_Link.cameraId",
+        "Camera_Road_Link.roadId",
+        "Function.id",
+        "Function.functionName",
+        "Road_Condition.id",
+        "Road_Condition.roadId",
+        "Road_Condition.condition",
+        "Traffic_Camera.id",
+        "Traffic_Camera.name",
+        "Traffic_Camera.location",
+        "Traffic_Camera_Function.cameraId",
+        "Traffic_Camera_Function.functionId"
+    ]
+}

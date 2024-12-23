@@ -1,0 +1,14 @@
+{
+    "vague_2tabs_political_leanings_copy_dump": [
+        "Districts.districtID",
+        "Districts.name",
+        "Districts.totalPopulation",
+        "Districts.FOREIGN",
+        "Individuals.id",
+        "Individuals.name",
+        "Individuals.age",
+        "VotingRecords.recordID",
+        "VotingRecords.individualId",
+        "VotingRecords.party"
+    ]
+}

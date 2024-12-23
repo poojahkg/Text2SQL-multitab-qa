@@ -1,0 +1,26 @@
+{
+    "attachment_2tab_ref_educational_materials_dump": [
+        "BooksInSubject.bookId",
+        "BooksInSubject.subjectId",
+        "BooksInSubject.ON",
+        "BooksInSubject.ON",
+        "EBooks.id",
+        "EBooks.title",
+        "EBooks.publisherId",
+        "EBooks.format",
+        "EBooks.price",
+        "Publisher.id",
+        "Publisher.name",
+        "Subjects.id",
+        "Subjects.subjectName",
+        "Teachers.id",
+        "Teachers.firstName",
+        "Teachers.lastName",
+        "Teachers.subjectId",
+        "Textbooks.id",
+        "Textbooks.title",
+        "Textbooks.publisherId",
+        "Textbooks.author",
+        "Textbooks.price"
+    ]
+}

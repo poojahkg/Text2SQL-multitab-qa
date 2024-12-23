@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_val_educational_materials_dump": [
+        "Authors.AuthorID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.BirthDate",
+        "Authors.Country",
+        "Books.BookID",
+        "Books.Title",
+        "Books.PublicationYear",
+        "Books.Pages",
+        "Books.Educational_Materials",
+        "Books.PublisherID",
+        "Publishers.PublisherID",
+        "Publishers.CompanyName",
+        "Publishers.Address",
+        "Publishers.ContactNumber",
+        "Publishers.Email",
+        "Subjects.SubjectID",
+        "Subjects.Name"
+    ]
+}

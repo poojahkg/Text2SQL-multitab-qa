@@ -1,0 +1,23 @@
+{
+    "vague_2cols_costumier_dump": [
+        "Actors.ActorID",
+        "Actors.FirstName",
+        "Actors.LastName",
+        "Actors.BirthDate",
+        "Directors.DirectorID",
+        "Directors.FirstName",
+        "Directors.LastName",
+        "Directors.BirthDate",
+        "FilmActors.FilmID",
+        "FilmActors.ActorID",
+        "FilmActors.Role",
+        "Films.FilmID",
+        "Films.Title",
+        "Films.ReleaseYear",
+        "Films.Runtime",
+        "Producers.ProducerID",
+        "Producers.FirstName",
+        "Producers.LastName",
+        "Producers.ProductionCompany"
+    ]
+}

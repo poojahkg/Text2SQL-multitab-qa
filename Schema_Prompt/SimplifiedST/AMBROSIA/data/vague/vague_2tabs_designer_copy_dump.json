@@ -1,0 +1,12 @@
+{
+    "vague_2tabs_designer_copy_dump": [
+        "Material.id",
+        "Material.material_type",
+        "Material.cost",
+        "Project.id",
+        "Project.project_name",
+        "Project.building_id",
+        "Project.start_date",
+        "Project.end_date"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "vague_2cols_speakers_copy_dump": [
+        "AgeGroup.AgeGroupID",
+        "AgeGroup.LowerBound",
+        "AgeGroup.UpperBound",
+        "AgeGroup.TotalPopulation",
+        "AgeGroup.CityID",
+        "City.CityID",
+        "City.Name",
+        "City.Population",
+        "City.ForeignKeyID",
+        "Country.CountryID",
+        "Country.Name",
+        "EducationLevel.EducationLevelID",
+        "EducationLevel.LevelName",
+        "EducationLevel.CityID",
+        "EducationLevel.TotalEnrolled",
+        "EducationLevel.TotalGraduated",
+        "EthnicGroup.EthnicGroupID",
+        "EthnicGroup.GroupName",
+        "EthnicGroup.Population",
+        "EthnicGroup.CityID"
+    ]
+}

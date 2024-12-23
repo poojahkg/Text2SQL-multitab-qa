@@ -1,0 +1,24 @@
+{
+    "party_people": [
+        "region.Region_ID",
+        "region.Region_name",
+        "region.Date",
+        "region.Label",
+        "region.Format",
+        "region.Catalogue",
+        "party.Party_ID",
+        "party.Minister",
+        "party.Took_office",
+        "party.Left_office",
+        "party.Region_ID",
+        "party.Party_name",
+        "member.Member_ID",
+        "member.Member_Name",
+        "member.Party_ID",
+        "member.In_office",
+        "party_events.Event_ID",
+        "party_events.Event_Name",
+        "party_events.Party_ID",
+        "party_events.Member_in_charge_ID"
+    ]
+}

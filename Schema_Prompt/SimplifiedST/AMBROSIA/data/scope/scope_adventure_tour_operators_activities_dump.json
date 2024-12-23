@@ -1,0 +1,12 @@
+{
+    "scope_adventure_tour_operators_activities_dump": [
+        "Activities.id",
+        "Activities.activity_name",
+        "Activities.description",
+        "Adventure_Tour_Operators.id",
+        "Adventure_Tour_Operators.name",
+        "Adventure_Tour_Operators.location",
+        "Adventure_Tour_Operators_Activities.adventure_tour_operator_id",
+        "Adventure_Tour_Operators_Activities.activity_id"
+    ]
+}

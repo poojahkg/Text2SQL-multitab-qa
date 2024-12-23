@@ -1,0 +1,11 @@
+{
+    "scope_physicists_fields_dump": [
+        "Fields.id",
+        "Fields.fieldName",
+        "Physicist_Fields.physicistId",
+        "Physicist_Fields.fieldId",
+        "Physicists.id",
+        "Physicists.name",
+        "Physicists.email"
+    ]
+}

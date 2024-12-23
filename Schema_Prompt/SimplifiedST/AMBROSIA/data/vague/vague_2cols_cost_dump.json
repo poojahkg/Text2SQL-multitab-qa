@@ -1,0 +1,26 @@
+{
+    "vague_2cols_cost_dump": [
+        "Appointments.AppointmentID",
+        "Appointments.PatientID",
+        "Appointments.DoctorID",
+        "Appointments.AppointmentDate",
+        "Appointments.ReasonForVisit",
+        "Doctors.DoctorID",
+        "Doctors.FirstName",
+        "Doctors.LastName",
+        "Doctors.Specialization",
+        "Doctors.PhoneNumber",
+        "Doctors.EmailAddress",
+        "Patients.PatientID",
+        "Patients.FirstName",
+        "Patients.LastName",
+        "Patients.DateOfBirth",
+        "Patients.InsuranceProvider",
+        "Patients.Address",
+        "Prescriptions.PrescriptionID",
+        "Prescriptions.AppointmentID",
+        "Prescriptions.MedicationName",
+        "Prescriptions.Dosage",
+        "Prescriptions.Instructions"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "scope_multimedia_journalists_platforms_dump": [
+        "Multimedia_Journalists.id",
+        "Multimedia_Journalists.name",
+        "Multimedia_Journalists.email",
+        "Multimedia_Journalists_Platforms.multimedia_journalist_id",
+        "Multimedia_Journalists_Platforms.platforms_id",
+        "Platforms.id",
+        "Platforms.platform_name"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "attachment_2tab_ref_it_jobs_dump": [
+        "Employee.ID",
+        "Employee.First_Name",
+        "Employee.Last_Name",
+        "Employee.Position",
+        "Employee.Salary",
+        "Employee.Joining_Date",
+        "IT_Support_Technician.ID",
+        "IT_Support_Technician.Name",
+        "IT_Support_Technician.Contact_Email",
+        "IT_Support_Technician.Phone_Number",
+        "IT_Support_Technician.Hire_Date",
+        "IT_Support_Technician.Operating_System_ID",
+        "Network_Administrator.ID",
+        "Network_Administrator.Name",
+        "Network_Administrator.Contact_Email",
+        "Network_Administrator.Phone_Number",
+        "Network_Administrator.Hire_Date",
+        "Network_Administrator.Operating_System_ID",
+        "Operating_System_Knowledge.ID",
+        "Operating_System_Knowledge.OS_Name"
+    ]
+}

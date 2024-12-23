@@ -1,0 +1,11 @@
+{
+    "scope_maintenance_facilities_equipment_dump": [
+        "Equipment.equipmentId",
+        "Equipment.type",
+        "Maintenance_Facilities.id",
+        "Maintenance_Facilities.name",
+        "Maintenance_Facilities.location",
+        "Maintenance_Facilities_Equipment.maintenanceId",
+        "Maintenance_Facilities_Equipment.equipmentTypeId"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "attachment_1tab_val_news_types_dump": [
+        "ArticleCategoryLinks.ArticleID",
+        "ArticleCategoryLinks.CategoryID",
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.Event",
+        "Articles.PublicationDate",
+        "Articles.NewsType",
+        "Articles.AuthorID",
+        "Authors.AuthorID",
+        "Authors.FullName",
+        "Authors.EmailAddress",
+        "Keywords.KeywordID",
+        "Keywords.KeywordText"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "attachment_2tab_val_assessment_methods_dump": [
+        "Assessors.AssessorID",
+        "Assessors.Name",
+        "Assessors.Title",
+        "Assessors.Department",
+        "Exams.ExamID",
+        "Exams.CourseTitle",
+        "Exams.TotalMarks",
+        "Exams.PassingMark",
+        "Exams.AssessorId",
+        "Quizzes.QuizID",
+        "Quizzes.Description",
+        "Quizzes.MaxScore",
+        "Quizzes.MinPassingScore",
+        "Quizzes.AssessorId",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.BirthDate",
+        "Students.Major"
+    ]
+}

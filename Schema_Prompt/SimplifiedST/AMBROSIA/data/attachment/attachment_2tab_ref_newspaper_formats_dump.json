@@ -1,0 +1,16 @@
+{
+    "attachment_2tab_ref_newspaper_formats_dump": [
+        "Broadsheet.NewspaperID",
+        "Broadsheet.Title",
+        "Broadsheet.Content",
+        "Broadsheet.Price",
+        "Broadsheet.DistributorID",
+        "Distributor.ID",
+        "Distributor.Name",
+        "Tabloid.NewspaperID",
+        "Tabloid.Title",
+        "Tabloid.Content",
+        "Tabloid.Price",
+        "Tabloid.DistributorID"
+    ]
+}

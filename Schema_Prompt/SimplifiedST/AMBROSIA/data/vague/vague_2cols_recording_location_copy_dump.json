@@ -1,0 +1,25 @@
+{
+    "vague_2cols_recording_location_copy_dump": [
+        "ContentLibrary.content_id",
+        "ContentLibrary.title",
+        "ContentLibrary.description",
+        "ContentLibrary.duration",
+        "ContentLibrary.release_date",
+        "ContentLibrary.category",
+        "Customer.customer_id",
+        "Customer.first_name",
+        "Customer.last_name",
+        "Customer.email",
+        "Customer.password",
+        "Customer.subscription_plan_id",
+        "PlayHistory.history_id",
+        "PlayHistory.customer_id",
+        "PlayHistory.content_id",
+        "PlayHistory.play_date",
+        "SubscriptionPlan.plan_id",
+        "SubscriptionPlan.plan_name",
+        "SubscriptionPlan.monthly_price",
+        "SubscriptionPlan.annual_price",
+        "SubscriptionPlan.features"
+    ]
+}

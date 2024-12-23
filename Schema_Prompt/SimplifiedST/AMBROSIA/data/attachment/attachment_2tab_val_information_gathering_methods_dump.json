@@ -1,0 +1,17 @@
+{
+    "attachment_2tab_val_information_gathering_methods_dump": [
+        "Article_Keywords.article_id",
+        "Article_Keywords.keyword_id",
+        "Articles.id",
+        "Articles.Title",
+        "Articles.Author",
+        "Articles.Publication_Date",
+        "Articles.Content",
+        "Keywords.id",
+        "Keywords.Word",
+        "Sources.id",
+        "Sources.Name",
+        "Sources.Type",
+        "Sources.Contact_Info"
+    ]
+}

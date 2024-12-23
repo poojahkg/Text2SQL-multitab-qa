@@ -1,0 +1,25 @@
+{
+    "vague_2cols_resources2_copy_dump": [
+        "Courses.CourseID",
+        "Courses.Title",
+        "Courses.Description",
+        "Courses.TeacherID",
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.CourseID",
+        "Enrollments.Grade",
+        "Exams.ExamID",
+        "Exams.CourseID",
+        "Exams.Date",
+        "Exams.TotalMarks",
+        "Exams.PassMark",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.Age",
+        "Teachers.TeacherID",
+        "Teachers.FirstName",
+        "Teachers.LastName",
+        "Teachers.SubjectTaught"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_ref_entertainment_media_dump": [
+        "Author.id",
+        "Author.firstName",
+        "Author.lastName",
+        "EntertainmentItem.id",
+        "EntertainmentItem.title",
+        "EntertainmentItem.releaseYear",
+        "EntertainmentItem.genreId",
+        "EntertainmentItem.mediaTypeId",
+        "Film.id",
+        "Film.director",
+        "Film.filmId",
+        "Genre.id",
+        "Genre.name",
+        "MediaType.id",
+        "MediaType.typeName",
+        "Novel.id",
+        "Novel.authorId",
+        "Novel.publicationYear"
+    ]
+}

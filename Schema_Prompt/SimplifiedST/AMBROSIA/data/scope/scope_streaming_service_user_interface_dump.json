@@ -1,0 +1,11 @@
+{
+    "scope_streaming_service_user_interface_dump": [
+        "Streaming_Service.id",
+        "Streaming_Service.name",
+        "Streaming_Service.price",
+        "Streaming_Service_User_Interface.streaming_service_id",
+        "Streaming_Service_User_Interface.user_interface_id",
+        "User_Interface.id",
+        "User_Interface.interface_type"
+    ]
+}

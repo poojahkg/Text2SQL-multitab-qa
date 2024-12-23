@@ -1,0 +1,22 @@
+{
+    "scope_film_festivals_categories_dump": [
+        "Categories.id",
+        "Categories.categoryName",
+        "Film_Festival_Categories.festivalId",
+        "Film_Festival_Categories.categoryId",
+        "Film_Festival_Entries.festivalId",
+        "Film_Festival_Entries.filmId",
+        "Film_Festival_Entries.entryDate",
+        "Film_Festival_Winners.festivalId",
+        "Film_Festival_Winners.awardType",
+        "Film_Festival_Winners.winningFilmId",
+        "Film_Festival_Winners.winYear",
+        "Film_Festivals.id",
+        "Film_Festivals.name",
+        "Film_Festivals.location",
+        "Films.id",
+        "Films.title",
+        "Films.director",
+        "Films.yearReleased"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "vague_2tabs_target_dump": [
+        "Age_Group.id",
+        "Age_Group.name",
+        "Appointment.appointment_id",
+        "Appointment.date",
+        "Appointment.patient_id",
+        "Appointment.doctor_id",
+        "Appointment.medicalrecord_id",
+        "Doctor.doctor_id",
+        "Doctor.first_name",
+        "Doctor.last_name",
+        "Doctor.specialty",
+        "Health_Condition.id",
+        "Health_Condition.condition_name",
+        "MedicalRecord.medicalrecord_id",
+        "MedicalRecord.patient_id",
+        "MedicalRecord.diagnosis",
+        "MedicalRecord.treatment_plan",
+        "Patient.patient_id",
+        "Patient.birthdate",
+        "Patient.phone_number",
+        "Patient.age_group_id",
+        "Patient.full_name",
+        "Vaccine.id",
+        "Vaccine.vaccine_name",
+        "Vaccine.age_group_id",
+        "Vaccine.health_condition_id"
+    ]
+}

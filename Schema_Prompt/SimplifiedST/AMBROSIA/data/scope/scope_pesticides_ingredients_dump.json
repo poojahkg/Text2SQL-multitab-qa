@@ -1,0 +1,11 @@
+{
+    "scope_pesticides_ingredients_dump": [
+        "Ingredients.id",
+        "Ingredients.ingredient_name",
+        "Pesticides.id",
+        "Pesticides.name",
+        "Pesticides.usage_instructions",
+        "Pesticides_Ingredients.pesticide_id",
+        "Pesticides_Ingredients.ingredient_id"
+    ]
+}

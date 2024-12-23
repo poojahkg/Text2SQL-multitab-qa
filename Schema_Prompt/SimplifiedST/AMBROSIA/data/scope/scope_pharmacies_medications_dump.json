@@ -1,0 +1,22 @@
+{
+    "scope_pharmacies_medications_dump": [
+        "Medications.medication_id",
+        "Medications.type",
+        "Medications.dosage",
+        "Medications.side_effects",
+        "Pharmacies.id",
+        "Pharmacies.name",
+        "Pharmacies.location",
+        "Pharmacy_Medications.pharmacy_medication_id",
+        "Pharmacy_Medications.pharmacy_id",
+        "Pharmacy_Medications.medication_id",
+        "Pharmacy_Prescriptions.pharmacy_prescription_id",
+        "Pharmacy_Prescriptions.pharmacy_id",
+        "Pharmacy_Prescriptions.prescription_id",
+        "Pharmacy_Prescriptions.quantity",
+        "Prescriptions.prescription_id",
+        "Prescriptions.pharmacy_id",
+        "Prescriptions.patient_name",
+        "Prescriptions.date"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "mountain_photos": [
+        "mountain.id",
+        "mountain.name",
+        "mountain.Height",
+        "mountain.Prominence",
+        "mountain.Range",
+        "mountain.Country",
+        "camera_lens.id",
+        "camera_lens.brand",
+        "camera_lens.name",
+        "camera_lens.focal_length_mm",
+        "camera_lens.max_aperture",
+        "photos.id",
+        "photos.camera_lens_id",
+        "photos.mountain_id",
+        "photos.color",
+        "photos.name"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "machine_repair": [
+        "repair.repair_ID",
+        "repair.name",
+        "repair.Launch_Date",
+        "repair.Notes",
+        "machine.Machine_ID",
+        "machine.Making_Year",
+        "machine.Class",
+        "machine.Team",
+        "machine.Machine_series",
+        "machine.value_points",
+        "machine.quality_rank",
+        "technician.technician_id",
+        "technician.Name",
+        "technician.Team",
+        "technician.Starting_Year",
+        "technician.Age",
+        "repair_assignment.technician_id",
+        "repair_assignment.repair_ID",
+        "repair_assignment.Machine_ID"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "scope_sound_designers_techniques_dump": [
+        "Directors.ID",
+        "Directors.Firstname",
+        "Directors.Lastname",
+        "Movie_Director.MovieID",
+        "Movie_Director.DirectorID",
+        "Movie_Producer.MovieID",
+        "Movie_Producer.ProducerID",
+        "Movies.ID",
+        "Movies.Title",
+        "Movies.ReleaseYear",
+        "Producers.ID",
+        "Producers.Firstname",
+        "Producers.Lastname",
+        "Sound_Designer_Movie.SoundDesignerID",
+        "Sound_Designer_Movie.MovieID",
+        "Sound_Designer_Technique.SoundDesignerID",
+        "Sound_Designer_Technique.TechniqueID",
+        "Sound_Designers.ID",
+        "Sound_Designers.Name",
+        "Sound_Designers.Email",
+        "Techniques.ID",
+        "Techniques.MethodName"
+    ]
+}

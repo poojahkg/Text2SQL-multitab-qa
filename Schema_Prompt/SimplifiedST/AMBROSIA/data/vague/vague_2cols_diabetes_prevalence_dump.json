@@ -1,0 +1,28 @@
+{
+    "vague_2cols_diabetes_prevalence_dump": [
+        "Cities.CityID",
+        "Cities.StateID",
+        "Cities.Name",
+        "Countries.CountryID",
+        "Countries.Name",
+        "Countries.Population",
+        "DiabetesData.DataID",
+        "DiabetesData.Percentage_Of_Diabetics",
+        "DiabetesData.Diabetic_Count",
+        "DiabetesData.Population",
+        "DiabetesData.CityId",
+        "HealthCareFacilities.FacilityID",
+        "HealthCareFacilities.Name",
+        "HealthCareFacilities.Address",
+        "HealthCareFacilities.PhoneNumber",
+        "HealthCareFacilities.CityId",
+        "People.PersonID",
+        "People.Age",
+        "People.Sex",
+        "People.Occupation",
+        "People.ResidenceCityId",
+        "States.StateID",
+        "States.CountryID",
+        "States.Name"
+    ]
+}

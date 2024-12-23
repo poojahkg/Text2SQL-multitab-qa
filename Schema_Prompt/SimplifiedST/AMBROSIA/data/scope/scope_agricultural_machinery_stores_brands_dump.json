@@ -1,0 +1,16 @@
+{
+    "scope_agricultural_machinery_stores_brands_dump": [
+        "Agricultural_Machinery_Stores.store_id",
+        "Agricultural_Machinery_Stores.store_name",
+        "Agricultural_Machinery_Stores.location",
+        "Brands.id",
+        "Brands.brand_name",
+        "Machines.machine_id",
+        "Machines.model_number",
+        "Machines.description",
+        "Stores_Brands.store_id",
+        "Stores_Brands.brand_id",
+        "Stores_Machines.store_id",
+        "Stores_Machines.machine_id"
+    ]
+}

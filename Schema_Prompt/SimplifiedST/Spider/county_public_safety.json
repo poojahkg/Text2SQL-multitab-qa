@@ -1,0 +1,22 @@
+{
+    "county_public_safety": [
+        "county_public_safety.County_ID",
+        "county_public_safety.Name",
+        "county_public_safety.Population",
+        "county_public_safety.Police_officers",
+        "county_public_safety.Residents_per_officer",
+        "county_public_safety.Case_burden",
+        "county_public_safety.Crime_rate",
+        "county_public_safety.Police_force",
+        "county_public_safety.Location",
+        "city.City_ID",
+        "city.County_ID",
+        "city.Name",
+        "city.White",
+        "city.Black",
+        "city.Amerindian",
+        "city.Asian",
+        "city.Multiracial",
+        "city.Hispanic"
+    ]
+}

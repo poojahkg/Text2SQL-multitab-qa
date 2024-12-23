@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_val_genre3_dump": [
+        "Action_Movies.id",
+        "Action_Movies.Title",
+        "Action_Movies.Director",
+        "Action_Movies.ReleaseYear",
+        "Action_Movies.Duration",
+        "Actors.id",
+        "Actors.Name",
+        "Actors.BirthDate",
+        "Actors.Nationality",
+        "Awards.id",
+        "Awards.AwardType",
+        "Awards.RecipientId",
+        "Awards.ON",
+        "Directors.id",
+        "Directors.Name",
+        "Directors.BirthDate",
+        "Directors.Nationality",
+        "Movie_Ratings.id",
+        "Movie_Ratings.Rating",
+        "Movie_Ratings.ReviewerName",
+        "Romantic_Comedies.id",
+        "Romantic_Comedies.Title",
+        "Romantic_Comedies.Director",
+        "Romantic_Comedies.ReleaseYear",
+        "Romantic_Comedies.Duration"
+    ]
+}

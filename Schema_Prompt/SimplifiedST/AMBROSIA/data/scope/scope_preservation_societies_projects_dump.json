@@ -1,0 +1,15 @@
+{
+    "scope_preservation_societies_projects_dump": [
+        "Preservation_Societies.ID",
+        "Preservation_Societies.Name",
+        "Preservation_Societies.Address",
+        "Preservation_Societies_Projects.Societies_ID",
+        "Preservation_Societies_Projects.Projects_ID",
+        "Preservation_Societies_Projects.StartDate",
+        "Preservation_Societies_Projects.EndDate",
+        "Projects.ID",
+        "Projects.Type",
+        "Projects.Description",
+        "Projects.Cost"
+    ]
+}

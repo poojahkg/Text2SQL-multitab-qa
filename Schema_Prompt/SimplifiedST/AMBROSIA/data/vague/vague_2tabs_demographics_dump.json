@@ -1,0 +1,23 @@
+{
+    "vague_2tabs_demographics_dump": [
+        "Age_Range.id",
+        "Age_Range.min_age",
+        "Age_Range.max_age",
+        "Article_Readers.article_id",
+        "Article_Readers.reader_id",
+        "Articles.id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.publish_date",
+        "Articles.author_id",
+        "Authors.id",
+        "Authors.author_name",
+        "Authors.bio",
+        "Readers.id",
+        "Readers.age_range_id",
+        "Readers.socioeconomic_status_id",
+        "Socioeconomic_Status.id",
+        "Socioeconomic_Status.status",
+        "Socioeconomic_Status.description"
+    ]
+}

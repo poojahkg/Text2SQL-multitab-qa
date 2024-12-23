@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_ref_accommodation_dump": [
+        "AccommodationType.id",
+        "AccommodationType.typeName",
+        "Booking.id",
+        "Booking.guestID",
+        "Booking.glampingPodId",
+        "Booking.checkInDate",
+        "Booking.checkOutDate",
+        "Booking.totalPrice",
+        "GlampingPod.id",
+        "GlampingPod.\"pod\"",
+        "GlampingPod.capacity",
+        "GlampingPod.locationId",
+        "GlampingPod.accommodationTypeId",
+        "Guest.id",
+        "Guest.firstName",
+        "Guest.lastName",
+        "Guest.email",
+        "Guest.phoneNumber",
+        "Location.id",
+        "Location.name",
+        "TreeHouse.id",
+        "TreeHouse.\"house\"",
+        "TreeHouse.capacity",
+        "TreeHouse.locationId",
+        "TreeHouse.accommodationTypeId"
+    ]
+}

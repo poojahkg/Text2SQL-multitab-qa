@@ -1,0 +1,23 @@
+{
+    "scope_financial_analysts_metrics_dump": [
+        "Company.company_id",
+        "Company.company_name",
+        "Company.location",
+        "Financial_Analysts.id",
+        "Financial_Analysts.name",
+        "Financial_Analysts.experience",
+        "Financial_Analysts_JobPostings.financial_analyst_id",
+        "Financial_Analysts_JobPostings.job_posting_id",
+        "Financial_Analysts_Metrics.financial_analyst_id",
+        "Financial_Analysts_Metrics.metric_id",
+        "JobPostings.job_posting_id",
+        "JobPostings.title",
+        "JobPostings.description",
+        "JobPostings.salary",
+        "JobPostings.created_at",
+        "JobPostings_Company.job_posting_id",
+        "JobPostings_Company.company_id",
+        "Metrics.metric_id",
+        "Metrics.metric_name"
+    ]
+}

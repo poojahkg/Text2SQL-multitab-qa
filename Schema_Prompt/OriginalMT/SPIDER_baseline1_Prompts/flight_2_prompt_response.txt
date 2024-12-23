@@ -1,0 +1,104 @@
+Instructions for Writing Queries
+Understand the Schema:
+
+Identify the relationships between tables using foreign keys.
+Understand how flights links airlines and airports.
+Analyze the Question:
+
+Determine which tables are relevant.
+Identify filtering conditions, aggregations, or joins required to extract the data.
+Use SQL Techniques:
+
+Use JOIN to combine data across tables.
+Use DISTINCT to eliminate duplicate results.
+Use LIMIT to restrict the number of rows returned.
+Use subqueries for filtering or aggregating intermediate results.
+Apply grouping (GROUP BY) and aggregation (e.g., COUNT, SUM, AVG) as needed.
+Write and Validate the Query:
+
+Structure the query logically step by step.
+Test to ensure accuracy and completeness.
+Few-Shot Questions and Queries
+Example 1:
+Question: List all unique destinations served by flights operated by "Delta Airlines."
+Query:
+
+sql
+Copy code
+SELECT DISTINCT a.AirportName AS Destination
+FROM flights f
+JOIN airlines al ON f.Airline = al.uid
+JOIN airports a ON f.DestAirport = a.AirportCode
+WHERE al.Airline = 'Delta Airlines';
+Example 2:
+Question: Find the total number of flights operated by airlines based in "United States."
+Query:
+
+sql
+Copy code
+SELECT COUNT(*) AS Total_Flights
+FROM flights f
+JOIN airlines al ON f.Airline = al.uid
+WHERE al.Country = 'United States';
+Example 3:
+Question: What are the top 3 busiest source airports based on the number of departing flights?
+Query:
+
+sql
+Copy code
+SELECT a.AirportName AS Source_Airport, COUNT(f.FlightNo) AS Departing_Flights
+FROM flights f
+JOIN airports a ON f.SourceAirport = a.AirportCode
+GROUP BY a.AirportName
+ORDER BY Departing_Flights DESC
+LIMIT 3;
+Example 4:
+Question: How many flights operate between "JFK International Airport" and "Los Angeles International Airport"?
+Query:
+
+sql
+Copy code
+SELECT COUNT(*) AS Total_Flights
+FROM flights f
+JOIN airports a1 ON f.SourceAirport = a1.AirportCode
+JOIN airports a2 ON f.DestAirport = a2.AirportCode
+WHERE a1.AirportName = 'JFK International Airport' AND a2.AirportName = 'Los Angeles International Airport';
+Example 5:
+Question: Which airline operates the highest number of flights?
+Query:
+
+sql
+Copy code
+SELECT al.Airline, COUNT(f.FlightNo) AS Flight_Count
+FROM flights f
+JOIN airlines al ON f.Airline = al.uid
+GROUP BY al.Airline
+ORDER BY Flight_Count DESC
+LIMIT 1;
+Example 6:
+Question: List all flights departing from airports in "Canada."
+Query:
+
+sql
+Copy code
+SELECT f.FlightNo, al.Airline, a.AirportName AS Source_Airport
+FROM flights f
+JOIN airports a ON f.SourceAirport = a.AirportCode
+JOIN airlines al ON f.Airline = al.uid
+WHERE a.Country = 'Canada';
+Example 7:
+Question: What is the average number of flights operated per airline?
+Query:
+
+sql
+Copy code
+SELECT AVG(Flight_Count) AS Average_Flights_Per_Airline
+FROM (
+    SELECT COUNT(f.FlightNo) AS Flight_Count
+    FROM flights f
+    GROUP BY f.Airline
+) AS Flight_Data;
+
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

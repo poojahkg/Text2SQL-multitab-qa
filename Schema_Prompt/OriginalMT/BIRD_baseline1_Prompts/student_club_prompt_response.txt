@@ -1,0 +1,58 @@
+Prompt
+You are tasked with writing a query to solve a specific problem based on the schema and instructions below. Follow the step-by-step process to construct the query.
+
+
+Example Queries:
+Question 1: What was the total amount spent on expenses related to the "Fall Festival" event?
+
+sql
+Copy code
+SELECT SUM(E.cost) AS TotalSpent
+FROM Expense AS E
+JOIN Budget AS B ON E.link_to_budget = B.budget_id
+JOIN Event AS EV ON B.link_to_event = EV.event_id
+WHERE EV.event_name = 'Fall Festival';
+Explanation:
+
+Joins: Connects Expense, Budget, and Event tables using foreign keys.
+Filter: Retrieves expenses associated with the event "Fall Festival".
+Aggregation: Sums the cost column to calculate the total amount spent.
+Question 2: How many members are in the "Computer Science" major?
+
+sql
+Copy code
+SELECT COUNT(*) AS MemberCount
+FROM Member AS M
+JOIN Major AS MA ON M.link_to_major = MA.major_id
+WHERE MA.major_name = 'Computer Science';
+Explanation:
+
+Join: Links Member and Major tables to associate members with their majors.
+Filter: Focuses on members in the "Computer Science" major.
+Aggregation: Counts the total number of members in the specified major.
+Question 3: Which zip codes have members who attended more than 3 events?
+
+sql
+Copy code
+SELECT Z.zip_code, Z.city, COUNT(A.link_to_event) AS EventCount
+FROM Attendance AS A
+JOIN Member AS M ON A.link_to_member = M.member_id
+JOIN Zip_Code AS Z ON M.zip = Z.zip_code
+GROUP BY Z.zip_code, Z.city
+HAVING COUNT(A.link_to_event) > 3;
+Explanation:
+
+Joins: Combines Attendance, Member, and Zip_Code tables to link events attended by members to their zip codes.
+Aggregation: Counts the number of events attended per zip code.
+Filter: Retrieves zip codes where members attended more than 3 events.
+
+
+Query Writing Best Practices
+Use Aliases: Simplify table and column references (e.g., results AS R).
+Filter Precisely: Use WHERE clauses to narrow down results based on conditions.
+Aggregate Effectively: Apply functions like SUM, COUNT, MAX, and AVG to extract insights.
+Sort and Limit: Use ORDER BY and LIMIT to control the output.
+Join Tables: Utilize joins to combine relevant data across tables.
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

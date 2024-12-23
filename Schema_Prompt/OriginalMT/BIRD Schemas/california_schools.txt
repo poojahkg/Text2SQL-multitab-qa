@@ -1,0 +1,138 @@
+-- Schema for california_schools database
+
+CREATE TABLE frpm (
+    CDSCode TEXT PRIMARY KEY,
+    AcademicYear TEXT,
+    CountyCode INTEGER,
+    DistrictCode INTEGER,
+    SchoolCode INTEGER,
+    CountyName TEXT,
+    DistrictName TEXT,
+    SchoolName TEXT,
+    DistrictType TEXT,
+    SchoolType TEXT,
+    EducationalOptionType TEXT,
+    NSLPProvisionStatus TEXT,
+    CharterSchoolYN INTEGER,
+    CharterSchoolNumber TEXT,
+    CharterFundingType TEXT,
+    IRC INTEGER,
+    LowGrade TEXT,
+    HighGrade TEXT,
+    EnrollmentK12 REAL,
+    FreeMealCountK12 REAL,
+    PercentEligibleFreeK12 REAL,
+    FRPMCountK12 REAL,
+    PercentEligibleFRPMK12 REAL,
+    EnrollmentAges517 REAL,
+    FreeMealCountAges517 REAL,
+    PercentEligibleFreeAges517 REAL,
+    FRPMCountAges517 REAL,
+    PercentEligibleFRPMAges517 REAL,
+    CALPADSStatus TEXT
+);
+
+CREATE TABLE satscores (
+    cds TEXT PRIMARY KEY,
+    rtype TEXT,
+    schoolName TEXT,
+    districtName TEXT,
+    countyName TEXT,
+    enrollment12 INTEGER,
+    numTestTakers INTEGER,
+    avgScoreRead INTEGER,
+    avgScoreMath INTEGER,
+    avgScoreWrite INTEGER,
+    numGE1500 INTEGER,
+    FOREIGN KEY (cds) REFERENCES frpm(CDSCode)
+);
+
+CREATE TABLE schools (
+    CDSCode TEXT PRIMARY KEY,
+    NCESDist TEXT,
+    NCESSchool TEXT,
+    StatusType TEXT,
+    County TEXT,
+    District TEXT,
+    School TEXT,
+    Street TEXT,
+    StreetAbr TEXT,
+    City TEXT,
+    Zip TEXT,
+    State TEXT,
+    MailStreet TEXT,
+    MailStrAbr TEXT,
+    MailCity TEXT,
+    MailZip TEXT,
+    MailState TEXT,
+    Phone TEXT,
+    Ext TEXT,
+    Website TEXT,
+    OpenDate DATE,
+    ClosedDate DATE,
+    Charter INTEGER,
+    CharterNum TEXT,
+    FundingType TEXT,
+    DOC TEXT,
+    DOCType TEXT,
+    SOC TEXT,
+    SOCType TEXT,
+    EdOpsCode TEXT,
+    EdOpsName TEXT,
+    EILCode TEXT,
+    EILName TEXT,
+    GSoffered INTEGER,
+    GSserved INTEGER,
+    Virtual INTEGER,
+    Magnet INTEGER,
+    Latitude REAL,
+    Longitude REAL,
+    AdmFName1 TEXT,
+    AdmLName1 TEXT,
+    AdmEmail1 TEXT,
+    AdmFName2 TEXT,
+    AdmLName2 TEXT,
+    AdmEmail2 TEXT,
+    AdmFName3 TEXT,
+    AdmLName3 TEXT,
+    AdmEmail3 TEXT,
+    LastUpdate DATE
+);
+
+Schema Overview:
+This database schema provides information about California schools, focusing on demographics, SAT scores, and school characteristics. It consists of three tables:
+
+frpm (Free and Reduced-Price Meals): Contains data about the number of students eligible for free and reduced-price meals, including enrollment statistics by grade level and age group.
+
+satscores: Stores SAT score data, such as average scores for reading, math, and writing, along with the number of test-takers.
+
+schools: Includes detailed school information, such as location, contact details, grade spans, and whether the school is a charter or magnet school.
+
+Table Descriptions:
+frpm Table:
+
+CDSCode: Unique identifier for each school (Primary Key).
+AcademicYear: The academic year for the data.
+CountyName: Name of the county where the school is located.
+DistrictName: Name of the school district.
+SchoolName: Name of the school.
+EnrollmentK12: Total number of K-12 students enrolled.
+PercentEligibleFRPMK12: Percentage of students eligible for free or reduced-price meals.
+satscores Table:
+
+cds: Unique identifier for each school (Primary Key).
+schoolName: Name of the school.
+districtName: Name of the school district.
+avgScoreMath: Average SAT math score.
+avgScoreRead: Average SAT reading score.
+avgScoreWrite: Average SAT writing score.
+numTestTakers: Number of students who took the SAT.
+schools Table:
+
+CDSCode: Unique identifier for each school (Primary Key).
+County: Name of the county where the school is located.
+District: Name of the school district.
+School: Name of the school.
+Charter: Indicates whether the school is a charter school (1 for yes, 0 for no).
+GSoffered: Grade span offered by the school.
+Magnet: Indicates whether the school is a magnet school (1 for yes, 0 for no).

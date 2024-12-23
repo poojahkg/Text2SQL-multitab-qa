@@ -1,0 +1,12 @@
+{
+    "scope_maritime_villages_boat_tours_dump": [
+        "Boat_Tours.id",
+        "Boat_Tours.tour_name",
+        "Boat_Tours.description",
+        "Maritime_Villages.id",
+        "Maritime_Villages.name",
+        "Maritime_Villages.location",
+        "Maritime_Villages_Boat_Tours.maritime_village_id",
+        "Maritime_Villages_Boat_Tours.boat_tour_id"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "attachment_2tab_ref_news_content_types_dump": [
+        "Authors.author_id",
+        "Authors.name",
+        "Authors.email",
+        "Feature_Articles.feature_article_id",
+        "Feature_Articles.title",
+        "Feature_Articles.content",
+        "Feature_Articles.volume_id",
+        "Opinion_Pieces.opinion_piece_id",
+        "Opinion_Pieces.title",
+        "Opinion_Pieces.content",
+        "Opinion_Pieces.volume_id",
+        "Publications.publication_id",
+        "Publications.name",
+        "Publications.address",
+        "Volumes.volume_id",
+        "Volumes.number",
+        "Volumes.publication_date"
+    ]
+}

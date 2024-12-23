@@ -1,0 +1,12 @@
+{
+    "scope_product_managers_metrics_dump": [
+        "Metrics.id",
+        "Metrics.metric_name",
+        "Metrics.value",
+        "Product_Managers.id",
+        "Product_Managers.name",
+        "Product_Managers.email",
+        "Product_Managers_Metrics.product_manager_id",
+        "Product_Managers_Metrics.metrics_id"
+    ]
+}

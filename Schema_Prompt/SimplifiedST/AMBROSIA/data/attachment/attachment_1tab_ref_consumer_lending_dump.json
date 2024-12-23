@@ -1,0 +1,16 @@
+{
+    "attachment_1tab_ref_consumer_lending_dump": [
+        "customers.id",
+        "customers.email",
+        "customers.phoneNumber",
+        "customers.FullName",
+        "loans.id",
+        "loans.customerId",
+        "loans.loanType",
+        "loans.amount",
+        "loans.termYears",
+        "loans.interestRateId",
+        "rates.id",
+        "rates.interestRate"
+    ]
+}

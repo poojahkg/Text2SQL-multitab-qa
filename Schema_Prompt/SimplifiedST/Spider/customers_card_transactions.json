@@ -1,0 +1,31 @@
+{
+    "customers_card_transactions": [
+        "Accounts.account_id",
+        "Accounts.customer_id",
+        "Accounts.account_name",
+        "Accounts.other_account_details",
+        "Customers.customer_id",
+        "Customers.customer_first_name",
+        "Customers.customer_last_name",
+        "Customers.customer_address",
+        "Customers.customer_phone",
+        "Customers.customer_email",
+        "Customers.other_customer_details",
+        "Customers_Cards.card_id",
+        "Customers_Cards.customer_id",
+        "Customers_Cards.card_type_code",
+        "Customers_Cards.card_number",
+        "Customers_Cards.date_valid_from",
+        "Customers_Cards.date_valid_to",
+        "Customers_Cards.other_card_details",
+        "Financial_Transactions.transaction_id",
+        "Financial_Transactions.previous_transaction_id",
+        "Financial_Transactions.account_id",
+        "Financial_Transactions.card_id",
+        "Financial_Transactions.transaction_type",
+        "Financial_Transactions.transaction_date",
+        "Financial_Transactions.transaction_amount",
+        "Financial_Transactions.transaction_comment",
+        "Financial_Transactions.other_transaction_details"
+    ]
+}

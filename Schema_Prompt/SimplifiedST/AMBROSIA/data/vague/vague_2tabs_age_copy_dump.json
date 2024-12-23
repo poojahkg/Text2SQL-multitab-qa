@@ -1,0 +1,9 @@
+{
+    "vague_2tabs_age_copy_dump": [
+        "Country.id",
+        "Country.name",
+        "Region.id",
+        "Region.region_name",
+        "Region.country_id"
+    ]
+}

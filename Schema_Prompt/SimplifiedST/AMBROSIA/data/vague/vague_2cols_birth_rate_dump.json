@@ -1,0 +1,23 @@
+{
+    "vague_2cols_birth_rate_dump": [
+        "AgeGroupPopulations.AgeGroupID",
+        "AgeGroupPopulations.Year",
+        "AgeGroupPopulations.CityName",
+        "AgeGroupPopulations.TotalPopulation",
+        "AgeGroups.ID",
+        "AgeGroups.Name",
+        "BirthYears.Year",
+        "BirthYears.Number_Of_Births",
+        "BirthYears.Crude_Birth_Rate",
+        "BirthYears.City",
+        "Cities.CityName",
+        "Cities.RegionName",
+        "CityEducationStats.CityName",
+        "CityEducationStats.Level",
+        "CityEducationStats.Percentage",
+        "EducationLevels.Level",
+        "EducationLevels.Percentage",
+        "Regions.RegionName",
+        "Regions.PopulationCount"
+    ]
+}

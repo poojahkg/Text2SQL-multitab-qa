@@ -1,0 +1,12 @@
+{
+    "scope_real_estate_agencies_services_dump": [
+        "Real_Estate_Agencies.agency_id",
+        "Real_Estate_Agencies.name",
+        "Real_Estate_Agencies.location",
+        "Real_Estate_Agencies_Services.real_estate_agency_id",
+        "Real_Estate_Agencies_Services.service_id",
+        "Services.service_id",
+        "Services.description",
+        "Services.price"
+    ]
+}

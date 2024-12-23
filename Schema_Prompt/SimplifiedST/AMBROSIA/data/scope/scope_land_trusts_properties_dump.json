@@ -1,0 +1,9 @@
+{
+    "scope_land_trusts_properties_dump": [
+        "Land_Trusts.id",
+        "Land_Trusts.trustName",
+        "Land_Trusts.location",
+        "Land_Trusts_Properties.landTrustId",
+        "Land_Trusts_Properties.propertyId"
+    ]
+}

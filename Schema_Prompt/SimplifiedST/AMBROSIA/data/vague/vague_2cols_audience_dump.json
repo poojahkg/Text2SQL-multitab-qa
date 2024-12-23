@@ -1,0 +1,32 @@
+{
+    "vague_2cols_audience_dump": [
+        "Articles.articleID",
+        "Articles.title",
+        "Articles.content",
+        "Articles.publishDate",
+        "Articles.authorID",
+        "Authors.authorID",
+        "Authors.firstName",
+        "Authors.lastName",
+        "Authors.email",
+        "Demographics.demographicID",
+        "Demographics.demographic_group",
+        "Demographics.professional_field",
+        "Demographics.magazineID",
+        "MagazineArticles.magazineArticleID",
+        "MagazineArticles.articleID",
+        "MagazineArticles.magazineID",
+        "MagazineArticles.publicationMonth",
+        "MagazineArticles.publicationYear",
+        "Magazines.magazineID",
+        "Magazines.name",
+        "Magazines.publisher",
+        "Magazines.ISSN",
+        "Subscriptions.subscriptionID",
+        "Subscriptions.customerName",
+        "Subscriptions.customerEmail",
+        "Subscriptions.startDate",
+        "Subscriptions.endDate",
+        "Subscriptions.magazineID"
+    ]
+}

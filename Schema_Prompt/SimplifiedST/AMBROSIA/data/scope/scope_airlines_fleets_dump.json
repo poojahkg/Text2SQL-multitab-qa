@@ -1,0 +1,12 @@
+{
+    "scope_airlines_fleets_dump": [
+        "Airlines.id",
+        "Airlines.name",
+        "Airlines.country",
+        "Airlines_Fleets.airlineId",
+        "Airlines_Fleets.fleetId",
+        "Fleets.id",
+        "Fleets.fleetName",
+        "Fleets.capacity"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "vague_2cols_age_copy_dump": [
+        "Countries.CountryName",
+        "Ethnicity.CityId",
+        "Ethnicity.Year",
+        "Ethnicity.WhitePercentage",
+        "Ethnicity.BlackOrAfricanAmericanPercentage",
+        "Ethnicity.AsianPercentage",
+        "Ethnicity.HispanicOrLatinoPercentage",
+        "Populations.CityId",
+        "Populations.Year",
+        "Populations.TotalPopulation",
+        "Regions.RegionName",
+        "Regions.CountryId"
+    ]
+}

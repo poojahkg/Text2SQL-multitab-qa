@@ -1,0 +1,14 @@
+{
+    "vague_2tabs_production2_copy_dump": [
+        "Actor.id",
+        "Actor.first_name",
+        "Actor.last_name",
+        "Play_Actor.play_id",
+        "Play_Actor.actor_id",
+        "Play_Actor.character_played",
+        "Review.id",
+        "Review.rating",
+        "Review.reviewer_email",
+        "Review.stage_play_id"
+    ]
+}

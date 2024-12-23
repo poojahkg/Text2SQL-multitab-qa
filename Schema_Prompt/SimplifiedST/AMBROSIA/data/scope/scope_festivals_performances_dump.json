@@ -1,0 +1,18 @@
+{
+    "scope_festivals_performances_dump": [
+        "Artists.ArtistID",
+        "Artists.Name",
+        "Artists.Genre",
+        "Festivals.FestivalID",
+        "Festivals.Name",
+        "Festivals.Location",
+        "Festivals_Artists.FestivalID",
+        "Festivals_Artists.ArtistID",
+        "Festivals_Performances.FestivalID",
+        "Festivals_Performances.PerformanceID",
+        "Festivals_Performances.Date",
+        "Performances.PerformanceID",
+        "Performances.Type",
+        "Performances.Description"
+    ]
+}

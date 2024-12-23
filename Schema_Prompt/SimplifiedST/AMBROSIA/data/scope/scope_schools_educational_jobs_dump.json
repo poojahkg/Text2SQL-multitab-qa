@@ -1,0 +1,25 @@
+{
+    "scope_schools_educational_jobs_dump": [
+        "Educational_Jobs.job_id",
+        "Educational_Jobs.title",
+        "Educational_Jobs.description",
+        "Employee_Education.employee_education_id",
+        "Employee_Education.employee_id",
+        "Employee_Education.education_level",
+        "Employee_Education.major",
+        "Employee_Education.degree_year",
+        "Jobs_at_School.school_job_id",
+        "Jobs_at_School.school_id",
+        "Jobs_at_School.job_id",
+        "Jobs_at_School.start_date",
+        "Jobs_at_School.end_date",
+        "School_Employees.employee_id",
+        "School_Employees.first_name",
+        "School_Employees.last_name",
+        "School_Employees.job_title",
+        "School_Employees.school_id",
+        "Schools.id",
+        "Schools.name",
+        "Schools.location"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "attachment_2tab_val_performance_event_dump": [
+        "Dance_Recitals.RecitalID",
+        "Dance_Recitals.Name",
+        "Dance_Recitals.Date",
+        "Dance_Recitals.Time",
+        "Dance_Recitals.Audition_Room",
+        "Participation.ParticipantID",
+        "Participation.PerformerID",
+        "Participation.Dance_RecitalID",
+        "Participation.Talent_ShowID",
+        "Performers.PerformerID",
+        "Performers.FirstName",
+        "Performers.LastName",
+        "Performers.Age",
+        "Performers.Role",
+        "Talent_Shows.ShowID",
+        "Talent_Shows.Name",
+        "Talent_Shows.Theme",
+        "Talent_Shows.Location",
+        "Talent_Shows.Audition_Room"
+    ]
+}

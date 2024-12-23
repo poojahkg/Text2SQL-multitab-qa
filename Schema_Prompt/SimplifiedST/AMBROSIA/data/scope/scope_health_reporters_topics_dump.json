@@ -1,0 +1,20 @@
+{
+    "scope_health_reporters_topics_dump": [
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.PublishDate",
+        "Articles.ReporterID",
+        "Health_Reporters.ReporterID",
+        "Health_Reporters.Name",
+        "Health_Reporters.Email",
+        "Health_Reporters_Topics.ReporterID",
+        "Health_Reporters_Topics.TopicID",
+        "Health_Reporters_Topics.PrimaryKey",
+        "Sources.SourceID",
+        "Sources.Name",
+        "Sources.URL",
+        "Topics.TopicID",
+        "Topics.Name"
+    ]
+}

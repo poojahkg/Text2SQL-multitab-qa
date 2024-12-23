@@ -1,0 +1,28 @@
+{
+    "attachment_1tab_val_narrative_form_dump": [
+        "Authors.AuthorID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.BirthDate",
+        "Authors.Nationality",
+        "Books.BookID",
+        "Books.Title",
+        "Books.Narrative_Form",
+        "Books.Epoch",
+        "Books.PageCount",
+        "Books.PublicationYear",
+        "Books.AuthorID",
+        "Books.GenreID",
+        "Genres.GenreID",
+        "Genres.Name",
+        "Published_Works.WorkID",
+        "Published_Works.BookID",
+        "Published_Works.PublisherID",
+        "Published_Works.ReleaseDate",
+        "Published_Works.SalesAmount",
+        "Publishers.PublisherID",
+        "Publishers.Name",
+        "Publishers.Address",
+        "Publishers.YearEstablished"
+    ]
+}

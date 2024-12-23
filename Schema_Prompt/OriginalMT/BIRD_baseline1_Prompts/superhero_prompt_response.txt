@@ -1,0 +1,71 @@
+Prompt
+You are tasked with writing a query to solve a specific problem based on the schema and instructions below. Follow the step-by-step process to construct the query.
+
+
+Use Joins Efficiently: Leverage joins to connect related tables via foreign keys.
+Filter Data Precisely: Use WHERE clauses to filter rows and focus on relevant data.
+Use Aliases: Simplify table and column references with aliases for better readability.
+Aggregate Data When Necessary: Use functions like SUM, COUNT, or AVG for summary statistics.
+Group and Order Data: Use GROUP BY and ORDER BY to organize and rank results.
+Limit Results: Use LIMIT to restrict the number of rows in output when appropriate.
+Example Queries:
+Question 1: How many superheroes have "super strength" as a superpower?
+sql
+Copy code
+SELECT COUNT(DISTINCT hp.hero_id) AS SuperheroCount
+FROM Hero_Power AS hp
+JOIN Superpower AS sp ON hp.power_id = sp.id
+WHERE sp.power_name = 'super strength';
+Explanation:
+
+Join: Connects Hero_Power with Superpower to filter by superpower name.
+Filter: Restricts results to rows where the power name is "super strength".
+Count: Counts unique superhero IDs using COUNT(DISTINCT hp.hero_id).
+Question 2: What is the average height of all female superheroes published by Marvel?
+sql
+Copy code
+SELECT AVG(sh.height_cm) AS AverageHeight
+FROM Superhero AS sh
+JOIN Gender AS g ON sh.gender_id = g.id
+JOIN Publisher AS p ON sh.publisher_id = p.id
+WHERE g.gender = 'Female' AND p.publisher_name = 'Marvel';
+Explanation:
+
+Join: Connects Superhero with Gender and Publisher to filter by gender and publisher.
+Filter: Limits the results to female superheroes from Marvel.
+Aggregate: Calculates the average height using AVG.
+Question 3: Which superhero has the highest intelligence attribute?
+sql
+Copy code
+SELECT sh.superhero_name, ha.attribute_value AS Intelligence
+FROM Hero_Attribute AS ha
+JOIN Superhero AS sh ON ha.hero_id = sh.id
+JOIN Attribute AS a ON ha.attribute_id = a.id
+WHERE a.attribute_name = 'intelligence'
+ORDER BY ha.attribute_value DESC
+LIMIT 1;
+Explanation:
+
+Join: Links Hero_Attribute, Superhero, and Attribute to retrieve intelligence attributes.
+Filter: Restricts results to the "intelligence" attribute.
+Order: Sorts by attribute_value in descending order to find the highest value.
+Limit: Returns only the top result using LIMIT 1.
+Question 4: List the top 3 publishers with the most superheroes.
+sql
+Copy code
+SELECT p.publisher_name, COUNT(sh.id) AS SuperheroCount
+FROM Superhero AS sh
+JOIN Publisher AS p ON sh.publisher_id = p.id
+GROUP BY p.publisher_name
+ORDER BY SuperheroCount DESC
+LIMIT 3;
+Explanation:
+
+Join: Links Superhero with Publisher to count superheroes per publisher.
+Group: Aggregates data by publisher name.
+Order: Sorts publishers by superhero count in descending order.
+Limit: Restricts the output to the top 3 publishers.
+
+
+Now, based on the schema and instructions above, think step by step and give me the final query. Here is your question:
+

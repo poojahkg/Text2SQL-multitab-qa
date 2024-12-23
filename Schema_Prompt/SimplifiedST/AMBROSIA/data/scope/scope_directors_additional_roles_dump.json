@@ -1,0 +1,13 @@
+{
+    "scope_directors_additional_roles_dump": [
+        "DirectorFilms.DirectorFilmID",
+        "DirectorFilms.DirectorID",
+        "DirectorFilms.FilmID",
+        "Directors.DirectorID",
+        "Directors.Name",
+        "Directors.BirthDate",
+        "Films.FilmID",
+        "Films.Title",
+        "Films.ReleaseYear"
+    ]
+}

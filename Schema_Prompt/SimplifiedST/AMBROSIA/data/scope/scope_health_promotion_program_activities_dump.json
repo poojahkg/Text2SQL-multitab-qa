@@ -1,0 +1,18 @@
+{
+    "scope_health_promotion_program_activities_dump": [
+        "Activities.activity_id",
+        "Activities.activity_name",
+        "Activities.description",
+        "Health_Promotion_Program.program_id",
+        "Health_Promotion_Program.name",
+        "Health_Promotion_Program.description",
+        "Health_Promotion_Program_Activities.id",
+        "Health_Promotion_Program_Activities.program_id",
+        "Health_Promotion_Program_Activities.activity_id",
+        "Participants.participant_id",
+        "Participants.first_name",
+        "Participants.last_name",
+        "Participants.email",
+        "Participants.phone_number"
+    ]
+}

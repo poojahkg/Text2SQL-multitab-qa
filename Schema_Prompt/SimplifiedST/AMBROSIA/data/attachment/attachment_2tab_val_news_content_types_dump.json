@@ -1,0 +1,27 @@
+{
+    "attachment_2tab_val_news_content_types_dump": [
+        "Authors.id",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.Birthdate",
+        "Authors.Biography",
+        "Feature_Articles.id",
+        "Feature_Articles.Title",
+        "Feature_Articles.Author",
+        "Feature_Articles.PublicationDate",
+        "Feature_Articles.Volume",
+        "Magazines.id",
+        "Magazines.Name",
+        "Magazines.Country",
+        "Magazines.FoundedYear",
+        "Opinion_Pieces.id",
+        "Opinion_Pieces.Title",
+        "Opinion_Pieces.Author",
+        "Opinion_Pieces.PublicationDate",
+        "Opinion_Pieces.Volume",
+        "Publishers.id",
+        "Publishers.Name",
+        "Publishers.Address",
+        "Publishers.EstablishedYear"
+    ]
+}

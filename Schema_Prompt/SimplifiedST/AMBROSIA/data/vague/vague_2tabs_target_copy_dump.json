@@ -1,0 +1,17 @@
+{
+    "vague_2tabs_target_copy_dump": [
+        "Appointment.appointment_id",
+        "Appointment.date",
+        "Appointment.patient_id",
+        "Appointment.doctor_id",
+        "Appointment.medicalrecord_id",
+        "Doctor.doctor_id",
+        "Doctor.first_name",
+        "Doctor.last_name",
+        "Doctor.specialty",
+        "MedicalRecord.medicalrecord_id",
+        "MedicalRecord.patient_id",
+        "MedicalRecord.diagnosis",
+        "MedicalRecord.treatment_plan"
+    ]
+}

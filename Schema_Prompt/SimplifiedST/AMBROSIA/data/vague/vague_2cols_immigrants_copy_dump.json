@@ -1,0 +1,20 @@
+{
+    "vague_2cols_immigrants_copy_dump": [
+        "AgeGroup.id",
+        "AgeGroup.ageFrom",
+        "AgeGroup.ageTo",
+        "AgeGroup.population",
+        "Country.id",
+        "Country.countryName",
+        "Country.continent",
+        "EducationLevel.id",
+        "EducationLevel.levelName",
+        "EducationLevel.percentage",
+        "Ethnicity.id",
+        "Ethnicity.ethnicGroupName",
+        "Ethnicity.population",
+        "Population.id",
+        "Population.totalPopulation",
+        "Population.year"
+    ]
+}

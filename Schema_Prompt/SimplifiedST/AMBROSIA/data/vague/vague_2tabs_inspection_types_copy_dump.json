@@ -1,0 +1,21 @@
+{
+    "vague_2tabs_inspection_types_copy_dump": [
+        "Employee.employeeID",
+        "Employee.firstName",
+        "Employee.lastName",
+        "Employee.role",
+        "Employee.hireDate",
+        "Employee.supervisorID",
+        "Material.materialID",
+        "Material.type",
+        "Material.quantity",
+        "Material.unit",
+        "Material.price",
+        "Material.projectID",
+        "Worker.workerID",
+        "Worker.firstName",
+        "Worker.lastName",
+        "Worker.employmentStartDate",
+        "Worker.currentProjectID"
+    ]
+}

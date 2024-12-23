@@ -1,0 +1,22 @@
+{
+    "vague_2cols_languages_copy_dump": [
+        "Cities.CityID",
+        "Cities.Name",
+        "Cities.Province",
+        "Cities.Population",
+        "Cities.RegionID",
+        "EducationLevel.LevelID",
+        "EducationLevel.Description",
+        "EducationLevel.Percentage",
+        "EthnicGroups.GroupID",
+        "EthnicGroups.Name",
+        "EthnicGroups.Population",
+        "Regions.RegionID",
+        "Regions.Name",
+        "Regions.Area",
+        "Regions.PopulationCount",
+        "Religion.ID",
+        "Religion.Denomination",
+        "Religion.Adherents"
+    ]
+}

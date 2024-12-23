@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_val_creative_industry_professions_dump": [
+        "Graphic_Designers.id",
+        "Graphic_Designers.name",
+        "Graphic_Designers.experience",
+        "Graphic_Designers.skills",
+        "Graphic_Designers.office",
+        "HR_Managers.id",
+        "HR_Managers.name",
+        "HR_Managers.years_experience",
+        "HR_Managers.department",
+        "HR_Managers.office",
+        "Recruitment_Coordinators.id",
+        "Recruitment_Coordinators.name",
+        "Recruitment_Coordinators.job_type",
+        "Recruitment_Coordinators.responsibilities",
+        "Recruitment_Coordinators.office",
+        "Software_Engineers.id",
+        "Software_Engineers.name",
+        "Software_Engineers.programming_skills",
+        "Software_Engineers.project_history",
+        "Software_Engineers.office",
+        "Web_Developers.id",
+        "Web_Developers.name",
+        "Web_Developers.programming_languages",
+        "Web_Developers.projects",
+        "Web_Developers.office"
+    ]
+}

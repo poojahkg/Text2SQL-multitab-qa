@@ -1,0 +1,11 @@
+{
+    "scope_home_insurance_policies_coverage_options_dump": [
+        "Coverage_Options.OptionID",
+        "Coverage_Options.Description",
+        "Home_Insurance_Policies.PolicyID",
+        "Home_Insurance_Policies.HomeAddress",
+        "Home_Insurance_Policies.InsuredAmount",
+        "Home_Insurance_Policies_Coverage_Options.PolicyID",
+        "Home_Insurance_Policies_Coverage_Options.OptionID"
+    ]
+}

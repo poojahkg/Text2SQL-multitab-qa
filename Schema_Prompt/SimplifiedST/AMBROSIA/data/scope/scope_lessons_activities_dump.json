@@ -1,0 +1,21 @@
+{
+    "scope_lessons_activities_dump": [
+        "Activities.activityType",
+        "Activities.description",
+        "Enrollments.enrollmentId",
+        "Enrollments.studentId",
+        "Enrollments.classId",
+        "Lessons.id",
+        "Lessons.lessonName",
+        "Lessons.teacherId",
+        "Lessons_Activities.lessonsActivityId",
+        "Lessons_Activities.lessonsId",
+        "Lessons_Activities.activitiesType",
+        "Students.studentId",
+        "Students.name",
+        "Students.age",
+        "Teachers.teacherId",
+        "Teachers.name",
+        "Teachers.subject"
+    ]
+}

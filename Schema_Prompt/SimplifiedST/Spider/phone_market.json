@@ -1,0 +1,17 @@
+{
+    "phone_market": [
+        "phone.Name",
+        "phone.Phone_ID",
+        "phone.Memory_in_G",
+        "phone.Carrier",
+        "phone.Price",
+        "market.Market_ID",
+        "market.District",
+        "market.Num_of_employees",
+        "market.Num_of_shops",
+        "market.Ranking",
+        "phone_market.Market_ID",
+        "phone_market.Phone_ID",
+        "phone_market.Num_of_stock"
+    ]
+}

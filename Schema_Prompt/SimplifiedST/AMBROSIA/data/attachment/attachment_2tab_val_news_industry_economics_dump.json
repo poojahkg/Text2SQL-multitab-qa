@@ -1,0 +1,22 @@
+{
+    "attachment_2tab_val_news_industry_economics_dump": [
+        "Articles.ID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.AuthorID",
+        "Articles.PublishDate",
+        "Authors.ID",
+        "Authors.Name",
+        "Authors.Email",
+        "Authors.Birthdate",
+        "Authors.Nationality",
+        "Issues.IssueNumber",
+        "Issues.MagazineID",
+        "Issues.ReleaseDate",
+        "Magazines.ID",
+        "Magazines.Name",
+        "Magazines.Category",
+        "Magazines.EditorInChief",
+        "Magazines.PublishingHouse"
+    ]
+}

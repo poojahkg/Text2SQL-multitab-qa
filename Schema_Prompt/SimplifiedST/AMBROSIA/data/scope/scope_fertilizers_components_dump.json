@@ -1,0 +1,19 @@
+{
+    "scope_fertilizers_components_dump": [
+        "Components.id",
+        "Components.componentName",
+        "Crops.id",
+        "Crops.cropName",
+        "Crops.yield",
+        "FarmerInfo.id",
+        "FarmerInfo.farmerName",
+        "FarmerInfo.farmLocation",
+        "Farmers_Crops.farmerId",
+        "Farmers_Crops.cropId",
+        "Fertilizers.id",
+        "Fertilizers.name",
+        "Fertilizers.quantity",
+        "Fertilizers_Components.fertilizerId",
+        "Fertilizers_Components.componentId"
+    ]
+}

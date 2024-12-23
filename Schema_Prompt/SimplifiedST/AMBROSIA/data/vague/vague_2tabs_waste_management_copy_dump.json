@@ -1,0 +1,11 @@
+{
+    "vague_2tabs_waste_management_copy_dump": [
+        "Construction_Material.id",
+        "Construction_Material.material_type",
+        "Construction_Material.quantity",
+        "Site_Material.site_material_id",
+        "Site_Material.construction_site_id",
+        "Site_Material.construction_material_id",
+        "Site_Material.amount"
+    ]
+}

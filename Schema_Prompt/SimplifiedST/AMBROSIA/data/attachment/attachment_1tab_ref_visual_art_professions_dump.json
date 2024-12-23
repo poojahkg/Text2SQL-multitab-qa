@@ -1,0 +1,14 @@
+{
+    "attachment_1tab_ref_visual_art_professions_dump": [
+        "Employers.employerID",
+        "Employers.name",
+        "Employers.email",
+        "Employers.phoneNumber",
+        "Locations.locationID",
+        "Locations.city",
+        "Locations.state",
+        "Locations.country",
+        "Pricing.pricingID",
+        "Pricing.price"
+    ]
+}

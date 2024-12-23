@@ -1,0 +1,30 @@
+{
+    "sports_competition": [
+        "club.Club_ID",
+        "club.name",
+        "club.Region",
+        "club.Start_year",
+        "club_rank.Rank",
+        "club_rank.Club_ID",
+        "club_rank.Gold",
+        "club_rank.Silver",
+        "club_rank.Bronze",
+        "club_rank.Total",
+        "player.Player_ID",
+        "player.name",
+        "player.Position",
+        "player.Club_ID",
+        "player.Apps",
+        "player.Tries",
+        "player.Goals",
+        "player.Points",
+        "competition.Competition_ID",
+        "competition.Year",
+        "competition.Competition_type",
+        "competition.Country",
+        "competition_result.Competition_ID",
+        "competition_result.Club_ID_1",
+        "competition_result.Club_ID_2",
+        "competition_result.Score"
+    ]
+}

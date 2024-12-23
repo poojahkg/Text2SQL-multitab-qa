@@ -1,0 +1,9 @@
+{
+    "vague_2tabs_debut_date_copy_dump": [
+        "Genre.id",
+        "Genre.genre_name",
+        "Podcast_Genre.pod_genre_id",
+        "Podcast_Genre.podcast_id",
+        "Podcast_Genre.genre_id"
+    ]
+}

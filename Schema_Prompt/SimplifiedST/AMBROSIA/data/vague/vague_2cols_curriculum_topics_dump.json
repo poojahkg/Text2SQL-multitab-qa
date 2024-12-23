@@ -1,0 +1,27 @@
+{
+    "vague_2cols_curriculum_topics_dump": [
+        "Attendance.AttendenceID",
+        "Attendance.EnrollmentID",
+        "Attendance.NumberOfDaysPresent",
+        "Attendance.TotalNumberOfClasses",
+        "Attendance.ExcusedAbsences",
+        "Attendance.UnexcusedAbsences",
+        "Courses.CourseID",
+        "Courses.Core_Concepts",
+        "Courses.Advanced_Topics",
+        "Courses.CourseName",
+        "Courses.TeachersName",
+        "Enrollment.EnrollmentID",
+        "Enrollment.StudentID",
+        "Enrollment.CourseID",
+        "Grades.GradeID",
+        "Grades.EnrollmentID",
+        "Grades.Grade",
+        "Grades.Comments",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.DateOfBirth",
+        "Students.Address"
+    ]
+}

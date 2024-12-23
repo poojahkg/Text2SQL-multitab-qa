@@ -1,0 +1,28 @@
+{
+    "attachment_1tab_ref_airport_staff_dump": [
+        "Airlines.id",
+        "Airlines.name",
+        "Airlines.headquarterCity",
+        "Airlines.website",
+        "Airports.id",
+        "Airports.name",
+        "Airports.city",
+        "Airports.country",
+        "Flight.flightNumber",
+        "Flight.departureTime",
+        "Flight.arrivalTime",
+        "Flight.destinationId",
+        "Flight.airlineId",
+        "GateAgents.agentID",
+        "GateAgents.staffID",
+        "Languages.id",
+        "Languages.language",
+        "Pilots.pilotID",
+        "Pilots.staffID",
+        "Staff.staffID",
+        "Staff.role",
+        "Staff.airportID",
+        "Staff.languageID",
+        "Staff.FullName"
+    ]
+}

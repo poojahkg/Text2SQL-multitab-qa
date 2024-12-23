@@ -1,0 +1,29 @@
+{
+    "attachment_1tab_val_seating_area_dump": [
+        "MenuItems.ItemID",
+        "MenuItems.Name",
+        "MenuItems.Category",
+        "MenuItems.Price",
+        "MenuItems.Description",
+        "MenuItems.Restaurant_ID",
+        "Reservations.ReservationID",
+        "Reservations.Date",
+        "Reservations.Time",
+        "Reservations.No_Of_Guests",
+        "Reservations.Customer_Name",
+        "Reservations.TableID",
+        "Restaurant.RestID",
+        "Restaurant.Name",
+        "Restaurant.Address",
+        "Restaurant.Contact_No",
+        "Restaurant.Seating_Area_ID",
+        "Reviews.ReviewID",
+        "Reviews.Rating",
+        "Reviews.Comment",
+        "Reviews.Reservation_ID",
+        "Seating_Areas.AreaID",
+        "Seating_Areas.Name",
+        "Seating_Areas.Number_Of_Seats",
+        "Seating_Areas.Type_of_Food"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "vague_2tabs_mortality_trends_dump": [
+        "Crude_Death_Rate.year",
+        "Crude_Death_Rate.rate",
+        "Disease.diseaseID",
+        "Disease.name",
+        "Disease.deathrate",
+        "Number_Of_Deaths.year",
+        "Number_Of_Deaths.total_deaths",
+        "Person.personID",
+        "Person.name",
+        "Person.dateofbirth",
+        "Province.provinceID",
+        "Province.name",
+        "Province.year",
+        "Province.population"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "vague_2cols_grades_dump": [
+        "Enrollments.EnrollmentID",
+        "Enrollments.StudentID",
+        "Enrollments.ProgramID",
+        "Grades.GradeID",
+        "Grades.EnrollmentID",
+        "Grades.Gpa",
+        "Grades.Standardized_Test_Score",
+        "Grades.CourseName",
+        "Programs.ProgramID",
+        "Programs.Name",
+        "Students.StudentID",
+        "Students.fullname"
+    ]
+}

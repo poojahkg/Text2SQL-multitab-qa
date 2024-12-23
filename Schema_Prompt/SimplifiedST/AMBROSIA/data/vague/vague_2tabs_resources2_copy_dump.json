@@ -1,0 +1,14 @@
+{
+    "vague_2tabs_resources2_copy_dump": [
+        "Authors.id",
+        "Authors.name",
+        "Authors.email",
+        "Grades.id",
+        "Grades.grade",
+        "Grades.student_id",
+        "Grades.course_id",
+        "Students.id",
+        "Students.student_name",
+        "Students.enrolled_course_id"
+    ]
+}

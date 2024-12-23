@@ -1,0 +1,14 @@
+{
+    "attachment_2tab_ref_creative_industry_professions_dump": [
+        "Graphic_Designers.id",
+        "Graphic_Designers.officeId",
+        "Graphic_Designers.name",
+        "Graphic_Designers.skills",
+        "Office.id",
+        "Office.address",
+        "Web_Developers.id",
+        "Web_Developers.officeId",
+        "Web_Developers.name",
+        "Web_Developers.languages"
+    ]
+}

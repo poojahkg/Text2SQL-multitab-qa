@@ -1,0 +1,20 @@
+{
+    "vague_2cols_location_copy_dump": [
+        "ClientProperties.client_id",
+        "ClientProperties.property_id",
+        "ClientProperties.InterestedDate",
+        "Clients.client_id",
+        "Clients.Name",
+        "Clients.Email",
+        "Clients.PhoneNumber",
+        "RealEstateOffices.real_estate_office_id",
+        "RealEstateOffices.Name",
+        "RealEstateOffices.Address",
+        "RealEstateOffices.PhoneNumber",
+        "Transactions.transaction_id",
+        "Transactions.TransactionDate",
+        "Transactions.client_id",
+        "Transactions.property_id",
+        "Transactions.TypeOfTransaction"
+    ]
+}

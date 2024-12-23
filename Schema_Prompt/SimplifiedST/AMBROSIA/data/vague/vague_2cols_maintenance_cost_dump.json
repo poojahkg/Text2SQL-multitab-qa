@@ -1,0 +1,24 @@
+{
+    "vague_2cols_maintenance_cost_dump": [
+        "Equipment.id",
+        "Equipment.EquipName",
+        "Equipment.PurchasePrice",
+        "Equipment.RentalRate",
+        "Equipment.DailyUsage",
+        "Materials.id",
+        "Materials.MaterialName",
+        "Materials.Quantity",
+        "Materials.UnitCost",
+        "Project.id",
+        "Project.Name",
+        "Project.StartDate",
+        "Project.EndDate",
+        "Project.Monetary_Value",
+        "Project.Percentage_Of_Budget",
+        "Project.Infrastructure",
+        "Worker.id",
+        "Worker.FirstName",
+        "Worker.LastName",
+        "Worker.JobTitle"
+    ]
+}

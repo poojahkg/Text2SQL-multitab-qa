@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_val_function_room_dump": [
+        "Ballrooms.id",
+        "Ballrooms.name",
+        "Ballrooms.seating_capacity",
+        "Ballrooms.price",
+        "Ballrooms.availability",
+        "Bookings.booking_id",
+        "Bookings.guest_id",
+        "Bookings.event_date",
+        "Bookings.special_requests",
+        "Events.event_id",
+        "Events.ballroom_id",
+        "Events.greenroom_id",
+        "Events.event_name",
+        "Events.date",
+        "GreenRooms.id",
+        "GreenRooms.name",
+        "GreenRooms.seating_capacity",
+        "GreenRooms.price",
+        "GreenRooms.availability",
+        "Guests.guest_id",
+        "Guests.first_name",
+        "Guests.last_name",
+        "Guests.email",
+        "Guests.phone_number",
+        "Guests.event_id"
+    ]
+}

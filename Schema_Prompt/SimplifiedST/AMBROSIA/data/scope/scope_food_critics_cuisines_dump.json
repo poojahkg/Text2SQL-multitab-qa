@@ -1,0 +1,11 @@
+{
+    "scope_food_critics_cuisines_dump": [
+        "Cuisines.id",
+        "Cuisines.cuisine_name",
+        "Food_Critics.id",
+        "Food_Critics.critic_name",
+        "Food_Critics.contact_email",
+        "Food_Critics_Cuisines.food_critic_id",
+        "Food_Critics_Cuisines.cuisine_id"
+    ]
+}

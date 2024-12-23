@@ -1,0 +1,19 @@
+{
+    "attachment_1tab_val_organization_dump": [
+        "Accounts.AccountNumber",
+        "Accounts.CustomerID",
+        "Accounts.Balance",
+        "Currencies.CurrencyID",
+        "Currencies.Name",
+        "Currencies.Symbol",
+        "Customers.CustomerID",
+        "Customers.Organization",
+        "Customers.Year_of_establishment",
+        "Customers.FullName",
+        "Transactions.TransactionID",
+        "Transactions.AccountNumber",
+        "Transactions.Amount",
+        "Transactions.CurrencyID",
+        "Transactions.Date"
+    ]
+}

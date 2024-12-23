@@ -1,0 +1,31 @@
+{
+    "attachment_1tab_val_journalist_classifications_dump": [
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.PublishDate",
+        "Articles.AuthorID",
+        "Articles.ON",
+        "Authors.AuthorID",
+        "Authors.Name",
+        "Authors.Email",
+        "Authors.PhoneNumber",
+        "Authors.Classification",
+        "Authors.Payment",
+        "NewsOutlets.OutletID",
+        "NewsOutlets.Name",
+        "NewsOutlets.Location",
+        "NewsOutlets.Website",
+        "Sources.SourceID",
+        "Sources.Name",
+        "Sources.ContactInfo",
+        "Sources.Reliability",
+        "Sources.LastUsed",
+        "Submissions.SubmissionID",
+        "Submissions.ArticleID",
+        "Submissions.OutletID",
+        "Submissions.Accepted",
+        "Submissions.ON",
+        "Submissions.ON"
+    ]
+}

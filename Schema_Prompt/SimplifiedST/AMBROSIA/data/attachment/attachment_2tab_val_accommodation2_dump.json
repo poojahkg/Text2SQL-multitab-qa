@@ -1,0 +1,32 @@
+{
+    "attachment_2tab_val_accommodation2_dump": [
+        "Bookings.id",
+        "Bookings.guestId",
+        "Bookings.chaletId",
+        "Bookings.bookingDate",
+        "Bookings.totalCost",
+        "Cabins.id",
+        "Cabins.cabinName",
+        "Cabins.pricePerNight",
+        "Cabins.location",
+        "Cabins.capacity",
+        "Chalets.id",
+        "Chalets.chaletName",
+        "Chalets.pricePerNight",
+        "Chalets.location",
+        "Chalets.capacity",
+        "Guests.id",
+        "Guests.firstname",
+        "Guests.lastname",
+        "Guests.email",
+        "Guests.phoneNumber",
+        "Guests.checkIn",
+        "Guests.checkOut",
+        "Reviews.id",
+        "Reviews.guestId",
+        "Reviews.chaletId",
+        "Reviews.rating",
+        "Reviews.comment",
+        "Reviews.reviewDate"
+    ]
+}

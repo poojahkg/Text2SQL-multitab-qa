@@ -1,0 +1,26 @@
+{
+    "vague_2cols_technology_dump": [
+        "ArticleSources.articleSourceID",
+        "ArticleSources.articleID",
+        "ArticleSources.sourceID",
+        "ArticleSources.referenceDate",
+        "Articles.articleID",
+        "Articles.title",
+        "Articles.content",
+        "Articles.publicationDate",
+        "Articles.authorID",
+        "Authors.authorID",
+        "Authors.name",
+        "Authors.email",
+        "ContentManagementSystems.cmsId",
+        "ContentManagementSystems.Content_Management_System",
+        "ContentManagementSystems.Web_Framework",
+        "ContentManagementSystems.Online_News_Platform",
+        "EditorialTeamMembers.memberID",
+        "EditorialTeamMembers.role",
+        "EditorialTeamMembers.editorName",
+        "Sources.sourceID",
+        "Sources.name",
+        "Sources.url"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "attachment_2tab_ref_financial_swaps_dump": [
+        "Accounts.account_id",
+        "Accounts.bank_name",
+        "Accounts.balance",
+        "Banks.id",
+        "Banks.name",
+        "Currency_Swaps.swap_id",
+        "Currency_Swaps.bank_name",
+        "Currency_Swaps.amount",
+        "Currency_Swaps.maturity_date",
+        "Currency_Swaps.foreign_currency",
+        "Interest_Rate_Swaps.swap_id",
+        "Interest_Rate_Swaps.bank_name",
+        "Interest_Rate_Swaps.start_date",
+        "Interest_Rate_Swaps.end_date",
+        "Interest_Rate_Swaps.fixed_rate",
+        "Interest_Rate_Swaps.floating_rate"
+    ]
+}

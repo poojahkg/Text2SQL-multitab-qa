@@ -1,0 +1,11 @@
+{
+    "scope_aquaculture_facility_fish_species_dump": [
+        "Aquaculture_Facility.id",
+        "Aquaculture_Facility.name",
+        "Aquaculture_Facility.location",
+        "Aquaculture_Facility_Fish_Species.aquaculture_facility_id",
+        "Aquaculture_Facility_Fish_Species.fish_species_id",
+        "Fish_Species.id",
+        "Fish_Species.species_name"
+    ]
+}

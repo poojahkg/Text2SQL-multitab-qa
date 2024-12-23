@@ -1,0 +1,29 @@
+{
+    "attachment_2tab_val_award_programs_dump": [
+        "Certificates.CertificateID",
+        "Certificates.Title",
+        "Certificates.CompletionRequirements",
+        "Certificates.Duration",
+        "Diplomas.DiplomaID",
+        "Diplomas.Title",
+        "Diplomas.CompletionRequirements",
+        "Diplomas.UnitsRequired",
+        "Enrolment.EnrollmentID",
+        "Enrolment.StudentID",
+        "Enrolment.SubjectID",
+        "Enrolment.StartDate",
+        "Enrolment.EndDate",
+        "Grades.GradeID",
+        "Grades.EnrollmenID",
+        "Grades.Score",
+        "Grades.DateAwarded",
+        "Students.StudentID",
+        "Students.FirstName",
+        "Students.LastName",
+        "Students.DateOfBirth",
+        "Subjects.SubjectID",
+        "Subjects.Name",
+        "Subjects.Teacher",
+        "Subjects.MaxScore"
+    ]
+}

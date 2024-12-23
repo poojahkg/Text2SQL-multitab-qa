@@ -1,0 +1,11 @@
+{
+    "scope_resorts_activities_dump": [
+        "Activities.activityID",
+        "Activities.activityName",
+        "Resorts.id",
+        "Resorts.name",
+        "Resorts.location",
+        "Resorts_Activities.resortID",
+        "Resorts_Activities.activityID"
+    ]
+}

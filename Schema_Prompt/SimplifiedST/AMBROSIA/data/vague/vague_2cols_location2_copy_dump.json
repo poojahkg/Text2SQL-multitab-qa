@@ -1,0 +1,28 @@
+{
+    "vague_2cols_location2_copy_dump": [
+        "Airlines.Airline_ID",
+        "Airlines.Name",
+        "Airports.Airport_ID",
+        "Airports.Name",
+        "Airports.City",
+        "Airports.Country",
+        "Buildings.Building_ID",
+        "Buildings.Terminal_ID",
+        "Buildings.Floor_Level",
+        "Flights.Flight_ID",
+        "Flights.FlightNumber",
+        "Flights.DepartureTime",
+        "Flights.ArrivalTime",
+        "Flights.SourceAirport",
+        "Flights.DestinationAirport",
+        "Flights.Airline_ID",
+        "ShopItems.Item_ID",
+        "ShopItems.Shop_ID",
+        "ShopItems.ItemName",
+        "ShopItems.Price",
+        "ShopItems.Quantity",
+        "Terminals.Terminal_ID",
+        "Terminals.Airport_ID",
+        "Terminals.Name"
+    ]
+}

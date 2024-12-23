@@ -1,0 +1,11 @@
+{
+    "scope_immigration_reporters_countries_dump": [
+        "Countries.id",
+        "Countries.countryName",
+        "Immigration_Reporters.id",
+        "Immigration_Reporters.reporterName",
+        "Immigration_Reporters.email",
+        "Immigration_Reporters_Countries.immigrationReporterId",
+        "Immigration_Reporters_Countries.countryId"
+    ]
+}

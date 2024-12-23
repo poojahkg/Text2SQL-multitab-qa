@@ -1,0 +1,23 @@
+{
+    "attachment_1tab_ref_writing_styles_dump": [
+        "ArticlePublications.id",
+        "ArticlePublications.ArticleId",
+        "ArticlePublications.PublisherId",
+        "ArticlePublications.PublishDate",
+        "Articles.id",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.PublicationDate",
+        "Articles.AuthorId",
+        "Articles.WritingStyleId",
+        "Authors.id",
+        "Authors.Name",
+        "PublishingHouses.id",
+        "PublishingHouses.Name",
+        "ReadingStats.id",
+        "ReadingStats.ArticleId",
+        "ReadingStats.ReadCount",
+        "WritingStyles.id",
+        "WritingStyles.StyleName"
+    ]
+}

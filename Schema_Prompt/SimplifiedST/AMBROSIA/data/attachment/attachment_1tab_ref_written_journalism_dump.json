@@ -1,0 +1,22 @@
+{
+    "attachment_1tab_ref_written_journalism_dump": [
+        "Articles.id",
+        "Articles.title",
+        "Articles.written_by",
+        "Articles.Written_journalism",
+        "Articles.word_count",
+        "Authors.id",
+        "Authors.name",
+        "Comments.id",
+        "Comments.comment",
+        "Comments.article_id",
+        "Publications.id",
+        "Publications.article_id",
+        "Publications.publisher_id",
+        "Publications.publication_date",
+        "Publishers.id",
+        "Publishers.name",
+        "WordCounts.id",
+        "WordCounts.column"
+    ]
+}

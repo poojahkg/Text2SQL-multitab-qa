@@ -1,0 +1,23 @@
+{
+    "vague_2tabs_editor_dump": [
+        "Articles.id",
+        "Articles.title",
+        "Articles.content",
+        "Articles.author_id",
+        "Articles.reporter_id",
+        "Articles.final_draft_id",
+        "Authors.author_id",
+        "Authors.fullname",
+        "Copy_Editor.id",
+        "Copy_Editor.name",
+        "Copy_Editor.email",
+        "Final_Draft.id",
+        "Final_Draft.managing_editor_id",
+        "Final_Draft.copy_editor_id",
+        "Managing_Editor.id",
+        "Managing_Editor.name",
+        "Managing_Editor.email",
+        "Reporters.reporter_id",
+        "Reporters.fullname"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "attachment_2tab_val_boarding_equipment_dump": [
+        "Airlines.AirlineID",
+        "Airlines.CompanyName",
+        "Airlines.HomeTerminalID",
+        "Jet_Bridges.ID",
+        "Jet_Bridges.BridgeName",
+        "Jet_Bridges.TerminalID",
+        "Staircars.ID",
+        "Staircars.CarName",
+        "Staircars.TerminalID",
+        "Terminals.ID",
+        "Terminals.Name"
+    ]
+}

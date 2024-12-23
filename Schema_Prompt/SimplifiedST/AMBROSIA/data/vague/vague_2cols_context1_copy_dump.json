@@ -1,0 +1,25 @@
+{
+    "vague_2cols_context1_copy_dump": [
+        "Actor.ActorID",
+        "Actor.FirstName",
+        "Actor.LastName",
+        "Actor.DateOfBirth",
+        "Actor.Nationality",
+        "Cast.CastID",
+        "Cast.MovieID",
+        "Cast.ActorID",
+        "Cast.Role",
+        "Director.DirectorID",
+        "Director.FirstName",
+        "Director.LastName",
+        "Director.BirthYear",
+        "Director.DeathYear",
+        "Genre.GenreID",
+        "Genre.Name",
+        "Movie.MovieID",
+        "Movie.Title",
+        "Movie.ReleaseDate",
+        "Movie.Rating",
+        "Movie.GenreID"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "vague_2tabs_deadline_dump": [
+        "Assignments.assignment_id",
+        "Assignments.due_date",
+        "Assignments.due_time",
+        "Assignments.description",
+        "Classes.class_id",
+        "Classes.course_title",
+        "Classes.instructor",
+        "Date.date_id",
+        "Date.year",
+        "Date.month",
+        "Date.day",
+        "Enrollment.enrollment_id",
+        "Enrollment.student_id",
+        "Enrollment.class_id",
+        "Students.id",
+        "Students.first_name",
+        "Students.last_name",
+        "Time.time_id",
+        "Time.hour",
+        "Time.minute",
+        "Time.second"
+    ]
+}

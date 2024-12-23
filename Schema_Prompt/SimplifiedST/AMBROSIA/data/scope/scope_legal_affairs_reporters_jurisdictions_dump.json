@@ -1,0 +1,11 @@
+{
+    "scope_legal_affairs_reporters_jurisdictions_dump": [
+        "Jurisdictions.jurisdiction_id",
+        "Jurisdictions.jurisdiction_name",
+        "Legal_Affairs_Reporters.reporter_id",
+        "Legal_Affairs_Reporters.name",
+        "Legal_Affairs_Reporters.email",
+        "Legal_Affairs_Reporters_Jurisdictions.legal_affairs_reporter_id",
+        "Legal_Affairs_Reporters_Jurisdictions.jurisdiction_id"
+    ]
+}

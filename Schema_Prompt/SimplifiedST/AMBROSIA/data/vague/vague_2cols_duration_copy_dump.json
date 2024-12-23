@@ -1,0 +1,27 @@
+{
+    "vague_2cols_duration_copy_dump": [
+        "Articles.ArticleID",
+        "Articles.Title",
+        "Articles.Content",
+        "Articles.PublishDate",
+        "Articles.ViewCount",
+        "Authors.AuthorID",
+        "Authors.FirstName",
+        "Authors.LastName",
+        "Authors.EmailAddress",
+        "Publications.PublisherID",
+        "Publications.Name",
+        "Publications.WebsiteURL",
+        "Publications.FoundedYear",
+        "Readers.ReaderID",
+        "Readers.FullName",
+        "Readers.EmailAddress",
+        "Readers.RegistrationDate",
+        "Subscriptions.SubscriptionID",
+        "Subscriptions.ReaderID",
+        "Subscriptions.PublisherID",
+        "Subscriptions.StartDate",
+        "Subscriptions.EndDate",
+        "Subscriptions.Price"
+    ]
+}

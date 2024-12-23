@@ -1,0 +1,30 @@
+{
+    "vague_2cols_commute_time_dump": [
+        "Accidents.accident_date",
+        "Accidents.neighborhood_id",
+        "Accidents.num_accident",
+        "DailyTrafficVolume.date",
+        "DailyTrafficVolume.neighborhood_id",
+        "DailyTrafficVolume.total_traffic",
+        "Neighborhood.id",
+        "Neighborhood.name",
+        "Neighborhood.population",
+        "Neighborhood.mean_commute_time",
+        "Neighborhood.median_commute_time",
+        "SpeedLimits.road_segment_id",
+        "SpeedLimits.street_name",
+        "SpeedLimits.neighborhood_id",
+        "SpeedLimits.start_point",
+        "SpeedLimits.end_point",
+        "SpeedLimits.max_limit",
+        "SpeedLimits.min_limit",
+        "VehicleType.id",
+        "VehicleType.type_name",
+        "VehicleType.count_passing",
+        "WeatherConditions.condition_datetime",
+        "WeatherConditions.neighborhood_id",
+        "WeatherConditions.rainfall",
+        "WeatherConditions.temperature",
+        "WeatherConditions.windspeed"
+    ]
+}

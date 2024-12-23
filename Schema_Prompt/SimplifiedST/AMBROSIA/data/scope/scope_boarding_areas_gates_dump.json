@@ -1,0 +1,15 @@
+{
+    "scope_boarding_areas_gates_dump": [
+        "AirportCity.airportId",
+        "AirportCity.cityId",
+        "Airports.airportId",
+        "Airports.cityId",
+        "Airports.name",
+        "Airports.country",
+        "Boarding_Areas_Gates.areaId",
+        "Boarding_Areas_Gates.gateId",
+        "Cities.cityId",
+        "Cities.name",
+        "Cities.population"
+    ]
+}
