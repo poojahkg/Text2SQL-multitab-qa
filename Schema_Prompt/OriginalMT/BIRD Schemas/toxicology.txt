@@ -1,0 +1,67 @@
+-- Schema for toxicology database
+
+CREATE TABLE atom (
+    atom_id TEXT PRIMARY KEY,
+    molecule_id TEXT,
+    element TEXT,
+    FOREIGN KEY (molecule_id) REFERENCES molecule(molecule_id)
+);
+
+CREATE TABLE bond (
+    bond_id TEXT PRIMARY KEY,
+    molecule_id TEXT,
+    bond_type TEXT,
+    FOREIGN KEY (molecule_id) REFERENCES molecule(molecule_id)
+);
+
+CREATE TABLE connected (
+    atom_id TEXT,
+    atom_id2 TEXT,
+    bond_id TEXT,
+    PRIMARY KEY (atom_id, atom_id2),
+    FOREIGN KEY (atom_id) REFERENCES atom(atom_id),
+    FOREIGN KEY (atom_id2) REFERENCES atom(atom_id),
+    FOREIGN KEY (bond_id) REFERENCES bond(bond_id)
+);
+
+CREATE TABLE molecule (
+    molecule_id TEXT PRIMARY KEY,
+    label TEXT
+);
+
+Schema Overview
+This schema represents a database used for toxicology studies focusing on molecules and their components.
+
+atom: Stores information about atoms in molecules.
+
+Columns:
+atom_id (TEXT, Primary Key): Unique identifier for each atom.
+molecule_id (TEXT): Identifier of the molecule the atom belongs to.
+element (TEXT): Element symbol (e.g., "C", "H", "O").
+Foreign Key: molecule_id references molecule(molecule_id).
+bond: Describes chemical bonds in molecules.
+
+Columns:
+bond_id (TEXT, Primary Key): Unique identifier for each bond.
+molecule_id (TEXT): Identifier of the molecule the bond belongs to.
+bond_type (TEXT): Type of bond (e.g., "single", "double").
+Foreign Key: molecule_id references molecule(molecule_id).
+connected: Represents connections between atoms in a molecule.
+
+Columns:
+atom_id (TEXT): ID of the first atom in the bond.
+atom_id2 (TEXT): ID of the second atom in the bond.
+bond_id (TEXT): ID of the bond connecting the two atoms.
+Primary Key: (atom_id, atom_id2).
+Foreign Keys:
+atom_id references atom(atom_id).
+atom_id2 references atom(atom_id).
+bond_id references bond(bond_id).
+molecule: Stores information about molecules.
+
+Columns:
+molecule_id (TEXT, Primary Key): Unique identifier for each molecule.
+label (TEXT): Name or label for the molecule.
+Example Questions and Queries
+Question: How many atoms are in the molecule labeled "Water"?
+Solution: Join the atom and molecule tables, filter by molecule.label = 'Water', and count the atom_id.

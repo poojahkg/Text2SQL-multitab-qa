@@ -1,0 +1,145 @@
+-- Schema for california_schools database
+CREATE TABLE frpm
+(
+    CDSCode                                       VARCHAR(256) not null primary key,
+    `Academic Year`                               TEXT  null,
+    `County Code`                                 TEXT  null,
+    `District Code`                               INTEGER         null,
+    `School Code`                                 TEXT  null,
+    `County Name`                                 TEXT null,
+    `District Name`                               TEXT null,
+    `School Name`                                 TEXT null,
+    `District Type`                               TEXT null,
+    `School Type`                                 TEXT null,
+    `Educational Option Type`                     TEXT null,
+    `NSLP Provision Status`                       TEXT null,
+    `Charter School (Y/N)`                        INTEGER    null,
+    `Charter School Number`                       TEXT  null,
+    `Charter Funding Type`                        TEXT null,
+    IRC                                           INTEGER    null,
+    `Low Grade`                                   TEXT  null,
+    `High Grade`                                  TEXT null,
+    `Enrollment (K-12)`                           REAL      null,
+    `Free Meal Count (K-12)`                      REAL       null,
+    `Percent (%) Eligible Free (K-12)`            REAL       null,
+    `FRPM Count (K-12)`                           REAL       null,
+    `Percent (%) Eligible FRPM (K-12)`            REAL       null,
+    `Enrollment (Ages 5-17)`                      REAL       null,
+    `Free Meal Count (Ages 5-17)`                 REAL       null,
+    `Percent (%) Eligible Free (Ages 5-17)`       REAL       null,
+    `FRPM Count (Ages 5-17)`                      REAL       null,
+    `Percent (%) Eligible FRPM (Ages 5-17)`       REAL       null,
+    `2013-14 CALPADS Fall 1 Certification Status` INTEGER    null,
+    foreign key (CDSCode) references schools (CDSCode)
+);
+
+CREATE TABLE satscores
+(
+    cds         TEXT not null
+        primary key,
+    rtype       TEXT  not null,
+    sname       TEXT null,
+    dname       TEXT null,
+    cname       TEXT null,
+    enroll12    INTEGER         not null,
+    NumTstTakr  INTEGER          not null,
+    AvgScrRead  INTEGER          null,
+    AvgScrMath  INTEGER          null,
+    AvgScrWrite INTEGER          null,
+    NumGE1500   INTEGER          null,
+        foreign key (cds) references schools (CDSCode)
+);
+
+CREATE TABLE schools
+(
+    CDSCode     TEXT not null
+        primary key,
+    NCESDist    TEXT  null,
+    NCESSchool  TEXT  null,
+    StatusType  TEXT  not null,
+    County      TEXT not null,
+    District    TEXT not null,
+    School      TEXT null,
+    Street      TEXT null,
+    StreetAbr   TEXT null,
+    City        TEXT null,
+    Zip         TEXT null,
+    State       TEXT  null,
+    MailStreet  TEXT null,
+    MailStrAbr  TEXT null,
+    MailCity    TEXT null,
+    MailZip     TEXT null,
+    MailState   TEXT  null,
+    Phone       TEXT null,
+    Ext         TEXT  null,
+    Website     TEXT null,
+    OpenDate    DATE        null,
+    ClosedDate  DATE        null,
+    Charter     INTEGER    null,
+    CharterNum  TEXT  null,
+    FundingType TEXT null,
+    DOC         TEXT  not null,
+    DOCType     TEXT not null,
+    SOC         TEXT  null,
+    SOCType     TEXT null,
+    EdOpsCode   TEXT  null,
+    EdOpsName   TEXT null,
+    EILCode     TEXT  null,
+    EILName     TEXT null,
+    GSoffered   TEXT null,
+    GSserved    TEXT  null,
+    Virtual     TEXT  null,
+    Magnet      INTEGER   null,
+    Latitude    REAL      null,
+    Longitude   REAL      null,
+    AdmFName1   TEXT null,
+    AdmLName1   TEXT null,
+    AdmEmail1   TEXT null,
+    AdmFName2   TEXT null,
+    AdmLName2   TEXT null,
+    AdmEmail2   TEXT null,
+    AdmFName3   TEXT  null,
+    AdmLName3   TEXT null,
+    AdmEmail3   TEXT null,
+    LastUpdate  DATE        not null
+);
+
+Schema Overview:
+This database schema provides information about California schools, focusing on demographics, SAT scores, and school characteristics. It consists of three tables:
+
+frpm (Free and Reduced-Price Meals): Contains data about the number of students eligible for free and reduced-price meals, including enrollment statistics by grade level and age group.
+
+satscores: Stores SAT score data, such as average scores for reading, math, and writing, along with the number of test-takers.
+
+schools: Includes detailed school information, such as location, contact details, grade spans, and whether the school is a charter or magnet school.
+
+Table Descriptions:
+frpm Table:
+
+CDSCode: Unique identifier for each school (Primary Key).
+Academic Year: The academic year for the data.
+County Name: Name of the county where the school is located.
+District Name: Name of the school district.
+School Name: Name of the school.
+Enrollment (K-12): Total number of K-12 students enrolled.
+Percent (%) Eligible FRPM (K-12): Percentage of students eligible for free or reduced-price meals.
+
+satscores Table:
+
+cds: Unique identifier for each school (Primary Key).
+sname: Name of the school.
+dname: Name of the school district.
+AvgScrMath: Average SAT math score.
+AvgScrRead: Average SAT reading score.
+AvgScrWrite: Average SAT writing score.
+NumTstTkr: Number of students who took the SAT.
+
+schools Table:
+
+CDSCode: Unique identifier for each school (Primary Key).
+County: Name of the county where the school is located.
+District: Name of the school district.
+School: Name of the school.
+Charter: Indicates whether the school is a charter school (1 for yes, 0 for no).
+GSoffered: Grade span offered by the school.
+Magnet: Indicates whether the school is a magnet school (1 for yes, 0 for no).

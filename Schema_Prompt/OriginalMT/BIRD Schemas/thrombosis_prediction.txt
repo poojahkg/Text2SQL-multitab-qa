@@ -1,0 +1,114 @@
+-- Schema for thrombosis_prediction database
+
+CREATE TABLE Examination (
+    ID INTEGER PRIMARY KEY,
+    Examination_Date DATE,
+    aCL_IgG REAL,
+    aCL_IgM REAL,
+    ANA INTEGER,
+    ANA_Pattern TEXT,
+    aCL_IgA INTEGER,
+    Diagnosis TEXT,
+    KCT TEXT,
+    RVVT TEXT,
+    LAC TEXT,
+    Symptoms TEXT,
+    Thrombosis INTEGER,
+    FOREIGN KEY (ID) REFERENCES Patient(ID)
+);
+
+CREATE TABLE Patient (
+    ID INTEGER PRIMARY KEY,
+    SEX TEXT,
+    Birthday DATE,
+    Description TEXT,
+    First_Date DATE,
+    Admission TEXT,
+    Diagnosis TEXT
+);
+
+CREATE TABLE Laboratory (
+    ID INTEGER,
+    Date DATE,
+    GOT INTEGER,
+    GPT INTEGER,
+    LDH INTEGER,
+    ALP INTEGER,
+    TP REAL,
+    ALB REAL,
+    UA REAL,
+    UN REAL,
+    CRE REAL,
+    T-BIL REAL,
+    T-CHO INTEGER,
+    TG INTEGER,
+    CPK REAL,
+    GLU REAL,
+    WBC INTEGER,
+    RBC INTEGER,
+    HGB REAL,
+    HCT REAL,
+    PLT REAL,
+    PT REAL,
+    APTT REAL,
+    FG REAL,
+    PIC TEXT,
+    TAT TEXT,
+    TAT2 TEXT,
+    U-PRO INTEGER,
+    IGG INTEGER,
+    IGA INTEGER,
+    IGM INTEGER,
+    CRP TEXT,
+    RA TEXT,
+    RF TEXT,
+    C3 INTEGER,
+    C4 INTEGER,
+    RNP TEXT,
+    SM TEXT,
+    SC170 TEXT,
+    SSA TEXT,
+    SSB TEXT,
+    CENTROMEA TEXT,
+    DNA TEXT,
+    DNA-II TEXT,
+    PRIMARY KEY (ID, Date),
+    FOREIGN KEY (ID) REFERENCES Patient(ID)
+);
+
+Schema Overview:
+This database schema is designed for storing and analyzing data related to thrombosis prediction. It consists of three main tables: Patient, Examination, and Laboratory. The schema includes patient demographic information, clinical examination results, and laboratory test data.
+
+Table Descriptions:
+Patient:
+Stores demographic and medical history information about patients.
+
+Key Columns: Patient ID (ID), sex (SEX), birthdate (Birthday), medical history (Description), and diagnosis.
+Examination:
+Contains clinical examination data for patients, including test results, symptoms, and thrombosis indicators.
+
+Key Columns: Examination date, antibody test results (e.g., aCL IgG, aCL IgM), ANA patterns, symptoms, and a thrombosis indicator.
+Laboratory:
+Stores laboratory test results, covering various blood and biochemical parameters.
+
+Key Columns: Laboratory test date, liver function tests, blood counts, inflammatory markers, and autoantibody results.
+Column Descriptions:
+Patient Table:
+ID: Unique identifier for each patient (integer).
+SEX: Gender of the patient (text).
+Birthday: Date of birth (date).
+Description: Medical history or notes about the patient (text).
+Diagnosis: Diagnosis for the patient (text).
+Examination Table:
+ID: Foreign key linking to the Patient table (integer).
+Examination Date: Date of examination (date).
+aCL IgG, aCL IgM: Antibody levels (real).
+ANA Pattern: Observed ANA patterns (text).
+Thrombosis: Indicator of thrombosis presence (0 or 1).
+Laboratory Table:
+ID: Foreign key linking to the Patient table (integer).
+Date: Date of the laboratory test (date).
+CRP: C-reactive protein levels (real).
+WBC, RBC, HGB, PLT: White blood cells, red blood cells, hemoglobin, and platelets, respectively (integer/real).
+Query Writing Best Practices:
+Understand the Requirements: Clarify the question and identify relevant tables and columns.

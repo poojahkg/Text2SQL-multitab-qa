@@ -1,0 +1,219 @@
+-- Schema for formula_1 database
+
+CREATE TABLE circuits (
+    circuitId INTEGER PRIMARY KEY,
+    circuitRef TEXT,
+    name TEXT,
+    location TEXT,
+    country TEXT,
+    lat REAL,
+    lng REAL,
+    alt INTEGER,
+    url TEXT
+);
+
+CREATE TABLE constructors (
+    constructorId INTEGER PRIMARY KEY,
+    constructorRef TEXT,
+    name TEXT,
+    nationality TEXT,
+    url TEXT
+);
+
+CREATE TABLE drivers (
+    driverId INTEGER PRIMARY KEY,
+    driverRef TEXT,
+    number INTEGER,
+    code TEXT,
+    forename TEXT,
+    surname TEXT,
+    dob DATE,
+    nationality TEXT,
+    url TEXT
+);
+
+CREATE TABLE seasons (
+    year INTEGER PRIMARY KEY,
+    url TEXT
+);
+
+CREATE TABLE races (
+    raceId INTEGER PRIMARY KEY,
+    year INTEGER,
+    round INTEGER,
+    circuitId INTEGER,
+    name TEXT,
+    date DATE,
+    time TEXT,
+    url TEXT,
+    FOREIGN KEY (circuitId) REFERENCES circuits(circuitId)
+);
+
+CREATE TABLE constructorResults (
+    constructorResultsId INTEGER PRIMARY KEY,
+    raceId INTEGER,
+    constructorId INTEGER,
+    points REAL,
+    status TEXT,
+    FOREIGN KEY (raceId) REFERENCES races(raceId),
+    FOREIGN KEY (constructorId) REFERENCES constructors(constructorId)
+);
+
+CREATE TABLE constructorStandings (
+    constructorStandingsId INTEGER PRIMARY KEY,
+    raceId INTEGER,
+    constructorId INTEGER,
+    points REAL,
+    position INTEGER,
+    positionText TEXT,
+    wins INTEGER,
+    FOREIGN KEY (raceId) REFERENCES races(raceId),
+    FOREIGN KEY (constructorId) REFERENCES constructors(constructorId)
+);
+
+CREATE TABLE driverStandings (
+    driverStandingsId INTEGER PRIMARY KEY,
+    raceId INTEGER,
+    driverId INTEGER,
+    points REAL,
+    position INTEGER,
+    positionText TEXT,
+    wins INTEGER,
+    FOREIGN KEY (raceId) REFERENCES races(raceId),
+    FOREIGN KEY (driverId) REFERENCES drivers(driverId)
+);
+
+CREATE TABLE lapTimes (
+    raceId INTEGER,
+    driverId INTEGER,
+    lap INTEGER,
+    position INTEGER,
+    time TEXT,
+    milliseconds INTEGER,
+    PRIMARY KEY (raceId, driverId, lap),
+    FOREIGN KEY (raceId) REFERENCES races(raceId),
+    FOREIGN KEY (driverId) REFERENCES drivers(driverId)
+);
+
+CREATE TABLE pitStops (
+    raceId INTEGER,
+    driverId INTEGER,
+    stop INTEGER,
+    lap INTEGER,
+    time TEXT,
+    duration TEXT,
+    milliseconds INTEGER,
+    PRIMARY KEY (raceId, driverId, stop),
+    FOREIGN KEY (raceId) REFERENCES races(raceId),
+    FOREIGN KEY (driverId) REFERENCES drivers(driverId)
+);
+
+CREATE TABLE qualifying (
+    qualifyId INTEGER PRIMARY KEY,
+    raceId INTEGER,
+    driverId INTEGER,
+    constructorId INTEGER,
+    number INTEGER,
+    position INTEGER,
+    q1 TEXT,
+    q2 TEXT,
+    q3 TEXT,
+    FOREIGN KEY (raceId) REFERENCES races(raceId),
+    FOREIGN KEY (driverId) REFERENCES drivers(driverId),
+    FOREIGN KEY (constructorId) REFERENCES constructors(constructorId)
+);
+
+CREATE TABLE status (
+    statusId INTEGER PRIMARY KEY,
+    status TEXT
+);
+
+CREATE TABLE results (
+    resultId INTEGER PRIMARY KEY,
+    raceId INTEGER,
+    driverId INTEGER,
+    constructorId INTEGER,
+    number INTEGER,
+    grid INTEGER,
+    position INTEGER,
+    positionText TEXT,
+    positionOrder INTEGER,
+    points REAL,
+    laps INTEGER,
+    time TEXT,
+    milliseconds INTEGER,
+    fastestLap INTEGER,
+    rank INTEGER,
+    fastestLapTime TEXT,
+    fastestLapSpeed TEXT,
+    statusId INTEGER,
+    FOREIGN KEY (raceId) REFERENCES races(raceId),
+    FOREIGN KEY (driverId) REFERENCES drivers(driverId),
+    FOREIGN KEY (constructorId) REFERENCES constructors(constructorId),
+    FOREIGN KEY (statusId) REFERENCES status(statusId)
+);
+
+Schema Overview
+This database schema captures data related to Formula 1 racing. It includes information about circuits, constructors (teams), drivers, seasons, races, and detailed race statistics. The schema comprises thirteen tables: circuits, constructors, drivers, seasons, races, constructor results, constructor standings, driver standings, lap times, pit stops, qualifying, status, and results.
+
+Table Descriptions
+circuits: Stores information about racing circuits, including unique IDs, names, locations, geographical data, and a reference URL.
+
+constructors: Contains data about Formula 1 constructors (teams), including their unique IDs, names, nationalities, and a reference URL.
+
+drivers: Details Formula 1 drivers, including their unique IDs, names, numbers, nationalities, and a reference URL.
+
+seasons: Lists the seasons in Formula 1, identified by year, along with a reference URL.
+
+races: Captures information about races in each season, including race IDs, circuit information, dates, and times.
+
+constructor results: Tracks the results of constructors in each race, including points scored and status information.
+
+constructor standings: Stores constructor standings after each race, tracking their cumulative points, positions, and number of wins.
+
+driver standings: Similar to constructor standings, but for drivers.
+
+lap times: Logs lap-by-lap performance data for each driver in a race, including lap times, positions, and durations in milliseconds.
+
+pit stops: Tracks pit stop data during races, including the number of stops, lap numbers, and durations.
+
+qualifying: Records qualifying session results, including positions and times (Q1, Q2, Q3).
+
+status: Defines status codes (e.g., finished, retired, disqualified) used in race results.
+
+results: The main table for race results, including data about finishing positions, points, laps completed, fastest lap information, and statuses.
+
+Column Descriptions
+circuits:
+
+circuitId: Unique identifier for each circuit (integer).
+name: Name of the circuit (text).
+location: City of the circuit (text).
+country: Country of the circuit (text).
+lat, lng: Latitude and longitude of the circuit (real).
+constructors:
+
+constructorId: Unique identifier for each constructor (integer).
+name: Name of the constructor (text).
+nationality: Nationality of the constructor (text).
+drivers:
+
+driverId: Unique identifier for each driver (integer).
+forename, surname: First and last names of the driver (text).
+dob: Date of birth of the driver (date).
+nationality: Nationality of the driver (text).
+races:
+
+raceId: Unique identifier for each race (integer).
+year: Year of the race (integer).
+round: Round number in the season (integer).
+name: Name of the race (text).
+date: Date of the race (date).
+results:
+
+resultId: Unique identifier for each race result (integer).
+raceId: ID of the race (integer).
+driverId: ID of the driver (integer).
+constructorId: ID of the constructor (integer).
+position: Finishing position (integer).
+points: Points scored (real).
