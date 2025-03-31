@@ -213,7 +213,7 @@ csv_file_path = 'Experiments - Gemini 1.5 Flash.csv'  # Replace with the actual 
 df = pd.read_csv(csv_file_path)
 
 # Set your API key
-api_key = "AIzaSyDDg6Dla1uHlmAArV7PmmN2LV-aK0VL_30"  # Replace with your actual API key
+api_key = ""  # Replace with your actual API key
 
 # Define output paths
 output_json_path = "./Outputs/gemini_step2_results.json"  # Path to save the responses
